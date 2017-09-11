@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <style>
+/*
+ * Colors:
+ * Use the palette at http://google.com/design/spec/style/color.html.
+ */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 192px;
+  height: 192px;
+  position: relative;
+}
+
+.logo>.bg {
+  background: #009688; /* teal-500 */
+  box-shadow:
+    0 1px rgba(255, 255, 255, 0.2) inset, /* white 20% */
+    0 -1px rgba(38, 50, 56, 0.2) inset; /* blue-grey-900, 20% */
+  display: inline-block;
+  overflow: hidden;
+}
+.logo>.bg.circle {
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+  margin: calc((192px - 176px) / 2);
+}
+.logo>.bg.square {
+  width: 152px;
+  height: 152px;
+  border-radius: 16px;
+  margin: calc((192px - 152px) / 2);
+}
+.logo>.bg::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.1) 0, transparent); /* white 10% */
+}
+.logo>.bg * {
+  position: absolute;
+}
+
+.logo .stalk {
+  width: 4px;
+  height: 94px;
+  background: #4CAF50; /* green-500 */
+  top: 64px;
+  left: calc(50% - 2px);
+}
+.logo .leaf {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.logo .leaf::after,
+.logo .leaf::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.logo .leaf::after {
+  background: rgba(255, 255, 255, 0.2); /* white 20% */
+  left: 75%;
+}
+.logo .leaf::before {
+  border-radius: 50%;
+  background: #4CAF50; /* green-500 */
+  left: 50%;
+}
+.logo .leaf.top {
+  top: 26px;
+  left: calc(50% - 16px);
+  transform: rotate(180deg);
+}
+.logo .leaf.left {
+  left: calc(50% - 64px);
+  transform: rotate(-60deg);
+}
+.logo .leaf.right {
+  left: 50%;
+  transform: rotate(-120deg);
+}
+.logo .leaf.upper {
+  top: 74px;
+}
+.logo .leaf.lower {
+  top: 112px;
+}
+
+.logo .shadow {
+  top: 4px;
+  left: 50%;
+  filter: blur(4px);
+}
+.logo .shadow .stalk,
+.logo .shadow .leaf::before {
+  background: rgba(38, 50, 56, 0.2); /* blue-grey-900, 20% */
+}
+.logo .shadow .leaf::after {
+  display: none;
+}
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <div class="bg circle">
+        <div class="shadow">
+          <div class="stalk"></div>
+          <div class="leaf top"></div>
+          <div class="leaf upper left"></div>
+          <div class="leaf upper right"></div>
+          <div class="leaf lower left"></div>
+          <div class="leaf lower right"></div>
+        </div>
+        <div class="stalk"></div>
+        <div class="leaf top"></div>
+        <div class="leaf upper left"></div>
+        <div class="leaf upper right"></div>
+        <div class="leaf lower left"></div>
+        <div class="leaf lower right"></div>
+      </div>
+    </div>
+  </body>
+</html>
