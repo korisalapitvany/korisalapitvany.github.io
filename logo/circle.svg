@@ -159,10 +159,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.3697917"
-     inkscape:cx="117.34636"
+     inkscape:cx="101.38134"
      inkscape:cy="95.999999"
      inkscape:document-units="px"
-     inkscape:current-layer="leaf"
+     inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
      inkscape:window-width="1920"
@@ -326,6 +326,7 @@
        cx="25.4"
        cy="271.60001"
        r="23.283333"
-       inkscape:label="Circle Finish" />
+       inkscape:label="Circle Finish"
+       sodipodi:insensitive="true" />
   </g>
 </svg>
