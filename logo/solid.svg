@@ -161,7 +161,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.3697917"
-     inkscape:cx="153.21448"
+     inkscape:cx="112.137"
      inkscape:cy="95.999999"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -199,7 +199,7 @@
      id="layer1"
      transform="translate(0,-246.20001)">
     <rect
-       style="display:none;opacity:1;fill:#00897b;fill-opacity:1;stroke-width:0.28229192"
+       style="display:inline;opacity:1;fill:#00897b;fill-opacity:1;stroke-width:0.28229192"
        id="bg"
        width="50.799999"
        height="50.799999"
@@ -210,7 +210,7 @@
        id="circle"
        cx="25.4"
        cy="271.60001"
-       style="display:inline;fill:#00897b;fill-opacity:1;stroke-width:0.56264174;filter:url(#filter4769)"
+       style="display:none;fill:#00897b;fill-opacity:1;stroke-width:0.56264174;filter:url(#filter4769)"
        r="23.283333"
        inkscape:label="Circle"
        sodipodi:insensitive="true" />
@@ -323,7 +323,7 @@
       </g>
     </g>
     <rect
-       style="display:none;fill:url(#radialGradient4620);fill-opacity:1;stroke-width:0.29643518"
+       style="display:inline;fill:url(#radialGradient4620);fill-opacity:1;stroke-width:0.29643518"
        id="finish-flat"
        width="50.799999"
        height="50.799999"
@@ -332,7 +332,7 @@
        inkscape:label="Flat Finish"
        sodipodi:insensitive="true" />
     <circle
-       style="display:inline;opacity:1;fill:url(#radialGradient4714);fill-opacity:1;stroke-width:1.39534867"
+       style="display:none;opacity:1;fill:url(#radialGradient4714);fill-opacity:1;stroke-width:1.39534867"
        id="finish-circle"
        cx="25.4"
        cy="271.60001"
