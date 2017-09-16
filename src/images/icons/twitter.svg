@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="36"
+   height="36"
+   viewBox="0 0 36 36"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="twitter.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Twitter-black</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="5.875"
+     inkscape:cx="-18.723404"
+     inkscape:cy="19.319149"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Icons" />
+  <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">Twitter-black</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="Icons"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="translate(0,-4)">
+    <g
+       id="Black"
+       transform="matrix(0.75,0,0,0.75,-225,-113)"
+       style="fill:#9e9e9e;fill-opacity:1">
+      <path
+         d="m 348,164.73528 c -1.76369,0.80318 -3.66262,1.34634 -5.65452,1.58902 2.03416,-1.2481 3.595,-3.22715 4.33034,-5.58468 -1.90456,1.15565 -4.00915,1.99639 -6.25744,2.44709 C 338.62652,161.22499 336.0655,160 333.2312,160 c -5.43476,0 -9.84398,4.52149 -9.84398,10.09751 0,0.79162 0.0845,1.56013 0.25356,2.29974 -8.18454,-0.42181 -15.43934,-4.4377 -20.29935,-10.55399 -0.84803,1.49657 -1.33263,3.23294 -1.33263,5.08198 0,3.50163 1.73834,6.593 4.38106,8.40448 -1.61155,-0.0491 -3.13295,-0.50849 -4.46276,-1.25966 v 0.12423 c 0,4.89419 3.39496,8.97653 7.9028,9.90105 -0.8255,0.23691 -1.69607,0.35536 -2.59482,0.35536 -0.63392,0 -1.25375,-0.0607 -1.85385,-0.17912 1.25374,4.01011 4.88818,6.93102 9.1988,7.00903 -3.36961,2.71 -7.61824,4.32502 -12.23032,4.32502 -0.79451,0 -1.58056,-0.0462 -2.34971,-0.13867 4.35851,2.86023 9.53689,4.53304 15.09561,4.53304 18.11587,0 28.01902,-15.38462 28.01902,-28.72951 0,-0.43914 -0.008,-0.87829 -0.0254,-1.30877 1.92428,-1.42434 3.595,-3.20116 4.91072,-5.22644"
+         id="Twitter"
+         inkscape:connector-curvature="0"
+         style="fill:#9e9e9e;fill-opacity:1" />
+    </g>
+  </g>
+</svg>
