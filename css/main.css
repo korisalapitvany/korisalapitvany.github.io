@@ -51,7 +51,7 @@ footer .top-row ul {
 footer .mission {
   /* TODO: Make this responsive! */
   /* Tweak the width so that we have no more than five lines of text: */
-  width: calc(50% + 24px);
+  width: 528px;
   float: left;
   margin-top: 16px; }
   footer .mission p {
