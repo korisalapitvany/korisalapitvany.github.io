@@ -1,9 +1,11 @@
 build:
-	mkdir -p logo/svg
-	mkdir -p images/icons
-	# The cleanupIDs plugin messes with the leaves.
-	svgo -i src/logo -o logo/svg --disable=cleanupIDs
+	mkdir -p images/icons logo/svg css js
 	svgo -i src/images -o images
 	svgo -i src/images/icons -o images/icons --enable=removeTitle
+	# The cleanupIDs plugin messes with the leaves.
+	svgo -i src/logo -o logo/svg --disable=cleanupIDs
+
+watch: build
+	scss --watch src/scss/main.scss:css/main.css
 
 all: build
