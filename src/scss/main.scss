@@ -12,26 +12,10 @@ body {
   max-width: 1016px; /* 1080p - 2×32px */
 }
 
-/* Header */
-header {
-  padding: 48px 0;
-  text-align: center;
-  h1 {
-    font-size: 92px;
-    img {
-      position: relative;
-      top: -8px;
-    }
-    span {
-      border-top: thin solid #00897B;
-      border-bottom: thin solid #00897B;
-    }
-  }
-}
-
 /* Main content  */
 .page {
   min-height: 320px;
 }
 
+@import 'header';
 @import 'footer';
