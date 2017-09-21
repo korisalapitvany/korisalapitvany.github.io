@@ -1,11 +1,11 @@
 <head>
   <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }} — {{ site.i18n[page.lang].name }}{% else %}{{ site.i18n[page.lang].name }}{% endif %}</title>
+
   <meta name="theme-color" content="#00897B">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% include og.html %}
-
-  <title>{% if page.title %}{{ page.title }} — {{ site.i18n[page.lang].name }}{% else %}{{ site.i18n[page.lang].name }}{% endif %}</title>
+  {% include metadata.html %}
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
