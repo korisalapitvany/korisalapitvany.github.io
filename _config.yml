@@ -63,19 +63,15 @@ url: "https://jasen.org.rs"
 markdown: kramdown
 plugins:
 - jekyll-coffeescript
+- jekyll-sitemap
 - jekyll-feed
 
 sass:
   style: compressed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/
+- src/
