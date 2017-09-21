@@ -4,12 +4,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} — {{ site.i18n[page.lang].name }}{% else %}{{ site.i18n[page.lang].name }}{% endif %}</title>
 
-  <link rel="icon" href="/logo/png/solid-152x152.min.png">
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100&amp;subset=latin-ext">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-green.min.css">
-  <link rel="stylesheet" href="/css/main.css">
-
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
   {% for lang in site.i18n %}
@@ -18,7 +12,13 @@
     {% endif %}
   {% endfor %}
 
-  <script>{% include js/canonical.js %}</script>
+  <link rel="icon" href="/logo/png/solid-152x152.min.png">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100&amp;subset=latin-ext">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-green.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <script src="/js/canonical.js"></script>
 
   <script>{% include js/analytics.js %}</script>
 </head>
