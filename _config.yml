@@ -11,7 +11,7 @@ i18n:
     contact_us: Kontaktiraj nas
     address: Solunska 19, 24413 Palić
 
-    mission_statement: >
+    mission: >
       **Naša misija** je unapređenje kvaliteta života sadašnje i buduće
       generacije pomoću poboljšanja životne sredine putem posađivanja drveća,
       održavanja prirodnih područja i staništa, podizanje svesti zajednice o
@@ -29,7 +29,7 @@ i18n:
     contact_us: Contact us
     address: Solunska 19, 24413 Palić, Serbia
 
-    mission_statement: >
+    mission: >
       **Our ongoing mission** is to improve the quality of life for present and
       future generations by enhancing the environment through tree planting,
       stewardship of natural areas and habitats, improvement of community
@@ -47,7 +47,7 @@ i18n:
     contact_us: Elérhetőségeink
     address: Solunska 19, 24413 Palics, Szerbia
 
-    mission_statement: >
+    mission: >
       **Küldetésünk** a jelen és jövő nemzedékek életminőségének javítása a
       természeti környezet fejlesztése révén, amit fásítással, a természetes
       élőhelyek és térségek gondozásával, a közösség figyelmének felkeltésével a
