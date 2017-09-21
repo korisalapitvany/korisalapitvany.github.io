@@ -62,7 +62,9 @@ url: "https://jasen.org.rs"
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
+- jekyll-coffeescript
+- jekyll-feed
+
 sass:
   style: compressed
 
