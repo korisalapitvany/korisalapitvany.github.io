@@ -1,0 +1,74 @@
+i18n:
+  rs:
+    prefix: /
+
+    name: Fondacija „Jasen“
+    full_name: Fondacija za zaštitu životne sredine „Jasen“
+    title_1: Fondacija
+    title_2: Jasen
+
+    contact_us: Kontaktiraj nas
+    address: Solunska 19, 24413 Palić
+
+    mission_statement: >
+      **Naša misija** je unapređenje kvaliteta života sadašnje i buduće
+      generacije pomoću poboljšanja životne sredine putem posađivanja drveća,
+      održavanja prirodnih područja i staništa, podizanje svesti zajednice o
+      ekološkim problemima i obrazovanja mladih.
+
+  en:
+    prefix: /en/
+
+    name: Ash Foundation
+    full_name: Ash Foundation for Environmental Protection
+    title_1: Ash
+    title_2: Foundation
+
+    contact_us: Contact us
+    address: Solunska 19, 24413 Palić, Serbia
+
+    mission_statement: >
+      **Our ongoing mission** is to improve the quality of life for present and
+      future generations by enhancing the environment through tree planting,
+      stewardship of natural areas and habitats, improvement of community
+      awareness of environmental issues and education of youth.
+
+  hu:
+    prefix: /hu/
+
+    name: Kőris Alapítvány
+    full_name: Kőris Környezetvédelmi Alapítvány
+    title_1: Kőris
+    title_2: Alapítvány
+
+    contact_us: Elérhetőségeink
+    address: Solunska 19, 24413 Palics, Szerbia
+
+    mission_statement: >
+      **Küldetésünk** a jelen és jövő nemzedékek életminőségének javítása a
+      természeti környezet fejlesztése révén, amit fásítással, a természetes
+      élőhelyek és térségek gondozásával, a közösség figyelmének felkeltésével a
+      környezetvédelmi problémákra és oktatással kívánunk elérni.
+ 
+contact:
+  email: info@jasen.org.rs
+  phone: "+381 65 838 94 79"
+
+url: "https://jasen.org.rs"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

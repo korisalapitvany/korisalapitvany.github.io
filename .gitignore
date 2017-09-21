@@ -1,2 +1,6 @@
+.*.sw?
+.bundle
+.jekyll-metadata
+.sass-cache
+_site
 vendor
-.*
