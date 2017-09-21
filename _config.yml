@@ -4,8 +4,9 @@ i18n:
 
     name: Fondacija „Jasen“
     full_name: Fondacija za zaštitu životne sredine „Jasen“
-    title_1: Fondacija
-    title_2: Jasen
+    name_parts:
+    - Fondacija
+    - Jasen
 
     contact_us: Kontaktiraj nas
     address: Solunska 19, 24413 Palić
@@ -21,8 +22,9 @@ i18n:
 
     name: Ash Foundation
     full_name: Ash Foundation for Environmental Protection
-    title_1: Ash
-    title_2: Foundation
+    name_parts:
+    - Ash
+    - Foundation
 
     contact_us: Contact us
     address: Solunska 19, 24413 Palić, Serbia
@@ -38,8 +40,9 @@ i18n:
 
     name: Kőris Alapítvány
     full_name: Kőris Környezetvédelmi Alapítvány
-    title_1: Kőris
-    title_2: Alapítvány
+    name_parts:
+    - Kőris
+    - Alapítvány
 
     contact_us: Elérhetőségeink
     address: Solunska 19, 24413 Palics, Szerbia
