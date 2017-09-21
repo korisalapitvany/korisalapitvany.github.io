@@ -1,6 +1,6 @@
 {
   "@context": "http://schema.org/",
-  "type": "Organization",
+  "type": "NGO",
   "contactPoint": [
     {
       "type": "ContactPoint",
@@ -34,7 +34,7 @@
       "birthDate": "1987-01-28",
       "email": "attila@jasen.org.rs",
       "familyName": "Oláh",
-      "gender": "http://schema.org/Male",
+      "gender": "Male",
       "givenName": "Attila",
       "sameAs": [
         "https://twitter.com/attilaolah",
@@ -53,7 +53,7 @@
       "birthDate": "1987-11-13",
       "email": "hermina@jasen.org.rs",
       "familyName": "Oláh Vass",
-      "gender": "http://schema.org/Female",
+      "gender": "Female",
       "givenName": "Hermina",
       "telephone": "+41-79-870-63-50"
     }
