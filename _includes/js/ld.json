@@ -1,0 +1,75 @@
+{
+  "@context": "http://schema.org/",
+  "type": "Organization",
+  "contactPoint": [
+    {
+      "type": "ContactPoint",
+      "areaServed": [
+        "RS",
+        "HU"
+      ],
+      "availableLanguage": [
+        "English",
+        "Hungarian",
+        "Serbian"
+      ],
+      "contactType": "customer support",
+      "telephone": "+381-65-838-94-79"
+    },
+    {
+      "type": "ContactPoint",
+      "availableLanguage": [
+        "English",
+        "German",
+        "Hungarian",
+        "Serbian"
+      ],
+      "contactType": "customer support",
+      "telephone": "+41-79-870-63-50"
+    }
+  ],
+  "founder": [
+    {
+      "type": "Person",
+      "birthDate": "1987-01-28",
+      "email": "attila@jasen.org.rs",
+      "familyName": "Oláh",
+      "gender": "http://schema.org/Male",
+      "givenName": "Attila",
+      "sameAs": [
+        "https://twitter.com/attilaolah",
+        "https://github.com/attilaolah",
+        "https://facebook.com/attilaolah"
+      ],
+      "telephone": "+41-79-247-25-10",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Google",
+        "url": "https://www.google.com"
+      }
+    },
+    {
+      "type": "Person",
+      "birthDate": "1987-11-13",
+      "email": "hermina@jasen.org.rs",
+      "familyName": "Oláh Vass",
+      "gender": "http://schema.org/Female",
+      "givenName": "Hermina",
+      "telephone": "+41-79-870-63-50"
+    }
+  ],
+  "foundingDate": "2017-07-26",
+  "legalName": "Ash Foundation for Environmental Protection",
+  "logo": "https://jasen.org.rs/logo/png/circle-576x576.min.png",
+  "name": "Ash Foundation",
+  "sameAs": [
+    "https://github.com/korisalapitvany",
+    "https://plus.google.com/100755315240775198013",
+    "https://twitter.com/korisalapitvany",
+    "https://facebook.com/korisalapitvany",
+    "https://www.youtube.com/channel/UCVbAEoRLcvft4RnCTm1hxtQ"
+  ],
+  "taxID": "110200183",
+  "telephone": "+381-65-838-94-79",
+  "url": "https://jasen.org.rs"
+}
