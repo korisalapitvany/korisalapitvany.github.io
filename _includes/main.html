@@ -1,3 +1,16 @@
-<main class="container">
-{{ page.content | markdownify }}
+<div class="languages">
+  {% for lang in site.i18n %}
+    {% if page.lang == lang[0] %}
+      <span>{{ lang[1].text }}</span>
+    {% else %}
+      {% for tr in page.translations %}
+        {% if lang[0] == tr[0] %}
+          <a href="{{ site.url }}{{ lang[1].prefix }}{{ tr[1] }}">{{ lang[1].text }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
+<main>
+  {{ page.content | markdownify }}
 </main>

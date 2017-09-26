@@ -1,24 +1,22 @@
 ---
 ---
+@import 'main';
+@import 'header';
+@import 'footer';
 
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
 }
+.content-wrapper {
+  padding-bottom: 32px;
+}
+
 @media screen and (max-width: 760px) {
-  #wrap {
+  .content-wrapper {
     overflow-x: hidden;
   }
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1016px; /* 1080p - 2×32px */
+blockquote > p {
+  display: inline;
 }
-
-/* Main content  */
-.page {
-  min-height: 320px;
-}
-
-@import 'header';
-@import 'footer';

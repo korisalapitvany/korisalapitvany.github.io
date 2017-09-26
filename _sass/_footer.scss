@@ -1,7 +1,14 @@
+@import 'mixins';
+
+footer * {
+  /* Make all footer content less prominent. */
+  font-weight: 300 !important;
+}
+
 /* Phone: */
 footer.mdl-mega-footer {
-  box-sizing: border-box;
-  padding: 16px 24px;
+  @include limit-width;
+  @include pad;
 
   a {
     color: inherit;
@@ -9,6 +16,31 @@ footer.mdl-mega-footer {
     white-space: nowrap;
   }
 
+  .top-row {
+    ul.links {
+      padding-left: 0;
+
+      a {
+        color: #e0e0e0;
+      }
+      li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 4px;
+
+        &::after {
+          content: "·";
+          display: inline-block;
+          padding-left: 4px;
+          font-weight: bold;
+        }
+
+        + li::after {
+          display: none;
+        }
+      }
+    }
+  }
   .social {
     text-align: right;
     line-height: 36px;
@@ -36,7 +68,6 @@ footer.mdl-mega-footer {
       display: none;
     }
     strong {
-      font-weight: normal;
       color: #e0e0e0;
     }
   }
@@ -74,8 +105,11 @@ footer.mdl-mega-footer {
   footer.mdl-mega-footer {
     .top-row {
       ul.links {
-        &.links li {
+        li {
           margin-right: 16px;
+          &::after {
+            display: none;
+          }
         }
       }
     }
@@ -97,7 +131,7 @@ footer.mdl-mega-footer {
         padding-right: 8px;
       }
       p {
-        max-width: 520px;
+        max-width: 528px;
       }
     }
     .contact {
@@ -122,13 +156,10 @@ footer.mdl-mega-footer {
 /* Desktop: */
 @media screen and (min-width: 1024px) {}
 
-/* On bigger screens, make sure the footer sticks to the bottom. */
-$footer-height: 320px;
-
 @media screen and (min-height: 720px) {
-  #wrap {
+  .content-wrapper {
     /* This pushes down the footer to the bottom of the page. */
-    min-height: calc(100vh - #{$footer-height});
+    min-height: calc(100vh - #{$footer-height} - 32px);
   }
   footer {
     height: $footer-height;

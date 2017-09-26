@@ -2,17 +2,16 @@
 header {
   padding: 48px 0;
   text-align: center;
+
   h1 {
     font-size: 36px;
+    font-weight: 100;
+
     img {
       width: 74px;
       height: 74px; 
       position: relative;
       top: -4px;
-    }
-    span {
-      border-top: thin solid #00897B;
-      border-bottom: thin solid #00897B;
     }
   }
 }
@@ -22,6 +21,7 @@ header {
   header {
     h1 {
       font-size: 64px;
+
       img {
         width: 128px;
         height: 128px;
@@ -36,6 +36,7 @@ header {
   header {
     h1 {
       font-size: 96px;
+
       img {
         width: 192px;
         height: 192px;

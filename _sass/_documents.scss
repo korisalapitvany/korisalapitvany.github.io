@@ -1,0 +1,38 @@
+.documents {
+  ul {
+    padding-left: 16px;
+
+    li {
+      margin-bottom: 4px;
+      list-style-type: none;
+      clear: both;
+
+      &::before {
+        content: "insert_drive_file";
+        font-family: 'Material Icons';
+        font-size: 40px;
+        line-height: 1;
+        display: block;
+        float: left;
+        width: 40px;
+        height: 40px;
+        color: #757575;
+        font-feature-settings: 'liga';
+        -moz-font-feature-settings: 'liga';
+        -webkit-font-feature-settings: 'liga';
+        -webkit-font-smoothing: antialiased;
+      }
+      p {
+        margin: 0;
+
+        a {
+          font-size: 16px;
+        }
+        + p {
+          color: rgba(0, 0, 0, 0.54);
+          margin-top: -4px;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 i18n:
   rs:
     prefix: /
+    text: srpski
 
     name: Fondacija „Jasen“
     full_name: Fondacija za zaštitu životne sredine „Jasen“
@@ -17,8 +18,15 @@ i18n:
       održavanja prirodnih područja i staništa, podizanje svesti zajednice o
       ekološkim problemima i obrazovanja mladih.
 
+    links:
+    - text: Naslovna
+      href: /
+    - text: Javni dokumenti
+      href: /javni-dokumenti/
+
   en:
     prefix: /en/
+    text: English
 
     name: Ash Foundation
     full_name: Ash Foundation for Environmental Protection
@@ -35,8 +43,15 @@ i18n:
       stewardship of natural areas and habitats, improvement of community
       awareness of environmental issues and education of youth.
 
+    links:
+    - text: Home
+      href: /en/
+    - text: Public documents
+      href: /en/public-documents/
+
   hu:
     prefix: /hu/
+    text: magyar
 
     name: Kőris Alapítvány
     full_name: Kőris Környezetvédelmi Alapítvány
@@ -52,6 +67,12 @@ i18n:
       természeti környezet fejlesztése révén, amit fásítással, a természetes
       élőhelyek és térségek gondozásával, a közösség figyelmének felkeltésével a
       környezetvédelmi problémákra és oktatással kívánunk elérni.
+
+    links:
+    - text: Kezdőlap
+      href: /hu/
+    - text: Nyilvános okiratok
+      href: /hu/nyilvanos-okiratok/
  
 contact:
   email: info@jasen.org.rs

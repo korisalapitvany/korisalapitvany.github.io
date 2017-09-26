@@ -1,0 +1,51 @@
+@import 'mixins';
+
+@import 'documents';
+
+/* Phone: */
+.languages {
+  @include limit-width;
+
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 12px;
+
+  span, a {
+    text-decoration: none;
+    margin-left: 8px;
+  }
+}
+main {
+  @include limit-width;
+  @include pad;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .introduction {
+    padding: 24px 0 8px;
+
+    border-top: thin solid #00897B;
+    border-bottom: thin solid #00897B;
+
+    p {
+      font-weight: 300;
+
+      strong {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+/* Tablet: */
+@media screen and (min-width: 760px) {
+  main {
+    .introduction {
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}

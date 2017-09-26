@@ -1,0 +1,17 @@
+/* On wide screens, limit the content width to (1080px - 2×32px). */
+$max-content-width: 1016px; /* 1080p - 2×32px */
+
+/* On bigger screens, make sure the footer sticks to the bottom. */
+$footer-height: 320px;
+
+@mixin limit-width {
+  max-width: $max-content-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin pad {
+  padding: 16px 24px;
+  box-sizing: border-box;
+}
+
