@@ -3,18 +3,6 @@
 @import 'documents';
 
 /* Phone: */
-.languages {
-  @include limit-width;
-
-  text-align: right;
-  text-transform: uppercase;
-  font-size: 12px;
-
-  span, a {
-    text-decoration: none;
-    margin-left: 8px;
-  }
-}
 main {
   @include limit-width;
   @include pad;
