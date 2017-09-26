@@ -14,14 +14,14 @@ translations:
 <div class="mdl-color-text--grey-600 documents" markdown="1">
 - [Statútum](/docs/statut.pdf) (szerb nyelven)
 
-  2017.07.26 · 7 oldal
+  2017.07.26. · 7 oldal
 - [Alapító szerződés](/docs/ugovor-o-osnivanju.pdf) (szerb nyelven)
 
-  2017.07.26 · 3 oldal
+  2017.07.26. · 3 oldal
 - [Döntés a vezetőség kinevezéséről](/docs/odluka-o-imenovanju-upravnog-odbora.pdf) (szerb nyelven)
 
-  2017.07.26 · 1 oldal
+  2017.07.26. · 1 oldal
 - [Döntés a képviselő kinevezéséről](/docs/odluka-o-imenovanju-upravitelja.pdf) (szerb nyelven)
 
-  2017.07.26 · 1 oldal
+  2017.07.26. · 1 oldal
 </div>

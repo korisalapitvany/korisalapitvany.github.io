@@ -14,14 +14,14 @@ translations:
 <div class="mdl-color-text--grey-600 documents" markdown="1">
 - [Statute](/docs/statut.pdf) (in Serbian)
 
-  2017.07.26 · 7 pages
+  2017.07.26. · 7 pages
 - [Founding contract](/docs/ugovor-o-osnivanju.pdf) (in Serbian)
 
-  2017.07.26 · 3 pages
+  2017.07.26. · 3 pages
 - [Decision about electing members of the board](/docs/odluka-o-imenovanju-upravnog-odbora.pdf) (in Serbian)
 
-  2017.07.26 · 1 page
+  2017.07.26. · 1 page
 - [Decision about electing the administrator](/docs/odluka-o-imenovanju-upravitelja.pdf) (in Serbian)
 
-  2017.07.26 · 1 page
+  2017.07.26. · 1 page
 </div>
