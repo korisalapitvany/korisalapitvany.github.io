@@ -11,7 +11,7 @@ translations:
 
 # Nyilvános okiratok
 
-<div class="documents" markdown="1">
+<div class="mdl-color-text--grey-600 documents" markdown="1">
 - [Statútum](/docs/statut.pdf) (szerb nyelven)
 
   2017.07.26 · 7 oldal
