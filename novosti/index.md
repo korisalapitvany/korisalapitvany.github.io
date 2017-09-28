@@ -2,7 +2,7 @@
 layout: home
 
 lang: sr
-title: Hírek
+title: Novosti
 last_modified_at: 2017-09-28T23:00:00-02:00
 translations:
   en: news/
