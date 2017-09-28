@@ -46,6 +46,8 @@ i18n:
     links:
     - text: Home
       href: /en/
+    - text: News
+      href: /en/news/
     - text: Documents
       href: /en/documents/
 
