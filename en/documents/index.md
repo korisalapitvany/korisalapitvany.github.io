@@ -2,14 +2,14 @@
 layout: home
 
 lang: en
-title: Public Documents
+title: Documents
 last_modified_at: 2017-09-26T00:00:00-02:00
 translations:
   hu: okiratok/
   sr: dokumenti/
 ---
 
-# Public documents
+# Documents
 
 <div class="mdl-color-text--grey-600 documents" markdown="1">
 - [Statute](/docs/statut.pdf) (in Serbian)

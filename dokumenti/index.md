@@ -2,14 +2,14 @@
 layout: home
 
 lang: sr
-title: Javni dokumenti
+title: Dokumenti
 last_modified_at: 2017-09-26T00:00:00-02:00
 translations:
   en: documents/
   hu: okiratok/
 ---
 
-# Javni dokumenti
+# Dokumenti
 
 <div class="mdl-color-text--grey-600 documents" markdown="1">
 - [Statut](/docs/statut.pdf)

@@ -2,14 +2,14 @@
 layout: home
 
 lang: hu
-title: Nyilvános okiratok
+title: Okiratok
 last_modified_at: 2017-09-26T00:00:00-02:00
 translations:
   en: documents/
   sr: dokumenti/
 ---
 
-# Nyilvános okiratok
+# Okiratok
 
 <div class="mdl-color-text--grey-600 documents" markdown="1">
 - [Statútum](/docs/statut.pdf) (szerb nyelven)
