@@ -28,15 +28,11 @@ footer.mdl-mega-footer {
         display: inline-block;
         margin-right: 4px;
 
-        &::after {
+        &:not(:last-child)::after {
           content: "·";
           display: inline-block;
           padding-left: 4px;
           font-weight: bold;
-        }
-
-        + li::after {
-          display: none;
         }
       }
     }
@@ -108,7 +104,7 @@ footer.mdl-mega-footer {
         li {
           margin-right: 16px;
           &::after {
-            display: none;
+            display: none !important;
           }
         }
       }
