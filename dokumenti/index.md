@@ -5,8 +5,8 @@ lang: sr
 title: Javni dokumenti
 last_modified_at: 2017-09-26T00:00:00-02:00
 translations:
-  en: public-documents/
-  hu: nyilvanos-okiratok/
+  en: documents/
+  hu: okiratok/
 ---
 
 # Javni dokumenti

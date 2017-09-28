@@ -21,8 +21,8 @@ i18n:
     links:
     - text: Naslovna
       href: /
-    - text: Javni dokumenti
-      href: /javni-dokumenti/
+    - text: Dokumenti
+      href: /dokumenti/
 
   en:
     prefix: /en/
@@ -46,8 +46,8 @@ i18n:
     links:
     - text: Home
       href: /en/
-    - text: Public documents
-      href: /en/public-documents/
+    - text: Documents
+      href: /en/documents/
 
   hu:
     prefix: /hu/
@@ -71,8 +71,8 @@ i18n:
     links:
     - text: Kezdőlap
       href: /hu/
-    - text: Nyilvános okiratok
-      href: /hu/nyilvanos-okiratok/
+    - text: Okiratok
+      href: /hu/okiratok/
  
 contact:
   email: info@jasen.org.rs

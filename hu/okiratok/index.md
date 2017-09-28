@@ -5,8 +5,8 @@ lang: hu
 title: Nyilvános okiratok
 last_modified_at: 2017-09-26T00:00:00-02:00
 translations:
-  en: public-documents/
-  sr: javni-dokumenti/
+  en: documents/
+  sr: dokumenti/
 ---
 
 # Nyilvános okiratok
