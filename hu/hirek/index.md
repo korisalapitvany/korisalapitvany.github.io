@@ -3,7 +3,7 @@ layout: home
 
 lang: hu
 title: Hírek
-last_modified_at: 2017-09-28T23:00:00-02:00
+last_modified_at: 2017-09-29T14:00:00-02:00
 translations:
   en: news/
   sr: novosti/
