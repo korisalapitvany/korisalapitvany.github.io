@@ -13,9 +13,13 @@ translations:
 
 ## Augusztus
 
-Az alapítvány nyilvántartásba vétele befejeződik. A csapat elkészíti a logót és a pecsétet, telepíti a honlap legelső verzióját, és elindítja a regisztrációs folyamatot a TechSoup és a Benevity portáljain. Könyvelői szerződést kötünk a Prima Nota-val.
+Az alapítvány nyilvántartásba vétele befejeződik. A csapat elkészíti a logót és
+a pecsétet, telepíti a honlap legelső verzióját, és elindítja a regisztrációs
+folyamatot a TechSoup és a Benevity portáljain. Könyvelői szerződést kötünk a
+Prima Nota-val.
 
-A Slack chat csatornáink aktívabbak lesznek, ahogy elkezdünk lehetséges projektekről tárgyalni.
+A Slack chat csatornáink aktívabbak lesznek, ahogy elkezdünk lehetséges
+projektekről tárgyalni.
 
 ## Július
 
