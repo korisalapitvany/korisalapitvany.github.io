@@ -213,7 +213,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed (~> 0.6)
+  jekyll-coffeescript
+  jekyll-feed
+  jekyll-redirect-from
+  jekyll-sitemap
 
 BUNDLED WITH
    1.13.6

@@ -1,0 +1,24 @@
+---
+layout: home
+---
+<div class="news">
+  <h1 class="title">{{ page.title }}</h1>
+  <div class="timeline">
+    {% for news in page.news %}
+      {% if news.year %}
+        <h2 class="year"><div class="mdl-color--blue-grey mdl-color-text--white mdl-shadow--2dp">{{ news.year }}</div></h2>
+      {% else %}
+        <div class="card">
+          <div class="mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--border mdl-color--blue-grey mdl-color-text--white">
+              <h2 id="{{ news.id }}" class="mdl-card__title-text">{{ news.title }}</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              {{ news.content | markdownify }}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

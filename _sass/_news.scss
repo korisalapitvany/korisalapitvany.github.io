@@ -1,0 +1,180 @@
+$grey: #9e9e9e;
+$grey-50: #fafafa;
+$grey-600: #757575;
+$blue-grey: #607d8b;
+
+
+/* Phone: */
+.news {
+}
+
+/* Tablet: */
+@media screen and (min-width: 760px) {
+}
+
+/* Desktop: */
+@media screen and (min-width: 1024px) {
+  .news {
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      border-right: 4px solid $grey;
+      position: absolute;
+      top: 168px;
+      left: 0;
+      right: calc(50% - 2px);
+      bottom: 0;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      border-right: 4px dotted $grey;
+      position: absolute;
+      top: 72px;
+      left: 0;
+      right: calc(50% - 2px);
+      height: 88px;
+      z-index: 0;
+    }
+
+    .title {}
+
+    .card {
+      width: 50%;
+      box-sizing: border-box;
+      position: relative;
+      clear: both;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: $grey-600;
+        border: 4px solid $grey-50;
+        border-radius: 50%;
+        z-index: 1;
+        position: absolute;
+        top: 87px;
+      }
+
+      $distance: 24px;
+
+      &:nth-child(odd) {
+        float: right;
+        padding-left: $distance;
+        &::before {
+          left: -9px;
+        }
+        .mdl-card {
+          &::after {
+            border-right-color: $blue-grey;
+            left: -24px;
+          }
+          &::before {
+            border-right-color: rgba(0, 0, 0, 0.75);
+            left: -22px;
+          }
+        }
+      }
+
+      &:nth-child(even) {
+        float: left;
+        padding-right: $distance;
+        &::before {
+          right: -9px;
+        }
+        .mdl-card {
+          &::after {
+            border-left-color: $blue-grey;
+            right: -24px;
+          }
+          &::before {
+            border-left-color: rgba(0, 0, 0, 0.75);
+            right: -22px;
+          }
+        }
+      }
+
+      + .card {
+        margin-top: -96px;
+      }
+
+      .mdl-card {
+        width: 100%;
+        overflow: visible;
+
+        &::after {
+          content: "";
+          display: block;
+          width: 0;
+          height: 0;
+          border: 12px solid transparent;
+          position: absolute;
+          top: 84px;
+        }
+
+        &::before {
+          content: "";
+          display: block;
+          width: 0;
+          height: 0;
+          border: 12px solid transparent;
+          filter: blur(2px);
+          position: absolute;
+          top: 86px;
+        }
+
+        .mdl-card__title {
+          height: 128px;
+          z-index: 1;
+        }
+      }
+    }
+
+    .year {
+      clear: both;
+      font-size: 24px;
+      position: relative;
+      text-align: center;
+      top: 24px;
+      z-index: 1;
+
+      &::before {
+        background: $grey-600;
+        border-radius: 50%;
+        border: 4px solid $grey-50;
+        content: "";
+        display: block;
+        height: 10px;
+        left: calc(50% - 9px);
+        position: absolute;
+        top: -32px;
+        width: 10px;
+        z-index: 1;
+      }
+
+      &::after {
+        border: 12px solid $grey-50;
+        border-bottom-color: $blue-grey;
+        content: "";
+        display: block;
+        height: 0;
+        left: calc(50% - 12px);
+        position: absolute;
+        top: -24px;
+        width: 0;
+        z-index: 0;
+      }
+
+      div {
+        border-radius: 2px;
+        display: inline-block;
+        padding: 4px 16px;
+      }
+    }
+  }
+}

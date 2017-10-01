@@ -90,8 +90,9 @@ url: "https://jasen.org.rs"
 markdown: kramdown
 plugins:
 - jekyll-coffeescript
-- jekyll-sitemap
 - jekyll-feed
+- jekyll-redirect-from
+- jekyll-sitemap
 
 sass:
   style: compressed
