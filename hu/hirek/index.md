@@ -5,8 +5,8 @@ lang: hu
 title: Hírek
 last_modified_at: 2017-10-01T23:00:00-02:00
 translations:
-  en: /news/
-  sr: /novosti/
+  en: /news
+  sr: /novosti
 redirect_from:
 - /hu/hirek/2017
 

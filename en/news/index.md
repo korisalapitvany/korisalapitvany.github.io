@@ -5,8 +5,8 @@ lang: en
 title: News
 last_modified_at: 2017-10-01T23:00:00-02:00
 translations:
-  hu: /hirek/
-  sr: /novosti/
+  hu: /hirek
+  sr: /novosti
 redirect_from:
 - /en/news/2017
 

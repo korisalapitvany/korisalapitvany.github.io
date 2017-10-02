@@ -21,6 +21,7 @@ i18n:
 
     links:
     - text: Naslovna
+      href: /
     - text: Novosti
       href: /novosti/
     - text: Dokumenti
@@ -48,6 +49,7 @@ i18n:
 
     links:
     - text: Home
+      href: /
     - text: News
       href: /news/
     - text: Documents
@@ -75,6 +77,7 @@ i18n:
 
     links:
     - text: Kezdőlap
+      href: /
     - text: Hírek
       href: /hirek/
     - text: Okiratok
