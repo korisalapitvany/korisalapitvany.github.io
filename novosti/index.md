@@ -5,8 +5,8 @@ lang: sr
 title: Novosti
 last_modified_at: 2017-10-01T23:00:00-02:00
 translations:
-  en: news/
-  hu: hirek/
+  en: /news/
+  hu: /hirek/
 redirect_from:
 - /novosti/2017
 

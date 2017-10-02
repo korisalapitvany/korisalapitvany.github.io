@@ -1,6 +1,6 @@
 i18n:
   sr:
-    prefix: /
+    prefix:
     text: srpski
     country_code: RS
 
@@ -21,14 +21,13 @@ i18n:
 
     links:
     - text: Naslovna
-      href: /
     - text: Novosti
       href: /novosti/
     - text: Dokumenti
       href: /dokumenti/
 
   en:
-    prefix: /en/
+    prefix: /en
     text: English
     country_code: US
 
@@ -49,14 +48,13 @@ i18n:
 
     links:
     - text: Home
-      href: /en/
     - text: News
-      href: /en/news/
+      href: /news/
     - text: Documents
-      href: /en/documents/
+      href: /documents/
 
   hu:
-    prefix: /hu/
+    prefix: /hu
     text: magyar
     country_code: HU
 
@@ -77,11 +75,10 @@ i18n:
 
     links:
     - text: Kezdőlap
-      href: /hu/
     - text: Hírek
-      href: /hu/hirek/
+      href: /hirek/
     - text: Okiratok
-      href: /hu/okiratok/
+      href: /okiratok/
  
 contact:
   email: info@jasen.org.rs
