@@ -33,10 +33,12 @@
             </a>
           </li>
         </ul>
-        <ul class="mdl-mega-footer__left-section links">{% for link in site.i18n[page.lang].links %}
+        <ul class="mdl-mega-footer__left-section links">
+          {%- for link in site.i18n[page.lang].links %}
           <li>
             <a href="{{ site.url }}{{ site.i18n[page.lang].prefix }}{{ link.href }}"{% if page.url == link.href %} class="active"{% endif %}>{{ link.text }}</a>
-          </li>{% endfor %}
+          </li>
+          {%- endfor %}
         </ul>
       </div>
       <div class="mdl-mega-footer__middle-section">
