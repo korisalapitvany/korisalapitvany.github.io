@@ -10,8 +10,11 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
   {% for lang in site.i18n %}
-    {% if page.lang != lang[0] %}
+    {% if page.lang == lang[0] %}
+	  <meta property="og:locale" content="{{ lang[0] }}_{{ lang[1].country_code }}">
+	{% else %}
       <link rel="alternate" hreflang="{{ lang[0] }}" href="{{ site.url }}{{ page.url | replace_first: site.i18n[page.lang].prefix, lang[1].prefix }}">
+	  <meta property="og:locale:alternate" content="{{ lang[0] }}_{{ lang[1].country_code }}">
     {% endif %}
   {% endfor %}
 

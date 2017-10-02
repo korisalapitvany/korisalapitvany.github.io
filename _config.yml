@@ -2,6 +2,7 @@ i18n:
   sr:
     prefix: /
     text: srpski
+    country_code: RS
 
     name: Fondacija „Jasen“
     full_name: Fondacija za zaštitu životne sredine „Jasen“
@@ -29,6 +30,7 @@ i18n:
   en:
     prefix: /en/
     text: English
+    country_code: US
 
     name: Ash Foundation
     full_name: Ash Foundation for Environmental Protection
@@ -56,6 +58,7 @@ i18n:
   hu:
     prefix: /hu/
     text: magyar
+    country_code: HU
 
     name: Kőris Alapítvány
     full_name: Kőris Környezetvédelmi Alapítvány
