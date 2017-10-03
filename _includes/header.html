@@ -8,7 +8,7 @@
           {%- else -%}
             {%- for tr in page.translations -%}
               {%- if lang[0] == tr[0] %}
-        <a href="{{ site.url }}{{ lang[1].prefix }}{{ tr[1] }}/" class="mdl-color-text--blue-800">
+        <a href="{{ site.url }}{{ lang[1].prefix }}{{ tr[1] }}/" class="mdl-color-text--blue-800 language--{{ tr[0] }}">
           {{- lang[1].text -}}
         </a>
               {%- endif -%}
