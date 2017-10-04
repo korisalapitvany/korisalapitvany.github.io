@@ -8,6 +8,8 @@ main {
   @include limit-width;
   @include pad;
 
+  position: relative;
+
   h1 {
     font-size: 36px;
   }
@@ -20,13 +22,14 @@ main {
   }
 
   .introduction {
-    padding: 24px 0 8px;
-
-    border-top: thin solid #00897B;
-    border-bottom: thin solid #00897B;
+    padding: 16px 24px;
 
     p {
       font-weight: 300;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
 
       strong {
         font-weight: 400;

@@ -1,21 +1,21 @@
-    <div class="mdl-color-text--grey-600 languages">
-      {%- for lang in site.i18n -%}
-        {%- if page.lang == lang[0] %}
-      <span>
-        {{- lang[1].text -}}
-      </span>
-        {%- else -%}
-          {%- for tr in page.translations -%}
-            {%- if lang[0] == tr[0] %}
-      <a href="{{ site.url }}{{ lang[1].prefix }}{{ tr[1] }}/">
-        {{- lang[1].text -}}
-      </a>
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
-      {%- endfor %}
-    </div>
-    <header>
+    <header class="hero">
+      <div class="mdl-color-text--grey-600 languages">
+        {%- for lang in site.i18n -%}
+          {%- if page.lang == lang[0] %}
+        <span>
+          {{- lang[1].text -}}
+        </span>
+          {%- else -%}
+            {%- for tr in page.translations -%}
+              {%- if lang[0] == tr[0] %}
+        <a href="{{ site.url }}{{ lang[1].prefix }}{{ tr[1] }}/">
+          {{- lang[1].text -}}
+        </a>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+        {%- endfor %}
+      </div>
       <h1>
         <span class="before">
           {{- site.i18n[page.lang].name_parts[0] -}}
