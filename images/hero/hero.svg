@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="palics-ground-front.svg"
+   sodipodi:docname="hero.svg"
    style="enable-background:new"
    inkscape:export-filename="/home/atl/Documents/Kőris Alapítvány/palics-ground-frontpng.png"
    inkscape:export-xdpi="96"
@@ -158,7 +158,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -167,31 +167,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-127.66666)">
-    <g
-       id="g8673"
-       inkscape:label="screens"
-       sodipodi:insensitive="true"
-       transform="translate(-338.66666)"
-       style="display:inline">
-      <rect
-         inkscape:label="1280px"
-         y="127.66666"
-         x="338.66666"
-         height="169.33334"
-         width="338.66669"
-         id="rect8663"
-         style="opacity:1;fill:#fcf9c6;fill-opacity:1;stroke:none;stroke-width:0.2160314;stroke-opacity:1"
-         sodipodi:insensitive="true" />
-      <rect
-         inkscape:label="1024px"
-         y="127.66666"
-         x="372.53333"
-         height="169.33334"
-         width="270.93335"
-         id="rect8665"
-         style="display:none;opacity:1;fill:#fcf9c6;fill-opacity:1;stroke:none;stroke-width:0.26458335;stroke-opacity:1"
-         sodipodi:insensitive="true" />
-    </g>
     <path
        style="fill:#0b8043;fill-opacity:1;stroke:none;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 0,297 v -33.86667 c 84.666668,8.46667 105.83334,0 148.16667,0 42.33333,0 84.66667,8.46667 105.83334,8.46667 21.16666,0 84.66666,-4.23334 84.66666,-4.23334 L 338.66668,297 Z"
