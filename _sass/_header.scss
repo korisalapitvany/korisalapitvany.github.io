@@ -3,7 +3,7 @@ header {
   text-align: center;
 
   &.hero {
-    background: #fcf9c6 url(/images/hero/hero.svg) bottom / cover no-repeat;
+    background: url(/images/hero/hero.svg) bottom / cover no-repeat;
     height: 320px;
   }
 
