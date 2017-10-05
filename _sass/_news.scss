@@ -3,7 +3,7 @@ $grey-50: #fafafa;
 $grey-600: #757575;
 $blue-grey: #607d8b;
 
-$card-distance: 24px;
+$card-distance: 26px;
 
 
 /* Phone, Tablet & Desktop: */
@@ -63,34 +63,39 @@ $card-distance: 24px;
       width: 100%;
       overflow: visible;
 
-      &::after {
-        content: "";
-        display: block;
-        width: 0;
-        height: 0;
-        border: 12px solid transparent;
-        position: absolute;
-        top: 84px;
-        border-right-color: $blue-grey;
-        left: -24px;
-      }
-
+      &::after,
       &::before {
         content: "";
         display: block;
-        width: 0;
-        height: 0;
-        border: 12px solid transparent;
-        filter: blur(2px);
+        width: 24px;
+        height: 24px;
         position: absolute;
+        background-color: inherit;
+        transform: rotate(45deg);
+        left: -12px;
+      }
+
+
+      &::after {
+        top: 84px;
+      }
+
+      &::before {
         top: 86px;
-        border-right-color: rgba(0, 0, 0, 0.75);
-        left: -22px;
+        background-color: rgba(0, 0, 0, 0.5);
+        filter: blur(2px);
       }
 
       .mdl-card__title {
         height: 128px;
         z-index: 1;
+      }
+
+      .mdl-card__supporting-text {
+        color: rgba(0, 0, 0, 0.75);
+        background: rgba(255, 255, 255, 0.25);
+        box-sizing: border-box;
+        width: 100%;
       }
     }
 
@@ -170,16 +175,9 @@ $card-distance: 24px;
           left: initial;
         }
         .mdl-card {
-          &::after {
-            border-left-color: $blue-grey;
-            border-right-color: transparent;
-            right: -24px;
-            left: initial;
-          }
+          &::after,
           &::before {
-            border-left-color: rgba(0, 0, 0, 0.75);
-            border-right-color: transparent;
-            right: -22px;
+            right: -12px;
             left: initial;
           }
         }

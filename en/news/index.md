@@ -32,7 +32,8 @@ news:
     The team decides on the name and legal form, and drafts the goals and potential activities of the organisation.
 
     The founders conclude the [founding contract](/docs/ugovor-o-osnivanju.pdf), construct the [statute](/docs/statut.pdf) and the rest of the foundind documents, and request registration in the registry of business entities.
-  style: >
-    background: #ffca28 url(/images/news/coffee-checklist.min.png) right / contain no-repeat;
+  style:
+    color: amber-400
+    background: url(/images/news/coffee-checklist.min.png) right / contain no-repeat
 - year: 2017
 ---
