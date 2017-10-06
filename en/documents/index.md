@@ -11,7 +11,7 @@ translations:
 
 # Documents
 
-<div class="mdl-color-text--grey-600 documents" markdown="1">
+<div class="mdl-shadow--2dp mdl-color--grey-50 mdl-color-text--grey-600 documents" markdown="1">
 - [Statute](/docs/statut.pdf) (in Serbian)
 
   2017.07.26. · 7 pages

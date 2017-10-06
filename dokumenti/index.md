@@ -11,7 +11,7 @@ translations:
 
 # Dokumenti
 
-<div class="mdl-color-text--grey-600 documents" markdown="1">
+<div class="mdl-shadow--2dp mdl-color--grey-50 mdl-color-text--grey-600 documents" markdown="1">
 - [Statut](/docs/statut.pdf)
 
   26.07.2017. · 7 strana
