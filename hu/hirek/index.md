@@ -23,6 +23,9 @@ news:
     Az alapítvány nyilvántartásba vétele befejeződik. A csapat elkészíti a logót és a pecsétet, telepíti a honlap legelső verzióját, és elindítja a regisztrációs folyamatot a TechSoup és a Benevity portáljain. Könyvelői szerződést kötünk a Prima Nota-val.
 
     A Slack chat csatornáink aktívabbak lesznek, ahogy elkezdünk lehetséges projektekről tárgyalni.
+  style:
+    color: amber-400
+    background: url(/images/news/coffee-checklist.min.png) right / contain no-repeat
 - title: Július
   content: |
     Hermina és Attila meglátogatják szülővárosaikat Szerbiában.
@@ -32,5 +35,8 @@ news:
     A csapat nevet és jogi formát választ, és felvázolja a szervezet céljait és potenciális tevékenységeit.
 
     Az alapítótagok megkötik az [alapító szerződést](/docs/ugovor-o-osnivanju.pdf), megszerkesztik a [statútumot](/docs/statut.pdf) és a többi alapító okiratot, majd kérelmezik a cégjegyzékbe vételt.
+  style:
+    color: red-600
+    background: url(/images/news/checklist.min.png) right / contain no-repeat
 - year: 2017
 ---

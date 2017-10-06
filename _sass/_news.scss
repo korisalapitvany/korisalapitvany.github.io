@@ -88,13 +88,14 @@ $card-distance: 26px;
       }
 
       .mdl-card__title {
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
         height: 128px;
         z-index: 1;
       }
 
       .mdl-card__supporting-text {
-        color: rgba(0, 0, 0, 0.75);
-        background: rgba(255, 255, 255, 0.20);
+        color: rgba(0, 0, 0, 0.8);
+        background: rgba(255, 255, 255, 0.2);
         box-sizing: border-box;
         width: 100%;
 
@@ -122,6 +123,7 @@ $card-distance: 26px;
     position: relative;
     top: 24px;
     z-index: 1;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 
     &::before {
       background: $grey-600;
