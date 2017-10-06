@@ -16,6 +16,9 @@ news:
     Tamaš i Atila završe registraciju fondacije. Ekipa izrađuje logo i pečat, postavi prvu verziju web sajta, i počne sa procesom registracije na TechSoup i Benevity portalima. Zaključujemo ugovor sa Prima Nota d.o.o. o vođenju poslovnih knjiga.
 
     Naši Slack chat kanali postaju aktivniji kako počinjemo razgovore o mogućim projektima.
+  style:
+    color: amber-400
+    background: url(/images/news/coffee-checklist.min.png) right / contain no-repeat
 - title: Jul
   content: |
     Hermina i Atila posete njihova rodna mesta u Srbiji.
@@ -25,5 +28,8 @@ news:
     Tim donosi odluku o nazivu i pravnoj formi, i izrađuje ciljeve i potencijalne aktivnosti organizacije.
 
     Osnivači zaključe [ugovor o osnivanju](/docs/ugovor-o-osnivanju.pdf), donose [statut](/docs/statut.pdf) i ostale odluke u vezi osnivanja i predaju zahtev za upis u registar privrednih subjekata.
+  style:
+    color: red-600
+    background: url(/images/news/checklist.min.png) right / contain no-repeat
 - year: 2017
 ---
