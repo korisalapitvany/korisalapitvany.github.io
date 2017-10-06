@@ -2,6 +2,7 @@ $grey: #9e9e9e;
 $grey-50: #fafafa;
 $grey-600: #757575;
 $blue-grey: #607d8b;
+$blue-grey-900: #004d40;
 
 $card-distance: 26px;
 
@@ -96,6 +97,16 @@ $card-distance: 26px;
         background: rgba(255, 255, 255, 0.20);
         box-sizing: border-box;
         width: 100%;
+
+        a,
+        a:visited {
+          color: inherit;
+
+          &:hover,
+          &:active {
+            color: black;
+          }
+        }
       }
     }
 

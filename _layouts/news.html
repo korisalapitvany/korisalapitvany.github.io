@@ -5,18 +5,20 @@ layout: home
   <h1 class="title">{{ page.title }}</h1>
   <div class="timeline">
     {% for news in page.news %}
+      {%- assign color = news.style.color | default: 'teal-400' -%}
       {% if news.year %}
-        <h2 class="year"><div class="mdl-color--blue-grey mdl-color-text--white mdl-shadow--2dp">{{ news.year }}</div></h2>
+        <h2 class="year"><div class="mdl-shadow--2dp mdl-color--blue-grey mdl-color-text--white">{{ news.year }}</div></h2>
       {% else %}
         <div class="card">
-          <div class="mdl-card mdl-color--{{ news.style.color | default: 'teal-400' }} mdl-shadow--2dp">
-            <div class="mdl-card__title mdl-card--border mdl-color--{{news.style.color | default: 'teal-400'}}"
+          <div class="mdl-card mdl-shadow--2dp mdl-color--{{ color }}">
+            <div class="mdl-card__title mdl-card--border mdl-color--{{ color }} mdl-color-text--white"
               {%- if news.style.background -%} style="background: {{ news.style.background }}"
               {%- endif %}>
               <h2 id="{{ news.id }}" class="mdl-card__title-text">{{ news.title }}</h2>
             </div>
             <div class="mdl-card__supporting-text">
-              {{ news.content | markdownify }}
+
+{{ news.content | markdownify }}
             </div>
           </div>
         </div>
