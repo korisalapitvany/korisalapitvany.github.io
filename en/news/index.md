@@ -23,6 +23,9 @@ news:
     Tamás and Attila finish registering the foundation. The team drafts the logo and the stamp, deploys the very first version of the website, and starts the charity vetting process with TechSoup and Benevity. We enter into a bookkeeping agreement with Prima Nota.
 
     Our Slack chat rooms become more active as we start brainstorming about possible projects.
+  style:
+    color: amber-400
+    background: url(/images/news/coffee-checklist.min.png) right / contain no-repeat
 - title: July
   content: |
     Hermina and Attila visit their hometowns in Serbia.
@@ -33,7 +36,7 @@ news:
 
     The founders conclude the [founding contract](/docs/ugovor-o-osnivanju.pdf), construct the [statute](/docs/statut.pdf) and the rest of the foundind documents, and request registration in the registry of business entities.
   style:
-    color: amber-400
-    background: url(/images/news/coffee-checklist.min.png) right / contain no-repeat
+    color: red-600
+    background: url(/images/news/checklist.min.png) right / contain no-repeat
 - year: 2017
 ---
