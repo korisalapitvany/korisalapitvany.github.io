@@ -22,6 +22,13 @@ news:
 - title: Oktobar
   content: |
     U APR-u registrujemo web sajt fondacije, [jasen.org.rs](https://jasen.org.rs) i email adresu: [info@jasen.org.rs](mailto:info@jasen.org.rs). Tim planira prvi veliki projekat, eko kamp koji će se održati 2018. godine.
+- title: Septembar
+  content: |
+    Otvaramo tekući račun u Raiffeisen banci, i postajemo sposobni za prijem donacija. Predajemo prvu poresku prijavu. Benevity završava proces provere, i postajemo kvalifikovani za učešće u program za donacije.
+
+    Uzbuđenje raste na Slack chat kanalima kako se pojavljuju što više ideja. Hermina počinje da sastavi opšti poslovni plan fondacije. Sadržaj se javlja na našem web sajtu.
+
+    Odaberemo dve ideje koje ćemo razviti kao prve projekte.
 - title: Avgust
   content: |
     Tamaš i Atila završe registraciju fondacije. Ekipa izrađuje logo i pečat, postavi prvu verziju web sajta, i počne sa procesom registracije na TechSoup i Benevity portalima. Zaključujemo ugovor sa Prima Nota d.o.o. o vođenju poslovnih knjiga.

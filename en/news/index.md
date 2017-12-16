@@ -13,7 +13,7 @@ redirect_from:
 news:
 - title: September
   content: |
-    We register for a bank account with Raiffeisen Banka and become eligible for receiving donations. We submit our initial tax declaration. Wecomplete the vetting process and become qualified to use Benevity’s gift matching platform.
+    We register for a bank account with Raiffeisen Bank and become eligible for receiving donations. We submit our initial tax declaration. Wecomplete the vetting process and become qualified to use Benevity’s gift matching platform.
 
     Excitement grows as even more ideas start to emerge on our Slack channel. Hermina starts drafting an overall business plan for the foundation. Content starts to appear on our website.
 
