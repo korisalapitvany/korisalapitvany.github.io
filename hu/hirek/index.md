@@ -11,6 +11,19 @@ redirect_from:
 - /hu/hirek/2017
 
 news:
+- title: December
+  content: |
+    Felvesszük a kapcsolatot két másik szervezettel, a [Zombori Városi Múzeummal](http://gms.rs) és a topolyai [Arcus Környezetvédő Egyesülettel](http://arcus.org.rs).
+
+    Tervezzük, hogy a Zombori Városi Múzeummal közösen kiépítünk egy játszóteret közvetlenül a [Felső-Dunamellék Természetvédelmi Rezervátum](https://hu.wikipedia.org/wiki/Felső-Dunamellék_Természetvédelmi_Rezervátum) mellett, ahol a jövőben közösen tudnánk környezetvédelemmel kapcsolatos programokat szervezni a vajdasági gyerekek részére.
+
+    Tervezzük továbbá azt is, hogy a 2018-ban megszervezésre kerülő tábor programán belül az Arcus Környezetvédő Egyesület tagjai részt vegyenek, mint előadók.
+- title: November
+  content: |
+    Tovább folyik a 2018-as környezetvédelmi tábor szervezése. A hónap végére megérkezik a bankszámlánkra az első adomány.
+- title: Október
+  content: |
+    Jegyzőkönyvbe veszik az alapítvány weboldalát, [jasen.org.rs](https://jasen.org.rs) és email címét: [info@jasen.org.rs](mailto:info@jasen.org.rs). A csapat a következő nagy projekt, a 2018-as környezetvédelmi tábor szervezésével foglalatoskodik.
 - title: Szeptember
   content: |
     Bankszámlát nyitunk a Raiffeisen Banknál, így már tudunk adományokat fogadni. Beadjuk az első adóbevallásunkat. A Benevity befejezi az átvilágítási folyamatot, és megfelelőnek nyilvánítja az alapítványt arra, hogy részt vegyen az adomány-programban.
