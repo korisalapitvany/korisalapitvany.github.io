@@ -13,11 +13,9 @@ redirect_from:
 news:
 - title: December
   content: |
-    Felvesszük a kapcsolatot két másik szervezettel, a [Zombori Városi Múzeummal](http://gms.rs) és a topolyai [Arcus Környezetvédő Egyesülettel](http://arcus.org.rs/hun/).
+    A [Zombori Városi Múzeummal](http://gms.rs) együttműködve közösen tervezünk kiépíteni egy játszóteret, közvetlenül a [Felső-Dunamellék Természetvédelmi Rezervátum](https://hu.wikipedia.org/wiki/Felső-Dunamellék_Természetvédelmi_Rezervátum) határán. A játszótéren a jövőben közösen szeretnénk környezetvédelemmel kapcsolatos programokat szervezni a gyerekek részére.
 
-    Tervezzük, hogy a Zombori Városi Múzeummal közösen kiépítünk egy játszóteret közvetlenül a [Felső-Dunamellék Természetvédelmi Rezervátum](https://hu.wikipedia.org/wiki/Felső-Dunamellék_Természetvédelmi_Rezervátum) mellett, ahol a jövőben közösen tudnánk környezetvédelemmel kapcsolatos programokat szervezni a vajdasági gyerekek részére.
-
-    Tervezzük továbbá azt is, hogy a 2018-ban megszervezésre kerülő tábor programán belül az Arcus Környezetvédő Egyesület tagjai részt vegyenek, mint előadók.
+    Tervezzük, hogy a 2018-ban megszervezésre kerülő tábor programán belül az [Arcus Környezetvédő Egyesület](http://arcus.org.rs/hun/) tagjai részt vegyenek, mint előadók.
 - title: November
   content: |
     Tovább folyik a 2018-as környezetvédelmi tábor szervezése. A hónap végére megérkeznek a bankszámlánkra az első adományok.

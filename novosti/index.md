@@ -11,6 +11,11 @@ redirect_from:
 - /novosti/2017
 
 news:
+- title: Decembar
+  content: |
+    U saradnji sa [Gradskim muzejom Sombora](http://gms.rs), planiramo da zajedno izgradimo dečje igralište na granici [Gornjeg Podunavlja](https://sr.wikipedia.org/sr-el/Специјални_резерват_природе_Горње_Подунавље). Na igralištu bi u budućem hteli da zajedno organizujemo programe za decu, u oblasti zaštite životne sredine.
+
+    Planiramo da članovi [Ekološkog društva "Arkus"](http://arcus.org.rs/srb/) budu prisutni na predstojećem eko kampu, kao predavači.
 - title: Novembar
   content: |
     Nastavlja se planiranje predstojećeg eko kampa. Do kraja meseca nam stižu i prve donacije.
