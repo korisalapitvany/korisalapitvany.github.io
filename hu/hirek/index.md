@@ -13,7 +13,7 @@ redirect_from:
 news:
 - title: Szeptember
   content: |
-    Bankszámlát nyitunk a Raiffeisen Banknál, így alkalmassá válunk adományok fogadására. Beadjuk az első adóbevallásunkat. A Benevity befejezi az átvilágítási folyamatot, és megfelelőnek nyilvánítja az alapítványt arra, hogy részt vegyen az adomány-programban.
+    Bankszámlát nyitunk a Raiffeisen Banknál, így már tudunk adományokat fogadni. Beadjuk az első adóbevallásunkat. A Benevity befejezi az átvilágítási folyamatot, és megfelelőnek nyilvánítja az alapítványt arra, hogy részt vegyen az adomány-programban.
 
     Az izgalom fokozódik, ahogy a Slack csatornánkon egyre bővül az ötleteink listája. Hermina megkezdi az alapítvány általános üzleti tervének a megszerkesztését. A weboldalunk tartalma fokozatosan bővül.
 
