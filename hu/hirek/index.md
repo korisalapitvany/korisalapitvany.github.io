@@ -13,7 +13,7 @@ redirect_from:
 news:
 - title: December
   content: |
-    Felvesszük a kapcsolatot két másik szervezettel, a [Zombori Városi Múzeummal](http://gms.rs) és a topolyai [Arcus Környezetvédő Egyesülettel](http://arcus.org.rs).
+    Felvesszük a kapcsolatot két másik szervezettel, a [Zombori Városi Múzeummal](http://gms.rs) és a topolyai [Arcus Környezetvédő Egyesülettel](http://arcus.org.rs/hun/).
 
     Tervezzük, hogy a Zombori Városi Múzeummal közösen kiépítünk egy játszóteret közvetlenül a [Felső-Dunamellék Természetvédelmi Rezervátum](https://hu.wikipedia.org/wiki/Felső-Dunamellék_Természetvédelmi_Rezervátum) mellett, ahol a jövőben közösen tudnánk környezetvédelemmel kapcsolatos programokat szervezni a vajdasági gyerekek részére.
 
