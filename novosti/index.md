@@ -3,7 +3,7 @@ layout: news
 
 lang: sr
 title: Novosti
-last_modified_at: 2017-10-01T23:00:00-02:00
+last_modified_at: 2017-12-17T22:00:00-02:00
 translations:
   en: /news
   hu: /hirek
