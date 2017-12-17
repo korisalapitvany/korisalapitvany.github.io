@@ -4,6 +4,10 @@
 @import 'news';
 
 /* Phone: */
+.content-wrapper {
+  background-color: #6ca04e;
+}
+
 main {
   @include limit-width;
   @include pad;
