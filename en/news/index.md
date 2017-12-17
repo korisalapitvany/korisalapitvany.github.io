@@ -18,6 +18,9 @@ news:
     Excitement grows as even more ideas start to emerge on our Slack channel. Hermina starts drafting an overall business plan for the foundation. Content starts to appear on our website.
 
     We pick two ideas that would become our starter projects as we continue to develop them.
+  style:
+    color: deep-orange-400
+
 - title: August
   content: |
     Tamás and Attila finish registering the foundation. The team drafts the logo and the stamp, deploys the very first version of the website, and starts the charity vetting process with TechSoup and Benevity. We enter into a bookkeeping agreement with Prima Nota.
@@ -26,6 +29,7 @@ news:
   style:
     color: amber-400
     background: url(/images/news/coffee-checklist.min.png) right / contain no-repeat
+
 - title: July
   content: |
     Hermina and Attila visit their hometowns in Serbia.

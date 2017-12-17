@@ -94,6 +94,9 @@ $card-distance: 26px;
         text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
         height: 128px;
         z-index: 1;
+
+        /* Default background, can be overwritten on a per-item basis. */
+        background: url(/images/news/book.png) right / contain no-repeat;
       }
 
       .mdl-card__supporting-text {

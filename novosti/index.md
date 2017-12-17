@@ -16,12 +16,21 @@ news:
     U saradnji sa [Gradskim muzejom Sombora](http://gms.rs), planiramo da zajedno izgradimo dečje igralište na granici [Gornjeg Podunavlja](https://sr.wikipedia.org/sr-el/Специјални_резерват_природе_Горње_Подунавље). Na igralištu bi u budućem hteli da zajedno organizujemo programe za decu, u oblasti zaštite životne sredine.
 
     Planiramo da članovi [Ekološkog društva "Arkus"](http://arcus.org.rs/srb/) budu prisutni na predstojećem eko kampu, kao predavači.
+  style:
+    color: light-blue-400
+
 - title: Novembar
   content: |
     Nastavlja se planiranje predstojećeg eko kampa. Do kraja meseca nam stižu i prve donacije.
+  style:
+    color: orange-400
+
 - title: Oktobar
   content: |
     U APR-u registrujemo web sajt fondacije, [jasen.org.rs](https://jasen.org.rs) i email adresu: [info@jasen.org.rs](mailto:info@jasen.org.rs). Tim planira prvi veliki projekat, eko kamp koji će se održati 2018. godine.
+  style:
+    color: brown-400
+
 - title: Septembar
   content: |
     Otvaramo tekući račun u Raiffeisen banci, i postajemo sposobni za prijem donacija. Predajemo prvu poresku prijavu. Benevity završava proces provere, i postajemo kvalifikovani za učešće u program za donacije.
@@ -29,6 +38,9 @@ news:
     Uzbuđenje raste na Slack chat kanalima kako se pojavljuju što više ideja. Hermina počinje da sastavi opšti poslovni plan fondacije. Sadržaj se javlja na našem web sajtu.
 
     Odaberemo dve ideje koje ćemo razviti kao prve projekte.
+  style:
+    color: deep-orange-400
+
 - title: Avgust
   content: |
     Tamaš i Atila završe registraciju fondacije. Ekipa izrađuje logo i pečat, postavi prvu verziju web sajta, i počne sa procesom registracije na TechSoup i Benevity portalima. Zaključujemo ugovor sa Prima Nota d.o.o. o vođenju poslovnih knjiga.
@@ -37,6 +49,7 @@ news:
   style:
     color: amber-400
     background: url(/images/news/coffee-checklist.min.png) right / contain no-repeat
+
 - title: Jul
   content: |
     Hermina i Atila posete njihova rodna mesta u Srbiji.
