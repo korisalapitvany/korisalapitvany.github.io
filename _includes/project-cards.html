@@ -1,7 +1,7 @@
 <div class="project-cards">
 {% for post in site.posts %}
   {% if post.category == 'projekti' and (post.current or include.active_only == false) %}
-  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card mdl-shadow--2dp">
     <div class="mdl-card__title" style="background-image: url('{{ post.cover_image }}');">
       <h2 class="mdl-card__title-text">{{ post.title }}</h2>
     </div>
