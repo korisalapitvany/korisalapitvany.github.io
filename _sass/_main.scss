@@ -1,4 +1,7 @@
+@import 'sass-material-colors';
 @import 'mixins';
+
+@import 'template';
 
 @import 'documents';
 @import 'news';
@@ -25,7 +28,7 @@ main {
     font-family: 'Roboto Slab', serif;
   }
 
-  .introduction {
+  .content-block {
     padding: 16px 24px;
 
     p {
@@ -40,12 +43,56 @@ main {
       }
     }
   }
+
+  .more-link {
+    + p {
+      text-align: right;
+      a {
+        color: material-color('green', '900');
+        text-transform: lowercase;
+        &::after {
+          content: "…";
+        }
+      }
+    }
+  }
+
+  .mdl-card {
+    width: 100%;
+
+    .mdl-card__title {
+      color: white;
+      text-shadow: 0 0 2px black;
+
+      height: 176px;
+      background-position: center 75%;
+      background-size: cover;
+    }
+
+    .mdl-card__actions {
+      display: flex;
+      box-sizing: border-box;
+      align-items: center;
+      text-transform: uppercase;
+
+      i {
+        padding: 0 8px;
+      }
+
+      time {
+        white-space: nowrap;
+      }
+    }
+    + .mdl-card {
+      margin-top: 24px;
+    }
+  }
 }
 
 /* Tablet: */
 @media screen and (min-width: 760px) {
   main {
-    .introduction {
+    .content-block {
       p {
         font-size: 18px;
       }

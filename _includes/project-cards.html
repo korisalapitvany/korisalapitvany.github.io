@@ -1,0 +1,26 @@
+<div class="project-cards">
+{% for post in site.posts %}
+  {% if post.category == 'projekti' and (post.current or include.active_only == false) %}
+  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+    <div class="mdl-card__title" style="background-image: url('{{ post.cover_image }}');">
+      <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+      {{ post.excerpt }}
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+      {% if post.event_date %}
+        <i class="material-icons">event</i>
+        <time>
+          {{ post.event_date }}
+        </time>
+      {% endif %}
+      <div class="mdl-layout-spacer"></div>
+      <a href="{{ post.url }}" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+        Detaljnije
+      </a>
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>

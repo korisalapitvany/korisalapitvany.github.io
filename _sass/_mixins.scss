@@ -4,6 +4,9 @@ $max-content-width: 1016px; /* 1080p - 2×32px */
 /* On bigger screens, make sure the footer sticks to the bottom. */
 $footer-height: 320px;
 
+/* Custom colours: */
+$light-green: #7bb15b;
+
 @mixin limit-width {
   max-width: $max-content-width;
   margin-left: auto;

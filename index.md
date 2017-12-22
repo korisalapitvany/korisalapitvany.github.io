@@ -8,7 +8,7 @@ translations:
   hu:
 ---
 
-<div id="uvod" class="mdl-color--green-300 introduction" markdown="1">
+<div id="uvod" class="color--light-green content-block more-link" markdown="1">
 **Fondacija za zaštitu životne sredine „Jasen“** je neprofitna, nevladna
 organizacija sa sedištem u Bajmoku.
 
@@ -23,3 +23,21 @@ Sve to je od suštinske važnosti za nas, međutim, okosnica fondacije „Jasen�
 naša odlučnost da informišemo i obrazujemo širu javnost, **posebno decu i
 omladinu**, o važnosti očuvanja i zaštite životne sredine i prirode.
 </div>
+
+<!--
+[Više o našoj fondaciji](/o-nama)
+-->
+
+## Aktuelni projekti {#projekti}
+
+<div class="more-link">
+  {% include project-cards.html active_only=true %}
+</div>
+
+[Svi projekti](/projekti)
+
+<!--
+## Naš tim
+
+## Kako nam pomoći
+-->
