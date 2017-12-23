@@ -25,3 +25,7 @@ az elhatározásunk, hogy tájékoztassuk és oktassuk a társadalmat, különö
 **gyermekeket és fiatalokat**, a környezet és természet megőrzésének és
 védelmének fontosságáról.
 </div>
+
+## Csapatunk {#csapat}
+
+{% include team.html %}

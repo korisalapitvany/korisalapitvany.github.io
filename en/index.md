@@ -24,3 +24,7 @@ our determination to inform and educate the general public, **especially
 children and youth**, of the importance of preserving and protecting the
 environment and nature.
 </div>
+
+## Our team {#team}
+
+{% include team.html %}

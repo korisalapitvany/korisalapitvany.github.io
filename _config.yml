@@ -10,6 +10,20 @@ i18n:
     - Fondacija
     - Jasen
 
+    team:
+      hermina:
+        name: Hermina Olah Vaš
+        role: predsednik upravnog odbora, suosnivač
+      attila:
+        name: Atila Olah
+        role: član upravnog odbora, suosnivač
+      gabor:
+        name: Gabor Sabo
+        role: član upravnog odbora
+      tamas:
+        name: Tamaš Vinko
+        role: upravitelj
+
     contact_us: Kontaktiraj nas
     address: Solunska 19, 24413 Palić
 
@@ -40,6 +54,20 @@ i18n:
     - Ash
     - Foundation
 
+    team:
+      hermina:
+        name: Hermina Olah Vas
+        role: chairman, co-founder
+      attila:
+        name: Atila Olah
+        role: board member, co-founder
+      gabor:
+        name: Gabor Sabo
+        role: board member
+      tamas:
+        name: Tamas Vinko
+        role: administrator
+
     contact_us: Contact us
     address: Solunska 19, 24413 Palić, Serbia
 
@@ -67,6 +95,20 @@ i18n:
     name_parts:
     - Kőris
     - Alapítvány
+
+    team:
+      hermina:
+        name: Oláh Vass Hermina
+        role: az igazgató bizottság elnöke, alapító tag
+      attila:
+        name: Oláh Attila
+        role: az igazgató bizottság tagja, alapító tag
+      gabor:
+        name: Szabó Gábor
+        role: az igazgató bizottság tagja
+      tamas:
+        name: Vinkó Tamás
+        role: ügyvezető
 
     contact_us: Elérhetőségeink
     address: Solunska 19, 24413 Palics, Szerbia
