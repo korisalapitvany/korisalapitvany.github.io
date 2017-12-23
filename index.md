@@ -36,8 +36,33 @@ omladinu**, o važnosti očuvanja i zaštite životne sredine i prirode.
 
 [Svi projekti](/projekti)
 
-<!--
-## Naš tim
+## Naš tim {#tim}
 
+<ul class="team mdl-color-text--light-grey-300">
+  <li class="person">
+    <img src="/images/team/416/hermina.jpg" class="avatar">
+    <div class="name">Hermina Olah Vaš</div>
+    <span>predsednik upravnog odbora,</span>
+    <span>suosnivač</span>
+  </li>
+  <li class="person">
+    <img src="/images/team/416/attila.jpg" class="avatar">
+    <div class="name">Atila Olah</div>
+    <span>član upravnog odbora,</span>
+    <span>suosnivač</span>
+  </li>
+  <li class="person">
+    <img src="/images/team/416/gabor.jpg" class="avatar">
+    <div class="name">Gabor Sabo</div>
+    <span>član upravnog odbora</span>
+  </li>
+  <li class="person">
+    <img src="/images/team/416/tamas.jpg" class="avatar">
+    <div class="name">Tamaš Vinko</div>
+    <span>upravitelj</span>
+  </li>
+</ul>
+
+<!--
 ## Kako nam pomoći
 -->

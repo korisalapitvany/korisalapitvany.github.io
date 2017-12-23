@@ -3,6 +3,7 @@
 
 @import 'template';
 
+@import 'projects';
 @import 'documents';
 @import 'news';
 
@@ -57,34 +58,34 @@ main {
     }
   }
 
-  .mdl-card {
-    width: 100%;
+  .team {
+    padding: 0;
+    margin: 0 -24px;
+    width: calc(100% + 48px);
+    text-align: center;
 
-    .mdl-card__title {
-      color: white;
-      text-shadow: 0 0 2px black;
+    .person {
+      width: 180px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 6px 32px;
+      font-size: 16px;
+      font-weight: 300;
 
-      height: 176px;
-      background-position: center 75%;
-      background-size: cover;
-    }
-
-    .mdl-card__actions {
-      display: flex;
-      box-sizing: border-box;
-      align-items: center;
-      text-transform: uppercase;
-
-      i {
-        padding: 0 8px;
+      .avatar {
+        width: 100%;
+        border: 8px solid $light-green;
+        border-radius: 50%;
+        box-sizing: border-box;
       }
 
-      time {
-        white-space: nowrap;
+      .name {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 100;
+        padding: 16px 0 8px;
+        color: white;
       }
-    }
-    + .mdl-card {
-      margin-top: 24px;
     }
   }
 }
@@ -95,6 +96,12 @@ main {
     .content-block {
       p {
         font-size: 18px;
+      }
+    }
+
+    .team {
+      .person {
+        width: 224px;
       }
     }
   }
