@@ -4,11 +4,11 @@ layout: home
 <div class="news">
   <h1 class="title">{{ page.title }}</h1>
   <div class="timeline">
-    {% for news in page.news %}
+    {%- for news in page.news %}
       {%- assign color = news.style.color | default: 'teal-400' -%}
-      {% if news.year %}
+      {%- if news.year %}
         <h2 class="year"><div class="mdl-shadow--2dp mdl-color--blue-grey mdl-color-text--white">{{ news.year }}</div></h2>
-      {% else %}
+      {%- else %}
         <div class="card">
           <div class="mdl-card mdl-shadow--2dp mdl-color--{{ color }}">
             <div class="mdl-card__title mdl-card--border mdl-color--{{ color }} mdl-color-text--white"
@@ -22,7 +22,7 @@ layout: home
             </div>
           </div>
         </div>
-      {% endif %}
-    {% endfor %}
+      {%- endif %}
+    {%- endfor %}
   </div>
 </div>

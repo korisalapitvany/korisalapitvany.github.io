@@ -1,5 +1,5 @@
-{% assign lang = page.lang | default: 'en' -%}
-{% assign site_data = site.data.i18n[lang] -%}
+{%- assign lang = page.lang | default: 'en' -%}
+{%- assign site_data = site.data.i18n[lang] -%}
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@korisalapitvany">
   <meta name="twitter:title" property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site_data.name }}{% endif %}">
@@ -9,14 +9,20 @@
   <meta property="og:site_name" content="{{ site_data.name }}">
   <meta proyerty="og:url" content="{{ site.url }}{{ page.url }}">
 
-  {% for lang in site.i18n -%}
-    {%- if page.lang == lang[0] -%}
-  <meta property="og:locale" content="{{ lang[0] }}_{{ lang[1].country_code }}">
+  {% for lang in site.data.i18n.languages -%}
+    {%- assign lang_data = site.data.i18n[lang] -%}
+    {%- if page.lang == lang -%}
+  <meta property="og:locale" content="{{ lang }}_{{ lang_data.country_code }}">
     {%- endif -%}
   {%- endfor -%}
-  {%- for lang in site.i18n -%}
-    {%- if page.lang != lang[0] %}
-  <meta property="og:locale:alternate" content="{{ lang[0] }}_{{ lang[1].country_code }}">
+  {%- for lang in site.data.i18n.languages -%}
+    {%- assign lang_data = site.data.i18n[lang] -%}
+    {%- if page.lang != lang %}
+      {%- for tr in page.translations -%}
+        {%- if lang == tr[0] %}
+  <meta property="og:locale:alternate" content="{{ lang }}_{{ lang_data.country_code }}">
+        {%- endif -%}
+      {%- endfor -%}
     {%- endif -%}
   {%- endfor %}
 
