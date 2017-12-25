@@ -1,10 +1,12 @@
+{% assign lang = page.lang | default: 'en' -%}
+{% assign site_data = site.data.i18n[lang] -%}
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@korisalapitvany">
-  <meta name="twitter:title" property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.i18n[page.lang].name }}{% endif %}">
-  <meta name="twitter:description" proyerty="og:description" content="{% if page.description | markdownify | strip_html | strip_newlines %}{{ page.description }}{% else %}{{ site.i18n[page.lang].mission | markdownify | strip_html | strip_newlines }}{% endif %}">
+  <meta name="twitter:title" property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site_data.name }}{% endif %}">
+  <meta name="twitter:description" proyerty="og:description" content="{% if page.description | markdownify | strip_html | strip_newlines %}{{ page.description }}{% else %}{{ site_data.mission | markdownify | strip_html | strip_newlines }}{% endif %}">
   <meta name="twitter:image" property="og:image" content="{% if page.image %}{{ page.image }}{% else %}https://jasen.org.rs/logo/png/circle-576x576.min.png{% endif %}">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="{{ site.i18n[page.lang].name }}">
+  <meta property="og:site_name" content="{{ site_data.name }}">
   <meta proyerty="og:url" content="{{ site.url }}{{ page.url }}">
 
   {% for lang in site.i18n -%}

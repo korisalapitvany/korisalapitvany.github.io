@@ -1,3 +1,5 @@
+{% assign lang = page.lang | default: 'en' -%}
+{% assign site_data = site.data.i18n[lang] -%}
   <footer class="mdl-mega-footer">
     <div class="container">
       <div class="mdl-mega-footer__top-section top-row">
@@ -34,9 +36,9 @@
           </li>
         </ul>
         <ul class="mdl-mega-footer__left-section links">
-          {%- for link in site.i18n[page.lang].links %}
+          {%- for link in site_data.links %}
           <li>
-            <a href="{{ site.url }}{{ site.i18n[page.lang].prefix }}{{ link.href }}"{% if page.url == link.href %} class="active"{% endif %}>{{ link.text }}</a>
+            <a href="{{ site.url }}{{ site_data.prefix }}{{ link.href }}"{% if page.url == link.href %} class="active"{% endif %}>{{ link.text }}</a>
           </li>
           {%- endfor %}
         </ul>
@@ -45,19 +47,19 @@
         <div class="mission">
           <!-- /images/footer.svg -->
           <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 50.799999 50.799999" class="logo"><path d="M25.4 2.117A23.283 23.283 0 0 0 2.117 25.4 23.283 23.283 0 0 0 25.4 48.683 23.283 23.283 0 0 0 48.683 25.4 23.283 23.283 0 0 0 25.4 2.117zm-.003 5.902a8.467 8.467 0 0 1 4.236 7.322 8.467 8.467 0 0 1-3.704 6.98v2.8a8.467 8.467 89.872 0 1 3.694-4.412 8.467 8.467 89.872 0 1 8.456.003 8.467 8.467 89.872 0 1-4.223 7.33 8.467 8.467 89.872 0 1-7.927.269v6.865a8.467 8.467 0 0 1 3.694-4.413 8.467 8.467 0 0 1 8.456.004 8.467 8.467 0 0 1-4.223 7.329 8.467 8.467 0 0 1-7.927.27v3.439h-1.058v-3.452a8.467 8.467 0 0 1-7.946-.255 8.467 8.467 0 0 1-4.225-7.325 8.467 8.467 0 0 1 8.458-.008 8.467 8.467 0 0 1 3.713 4.43v-6.896a8.467 8.467 0 0 1-7.946-.256 8.467 8.467 0 0 1-4.225-7.325 8.467 8.467 0 0 1 8.458-.008 8.467 8.467 0 0 1 3.713 4.43V22.32a8.467 8.467 0 0 1-3.704-6.979 8.467 8.467 0 0 1 4.23-7.321z" fill="#9e9e9e"/></svg>
-          {{ site.i18n[page.lang].mission | markdownify }}
+          {{ site_data.mission | markdownify }}
         </div>
         <div class="mdl-mega-footer__drop-down-section contact">
-          <h1 class="mdl-mega-footer__heading mdl-typography--text-uppercase">{{ site.i18n[page.lang].contact_us }}</h1>
+          <h1 class="mdl-mega-footer__heading mdl-typography--text-uppercase">{{ site_data.contact_us }}</h1>
           <ul class="mdl-mega-footer__link-list">
-            <li>{{ site.i18n[page.lang].address }}</li>
-            <li><a href="tel:{{ site.contact.phone | replace: ' ', '' }}">{{ site.contact.phone }}</a></li>
-            <li><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>
+            <li>{{ site_data.address }}</li>
+            <li><a href="tel:{{ site.data.contact.phone | replace: ' ', '' }}">{{ site.data.contact.phone }}</a></li>
+            <li><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></li>
           </ul>
         </div>
       </div>
       <div class="mdl-mega-footer__bottom-section bottom">
-        <div class="mdl-logo">{{ site.i18n[page.lang].full_name }}</div>
+        <div class="mdl-logo">{{ site_data.full_name }}</div>
         <ul class="mdl-mega-footer__link-list hidden">
           <li class="copyright"> © 2017;</li>
           <li><a href="https://creativecommons.org/licenses/by/4.0/" rel="linecse">CC BY 4.0</a>.</li>

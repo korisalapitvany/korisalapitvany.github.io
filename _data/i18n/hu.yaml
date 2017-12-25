@@ -1,0 +1,40 @@
+prefix: /hu
+text: magyar
+country_code: HU
+
+name: Kőris Alapítvány
+full_name: Kőris Környezetvédelmi Alapítvány
+name_parts:
+- Kőris
+- Alapítvány
+
+team:
+  hermina:
+    name: Oláh Vass Hermina
+    role: az igazgató bizottság elnöke, alapító tag
+  attila:
+    name: Oláh Attila
+    role: az igazgató bizottság tagja, alapító tag
+  gabor:
+    name: Szabó Gábor
+    role: az igazgató bizottság tagja
+  tamas:
+    name: Vinkó Tamás
+    role: ügyvezető
+
+contact_us: Elérhetőségeink
+address: Solunska 19, 24413 Palics, Szerbia
+
+mission: >
+  **Küldetésünk** a jelen és jövő nemzedékek életminőségének javítása a
+  természeti környezet fejlesztése révén, amit fásítással, a természetes
+  élőhelyek és térségek gondozásával, a közösség figyelmének felkeltésével a
+  környezetvédelmi problémákra és oktatással kívánunk elérni.
+
+links:
+- text: Kezdőlap
+  href: /
+- text: Hírek
+  href: /hirek/
+- text: Okiratok
+  href: /okiratok/

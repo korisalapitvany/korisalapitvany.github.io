@@ -1,0 +1,42 @@
+prefix:
+text: srpski
+country_code: RS
+
+name: Fondacija „Jasen“
+full_name: Fondacija za zaštitu životne sredine „Jasen“
+name_parts:
+- Fondacija
+- Jasen
+
+team:
+  hermina:
+    name: Hermina Olah Vaš
+    role: predsednik upravnog odbora, suosnivač
+  attila:
+    name: Atila Olah
+    role: član upravnog odbora, suosnivač
+  gabor:
+    name: Gabor Sabo
+    role: član upravnog odbora
+  tamas:
+    name: Tamaš Vinko
+    role: upravitelj
+
+contact_us: Kontaktiraj nas
+address: Solunska 19, 24413 Palić
+
+mission: >
+  **Naša misija** je unapređenje kvaliteta života sadašnje i buduće
+  generacije pomoću poboljšanja životne sredine putem posađivanja drveća,
+  održavanja prirodnih područja i staništa, podizanje svesti zajednice o
+  ekološkim problemima i obrazovanja mladih.
+
+links:
+- text: Naslovna
+  href: /
+- text: Novosti
+  href: /novosti/
+- text: Projekti
+  href: /projekti/
+- text: Dokumenti
+  href: /dokumenti/

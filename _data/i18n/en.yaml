@@ -1,0 +1,40 @@
+prefix: /en
+text: English
+country_code: US
+
+name: Ash Foundation
+full_name: Ash Foundation for Environmental Protection
+name_parts:
+- Ash
+- Foundation
+
+team:
+  hermina:
+    name: Hermina Olah Vas
+    role: chairman, co-founder
+  attila:
+    name: Atila Olah
+    role: board member, co-founder
+  gabor:
+    name: Gabor Sabo
+    role: board member
+  tamas:
+    name: Tamas Vinko
+    role: administrator
+
+contact_us: Contact us
+address: Solunska 19, 24413 Palić, Serbia
+
+mission: >
+  **Our ongoing mission** is to improve the quality of life for present and
+  future generations by enhancing the environment through tree planting,
+  stewardship of natural areas and habitats, improvement of community
+  awareness of environmental issues and education of youth.
+
+links:
+- text: Home
+  href: /
+- text: News
+  href: /news/
+- text: Documents
+  href: /documents/

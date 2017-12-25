@@ -1,10 +1,12 @@
+{% assign lang = page.lang | default: 'en' -%}
+{% assign site_data = site.data.i18n[lang] -%}
 <head>
   <meta charset="utf-8">
   <title>
     {%- if page.title -%}
-      {{ page.title }} — {{ site.i18n[page.lang].name }}
+      {{ page.title }} — {{ site_data.name }}
     {%- else -%}
-      {{ site.i18n[page.lang].name }}
+      {{ site_data.name }}
     {%- endif -%}
   </title>
 
@@ -15,7 +17,7 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   {%- for lang in site.i18n -%}
     {%- if page.lang != lang[0] %}
-  <link rel="alternate" hreflang="{{ lang[0] }}" href="{{ site.url }}{{ page.url | replace_first: site.i18n[page.lang].prefix, lang[1].prefix }}">
+  <link rel="alternate" hreflang="{{ lang[0] }}" href="{{ site.url }}{{ page.url | replace_first: site_data.prefix, lang[1].prefix }}">
     {%- endif -%}
   {%- endfor %}
 
