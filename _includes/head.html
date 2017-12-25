@@ -15,9 +15,10 @@
 
 {% include metadata.html %}
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  {%- for lang in site.i18n -%}
-    {%- if page.lang != lang[0] %}
-  <link rel="alternate" hreflang="{{ lang[0] }}" href="{{ site.url }}{{ page.url | replace_first: site_data.prefix, lang[1].prefix }}">
+  {%- for lang in site.data.i18n.languages -%}
+    {%- assign lang_data = site.data.i18n[lang] -%}
+    {%- if page.lang != lang %}
+  <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ page.url | replace_first: site_data.prefix, lang_data.prefix }}">
     {%- endif -%}
   {%- endfor %}
 
