@@ -3,7 +3,7 @@ title: Izrada dečijeg igrališta „Gornje Podunavlje“
 
 layout: project
 category: projekti
-permalink: /:categories/:title/index.html
+permalink: /:categories/:title/
 excerpt_separator: <!-- details -->
 
 cover_image: /images/content/tabori-exteriors-playground.jpg
