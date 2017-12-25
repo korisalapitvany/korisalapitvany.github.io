@@ -3,13 +3,19 @@
 
 @import 'template';
 
+@import 'about';
 @import 'projects';
 @import 'documents';
 @import 'news';
 
 /* Phone: */
 .content-wrapper {
+  padding-bottom: 32px;
   background-color: #6ca04e;
+}
+
+blockquote > p {
+  display: inline;
 }
 
 main {
@@ -29,33 +35,8 @@ main {
     font-family: 'Roboto Slab', serif;
   }
 
-  .content-block {
-    padding: 16px 24px;
-
-    p {
-      font-weight: 300;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-
-      strong {
-        font-weight: 400;
-      }
-    }
-  }
-
-  .more-link {
-    + p {
-      text-align: right;
-      a {
-        color: material-color('green', '900');
-        text-transform: lowercase;
-        &::after {
-          content: "…";
-        }
-      }
-    }
+  a {
+    color: material-color('green', '900');
   }
 
   .team {
@@ -93,7 +74,7 @@ main {
 /* Tablet: */
 @media screen and (min-width: 760px) {
   main {
-    .content-block {
+    .intro {
       p {
         font-size: 18px;
       }
@@ -103,6 +84,18 @@ main {
       .person {
         width: 224px;
       }
+    }
+  }
+}
+
+/* Avoid double-padding on smaller screens. */
+@media screen and (max-width: 1024px) {
+  .content-wrapper {
+    overflow-x: hidden;
+    padding-bottom: 0;
+
+    main {
+      padding-bottom: 0;
     }
   }
 }

@@ -6,3 +6,35 @@
   background-color: $light-green;
 }
 
+.content-block {
+  margin: 0 -24px;
+  padding: 16px 24px;
+
+  p {
+    font-weight: 300;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    strong {
+      font-weight: 400;
+    }
+  }
+}
+
+.more-link {
+  + p {
+    margin-top: 8px;
+    text-align: right;
+
+    a {
+      color: material-color('green', '900');
+      text-transform: lowercase;
+
+      &::after {
+        content: "…";
+      }
+    }
+  }
+}

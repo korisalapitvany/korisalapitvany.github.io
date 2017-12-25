@@ -7,16 +7,3 @@
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
 }
-.content-wrapper {
-  padding-bottom: 32px;
-}
-
-@media screen and (max-width: 760px) {
-  .content-wrapper {
-    overflow-x: hidden;
-  }
-}
-
-blockquote > p {
-  display: inline;
-}

@@ -1,0 +1,61 @@
+@import 'sass-material-colors';
+@import 'mixins';
+
+.about {
+  h2 {
+    font-size: 24px;
+    margin: 0 0 4px
+  }
+
+  table {
+    width: 100%;
+    margin: 0 -6px 16px;
+
+    tr {
+      &:nth-child(odd) {
+        background-color: #6ca04e;
+      }
+      &:nth-child(even):last-child {
+        td {
+          border-bottom: 2px solid #6ca04e;
+        }
+      }
+    }
+
+    td {
+      padding: 4px;
+      vertical-align: top;
+
+      &:first-child {
+        font-weight: bold;
+
+        white-space: nowrap;
+        width: 25%;
+
+        &::after {
+          content: ":";
+          display: inline;
+        }
+      }
+    }
+  }
+
+  ul {
+    margin-top: 0;
+
+    li {
+      list-style-type: square;
+    }
+  }
+}
+
+/* Tablet: */
+@media screen and (min-width: 760px) {
+  .about {
+    p,
+    ul,
+    table {
+      font-size: 16px;
+    }
+  }
+}
