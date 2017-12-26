@@ -10,12 +10,8 @@
 
 /* Phone: */
 .content-wrapper {
-  padding-bottom: 32px;
-  background-color: #6ca04e;
-}
-
-blockquote > p {
-  display: inline;
+  padding-bottom: 24px;
+  background-color: $main-green;
 }
 
 main {
@@ -69,6 +65,10 @@ main {
       }
     }
   }
+}
+
+blockquote > p {
+  display: inline;
 }
 
 /* Tablet: */

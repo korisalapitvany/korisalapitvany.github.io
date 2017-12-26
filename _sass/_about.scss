@@ -13,11 +13,11 @@
 
     tr {
       &:nth-child(odd) {
-        background-color: #6ca04e;
+        background-color: $main-green;
       }
       &:nth-child(even):last-child {
         td {
-          border-bottom: 2px solid #6ca04e;
+          border-bottom: 2px solid $main-green;
         }
       }
     }
