@@ -19,3 +19,29 @@ $light-green: #7bb15b;
   box-sizing: border-box;
 }
 
+@mixin simple-table {
+  width: 100%;
+  margin: 0 -6px 16px;
+
+  tr {
+    &:nth-child(odd) {
+      background-color: $main-green;
+    }
+    &:nth-child(even):last-child {
+      td {
+        border-bottom: 2px solid $main-green;
+      }
+    }
+  }
+
+  td {
+    padding: 4px;
+    vertical-align: top;
+
+    &:first-child {
+      font-weight: bold;
+      white-space: nowrap;
+      width: 20%;
+    }
+  }
+}

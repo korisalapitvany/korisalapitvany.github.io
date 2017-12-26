@@ -34,3 +34,40 @@
     }
   }
 }
+
+.project {
+  h2 {
+    font-size: 24px;
+    margin: 0 0 4px
+  }
+
+  table {
+    @include simple-table;
+  }
+
+  .pricelist {
+    table {
+      em {
+        font-weight: initial;
+      }
+
+      tr:last-child {
+        font-weight: bold;
+      }
+
+      td:last-child {
+        text-align: right;
+      }
+    }
+  }
+
+  .staticmap {
+    border: 4px solid white;
+    margin: 0 -4px;
+    max-width: calc(100% + 8px);
+
+    &.wide {
+      width: 100%;
+    }
+  }
+}
