@@ -29,6 +29,7 @@
         white-space: nowrap;
       }
     }
+
     + .mdl-card {
       margin-top: 24px;
     }
@@ -55,8 +56,14 @@
         font-weight: bold;
       }
 
+      td:first-child {
+        white-space: initial;
+        width: 80%;
+      }
+
       td:last-child {
         text-align: right;
+        white-space: nowrap;
       }
     }
   }
