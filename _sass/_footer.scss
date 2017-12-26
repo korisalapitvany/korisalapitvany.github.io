@@ -155,7 +155,7 @@ footer.mdl-mega-footer {
 @media screen and (min-height: 720px) {
   .content-wrapper {
     /* This pushes down the footer to the bottom of the page. */
-    min-height: calc(100vh - #{$footer-height} - 32px);
+    min-height: calc(100vh - #{$footer-height} - 24px);
   }
   footer {
     height: $footer-height;
