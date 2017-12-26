@@ -19,7 +19,7 @@ društvu** sa ciljem da ukažemo ljudima koji žive na ovim prostorima na to da 
 potrebno promeniti navike kako bi se postigla **održiva upotreba** i očuvanje
 prirodnih resursa i poboljšalo upravljanje otpadnim materijama.
 
-Sve to je od suštinske važnosti za nas, međutim, okosnica fondacije „Jasen“ je
+Sve to je od suštinske važnosti za nas, međutim, okosnica Fondacije „Jasen“ je
 naša odlučnost da informišemo i obrazujemo širu javnost, **posebno decu i
 omladinu**, o važnosti očuvanja i zaštite životne sredine i prirode.
 </div>
