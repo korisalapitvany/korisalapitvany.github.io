@@ -46,7 +46,7 @@ Deviza számla a Raiffeisen Banknál:
 - [Alapító szerződés] (szerb nyelven)
 - [Statútum] (szerb nyelven)
 
-All other documents are available [here](/en/documents/).
+Az összes többi okirat elérhető [itt](/hu/okiratok/).
 
 [Alapító szerződés]: /docs/ugovor-o-osnivanju.pdf
 [Statútum]: /docs/statut.pdf
