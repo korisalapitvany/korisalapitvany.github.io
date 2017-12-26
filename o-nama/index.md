@@ -4,39 +4,42 @@ layout: home
 lang: sr
 title: O nama
 last_modified_at: 2017-12-25T00:00:00-02:00
+translations:
+  en: /about-us
+  hu: /rolunk
 ---
 
 <div class="color--light-green content-block about" markdown="1">
 ## Osnovni podaci
 
-| Naziv                   | Fondacija za zaštitu životne sredine "Jasen" |
-| Skraćeni naziv          | Fondacija "Jasen"                            |
-| Matični broj            | 28830386                                     |
-| PIB                     | 110200183                                    |
-| Datum donošenja statuta | 26.7.2017                                    |
-| Datum registrovanja     | 28.8.2017                                    |
+| Naziv:               | Fondacija za zaštitu životne sredine „Jasen“ |
+| Skraćeni naziv:      | Fondacija „Jasen“                            |
+| Matični broj:        | 28830386                                     |
+| PIB:                 | 110200183                                    |
+| Datum osnivanja:     | 26.7.2017                                    |
+| Datum registrovanja: | 28.8.2017                                    |
 
 ## Kontakt podaci
 
-| Web sajt                | [jasen.org.rs]              |
-| Email                   | [info@jasen.org.rs]         |
-| Sedište                 | JNA 74,<br>24210 Bajmok     |
-| Adresa za prijem pošte  | Solunska 19,<br>24413 Palić |
+| Web sajt:               | [jasen.org.rs]              |
+| Email:                  | [info@jasen.org.rs]         |
+| Sedište:                | JNA 74,<br>24210 Bajmok     |
+| Adresa za prijem pošte: | Solunska 19,<br>24413 Palić |
 
 [jasen.org.rs]: https://jasen.org.rs
 [info@jasen.org.rs]: mailto:info@jasen.org.rs
 
-## Računi
+## Računi u banci
 
 Tekući račun u Raiffeisen banci:
 
-| Broj računa | 265-2410310004630-76 |
+| Broj računa: | 265-2410310004630-76 |
 
 Devizni račun u Raiffeisen banci:
 
-| Broj računa | 265-1000000195076-24        |
-| IBAN        | RS35 2651 0000 0019 5076 24 |
-| SWIFT/BIC   | RZBSRSBG                    |
+| Broj računa: | 265-1000000195076-24        |
+| IBAN:        | RS35 2651 0000 0019 5076 24 |
+| SWIFT/BIC:   | RZBSRSBG                    |
 
 ## Osnivački dokumenti
 
@@ -50,7 +53,7 @@ Svi ostali dokumenti su dostupni [ovde](/dokumenti/).
 
 ## Ostali podaci
 
-Ostali podaci registrovani kod Agencije za privredne registre:
+Podaci registrovani kod Agencije za privredne registre:
 
 - [Poslovni podaci]
 - [Sedište]

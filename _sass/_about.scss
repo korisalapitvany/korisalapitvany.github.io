@@ -28,14 +28,8 @@
 
       &:first-child {
         font-weight: bold;
-
         white-space: nowrap;
-        width: 25%;
-
-        &::after {
-          content: ":";
-          display: inline;
-        }
+        width: 20%;
       }
     }
   }

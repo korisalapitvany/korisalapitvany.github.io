@@ -8,7 +8,7 @@ translations:
   sr:
 ---
 
-<div id="bemutatkozas" class="color--light-green content-block more-link" markdown="1">
+<div id="bemutatkozas" class="color--light-green content-block intro more-link" markdown="1">
 A **Kőris Környezetvédelmi Alapítvány** egy nonprofit civil szervezet, melynek
 székhelye Bajmok, Szerbia.
 
@@ -25,6 +25,8 @@ az elhatározásunk, hogy tájékoztassuk és oktassuk a társadalmat, különö
 **gyermekeket és fiatalokat**, a környezet és természet megőrzésének és
 védelmének fontosságáról.
 </div>
+
+[Bővebben alapítványunkról](/hu/rolunk/)
 
 ## Csapatunk {#csapat}
 

@@ -24,7 +24,7 @@ naša odlučnost da informišemo i obrazujemo širu javnost, **posebno decu i
 omladinu**, o važnosti očuvanja i zaštite životne sredine i prirode.
 </div>
 
-[Više o našoj fondaciji](/o-nama)
+[Više o našoj fondaciji](/o-nama/)
 
 ## Aktuelni projekti {#projekti}
 
