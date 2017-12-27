@@ -1,5 +1,6 @@
 ---
-layout: base
+layout: page
+class: documents
 
 lang: sr
 title: Dokumenti
@@ -8,20 +9,30 @@ translations:
   en: /documents
   hu: /okiratok
 ---
+## 2017
 
-# Dokumenti
+- [Odluka o finansiranju dečijeg igrališta „Gornje Podunavlje“]
 
-<div class="mdl-shadow--2dp mdl-color--grey-50 mdl-color-text--grey-600 documents" markdown="1">
-- [Statut](/docs/statut.pdf)
+  27.12.2017. · 3 strane
+
+[Odluka o finansiranju dečijeg igrališta „Gornje Podunavlje“]: /docs/odluka-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf
+
+## Osnivački dokumenti
+
+- [Statut]
 
   26.07.2017. · 7 strana
-- [Ugovor o osnivanju](/docs/ugovor-o-osnivanju.pdf)
+- [Ugovor o osnivanju]
 
   26.07.2017. · 3 strane
-- [Odluka o imenovanju upravnog odbora](/docs/odluka-o-imenovanju-upravnog-odbora.pdf)
+- [Odluka o imenovanju upravnog odbora]
 
   26.07.2017. · 1 strana
-- [Odluka o imenovanju upravitelja](/docs/odluka-o-imenovanju-upravitelja.pdf)
+- [Odluka o imenovanju upravitelja]
 
   26.07.2017. · 1 strana
-</div>
+
+[Statut]: /docs/statut.pdf
+[Ugovor o osnivanju]: /docs/ugovor-o-osnivanju.pdf
+[Odluka o imenovanju upravnog odbora]: /docs/odluka-o-imenovanju-upravnog-odbora.pdf
+[Odluka o imenovanju upravitelja]: /docs/odluka-o-imenovanju-upravitelja.pdf

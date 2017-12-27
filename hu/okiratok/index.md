@@ -1,5 +1,6 @@
 ---
-layout: base
+layout: page
+class: documents
 
 lang: hu
 title: Okiratok
@@ -8,20 +9,22 @@ translations:
   en: /documents
   sr: /dokumenti
 ---
+# Alapító okiratok
 
-# Okiratok
-
-<div class="mdl-shadow--2dp mdl-color--grey-50 mdl-color-text--grey-600 documents" markdown="1">
-- [Statútum](/docs/statut.pdf) (szerb nyelven)
+- [Statútum] (szerb nyelven)
 
   2017.07.26. · 7 oldal
-- [Alapító szerződés](/docs/ugovor-o-osnivanju.pdf) (szerb nyelven)
+- [Alapító szerződés] (szerb nyelven)
 
   2017.07.26. · 3 oldal
-- [Döntés a vezetőség kinevezéséről](/docs/odluka-o-imenovanju-upravnog-odbora.pdf) (szerb nyelven)
+- [Döntés a vezetőség kinevezéséről] (szerb nyelven)
 
   2017.07.26. · 1 oldal
-- [Döntés a képviselő kinevezéséről](/docs/odluka-o-imenovanju-upravitelja.pdf) (szerb nyelven)
+- [Döntés a képviselő kinevezéséről] (szerb nyelven)
 
   2017.07.26. · 1 oldal
-</div>
+
+[Statútum]: /docs/statut.pdf
+[Alapító szerződés]: /docs/ugovor-o-osnivanju.pdf
+[Döntés a vezetőség kinevezéséről]: /docs/odluka-o-imenovanju-upravnog-odbora.pdf
+[Döntés a képviselő kinevezéséről]: /docs/odluka-o-imenovanju-upravitelja.pdf

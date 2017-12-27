@@ -1,5 +1,6 @@
 ---
-layout: base
+layout: page
+class: about
 
 lang: en
 title: About Us
@@ -8,8 +9,6 @@ translations:
   hu: /rolunk
   sr: /o-nama
 ---
-
-<div class="color--light-green content-block about" markdown="1">
 ## Basic information
 
 | Name:                  | Ash Foundation for Environmental Protection<br>(Serbian: Fondacija za zaštitu životne sredine „Jasen“) |
@@ -72,4 +71,3 @@ Data registered at the Serbian Business Registers Agency:
 [Annotations]: http://pretraga.apr.gov.rs/FoundationAndEndowmentWebSearch/FAEAnnotations.aspx?beid=8855021&type=&rnd=3BAB996DE41CE0B915102BB086F5C49C3522D6A5
 [Decrees]: http://pretraga.apr.gov.rs/FoundationAndEndowmentWebSearch/FAEDecrees.aspx?beid=8855021&type=&rnd=3BAB996DE41CE0B915102BB086F5C49C3522D6A5
 [Published statute]: http://pretraga.apr.gov.rs/FoundationAndEndowmentWebSearch/FAEStatues.aspx?beid=8855021&type=&rnd=3BAB996DE41CE0B915102BB086F5C49C3522D6A5
-</div>

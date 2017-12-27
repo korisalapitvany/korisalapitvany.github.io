@@ -8,7 +8,7 @@
       </div>
       <div class="mdl-card__supporting-text">
 
-{{ post.excerpt }}
+{{ post.excerpt | split: '</h1>' | last }}
       </div>
       <div class="mdl-card__actions mdl-card--border">
         {%- if post.event_date %}

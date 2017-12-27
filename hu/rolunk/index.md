@@ -1,5 +1,6 @@
 ---
-layout: base
+layout: page
+class: about
 
 lang: hu
 title: Rólunk
@@ -8,8 +9,6 @@ translations:
   en: /about-us
   sr: /o-nama
 ---
-
-<div class="color--light-green content-block about" markdown="1">
 ## Alapinformációk
 
 | Név:                       | Kőris Környezetvédelmi Alapítvány<br>(Szerbül: Fondacija za zaštitu životne sredine „Jasen“) |
@@ -72,4 +71,3 @@ A szerbiai cégjegyzéki ügynökségben nyilvántartott adatok:
 [Bejegyzések]: http://pretraga.apr.gov.rs/FoundationAndEndowmentWebSearch/FAEAnnotations.aspx?beid=8855021&type=&rnd=3BAB996DE41CE0B915102BB086F5C49C3522D6A5
 [Határozatok]: http://pretraga.apr.gov.rs/FoundationAndEndowmentWebSearch/FAEDecrees.aspx?beid=8855021&type=&rnd=3BAB996DE41CE0B915102BB086F5C49C3522D6A5
 [Közzétett statútum]: http://pretraga.apr.gov.rs/FoundationAndEndowmentWebSearch/FAEStatues.aspx?beid=8855021&type=&rnd=3BAB996DE41CE0B915102BB086F5C49C3522D6A5
-</div>

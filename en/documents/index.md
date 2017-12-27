@@ -1,5 +1,6 @@
 ---
-layout: base
+layout: page
+class: documents
 
 lang: en
 title: Documents
@@ -8,20 +9,22 @@ translations:
   hu: /okiratok
   sr: /dokumenti
 ---
+# Founding documents
 
-# Documents
-
-<div class="mdl-shadow--2dp mdl-color--grey-50 mdl-color-text--grey-600 documents" markdown="1">
-- [Statute](/docs/statut.pdf) (in Serbian)
+- [Statute] (in Serbian)
 
   2017.07.26. · 7 pages
-- [Founding contract](/docs/ugovor-o-osnivanju.pdf) (in Serbian)
+- [Founding contract] (in Serbian)
 
   2017.07.26. · 3 pages
-- [Decision about electing members of the board](/docs/odluka-o-imenovanju-upravnog-odbora.pdf) (in Serbian)
+- [Decision about electing members of the board] (in Serbian)
 
   2017.07.26. · 1 page
-- [Decision about electing the administrator](/docs/odluka-o-imenovanju-upravitelja.pdf) (in Serbian)
+- [Decision about electing the administrator] (in Serbian)
 
   2017.07.26. · 1 page
-</div>
+
+[Statute]: /docs/statut.pdf
+[Founding contract]: /docs/ugovor-o-osnivanju.pdf
+[Decision about electing members of the board]: /docs/odluka-o-imenovanju-upravnog-odbora.pdf
+[Decision about electing the administrator]: /docs/odluka-o-imenovanju-upravitelja.pdf
