@@ -1,12 +1,15 @@
 @import 'sass-material-colors';
 @import 'mixins';
 
+/* Common styles: */
 @import 'template';
 
+/* Per-page styles: */
 @import 'about';
-@import 'projects';
 @import 'documents';
+@import 'home';
 @import 'news';
+@import 'projects';
 
 /* Phone: */
 .content-wrapper {
@@ -23,6 +26,7 @@ main {
   h1 {
     font-size: 36px;
   }
+
   h2 {
     font-size: 32px;
   }
@@ -34,58 +38,10 @@ main {
   a {
     color: material-color('green', '900');
   }
-
-  .team {
-    padding: 0;
-    margin: 0 -24px;
-    width: calc(100% + 48px);
-    text-align: center;
-
-    .person {
-      width: 180px;
-      display: inline-block;
-      vertical-align: top;
-      margin: 0 6px 32px;
-      font-size: 16px;
-      font-weight: 300;
-
-      .avatar {
-        width: 100%;
-        border: 8px solid $light-green;
-        border-radius: 50%;
-        box-sizing: border-box;
-      }
-
-      .name {
-        font-size: 24px;
-        line-height: 24px;
-        font-weight: 100;
-        padding: 16px 0 8px;
-        color: white;
-      }
-    }
-  }
 }
 
 blockquote > p {
   display: inline;
-}
-
-/* Tablet: */
-@media screen and (min-width: 760px) {
-  main {
-    .intro {
-      p {
-        font-size: 18px;
-      }
-    }
-
-    .team {
-      .person {
-        width: 224px;
-      }
-    }
-  }
 }
 
 /* Avoid double-padding on smaller screens. */

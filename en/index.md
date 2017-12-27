@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: base
 
 lang: en
 last_modified_at: 2017-09-26T00:00:00-02:00

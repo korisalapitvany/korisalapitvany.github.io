@@ -1,7 +1,4 @@
-@import 'sass-material-colors';
-@import 'mixins';
-
-.about {
+main.about {
   table {
     @include simple-table;
   }
@@ -17,7 +14,7 @@
 
 /* Tablet: */
 @media screen and (min-width: 760px) {
-  .about {
+  main.about {
     p,
     ul,
     table {

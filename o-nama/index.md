@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 
 lang: sr
 title: O nama
@@ -7,9 +7,9 @@ last_modified_at: 2017-12-25T00:00:00-02:00
 translations:
   en: /about-us
   hu: /rolunk
+class: about
 ---
 
-<div class="color--light-green content-block about" markdown="1">
 ## Osnovni podaci
 
 | Naziv:               | Fondacija za zaštitu životne sredine „Jasen“ |
@@ -72,4 +72,3 @@ Podaci registrovani kod Agencije za privredne registre:
 [Zabeleške]: http://pretraga.apr.gov.rs/FoundationAndEndowmentWebSearch/FAEAnnotations.aspx?beid=8855021&type=&rnd=3BAB996DE41CE0B915102BB086F5C49C3522D6A5
 [Odluke registratora]: http://pretraga.apr.gov.rs/FoundationAndEndowmentWebSearch/FAEDecrees.aspx?beid=8855021&type=&rnd=3BAB996DE41CE0B915102BB086F5C49C3522D6A5
 [Objavljeni statut]: http://pretraga.apr.gov.rs/FoundationAndEndowmentWebSearch/FAEStatues.aspx?beid=8855021&type=&rnd=3BAB996DE41CE0B915102BB086F5C49C3522D6A5
-</div>

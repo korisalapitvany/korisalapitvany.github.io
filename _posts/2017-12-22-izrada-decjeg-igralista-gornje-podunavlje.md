@@ -1,16 +1,20 @@
 ---
-title: Izrada dečijeg igrališta „Gornje Podunavlje“
+layout: page
+class: project
 
-layout: project
+lang: sr
+title: Izrada dečijeg igrališta „Gornje Podunavlje“
+last_modified_at: 2017-12-25T00:00:00-02:00
+
 category: projekti
 permalink: /:categories/:title/
 excerpt_separator: <!-- details -->
 
-cover_image: /images/content/tabori-exteriors-playground.jpg
-event_date: 2018 mart/april
 current: true
-lang: sr
+event_date: 2018 mart/april
+cover_image: /images/content/tabori-exteriors-playground.jpg
 ---
+# {{ page.title }}
 
 Fondacija „Jasen“ stupa u saradnju sa [Gradskim muzejom Sombora] za **izgradnju
 dečijeg igrališta** pored [specijalnog rezervata prirode „Gornje Podunavlje“],

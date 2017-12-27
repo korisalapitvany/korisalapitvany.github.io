@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: base
 
 lang: en
 title: About Us
