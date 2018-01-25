@@ -37,8 +37,8 @@ dinár** értékben.
 
 <!-- details -->
 
-A játszótér természetesen nyilvános lesz, és a továbbiakban környezetvédelemmel
-és természetvédelemmel kapcsolatos műhelyek és más aktivitások szervezésében is
+A játszótér nyilvános lesz, és a továbbiakban környezetvédelemmel és
+természetvédelemmel kapcsolatos műhelyek és más aktivitások szervezésében is
 igénybe szeretnénk venni.
 
 ## Helyszín

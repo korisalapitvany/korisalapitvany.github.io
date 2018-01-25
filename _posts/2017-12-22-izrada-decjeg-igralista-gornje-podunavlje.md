@@ -36,7 +36,7 @@ troškove izgradnje u iznosu od **424.116,00 dinara**.
 
 <!-- details -->
 
-Igralište će biti naravno otvoreno za javnosti, i planiramo je koristiti za
+Igralište će biti otvoreno za javnosti, i planiramo je koristiti za
 organizovanje radionice i ostalih aktivnosti na temi zaštite životne sredine i
 zaštite prirode.
 
