@@ -75,7 +75,8 @@ A játszótér a következő elemeket tartalmazza majd:
 
 </div>
 
-A fent említett árak az áfát és a telepítés költségeit is tartalmazzák. További információk a [15/12/17-es számú ajánlatban].
+A fent említett árak az áfát és a munkálatok költségeit is tartalmazzák.
+További információk a [15/12/17-es számú ajánlatban].
 
 [15/12/17-es számú ajánlatban]: /docs/tabori-exteriors-doo-ponuda-15-12-17.pdf
 
