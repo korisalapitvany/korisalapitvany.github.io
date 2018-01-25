@@ -14,7 +14,7 @@
     {%- else -%}
       {{ site_data.mission | markdownify | strip_html | strip_newlines }}
     {%- endif %}">
-  <meta name="twitter:image" property="og:image" content="{% if page.image %}{{ page.image }}{% else %}https://jasen.org.rs/logo/png/circle-576x576.min.png{% endif %}">
+  <meta name="twitter:image" property="og:image" content="{% if page.cover_image %}{{ page.cover_image }}{% else %}https://jasen.org.rs/logo/png/circle-576x576.min.png{% endif %}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site_data.name }}">
   <meta proyerty="og:url" content="{{ site.url }}{{ page.url }}">
