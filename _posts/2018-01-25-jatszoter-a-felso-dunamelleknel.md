@@ -24,7 +24,7 @@ A Kőris Alapítvány közreműködésbe lép a [Zombori Városi Múzeummal], ho
 mellett, a [Batinai Csata emlékmúzeumnál] ([térkép]).
 
 A játszótér elemei elsősorban fából készülnek majd. A múzeum megszervezi a
-játszótér kiépítését és a minőségellenőrzés, valamint a játszótér
+játszótér kiépítését és a minőségellenőrzést, valamint a játszótér
 karbantartását. A munkálatokat a [Tabori Exteriors d.o.o.] fogja végezni. A
 Kőris Alapítvány fedezi a játszótér megépítésének a költségeit **424.116,00
 dinár** értékben.
