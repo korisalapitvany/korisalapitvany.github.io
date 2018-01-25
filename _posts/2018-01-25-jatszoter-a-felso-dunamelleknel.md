@@ -46,7 +46,7 @@ igénybe szeretnénk venni.
 A játszótér a parkoló és a múzeum előtti tér között lesz, a főbejárathoz vezető
 út bal oldalánál. Ez a Bezdán helyi közösség kataszteri irodájában 5196/1-es
 szám alatt nyilvántartott telek 4. része. A kataszteri bejegyzés ezt a
-földterület nyilvános parkként tartja számon.
+földterületet nyilvános parkként tartja számon.
 
 <div class="mdl-typography--text-center">
   <img alt="Mapa muzeja" class="mdl-shadow--2dp staticmap" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:J|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&language=hu&key=AIzaSyDfdKUcPsPEI1qj-iZ7tfpSHKGrwuQzxLc" style="width: 640px;">
