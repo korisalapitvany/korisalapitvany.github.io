@@ -32,7 +32,7 @@ omladinu**, o važnosti očuvanja i zaštite životne sredine i prirode.
   {% include project-cards.html active_only=true %}
 </div>
 
-[Svi projekti](/projekti)
+[Svi projekti](/projekti/)
 
 ## Naš tim {#tim}
 

@@ -13,6 +13,9 @@ excerpt_separator: <!-- details -->
 current: true
 event_date: 2018 mart/april
 cover_image: /images/content/tabori-exteriors-playground.jpg
+
+translations:
+  hu: /projektek/jatszoter-a-felso-dunamelleknel
 ---
 # {{ page.title }}
 
@@ -26,8 +29,8 @@ radove na samoj izgradnji igrališta. Fondacija „Jasen“ će finansirati
 troškove izgradnje u iznosu od **424.116,00 dinara**.
 
 [Gradskim Muzejom Sombora]: http://gms.rs
-[specijalnog rezervata prirode „Gornje Podunavlje“]: https://sr.wikipedia.org/sr-el/Специјални_резерват_природе_Горње_Подунавље
-[muzeja Batinske bitke]: https://sr.wikipedia.org/wiki/Меморијални_комплекс_Батинска_битка
+[specijalnog rezervata prirode „Gornje Podunavlje“]: https://sr.wikipedia.org/sr-el/Specijalni_rezervat_prirode_Gornje_Podunavlje
+[muzeja Batinske bitke]: https://sr.wikipedia.org/sr-el/Memorijalni_kompleks_Batinska_bitka
 [mapa]: https://goo.gl/maps/18hj8bEdz422
 [Tabori Exteriors d.o.o.]: http://www.tabori-drvo.com
 
@@ -45,9 +48,9 @@ leve strane glavne staze prema muzeju. To je 4. deo parcele upisanoj pod brojem
 zemljišta po katastru je “javni park”.
 
 <div class="mdl-typography--text-center">
-  <img alt="Mapa muzeja" class="mdl-shadow--2dp staticmap" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:I|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&key=AIzaSyDfdKUcPsPEI1qj-iZ7tfpSHKGrwuQzxLc" style="width: 640px;">
+  <img alt="Mapa muzeja" class="mdl-shadow--2dp staticmap" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:I|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&language=sr&key=AIzaSyDfdKUcPsPEI1qj-iZ7tfpSHKGrwuQzxLc" style="width: 640px;">
   <div markdown="1">
-  *I: Igralište; M: Muzej; P: Parking.*
+  *I: igralište; M: muzej; P: parking.*
   </div>
 </div>
 

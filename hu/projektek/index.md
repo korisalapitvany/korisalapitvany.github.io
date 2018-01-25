@@ -2,11 +2,11 @@
 layout: base
 class: projects
 
-lang: sr
-title: Projekti
-last_modified_at: 2017-12-22T00:00:00-02:00
+lang: hu
+title: Projektek
+last_modified_at: 2018-01-25T00:00:00-02:00
 translations:
-  hu: /projektek
+  sr: /projekti
 ---
 # {{ page.title }}
 

@@ -28,6 +28,14 @@ védelmének fontosságáról.
 
 [Bővebben alapítványunkról](/hu/rolunk/)
 
+## Aktuális projektek {#projektek}
+
+<div class="more-link">
+  {% include project-cards.html active_only=true %}
+</div>
+
+[Össez projekt](/hu/projektek/)
+
 ## Csapatunk {#csapat}
 
 {% include team.html %}
