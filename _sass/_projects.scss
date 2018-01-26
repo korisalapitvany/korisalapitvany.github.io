@@ -16,6 +16,11 @@ main.projects {
       background-size: cover;
     }
 
+    .mdl-card__supporting-text {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
     .mdl-card__actions {
       display: flex;
       box-sizing: border-box;
