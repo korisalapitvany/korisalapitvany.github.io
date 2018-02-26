@@ -20,10 +20,10 @@ translations:
 
 ## Contact information
 
-| Website:      | [jasen.org.rs]                         |
-| Email:        | [info@jasen.org.rs]                    |
-| Headquarters: | JNA 74,<br>24210 Bajmok,<br>Serbia     |
-| Mail address: | Solunska 19,<br>24413 Palić,<br>Serbia |
+| Website:      | [jasen.org.rs]                             |
+| Email:        | [info@jasen.org.rs]                        |
+| Headquarters: | JNA 74,<br>24210 Bajmok,<br>Serbia         |
+| Mail address: | Senćanska 51,<br>24220 Čantavir,<br>Serbia |
 
 [jasen.org.rs]: https://jasen.org.rs
 [info@jasen.org.rs]: mailto:info@jasen.org.rs

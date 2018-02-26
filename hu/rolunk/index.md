@@ -20,10 +20,10 @@ translations:
 
 ## Elérhetőségeink
 
-| Weboldal:       | [jasen.org.rs]                           |
-| Email:          | [info@jasen.org.rs]                      |
-| Központ:        | JNA 74,<br>24210 Bajmok,<br>Szerbia      |
-| Levelezési cím: | Solunska 19,<br>24413 Palics,<br>Szerbia |
+| Weboldal:       | [jasen.org.rs]                                 |
+| Email:          | [info@jasen.org.rs]                            |
+| Központ:        | JNA 74,<br>24210 Bajmok,<br>Szerbia            |
+| Levelezési cím: | Zentai utca 51,<br>24220 Csantavér,<br>Szerbia |
 
 [jasen.org.rs]: https://jasen.org.rs
 [info@jasen.org.rs]: mailto:info@jasen.org.rs
