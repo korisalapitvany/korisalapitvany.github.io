@@ -15,11 +15,11 @@ team:
   attila:
     name: Attila Olah
     role: board member, co-founder
-  gabor:
-    name: Gabor Sabo
-    role: board member
   tamas:
     name: Tamas Vinko
+    role: board member
+  gabor:
+    name: Gabor Sabo
     role: administrator
 
 contact_us: Contact us

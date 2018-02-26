@@ -15,11 +15,11 @@ team:
   attila:
     name: Atila Olah
     role: član upravnog odbora, suosnivač
-  gabor:
-    name: Gabor Sabo
-    role: član upravnog odbora
   tamas:
     name: Tamaš Vinko
+    role: član upravnog odbora
+  gabor:
+    name: Gabor Sabo
     role: upravitelj
 
 contact_us: Kontaktiraj nas

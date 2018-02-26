@@ -15,11 +15,11 @@ team:
   attila:
     name: Oláh Attila
     role: az igazgató bizottság tagja, alapító tag
-  gabor:
-    name: Szabó Gábor
-    role: az igazgató bizottság tagja
   tamas:
     name: Vinkó Tamás
+    role: az igazgató bizottság tagja
+  gabor:
+    name: Szabó Gábor
     role: ügyvezető
 
 contact_us: Elérhetőségeink
