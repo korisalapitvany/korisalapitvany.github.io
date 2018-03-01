@@ -7,7 +7,7 @@ build:
 	# Install Jekyll to vendor/bundle.
 	bundle install --path vendor/bundle
 
-serve: build
+serve:
 	bundle exec jekyll serve --watch
 
 all: build
