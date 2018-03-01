@@ -1,6 +1,7 @@
 prefix: /hu
 text: magyar
 country_code: HU
+date_format: "%Y.%m.%d."
 
 name: Kőris Alapítvány
 full_name: Kőris Környezetvédelmi Alapítvány

@@ -1,6 +1,7 @@
 prefix: /en
 text: English
 country_code: US
+date_format: "%Y.%m.%d."
 
 name: Ash Foundation
 full_name: Ash Foundation for Environmental Protection

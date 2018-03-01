@@ -1,6 +1,7 @@
 prefix:
 text: srpski
 country_code: RS
+date_format: "%d.%m.%Y."
 
 name: Fondacija „Jasen“
 full_name: Fondacija za zaštitu životne sredine „Jasen“

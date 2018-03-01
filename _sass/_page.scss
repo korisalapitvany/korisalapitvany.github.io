@@ -1,0 +1,21 @@
+main {
+  .author {
+    font-size: initial;
+    font-weight: 300;
+    margin-bottom: 4px;
+
+    img {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      float: right;
+      margin-left: 8px;
+    }
+
+    em {
+      display: inline-block;
+      font-style: initial;
+      margin-top: 16px;
+    }
+  }
+}
