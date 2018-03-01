@@ -34,7 +34,7 @@ védelmének fontosságáról.
   {% include project-cards.html active_only=true %}
 </div>
 
-[Össez projekt](/hu/projektek/)
+[Összes projekt](/hu/projektek/)
 
 ## Csapatunk {#csapat}
 
