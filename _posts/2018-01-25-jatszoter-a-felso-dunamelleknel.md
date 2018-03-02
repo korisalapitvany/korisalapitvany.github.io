@@ -13,7 +13,7 @@ excerpt_separator: <!-- details -->
 
 current: true
 event_date: 2018 március/április
-cover_image: /images/content/tabori-exteriors-playground.jpg
+cover_image: https://goo.gl/W4r6rF
 
 translations:
   sr: /projekti/izrada-decjeg-igralista-gornje-podunavlje
