@@ -18,6 +18,11 @@ felkészítőik segítségével pozitív jövőképet alakítsanak ki egy adott 
 problémáról, illetve olyan munkákat készítsenek, amelyek aktuális ökológiai
 problémákat írnak le, vagy azok alternatív megoldásait mutatják be.
 
+<div class="pics max-270" markdown="1">
+[![a diákok][szekelykapuk-1]][szekelykapuk-1]
+[![HUnikornis][hunikornis]][hunikornis]
+</div>
+
 A kiállítás 6 plakát elkészítéséből áll, amelyhez a tanulók mellékelik a
 verseny címtablóját. Fő témakörként a környezetbarát háztartást választották.
 Az altémakörökben pedig az éghajlatváltozással, az alkalmazkodó építészettel és
@@ -28,3 +33,13 @@ szerint jótékony adománnyal jutalmazhatják a tanulók szorgalmát. Az adomá
 nemes célt szolgálnak, hiszen a verseny elbírálásakor figyelembe veszik, hogy
 mekkora összeget sikerült a diákoknak összegyűjteni, amelyet egy helyi
 rászorulókkal foglalkozó szervezetnek ajánlanak fel.
+
+<div class="pics max-270" markdown="1">
+[![a plakátok][szekelykapuk-2]][szekelykapuk-2]
+[![a diákok][szekelykapuk-3]][szekelykapuk-3]
+</div>
+
+[hunikornis]: {{ site.url }}/images/content/2018/hunikornis.jpg
+[szekelykapuk-1]: {{ site.url }}/images/content/2018/szekelykapuk-1.jpg
+[szekelykapuk-2]: {{ site.url }}/images/content/2018/szekelykapuk-2.jpg
+[szekelykapuk-3]: {{ site.url }}/images/content/2018/szekelykapuk-3.jpg
