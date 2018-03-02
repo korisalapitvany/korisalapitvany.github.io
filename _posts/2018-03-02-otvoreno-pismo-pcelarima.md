@@ -54,6 +54,6 @@ Međutim, to su samo primeri — ukoliko imate bilo koju ideju ili znate za neki
 projekat gde bi mogli da pomognemo na nekakav način, vaše ideje pošaljite na
 [info@jasen.org.rs].
 
-[info@jasen.org.rs]: mailto:info@jasen.org.rs
+[info@jasen.org.rs]: mailto:info@jasen.org.rs?subject=Re%3A%20Otvoreno%20pismo%20p%C4%8Delarima
 
 S poštovanjem,
