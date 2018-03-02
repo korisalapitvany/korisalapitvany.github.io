@@ -35,7 +35,7 @@ zemljišta i pošumljavanje pa bi pokušali da izgradimo bezbednu okolinu za
 pčele.
 
 **Izrada platforme za praćenje livada.** Na primer, web sajt gde bi mogli da
-unesete direktno na napi katastarskih parcela, na kojoj parceli je posađena
+unesete direktno na mapi katastarskih parcela, na kojoj parceli je posađena
 uljana repica, ili u kojoj šumi cveta bagrem. Ovakva baza podataka bi pomogla
 pčelarima da nađu idealno mesto za pčele, ili da izračunaju površinu livade u
 nekoj okolini.
