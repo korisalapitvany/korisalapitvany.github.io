@@ -13,7 +13,7 @@ excerpt_separator: <!-- details -->
 
 current: true
 event_date: 2018 mart/april
-cover_image: "{{ site.static_url }}/2018/tabori-exteriors-playground.jpg"
+cover_image: https://storage.googleapis.com/jasen.org.rs/2018/tabori-exteriors-playground.jpg
 
 translations:
   hu: /projektek/jatszoter-a-felso-dunamelleknel

@@ -7,7 +7,7 @@ title: „Székely Kapuk – Zöld Kapuk” Csantavéren
 last_modified_at: 2018-03-01T00:00:00-02:00
 author: gabor
 
-cover_image: "{{ site.static_url }}/2018/szekelykapuk-1.jpg"
+cover_image: https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-1.jpg
 
 permalink: /hu/:title/
 ---
@@ -41,7 +41,7 @@ rászorulókkal foglalkozó szervezetnek ajánlanak fel.
 [![a diákok][szekelykapuk-3]][szekelykapuk-3]
 </div>
 
-[hunikornis]: {{ site.static_url }}/2018/hunikornis.jpg
-[szekelykapuk-1]: {{ site.static_url }}/2018/szekelykapuk-1.jpg
-[szekelykapuk-2]: {{ site.static_url }}/2018/szekelykapuk-2.jpg
-[szekelykapuk-3]: {{ site.static_url }}/2018/szekelykapuk-3.jpg
+[hunikornis]: https://storage.googleapis.com/jasen.org.rs/2018/hunikornis.jpg
+[szekelykapuk-1]: https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-1.jpg
+[szekelykapuk-2]: https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-2.jpg
+[szekelykapuk-3]: https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-3.jpg
