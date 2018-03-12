@@ -50,7 +50,7 @@ szám alatt nyilvántartott telek 4. része. A kataszteri bejegyzés ezt a
 földterületet nyilvános parkként tartja számon.
 
 <div class="mdl-typography--text-center">
-  <img alt="Mapa muzeja" class="mdl-shadow--2dp staticmap" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:J|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&language=hu&key=AIzaSyDfdKUcPsPEI1qj-iZ7tfpSHKGrwuQzxLc" style="width: 640px;">
+  <img alt="Mapa muzeja" class="mdl-shadow--2dp staticmap" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:J|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&language=hu&key={{ site.data.apis.static_maps_api }}" style="width: 640px;">
   <div markdown="1">
   *J: játszótér; M: múzeum; P: parkoló.*
   </div>

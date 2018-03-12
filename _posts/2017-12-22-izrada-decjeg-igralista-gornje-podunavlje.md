@@ -49,7 +49,7 @@ leve strane glavne staze prema muzeju. To je 4. deo parcele upisanoj pod brojem
 zemljišta po katastru je “javni park”.
 
 <div class="mdl-typography--text-center">
-  <img alt="Mapa muzeja" class="mdl-shadow--2dp staticmap" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:I|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&language=sr&key=AIzaSyDfdKUcPsPEI1qj-iZ7tfpSHKGrwuQzxLc" style="width: 640px;">
+  <img alt="Mapa muzeja" class="mdl-shadow--2dp staticmap" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:I|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&language=sr&key={{ site.data.apis.static_maps_api }}" style="width: 640px;">
   <div markdown="1">
   *I: igralište; M: muzej; P: parking.*
   </div>
