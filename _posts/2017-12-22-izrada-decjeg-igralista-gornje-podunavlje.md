@@ -75,14 +75,16 @@ Igralište će da sadrži sledeće elemente:
 
 </div>
 
-U gore navedene cene je uračunat PDV i troškovi montaže. Više informacije su dostupne u [ponudi br. 15/12/17].
+U gore navedene cene je uračunat PDV i troškovi montaže. Više informacije su
+dostupne u [ponudi br. 15/12/17].
 
 [ponudi br. 15/12/17]: /docs/tabori-exteriors-doo-ponuda-15-12-17.pdf
 
 ## Odluka o finansiranju
 
 Fondacija „Jasen“ je dana 27.12.2017. godine doneo [odluku o finansiranju]
-dečijeg igrališta. Ugovor o finansiranju između Fondacije i muzeja je trenutno
-u izradi.
+dečijeg igrališta. Dana 12.03.2018. Fondacija i muzej zaključuju [ugovor o
+finansiranju].
 
 [odluku o finansiranju]: /docs/odluka-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf
+[ugovor o finansiranju]: /docs/ugovor-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf

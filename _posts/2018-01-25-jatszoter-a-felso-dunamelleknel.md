@@ -84,7 +84,8 @@ További információk a [15/12/17-es számú ajánlatban].
 ## A támogatásról szóló döntés
 
 A Kőris Alapítvány 2017 december 27-én [döntést hozott] a játszótér
-megépítésének támogatásáról. Az alapítvány és a múzeum közötti támogatási
-szerződés még szerkesztés alatt áll.
+megépítésének támogatásáról. Az alapítvány 2018 március 13-án [támogatási
+szerződést] kötött a múzeummal.
 
 [döntést hozott]: /docs/odluka-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf
+[támogatási szerződést]: /docs/ugovor-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf
