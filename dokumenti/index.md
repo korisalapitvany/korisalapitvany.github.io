@@ -9,6 +9,14 @@ translations:
   en: /documents
   hu: /okiratok
 ---
+## 2018
+
+- [Ugovor o finansiranju dečijeg igrališta „Gornje Podunavlje“]
+
+  27.12.2017. · 3 strane
+
+[Ugovor o finansiranju dečijeg igrališta „Gornje Podunavlje“]: /docs/ugovor-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf
+
 ## 2017
 
 - [Odluka o finansiranju dečijeg igrališta „Gornje Podunavlje“]
