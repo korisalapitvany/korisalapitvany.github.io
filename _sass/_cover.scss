@@ -1,0 +1,46 @@
+/** ALL SCREENS **/
+main .content {
+  .cover {
+    $height: 320px;
+
+    height: $height;
+    margin: -16px -24px 0;
+
+    .image {
+      background-size: cover;
+      background-position: center;
+
+      position: absolute;
+      width: 100vw;
+      min-height: $height;
+      left: 0;
+      top: 0;
+    }
+
+    .container {
+      position: relative;
+      height: $height;
+      display: flex;
+      align-items: baseline;
+      padding: 0;
+    }
+
+    h1 {
+      color: white;
+      text-shadow: 0 0 2px black;
+      background-color: #{$light-green}88;
+      align-self: flex-end;
+      width: 100%;
+      padding: 16px 24px;
+      margin: 0;
+    }
+  }
+}
+
+/** 0-1024px **/
+@media screen and (max-width: 1024px) {
+}
+
+/** 0-760px **/
+@media screen and (max-width: 760px) {
+}

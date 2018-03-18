@@ -7,8 +7,12 @@ footer * {
 
 /* Phone: */
 footer.mdl-mega-footer {
-  @include limit-width;
-  @include pad;
+  padding: 0;
+
+  .container {
+    @include limit-width;
+    @include pad;
+  }
 
   a {
     color: inherit;
@@ -73,6 +77,7 @@ footer.mdl-mega-footer {
 
     h1 {
       margin-bottom: 8px;
+      font-family: 'Roboto', 'Arial', sans-serif;
     }
     ul {
       margin: 0;

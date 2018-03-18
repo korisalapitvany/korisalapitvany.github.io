@@ -1,8 +1,12 @@
-main.projects {
+/** ALL SCREENS **/
+main.projects .content {
   padding-bottom: 24px;
+
+  .content-block {
+    background: transparent;
+  }
 }
 
-/* TODO: Move this! */
 .project-cards {
   .mdl-card {
     width: 100%;
@@ -42,7 +46,6 @@ main.projects {
   }
 }
 
-/* TODO: Move this! */
 .project {
   h2 {
     font-size: 24px;
@@ -82,6 +85,18 @@ main.projects {
 
     &.wide {
       width: 100%;
+    }
+  }
+}
+
+/** 0-1024px **/
+@media screen and (max-width: 1024px) {
+  main.projects .content {
+    .content-block {
+      background: $light-green;
+
+      padding-bottom: 24px;
+      margin-bottom: -8px;
     }
   }
 }

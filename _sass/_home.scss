@@ -1,4 +1,4 @@
-main.home {
+main.home .content {
   .team {
     padding: 0;
     margin: 0 -24px;
@@ -33,7 +33,7 @@ main.home {
 
 /* Tablet: */
 @media screen and (min-width: 760px) {
-  main.home {
+  main.home .content {
     .intro {
       p {
         font-size: 18px;

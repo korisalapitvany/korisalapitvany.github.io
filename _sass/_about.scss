@@ -1,4 +1,4 @@
-main.about {
+main.about .content {
   table {
     @include simple-table;
   }
@@ -14,7 +14,7 @@ main.about {
 
 /* Tablet: */
 @media screen and (min-width: 760px) {
-  main.about {
+  main.about .content {
     p,
     ul,
     table {

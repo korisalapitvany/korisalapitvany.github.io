@@ -14,12 +14,11 @@ excerpt_separator: <!-- details -->
 current: true
 event_date: 2018 március/április
 cover_image: https://storage.googleapis.com/jasen.org.rs/2018/tabori-exteriors-playground.jpg
+cover_position: 75%;
 
 translations:
   sr: /projekti/izrada-decjeg-igralista-gornje-podunavlje
 ---
-# {{ page.title }}
-
 A Kőris Alapítvány közreműködésbe lép a [Zombori Városi Múzeummal], hogy közösen
 **kiépítsenek egy játszóteret** a [Felső-Dunamellék Természetvédelmi Rezervátum]
 mellett, a [Batinai Csata emlékmúzeumnál] ([térkép]).

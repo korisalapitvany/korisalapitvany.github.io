@@ -14,12 +14,11 @@ excerpt_separator: <!-- details -->
 current: true
 event_date: 2018 mart/april
 cover_image: https://storage.googleapis.com/jasen.org.rs/2018/tabori-exteriors-playground.jpg
+cover_position: 75%;
 
 translations:
   hu: /projektek/jatszoter-a-felso-dunamelleknel
 ---
-# {{ page.title }}
-
 Fondacija „Jasen“ stupa u saradnju sa [Gradskim muzejom Sombora] za **izgradnju
 dečijeg igrališta** pored [specijalnog rezervata prirode „Gornje Podunavlje“],
 kod [muzeja Batinske bitke] ([mapa]).

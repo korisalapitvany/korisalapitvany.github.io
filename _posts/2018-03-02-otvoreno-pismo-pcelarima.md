@@ -11,8 +11,6 @@ cover_image: https://storage.googleapis.com/jasen.org.rs/2018/bees-pasture.jpg
 
 permalink: /:title/
 ---
-# {{ page.title }}
-
 Poštovani pčelari,
 
 Obraćam vam se u ime Fondacije za zaštitu životne sredine „Jasen“. Kao

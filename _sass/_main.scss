@@ -4,6 +4,10 @@
 /* Common styles: */
 @import 'template';
 
+/* Page components */
+@import 'cover';
+@import 'footer';
+
 /* Per-page styles: */
 @import 'about';
 @import 'documents';
@@ -12,32 +16,61 @@
 @import 'projects';
 @import 'page';
 
-/* Phone: */
-.content-wrapper {
-  padding-bottom: 24px;
+/** ALL SCREENS **/
+body {
+  background: material-color('grey', '800');
+}
+
+.page-content {
   background-color: $main-green;
 }
 
-main {
-  @include limit-width;
-  @include pad;
+.mdl-layout__drawer {
+  .languages {
+    text-align: center;
 
+    button {
+      margin: 8px 0;
+      padding: 0 8px;
+    }
+  }
+}
+
+main {
   position: relative;
 
-  h1 {
-    font-size: 36px;
+  .container {
+    @include limit-width;
+    @include pad;
+
+    margin-bottom: 24px;
   }
 
-  h2 {
-    font-size: 32px;
-  }
+  .content {
+    h1 {
+      font-size: 32px;
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif;
-  }
+      &.title {
+        display: inline-block;
+        margin: 0 -24px 16px;
+        padding: 12px 24px;
 
-  a {
-    color: material-color('green', '900');
+        background: $light-green;
+      }
+    }
+
+    h2:not(.mdl-card__title-text) {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Roboto Slab', serif;
+    }
+
+    a {
+      color: material-color('green', '900');
+    }
   }
 }
 
@@ -45,14 +78,31 @@ blockquote > p {
   display: inline;
 }
 
-/* Avoid double-padding on smaller screens. */
-@media screen and (max-width: 1024px) {
-  .content-wrapper {
-    overflow-x: hidden;
-    padding-bottom: 0;
+/** 0-760px **/
+@media screen and (max-width: 760px) {
+  .mdl-layout__header {
+    /* Hide the navigation links, they don't fit nicely. */
+    nav .mdl-navigation__link {
+      display: none;
+    }
+  }
+}
 
-    main {
-      padding-bottom: 0;
+/** 0-1024px **/
+@media screen and (max-width: 1024px) {
+  .mdl-layout__header {
+    /* Do not hide the nav bar on smaller screens. */
+    display: initial;
+  }
+
+  main {
+    .content {
+      margin: -16px 0;
+
+      h1.title {
+        display: block;
+        margin-bottom: 0;
+      }
     }
   }
 }

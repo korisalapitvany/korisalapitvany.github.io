@@ -8,11 +8,10 @@ last_modified_at: 2018-03-01T00:00:00-02:00
 author: gabor
 
 cover_image: https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-1.jpg
+cover_position: 20%;
 
 permalink: /hu/:title/
 ---
-# {{ page.title }}
-
 A csantavéri Hunyadi János Általános Iskola tanulói idén először vesznek részt
 a „Székely Kapuk – Zöld Kapuk” Nemzetközi Ökocivilizácós játékokon. A játék az idei
 évben a Zöldkapuk-Vándorkiállítás címet viseli, amelynek célja, hogy a tanulók
