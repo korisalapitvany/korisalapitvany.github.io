@@ -1,4 +1,9 @@
 main.home .content {
+  h2:not(.mdl-card__title-text) {
+    font-size: 32px;
+    margin: 24px 0;
+  }
+
   .team {
     padding: 0;
     margin: 0 -24px;

@@ -1,0 +1,79 @@
+/** ALL SCREENS **/
+main .content {
+  .hero {
+    position: absolute;
+    top: -112px;
+    left: 0;
+    right: 0;
+    height: 640px;
+
+    background: url('/images/hero/hero.svg') bottom/cover no-repeat;
+
+    h1 {
+      font-family: "Roboto","Helvetica","Arial",sans-serif;
+      font-weight: 100;
+      font-size: 96px;
+      text-align: center;
+      margin-top: 196px;
+
+      img {
+        width: 192px;
+        height: 192px;
+        position: relative;
+        top: -4px;
+      }
+    }
+
+    + * {
+      margin-top: 528px;
+    }
+  }
+}
+
+/** 0-1024px **/
+@media screen and (max-width: 1024px) {
+  main .content {
+    .hero {
+      height: 480px;
+      top: -88px;
+
+      h1 {
+        font-size: 64px;
+        margin-top: 156px;
+
+        img {
+          width: 128px;
+          height: 128px;
+        }
+      }
+
+      + * {
+        margin-top: 392px;
+      }
+    }
+  }
+}
+
+/** 0-760px **/
+@media screen and (max-width: 760px) {
+  main .content {
+    .hero {
+      height: 320px;
+      top: -88px;
+
+      h1 {
+        font-size: 36px;
+        margin-top: 156px;
+
+        img {
+          width: 74px;
+          height: 74px;
+        }
+      }
+
+      + * {
+        margin-top: 232px;
+      }
+    }
+  }
+}

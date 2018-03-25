@@ -8,6 +8,8 @@ translations:
   hu:
   sr:
 ---
+{% include hero.html %}
+
 <div id="introduction" class="color--light-green content-block intro more-link" markdown="1">
 **Ash Foundation for Environmental Protection** is a nonprofit,
 non-governmental organization based in Serbia.

@@ -8,6 +8,8 @@ translations:
   en:
   sr:
 ---
+{% include hero.html %}
+
 <div id="bemutatkozas" class="color--light-green content-block intro more-link" markdown="1">
 A **Kőris Környezetvédelmi Alapítvány** egy nonprofit civil szervezet, melynek
 székhelye Bajmok, Szerbia.
