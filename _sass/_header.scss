@@ -10,7 +10,8 @@ header.has-cover {
     background: transparent;
 
     &.is-active {
-      background: black;
+      /* Hide left/right buttons. */
+      display: none;
     }
   }
 
