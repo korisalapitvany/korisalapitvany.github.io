@@ -79,6 +79,13 @@ blockquote > p {
   display: inline;
 }
 
+.mdl-layout__tab-bar {
+  a.mdl-layout__tab:last-child {
+    /* Make sure the ">" (right arrow) button doesn't cover the last tab. */
+    border-right: 60px solid transparent;
+  }
+}
+
 /** 0-760px **/
 @media screen and (max-width: 760px) {
   .mdl-layout__header {
