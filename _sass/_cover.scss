@@ -1,10 +1,10 @@
 /** ALL SCREENS **/
 main .content {
   .cover {
-    $height: 320px;
+    $height: 452px;
 
     height: $height;
-    margin: -16px -24px 0;
+    margin: -128px -24px 0;
 
     .image {
       background-size: cover;
@@ -14,7 +14,7 @@ main .content {
       width: 100vw;
       min-height: $height;
       left: 0;
-      top: 0;
+      top: -112px;
     }
 
     .container {
