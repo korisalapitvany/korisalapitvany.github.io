@@ -86,16 +86,6 @@ blockquote > p {
   }
 }
 
-/** 0-760px **/
-@media screen and (max-width: 760px) {
-  .mdl-layout__header {
-    /* Hide the navigation links, they don't fit nicely. */
-    nav .mdl-navigation__link {
-      display: none;
-    }
-  }
-}
-
 /** 0-1024px **/
 @media screen and (max-width: 1024px) {
   .mdl-layout__header {
@@ -113,4 +103,8 @@ blockquote > p {
       }
     }
   }
+}
+
+/** 0-760px **/
+@media screen and (max-width: 760px) {
 }
