@@ -5,6 +5,9 @@ class: documents
 lang: sr
 title: Dokumenti
 last_modified_at: 2017-09-26T00:00:00-02:00
+
+cover_image: https://storage.googleapis.com/jasen.org.rs/2018/branch.jpg
+
 translations:
   en: /documents
   hu: /okiratok

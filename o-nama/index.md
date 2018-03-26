@@ -5,6 +5,9 @@ class: about
 lang: sr
 title: O nama
 last_modified_at: 2017-12-25T00:00:00-02:00
+
+cover_image: https://storage.googleapis.com/jasen.org.rs/2018/saplings.jpg
+
 translations:
   en: /about-us
   hu: /rolunk
