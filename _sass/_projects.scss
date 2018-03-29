@@ -1,12 +1,4 @@
 /** ALL SCREENS **/
-main.projects .content {
-  padding-bottom: 24px;
-
-  .content-block {
-    background: transparent;
-  }
-}
-
 .project-cards {
   .mdl-card {
     width: 100%;
@@ -91,12 +83,4 @@ main.projects .content {
 
 /** 0-1024px **/
 @media screen and (max-width: 1024px) {
-  main.projects .content {
-    .content-block {
-      background: $light-green;
-
-      padding-bottom: 24px;
-      margin-bottom: -8px;
-    }
-  }
 }
