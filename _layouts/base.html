@@ -20,7 +20,8 @@
       </div>
       <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
         {%- for link in site_data.links %}
-          <a class="mdl-layout__tab{% if page.url == link.href %} is-active{% endif %}" href="{{ site.url }}{{ site_data.prefix }}{{ link.href }}">{{ link.text }}</a>
+          {% assign link_path = site_data.prefix | append: link.href %}
+          <a class="mdl-layout__tab{% if page.url == link_path %} is-active{% endif %}" href="{{ site.url }}{{ link_path }}">{{ link.text }}</a>
         {%- endfor %}
       </div>
     </header>
