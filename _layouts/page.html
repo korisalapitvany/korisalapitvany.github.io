@@ -6,15 +6,15 @@ layout: base
 
 {% if page.cover_image %}
   <div class="cover">
-    <div class="image" style="background-image: url('{{ page.cover_image }}'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
-    <div class="container">
+    <div class="parallax--cover image" style="background-image: url('{{ page.cover_image }}'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
+    <div class="parallax--layer-0 container">
       <h1>{{ page.title }}</h1>
     </div>
   </div>
 {% else %}
   <h1 class="title">{{ page.title }}</h1>
 {% endif %}
-<div class="color--light-green content-block page">
+<div class="color--light-green parallax--layer-0 content-block page">
   {{ content }}
   {% if page.author %}
   <div class="mdl-typography--text-right mdl-color-text--grey-900 clearfix author">

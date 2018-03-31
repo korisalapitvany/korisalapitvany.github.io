@@ -17,6 +17,9 @@
 @import 'projects';
 @import 'page';
 
+/* Addons: */
+@import 'parallax';
+
 /** ALL SCREENS **/
 body {
   background: material-color('grey', '800');

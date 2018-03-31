@@ -1,0 +1,36 @@
+@supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+  @media screen and (min-width: 640px) {
+    .parallax {
+      perspective: 1px;
+      perspective-origin: center top;
+      scroll-behavior: smooth;
+    }
+
+    .parallax--layer-0 {
+      transform: translate3d(0, 0, 0);
+    }
+    .parallax--cover {
+      transform: scale(2) translate3d(0, 57px, -1px);
+      /* TOP: 56px + 1px ----------------^^^^ */
+    }
+
+    /* Pop-out the page content when scrolling: */
+    header.is-casting-shadow ~ .parallax {
+      .cover h1 {
+        background-color: rgba(0, 0, 0, 0.35);
+        transition: 0.2s background-color cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .content-block {
+        @include mdl-shadow--2dp;
+      }
+    }
+  }
+
+  @media screen and (min-width: 640px) and (max-width: 1024px) {
+    .parallax--cover {
+      transform: scale(2) translate3d(0, 49px, -1px);
+      /* TOP: 48px + 1px ----------------^^^^ */
+    }
+  }
+}
