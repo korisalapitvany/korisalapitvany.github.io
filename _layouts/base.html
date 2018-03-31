@@ -32,27 +32,25 @@
         <a class="mdl-navigation__link{% if page.url == link.href %} active{% endif %}" href="{{ site.url }}{{ site_data.prefix }}{{ link.href }}">{{ link.text }}</a>
         {%- endfor %}
       </nav>
-
-        <div class="mdl-layout-spacer"></div>
-        <div class="languages top">
-          {%- for lang in site.data.i18n.languages -%}
-            {%- assign lang_data = site.data.i18n[lang] -%}
-            {%- if page.lang == lang %}
-          <button class="mdl-button mdl-js-button" disabled>
-            {{- lang_data.text -}}
-          </button>
-            {%- else -%}
-              {%- for tr in page.translations -%}
-                {%- if lang == tr[0] %}
-          <a href="{{ site.url }}{{ lang_data.prefix }}{{ tr[1] }}/"><button class="mdl-button mdl-js-button">
-            {{- lang_data.text -}}
-          </button></a>
-                {%- endif -%}
-              {%- endfor -%}
-            {%- endif -%}
-          {%- endfor %}
-        </div>
-
+      <div class="mdl-layout-spacer"></div>
+      <div class="languages top">
+        {%- for lang in site.data.i18n.languages -%}
+          {%- assign lang_data = site.data.i18n[lang] -%}
+          {%- if page.lang == lang %}
+        <button class="mdl-button mdl-js-button" disabled>
+          {{- lang_data.text -}}
+        </button>
+          {%- else -%}
+            {%- for tr in page.translations -%}
+              {%- if lang == tr[0] %}
+        <a href="{{ site.url }}{{ lang_data.prefix }}{{ tr[1] }}/"><button class="mdl-button mdl-js-button">
+          {{- lang_data.text -}}
+        </button></a>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+        {%- endfor %}
+      </div>
     </div>
     <div class="mdl-layout__content">
       <div class="page-content">
