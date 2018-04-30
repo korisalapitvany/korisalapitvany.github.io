@@ -14,10 +14,10 @@ translations:
 redirect_from:
 - /novosti/2018
 ---
-**U martu** je objavljen prvi godišnju finansijski izveštaj Fondacije.
+**U martu** je objavljen prvi godišnji finansijski izveštaj Fondacije.
 
 Izveštaj je objavljen na [web strani APR-a](http://www.apr.gov.rs), međutim,
-serveri APR-a trenutno nisu dostupne. Uskoro ćemo i mi objaviti kopiju
+serveri APR-a trenutno nisu dostupni. Uskoro ćemo i mi objaviti kopiju
 finansijskog izveštaja.
 
 ---

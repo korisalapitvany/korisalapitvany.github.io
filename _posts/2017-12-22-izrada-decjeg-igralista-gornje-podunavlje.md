@@ -36,8 +36,8 @@ troškove izgradnje u iznosu od **424.116,00 dinara**.
 
 <!-- details -->
 
-Igralište će biti otvoreno za javnosti, i planiramo je koristiti za
-organizovanje radionice i ostalih aktivnosti na temi zaštite životne sredine i
+Igralište će biti otvoreno za javnost, i planiramo je koristiti za
+organizovanje radionica i ostalih aktivnosti na temi zaštite životne sredine i
 zaštite prirode.
 
 ## Lokacija
@@ -74,8 +74,8 @@ Igralište će da sadrži sledeće elemente:
 
 </div>
 
-U gore navedene cene je uračunat PDV i troškovi montaže. Više informacije su
-dostupne u [ponudi br. 15/12/17].
+U gore navedene cene je uračunat PDV i troškovi montaže. Više informacije u
+[ponudi br. 15/12/17].
 
 [ponudi br. 15/12/17]: /docs/tabori-exteriors-doo-ponuda-15-12-17.pdf
 
