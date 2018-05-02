@@ -11,8 +11,7 @@ category: projekti
 permalink: /:categories/:title/
 excerpt_separator: <!-- details -->
 
-current: true
-event_date: 2018 mart/april
+event_date: <del>2018 mart/april</del>
 cover_image: https://storage.googleapis.com/jasen.org.rs/2018/tabori-exteriors-playground.jpg
 cover_position: 75%;
 
