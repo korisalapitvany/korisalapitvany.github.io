@@ -11,7 +11,7 @@ category: projektek
 permalink: /hu/:categories/:title/
 excerpt_separator: <!-- details -->
 
-event_date: 2018 március/április
+event_date: <del>2018 március/április</del>
 cover_image: https://storage.googleapis.com/jasen.org.rs/2018/tabori-exteriors-playground.jpg
 cover_position: 75%;
 
