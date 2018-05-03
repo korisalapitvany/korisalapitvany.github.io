@@ -38,6 +38,7 @@ h3 {
   margin: 0 0 16px;
 }
 .buttons a {
+  line-height: 48px;
   margin-right: 8px;
 }
 </style>
@@ -77,12 +78,12 @@ sufinansiranje sledeđih prioriteta:
 
 Svaka škola koja bude odabrana za učešće u programu dobija do 150.000,00 dinara
 od ukupne vrednosti. Donacija važi za jednu školsku godinu. Ako je realizacija
-programa uspešna škola ima mogućnost na donaciju i za sledeću školsku godinu.
+programa uspešna, škola ima mogućnost na donaciju i za sledeću školsku godinu.
 Ukoliko ne dođe do realizacije programa Fondacija ima pravo na oduzimanje
 dodeljenih sredstava.
 
 Ako su u pitanju gradske škole bez zelenih površina, mogućnost za konkurisanje
-takođe postoji. Konkurs se dodeljuje i za finansirane školskih bašta na
+takođe postoji. Konkurs se dodeljuje i za finansiranje školskih bašta na
 betonskim površinama (saksijske biljke, viseće bašte, vertikalne bašte i sl.)
 
 ### Uslovi za učešće na konkursu:
