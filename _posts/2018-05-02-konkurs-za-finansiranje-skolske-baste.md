@@ -131,7 +131,7 @@ uključujući i ocenu komisije kao i utiske najmanje tri učenika.
 
 ### Podnošenje prijave na konkurs
 
-Prijava na konkurs se podnosi u elektronskoj formi na adresi
+Prijava na konkurs se podnosi u elektronskoj formi na adresu
 [jasen.org.rs/form/konkurs-za-finansiranje-skolske-baste].
 
 Konkurs je otvoren od 03.05.2018. godine do 12.06.2018. godine.
