@@ -1,0 +1,10 @@
+<html>
+ <head>
+  {% if page.title -%}
+    <title>{{ page.title }}</title>
+  {%- endif %}
+  <meta http-equiv="refresh" content="0;URL='{{ page.redirect }}'">
+</head>
+<body></body>
+</html>
+
