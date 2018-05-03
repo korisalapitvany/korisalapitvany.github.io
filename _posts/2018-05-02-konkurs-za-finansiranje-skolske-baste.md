@@ -31,28 +31,16 @@ excerpt: |
 #konkurs + p {
   text-align: center;
 }
-.buttons {
-  text-align: right;
-  padding: 0 0 16px;
-}
 h3 {
   font-size: 20px;
   font-family: inherit;
   text-decoration: underline;
   margin: 0 0 16px;
 }
+.buttons a {
+  margin-right: 8px;
+}
 </style>
-
-<div class="buttons">
-  <a href="/form/konkurs-za-finansiranje-skolske-baste"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
-    <i class="material-icons">edit</i>
-    Popuni prijavu
-  </button></a>
-  <a href="/docs/konkurs-za-finansiranje-skolske-baste.pdf"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
-    <i class="material-icons">print</i>
-    Preuzmi PDF
-  </button></a>
-</div>
 
 *U skladu sa ciljevima i aktivnostima Fondacije (član 6. stav 1. tačka 2., i
 član 7. stav 1. tačka 5. [Statuta]) Fondacija za zaštitu životne sredine
@@ -173,6 +161,17 @@ donose konačnu rang listu.
 Odluka o dodeli sredstava se objavljuje na internet stranici Fondacije.
 
 Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim školama.
+
+<p class="buttons">
+  <a href="/docs/konkurs-za-finansiranje-skolske-baste.pdf"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+    <i class="material-icons">print</i>
+    Štampana verzija
+  </button></a>
+  <a href="/form/konkurs-za-finansiranje-skolske-baste"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+    <i class="material-icons">edit</i>
+    Online prijava
+  </button></a>
+</p>
 
 [Statuta]: /docs/statut.pdf
 [jasen.org.rs/form/konkurs-za-finansiranje-skolske-baste]: /form/konkurs-za-finansiranje-skolske-baste
