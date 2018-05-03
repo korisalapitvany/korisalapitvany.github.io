@@ -14,11 +14,11 @@ translations:
 ---
 ## 2018
 
-- [Ugovor o finansiranju dečijeg igrališta „Gornje Podunavlje“]
+- [Konkurs za finansiranje školske bašte]
 
-  27.12.2017. · 3 strane
+  02.05.2018. · 3 strane
 
-[Ugovor o finansiranju dečijeg igrališta „Gornje Podunavlje“]: /docs/ugovor-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf
+[Konkurs za finansiranje školske bašte]: /docs/konkurs-za-finansiranje-skolske-baste.pdf
 
 ## 2017
 

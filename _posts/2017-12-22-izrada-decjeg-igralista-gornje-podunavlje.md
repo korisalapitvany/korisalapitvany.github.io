@@ -86,8 +86,6 @@ U gore navedene cene je uračunat PDV i troškovi montaže. Više informacije u
 ## Odluka o finansiranju
 
 Fondacija „Jasen“ je dana 27.12.2017. godine doneo [odluku o finansiranju]
-dečijeg igrališta. Dana 12.03.2018. Fondacija i muzej zaključuju [ugovor o
-finansiranju].
+dečijeg igrališta. Dana 12.03.2018.
 
 [odluku o finansiranju]: /docs/odluka-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf
-[ugovor o finansiranju]: /docs/ugovor-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf
