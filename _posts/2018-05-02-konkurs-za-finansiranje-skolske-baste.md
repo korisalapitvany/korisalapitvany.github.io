@@ -59,7 +59,7 @@ bašte, kao mesto i mogućnost obrazovno-vaspitnog prostora za školsku decu.
 ### Raspored sredstava
 
 Pravo na učestvovanje na konkursu imaju osnovne i srednje škole na teritoriji
-AP Vojvodine, koja će kao jedan od ciljeva naznačiti da ovaj projekat ima za
+AP Vojvodine, koje će kao jedan od ciljeva naznačiti da ovaj projekat ima za
 cilj unapređivanje i uvođenje novih metoda u nastavi i dugotrajnu brigu i
 čuvanje same školske bašte kao jedan od načina probuđivanja ekološke svesti
 učenika.
