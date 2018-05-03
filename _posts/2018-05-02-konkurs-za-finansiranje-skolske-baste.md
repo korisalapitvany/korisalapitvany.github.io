@@ -133,7 +133,7 @@ Prijava na konkurs se podnosi u elektronskoj formi na adresi
 
 Konkurs je otvoren od 03.05.2018. godine do 12.06.2018. godine.
 
-### Rok za realizaciju projekta:
+### Rok za realizaciju projekta
 
 Školska 2018/2019 godina (01.09.2018.–15.05.2019.)
 
