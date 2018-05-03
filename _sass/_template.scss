@@ -2,8 +2,10 @@
 
 @import 'mixins';
 
-.color--light-green {
-  background-color: $light-green;
+@media screen {
+  .color--light-green {
+    background-color: $light-green;
+  }
 }
 
 .content-block {

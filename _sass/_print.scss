@@ -1,0 +1,19 @@
+@media print {
+  header,
+  footer,
+  .mdl-layout__drawer-button {
+    display: none !important;
+  }
+
+  .mdl-layout,
+  .mdl-layout__content {
+    display: block;
+    width: initial;
+    height: initial;
+    overflow: initial !important;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}

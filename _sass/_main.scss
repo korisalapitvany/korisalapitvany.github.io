@@ -19,77 +19,80 @@
 
 /* Addons: */
 @import 'parallax';
+@import 'print';
 
 /** ALL SCREENS **/
-body {
-  background: material-color('grey', '800');
-}
-
-.page-content {
-  background-color: $main-green;
-}
-
-.mdl-layout__drawer {
-  .languages {
-    text-align: center;
-
-    button {
-      margin: 8px 0;
-      padding: 0 8px;
-    }
-  }
-}
-
-main {
-  position: relative;
-
-  .container {
-    @include limit-width;
-    @include pad;
-
-    margin-bottom: 24px;
+@media screen {
+  body {
+    background: material-color('grey', '800');
   }
 
-  .content {
-    h1 {
-      font-size: 32px;
+  .page-content {
+    background-color: $main-green;
+  }
 
-      &.title {
-        display: inline-block;
-        margin: 0 -24px 16px;
-        padding: 12px 24px;
+  .mdl-layout__drawer {
+    .languages {
+      text-align: center;
 
-        background: $light-green;
+      button {
+        margin: 8px 0;
+        padding: 0 8px;
       }
     }
+  }
 
-    h2:not(.mdl-card__title-text) {
-      font-size: 24px;
-      margin-top: 0;
+  main {
+    position: relative;
+
+    .container {
+      @include limit-width;
+      @include pad;
+
+      margin-bottom: 24px;
     }
 
-    h1, h2, h3, h4, h5, h6 {
-      font-family: 'Roboto Slab', serif;
-    }
+    .content {
+      h1 {
+        font-size: 32px;
 
-    a {
-      color: material-color('green', '900');
+        &.title {
+          display: inline-block;
+          margin: 0 -24px 16px;
+          padding: 12px 24px;
+
+          background: $light-green;
+        }
+      }
+
+      h2:not(.mdl-card__title-text) {
+        font-size: 24px;
+        margin-top: 0;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto Slab', serif;
+      }
+
+      a {
+        color: material-color('green', '900');
+      }
     }
   }
-}
 
-blockquote > p {
-  display: inline;
-}
+  blockquote > p {
+    display: inline;
+  }
 
-hr {
-  border-color: material-color('green', '900');
-}
+  hr {
+    border-color: material-color('green', '900');
+  }
 
-.mdl-layout__tab-bar {
-  a.mdl-layout__tab:last-child {
-    /* Make sure the ">" (right arrow) button doesn't cover the last tab. */
-    border-right: 60px solid transparent;
+  .mdl-layout__tab-bar {
+    a.mdl-layout__tab:last-child {
+      /* Make sure the ">" (right arrow) button doesn't cover the last tab. */
+      border-right: 60px solid transparent;
+    }
   }
 }
 

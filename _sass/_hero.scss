@@ -1,31 +1,33 @@
 /** ALL SCREENS **/
-main .content {
-  .hero {
-    position: absolute;
-    top: -112px;
-    left: 0;
-    right: 0;
-    height: 640px;
+@media screen {
+  main .content {
+    .hero {
+      position: absolute;
+      top: -112px;
+      left: 0;
+      right: 0;
+      height: 640px;
 
-    background: url('/images/hero/hero.svg') bottom/cover no-repeat;
+      background: url('/images/hero/hero.svg') bottom/cover no-repeat;
 
-    h1 {
-      font-family: "Roboto","Helvetica","Arial",sans-serif;
-      font-weight: 100;
-      font-size: 96px;
-      text-align: center;
-      margin-top: 196px;
+      h1 {
+        font-family: "Roboto","Helvetica","Arial",sans-serif;
+        font-weight: 100;
+        font-size: 96px;
+        text-align: center;
+        margin-top: 196px;
 
-      img {
-        width: 192px;
-        height: 192px;
-        position: relative;
-        top: -4px;
+        img {
+          width: 192px;
+          height: 192px;
+          position: relative;
+          top: -4px;
+        }
       }
-    }
 
-    + * {
-      margin-top: 528px;
+      + * {
+        margin-top: 528px;
+      }
     }
   }
 }
