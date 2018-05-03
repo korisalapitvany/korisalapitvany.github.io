@@ -174,5 +174,8 @@ Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim školama.
   </button></a>
 </p>
 
+_Više informacija o konkursu mogu se dobiti preko e-mail adrese [info@jasen.org.rs]._
+
 [Statuta]: /docs/statut.pdf
+[info@jasen.org.rs]: mailto:info@jasen.org.rs
 [jasen.org.rs/form/konkurs-za-finansiranje-skolske-baste]: /form/konkurs-za-finansiranje-skolske-baste
