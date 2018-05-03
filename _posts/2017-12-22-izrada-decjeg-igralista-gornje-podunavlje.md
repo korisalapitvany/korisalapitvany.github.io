@@ -18,6 +18,13 @@ cover_position: 75%;
 translations:
   hu: /projektek/jatszoter-a-felso-dunamelleknel
 ---
+Zbog neuspešne saradnje sa Gradskim muzejom Sombora, Fondacija „Jasen“ odustaje
+od finansiranja igrališta.
+
+<!-- details -->
+
+---
+
 Fondacija „Jasen“ stupa u saradnju sa [Gradskim muzejom Sombora] za **izgradnju
 dečijeg igrališta** pored [specijalnog rezervata prirode „Gornje Podunavlje“],
 kod [muzeja Batinske bitke] ([mapa]).
@@ -32,8 +39,6 @@ troškove izgradnje u iznosu od **424.116,00 dinara**.
 [muzeja Batinske bitke]: https://sr.wikipedia.org/sr-el/Memorijalni_kompleks_Batinska_bitka
 [mapa]: https://goo.gl/maps/18hj8bEdz422
 [Tabori Exteriors d.o.o.]: http://www.tabori-drvo.com
-
-<!-- details -->
 
 Igralište će biti otvoreno za javnost, i planiramo je koristiti za
 organizovanje radionica i ostalih aktivnosti na temi zaštite životne sredine i

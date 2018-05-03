@@ -11,7 +11,6 @@ category: projektek
 permalink: /hu/:categories/:title/
 excerpt_separator: <!-- details -->
 
-current: true
 event_date: 2018 március/április
 cover_image: https://storage.googleapis.com/jasen.org.rs/2018/tabori-exteriors-playground.jpg
 cover_position: 75%;
@@ -19,6 +18,13 @@ cover_position: 75%;
 translations:
   sr: /projekti/izrada-decjeg-igralista-gornje-podunavlje
 ---
+A Kőris Alapítvány sikertelen közreműködés miatt eláll a játszótér
+kiépítésétől.
+
+<!-- details -->
+
+---
+
 A Kőris Alapítvány közreműködésbe lép a [Zombori Városi Múzeummal], hogy közösen
 **kiépítsenek egy játszóteret** a [Felső-Dunamellék Természetvédelmi Rezervátum]
 mellett, a [Batinai Csata emlékmúzeumnál] ([térkép]).
@@ -34,8 +40,6 @@ dinár** értékben.
 [Batinai Csata emlékmúzeumnál]: https://sr.wikipedia.org/sr-el/Memorijalni_kompleks_Batinska_bitka
 [térkép]: https://goo.gl/maps/18hj8bEdz422
 [Tabori Exteriors d.o.o.]: http://www.tabori-drvo.com
-
-<!-- details -->
 
 A játszótér nyilvános lesz, és a továbbiakban környezetvédelemmel és
 természetvédelemmel kapcsolatos műhelyek és más aktivitások szervezésében is
