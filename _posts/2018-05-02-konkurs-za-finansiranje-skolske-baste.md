@@ -126,13 +126,13 @@ uključujući i ocenu komisije kao i utiske najmanje tri učenika.
 
 ### Potrebna dokumentacija:
 
-1. Obrazac o prijavi (uredno popunjen)
+1. Obrazac o prijavi (uredno popunjen, u elektronskoj formi)
 2. Projekat plan sa ciljevima i misijom projekta
 3. Finansijski plan
 
 ### Podnošenje prijave na konkurs
 
-Prijava na konkurs se podnosi u elektronskoj formi na adresu
+Prijava na konkurs se podnosi isključivo u elektronskoj formi na adresi
 [jasen.org.rs/form/konkurs-za-finansiranje-skolske-baste].
 
 Konkurs je otvoren od 03.05.2018. godine do 12.06.2018. godine.
