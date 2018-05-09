@@ -1,0 +1,73 @@
+main.map .content {
+  #map {
+    height: 360px;
+    margin: -16px -24px 16px;
+  }
+
+  table {
+    @include simple-table;
+
+    td.sup {
+      padding-top: 0;
+    }
+  }
+
+  .sources {
+    h2 {
+      line-height: 32px;
+      margin: 48px 0 8px;
+
+      &:first-child {
+        margin-top: 24px;
+      }
+
+      .marker {
+        padding: 4px 8px;
+        margin-left: -6px;
+        text-transform: uppercase;
+        font-size: 16px;
+        background-color: material-color('teal', '800');
+        color: white;
+      }
+
+      .record {
+        text-decoration: underline dotted rgba(0, 0, 0, .5);
+      }
+      + .source {
+        margin-top: 0;
+      }
+    }
+
+    a {
+      font-weight: inherit;
+    }
+
+    .buttons {
+      margin: -16px -4px 8px;
+
+      a {
+        line-height: 48px;
+        margin-right: 8px;
+      }
+
+      button {
+        background-color: $main-green;
+      }
+    }
+
+    label {
+      width: auto;
+    }
+  }
+}
+
+/** 760px+ **/
+@media screen and (min-width: 760px) {
+  main.map .content {
+    p,
+    ul,
+    table {
+      font-size: 16px;
+    }
+  }
+}

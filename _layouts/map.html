@@ -1,0 +1,289 @@
+---
+layout: page
+---
+{%- include vars.html -%}
+
+{%- assign page_id = page.path | remove: '/index.md' | split: '/' | last -%}
+{%- assign google_cloud_api_key = site.data.dev_apis.google_cloud_api_key | default: site.data.apis.google_cloud_api_key -%}
+{%- assign has_wkt = false -%}
+{%- assign map_on = true -%}
+{%- assign records = 0 -%}
+
+<div class="map">
+  <div id="map" style="visibility: hidden;"></div>
+
+  <div class="sources">
+
+{% if page.geoSrbija["L1_183"] %}
+  {% assign gs_id = page.geoSrbija["L1_183"] | last %}
+  {% assign gs_ids = gs_id | downcase %}
+
+  {% for row in site.data.maps.geoSrbija["L1_183"] %}
+    {% if row.ID == gs_ids %}
+      <h2>
+        {%- assign records = records | plus: 1 -%}
+        <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
+        <span class="record">{{ row.opis_dobra }}</span>
+      </h2>
+      <p class="source">
+        Izvor:
+        Zavod za zaštitu prirode Srbije (<a href="https://www.zzps.rs">zzps.rs</a>).
+        Preuzmi:
+        <a href="#" download="{{ page_id }}.1.183.json" class="json">JSON</a>,
+        <a href="#" download="{{ page_id }}.1.183.csv" class="csv">CSV</a>.
+        <code class="source" style="display: none;">{{ row | jsonify }}</code>
+        <div class="geometry">
+          <link rel="prefetch" href="/{{ page_id }}/1.183.json">
+        </div>
+      </p>
+
+      <table>
+        <tbody>
+          <tr>
+            <td>Baza podataka:</td>
+            <td>Zaštićena prirodna dobra. Granice područja.</td>
+          </tr>
+          <tr>
+            <td>Tip i opis dobra:</td>
+            <td>{{ row.tip_dobra }} ({{ row.opis_dobra | downcase }})</td>
+          </tr>
+          <tr>
+            <td>Godina upisa:</td>
+            <td>{{ row.god }}</td>
+          </tr>
+          <tr>
+            <td>geoSrbija sloj:</td>
+            <td>Zaštićena područja / Zaštićena dobra (granice)</td>
+          </tr>
+          <tr>
+            <td class="sup">WKT<sup>1</sup> izvorni fajlovi:</td>
+            <td class="wkt">
+              {%- assign first = true %}
+              {%- for id in page.geoSrbija["L1_183"] %}
+                {%- unless first %}, {% endunless -%}
+                <a href="/{{ page_id }}/1.183.{{ id }}.wkt">1.183.{{ id }}.wkt</a>
+                {%- assign has_wkt = true  %}
+                {%- assign first = false %}
+              {%- endfor -%}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="buttons">
+        <a href="/{{ page_id }}/1.183.json"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons">save_alt</i>
+          GeoJSON
+        </button></a>
+        <a href="/{{ page_id }}/1.183.kml"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons">save_alt</i>
+          KML
+        </button></a>
+        <a href="/{{ page_id }}/1.183.wkt"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons">save_alt</i>
+          WKT
+        </button></a>
+      </div>
+      <!--
+      <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect map-switch" for="1.183.json">
+        <input type="checkbox" id="1.183.json" class="mdl-switch__input"
+          {%- if map_on %} checked
+          {%- assign map_on = false  %}
+          {%- endif %}>
+        <span class="mdl-switch__label">Prikaži na mapi</span>
+      </label>
+      -->
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if page.geoSrbija["L1_362"] %}
+  {% assign gs_id = page.geoSrbija["L1_362"] | last %}
+  {% assign gs_ids = gs_id | downcase %}
+
+  {% for row in site.data.maps.geoSrbija["L1_362"] %}
+    {% if row.ID == gs_ids %}
+      <h2>
+        {%- assign records = records | plus: 1 -%}
+        <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
+        <span class="record">{{ row.fcsubtype_opis }}</span>
+      </h2>
+      <p class="source">
+        Izvor:
+        Republički geodetski zavod (<a href="http://www.rgz.gov.rs">rgz.gov.rs</a>).
+        Preuzmi:
+        <a href="#" download="{{ page_id }}.1.362.json" class="json">JSON</a>,
+        <a href="#" download="{{ page_id }}.1.362.csv" class="csv">CSV</a>.
+        <code class="source" style="display: none;">{{ row | jsonify }}</code>
+        <div class="geometry">
+          <link rel="prefetch" href="/{{ page_id }}/1.362.json">
+        </div>
+      </p>
+
+      <table>
+        <tbody>
+          <tr>
+            <td>Baza podataka:</td>
+            <td>Nacionalni parkovi i prirodni rezervati površine veće od 0.4 km²</td>
+          </tr>
+          <tr>
+            <td>Tip zaštićenog područja:</td>
+            <td>{{ row.na3_opis }}</td>
+          </tr>
+          <tr>
+            <td>Podtip:</td>
+            <td>{{ row.fcsubtype_opis }}</td>
+          </tr>
+          <tr>
+            <td>geoSrbija sloj:</td>
+            <td>Zaštićena područja</td>
+          </tr>
+          <tr>
+            <td class="sup">WKT<sup>1</sup> izvorni fajlovi:</td>
+            <td>
+              {%- assign first = true %}
+              {%- for id in page.geoSrbija["L1_362"] %}
+                {%- unless first %}, {% endunless -%}
+                <a href="/{{ page_id }}/1.362.{{ id }}.wkt">1.362.{{ id }}.wkt</a>
+                {%- assign has_wkt = true  %}
+                {%- assign first = false %}
+              {%- endfor -%}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="buttons">
+        <a href="/{{ page_id }}/1.362.json"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons">save_alt</i>
+          GeoJSON
+        </button></a>
+        <a href="/{{ page_id }}/1.362.kml"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons">save_alt</i>
+          KML
+        </button></a>
+        <a href="/{{ page_id }}/1.362.wkt"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons">save_alt</i>
+          WKT
+        </button></a>
+      </div>
+      <!--
+      <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect map-switch" for="1.362.json">
+        <input type="checkbox" id="1.362.json" class="mdl-switch__input"
+          {%- if map_on %} checked
+          {%- assign map_on = false  %}
+          {%- endif %}>
+        <span class="mdl-switch__label">Prikaži na mapi.</span>
+      </label>
+      -->
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% for wdpa_id in page.WDPA %}
+  {% assign wdpa_ids = wdpa_id | downcase %}
+  {% for row in site.data.maps.WDPA %}
+    {% if row.WDPAID == wdpa_ids %}
+
+      {% assign desig = row.DESIG_ENG | split: "," | first | downcase %}
+      {% if desig == "ramsar site" %}
+        <h2>
+          {%- assign records = records | plus: 1 -%}
+          <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
+          <span class="record">Močvara međunarodne važnosti</span>
+        </h2>
+        <p class="source">
+          Izvori:
+          Svetska baza zaštićenih područja (<a href="https://www.protectedplanet.net/{{ wdpa_id }}">protectedplanet.net/{{ wdpa_id }}</a>),
+          Ramsarska konvencija (<a href="https://www.ramsar.org/{{ page_id }}">ramsar.org/{{ page_id }}</a>).
+          Preuzmi:
+          <a href="#" download="{{ page_id }}.wdpa.json" class="json">JSON</a>,
+          <a href="#" download="{{ page_id }}.wdpa.csv" class="csv">CSV</a>.
+          <code class="source" style="display: none;">{{ row | jsonify }}</code>
+        </p>
+      {% else %}
+        <h2>
+          {%- assign records = records | plus: 1 -%}
+          <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
+          <span class="record">{{ row.DESIG }}</span>
+        </h2>
+        <p class="source">
+          Izvor:
+          Svetska baza zaštićenih područja (<a href="https://www.protectedplanet.net/{{ wdpa_id }}">protectedplanet.net/{{ wdpa_id }}</a>).
+          Preuzmi:
+          <a href="#" download="{{ page_id }}.wdpa.json" class="json">JSON</a>,
+          <a href="#" download="{{ page_id }}.wdpa.csv" class="csv">CSV</a>.
+          <code class="source" style="display: none;">{{ row | jsonify }}</code>
+        </p>
+      {% endif %}
+
+      <table>
+        <tbody>
+          {% if desig == "ramsar site" %}
+            {% for ramsar_id in page.Ramsar %}
+              <tr>
+                <td>RSIS broj:</td>
+                <td><a href="https://rsis.ramsar.org/ris/{{ ramsar_id }}">{{ ramsar_id }}</a></td>
+              </tr>
+            {% endfor %}
+          {% endif %}
+          <tr>
+            <td>WDPA ID:</td>
+            <td><a href="https://www.protectedplanet.net/{{ wdpa_id }}">{{ wdpa_id }}</a></td>
+          </tr>
+          <tr>
+            <td>Oznaka:</td>
+            <td>
+              {% if desig == "ramsar site" %}
+                Močvara međunarodne važnosti
+              {% else %}
+                {{ row.DESIG }}
+              {% endif %}
+            </td>
+          </tr>
+          {% unless row.IUCN_CAT == "Not Reported" or row.IUCN_CAT == "Not Assigned" %}
+            <tr>
+              <td>IUCN kategorija:</td>
+              <td>{{ row.IUCN_CAT }} ({{ site_data.iucn_cat[row.IUCN_CAT] | downcase }})</td>
+            </tr>
+          {% endunless %}
+          {% unless row.REP_AREA == 0 %}
+            <tr>
+              <td>Upisana površina:</td>
+              <td>{{ row.REP_AREA }} km²</td>
+            </tr>
+          {% endunless %}
+          <tr>
+            <td>Godina upisa:</td>
+            <td>{{ row.STATUS_YR }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+  <hr>
+  {% if has_wkt %}
+    <p class="footnotes">
+      <sup>1</sup>
+      WKT fajlovi su u <a href="https://en.wikipedia.org/wiki/European_Terrestrial_Reference_System_1989">SRB_ETRS89</a> prostornom referentnom sistemu, po
+      <a href="http://www.rgz.gov.rs/content/Datoteke/Dokumenta/02%20Pravilnici/Pravilnik%20za%20osnovne%20geodetske%20radove%20-%2016.03.2012.pdf">pravilniku</a>
+      Republičkog geodetskog zavoda.
+    </p>
+  {% endif %}
+
+  </div>
+</div>
+
+<script>
+'use strict';
+
+window.isMapLoaded = false;
+function mapLoaded() {
+  window.isMapLoaded = true;
+}
+</script>
+<script async defer src="/js/maps.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ google_cloud_api_key }}&callback=mapLoaded"></script>
