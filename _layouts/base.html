@@ -54,6 +54,7 @@
       <div class="page-content">
         <main
           {%- if page.class %} class="{{ page.class }}"
+          {%- else if page.layout != "base" %} class="{{ page.layout }}"
           {%- endif %}>
           <div class="container content">
             {{ content }}

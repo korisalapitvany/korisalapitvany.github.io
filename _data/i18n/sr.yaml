@@ -45,3 +45,12 @@ links:
   href: /o-nama/
 
 details: Detaljnije
+
+iucn_cat:
+  Ia: Strogi prirodni rezervat
+  Ib: Područje divljine
+  II: Nacionalni park
+  III: Spomenik prirode
+  IV: Zaštićeno stanište ili vrsta
+  V: Zaštićeni morski ili kopneni predeo
+  VI: Zaštićeno područje sa održivim korišćenjem prirodnih resursa
