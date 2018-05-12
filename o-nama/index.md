@@ -24,7 +24,7 @@ translations:
 ## Kontakt podaci
 
 | Web sajt:               | [jasen.org.rs]                  |
-| Email:                  | [info@jasen.org.rs]             |
+| E-mail:                 | [info@jasen.org.rs]             |
 | Sedište:                | JNA 74,<br>24210 Bajmok         |
 | Adresa za prijem pošte: | Senćanska 51,<br>24220 Čantavir |
 
