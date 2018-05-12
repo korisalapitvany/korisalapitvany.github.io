@@ -5,6 +5,7 @@ layout: page
 {%- assign site_data = site.data.i18n[lang] -%}
 {%- assign page_id = page.path | remove: '/index.md' | split: '/' | last -%}
 {%- assign google_cloud_api_key = site.data.dev_apis.google_cloud_api_key | default: site.data.apis.google_cloud_api_key -%}
+{%- assign has_wkt = false -%}
 
 <div class="map">
   <div id="map"></div>
@@ -25,17 +26,11 @@ layout: page
         <a href="#" download="{{ page_id }}.1.183.json" class="json">JSON</a>,
         <a href="#" download="{{ page_id }}.1.183.csv" class="csv">CSV</a>.
         <code class="source" style="display: none;">{{ row | jsonify }}</code>
-        <code class="geometry" style="display: none;">[
-          {%- assign first = true %}
-          {%- for id in page.geoSrbija["L1_183"] %}
-            {%- unless first %},{% endunless -%}
-            "/maps/gs/1.183.{{ id }}.wkt"
-            {%- assign first = false %}
-          {%- endfor -%}
-        ]</code>
-        {%for id in page.geoSrbija["L1_183"] %}
-          <link rel="prefetch" href="/maps/gs/1.183.{{ id }}.wkt">
-        {% endfor %}
+        <div class="geometry">
+          {%for id in page.geoSrbija["L1_183"] %}
+            <link rel="prefetch" href="/{{ page_id }}/1.183.{{ id }}.wkt">
+          {% endfor %}
+        </div>
       </p>
 
       <table>
@@ -57,12 +52,13 @@ layout: page
             <td>Zaštićena područja / Zaštićena dobra (granice)</td>
           </tr>
           <tr>
-            <td>geoSrbija UID:</td>
-            <td>
+            <td class="sup">WKT<sup>1</sup> fajlovi:</td>
+            <td class="wkt">
               {%- assign first = true %}
               {%- for id in page.geoSrbija["L1_183"] %}
                 {%- unless first %}, {% endunless -%}
-                1.183.{{ id }}
+                <a href="/{{ page_id }}/1.183.{{ id }}.wkt">1.183.{{ id }}.wkt</a>
+                {%- assign has_wkt = true  %}
                 {%- assign first = false %}
               {%- endfor -%}
             </td>
@@ -110,17 +106,11 @@ layout: page
         <a href="#" download="{{ page_id }}.1.362.json" class="json">JSON</a>,
         <a href="#" download="{{ page_id }}.1.362.csv" class="csv">CSV</a>.
         <code class="source" style="display: none;">{{ row | jsonify }}</code>
-        <code class="geometry" style="display: none;">[
-          {%- assign first = true %}
-          {%- for id in page.geoSrbija["L1_362"] %}
-            {%- unless first %},{% endunless -%}
-            "/maps/gs/1.362.{{ id }}.wkt"
-            {%- assign first = false %}
-          {%- endfor -%}
-        ]</code>
-        {%for id in page.geoSrbija["L1_362"] %}
-          <link rel="prefetch" href="/maps/gs/1.362.{{ id }}.wkt">
-        {% endfor %}
+        <div class="geometry">
+          {%for id in page.geoSrbija["L1_362"] %}
+            <link rel="prefetch" href="/{{ page_id }}/1.362.{{ id }}.wkt">
+          {% endfor %}
+        </div>
       </p>
 
       <table>
@@ -142,12 +132,13 @@ layout: page
             <td>Zaštićena područja</td>
           </tr>
           <tr>
-            <td>geoSrbija UID:</td>
+            <td class="sup">WKT<sup>1</sup> fajlovi:</td>
             <td>
               {%- assign first = true %}
               {%- for id in page.geoSrbija["L1_362"] %}
                 {%- unless first %}, {% endunless -%}
-                1.362.{{ id }}
+                <a href="/{{ page_id }}/1.362.{{ id }}.wkt">1.362.{{ id }}.wkt</a>
+                {%- assign has_wkt = true  %}
                 {%- assign first = false %}
               {%- endfor -%}
             </td>
@@ -257,8 +248,26 @@ layout: page
   {% endfor %}
 {% endfor %}
 
+  <hr>
+  {% if has_wkt %}
+    <p class="footnotes">
+      <sup>1</sup>
+      WKT fajlovi su u <a href="https://en.wikipedia.org/wiki/European_Terrestrial_Reference_System_1989">SRB_ETRS89</a> prostornom referentnom sistemu, po
+      <a href="http://www.rgz.gov.rs/content/Datoteke/Dokumenta/02%20Pravilnici/Pravilnik%20za%20osnovne%20geodetske%20radove%20-%2016.03.2012.pdf">pravilniku</a>
+      Republičkog geodetskog zavoda.
+    </p>
+  {% endif %}
+
   </div>
 </div>
 
-<script src="/js/maps.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ google_cloud_api_key }}&callback=initMap"></script>
+<script>
+'use strict';
+
+window.isMapLoaded = false;
+function mapLoaded() {
+  window.isMapLoaded = true;
+}
+</script>
+<script async defer src="/js/maps.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ google_cloud_api_key }}&callback=mapLoaded"></script>

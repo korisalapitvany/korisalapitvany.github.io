@@ -6,6 +6,10 @@ main.map .content {
 
   table {
     @include simple-table;
+
+    td.sup {
+      padding-top: 0;
+    }
   }
 
   .sources {
