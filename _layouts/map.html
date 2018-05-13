@@ -1,12 +1,11 @@
 ---
 layout: page
 ---
-{%- assign lang = page.lang | default: 'sr' -%}
-{%- assign site_data = site.data.i18n[lang] -%}
 {%- assign page_id = page.path | remove: '/index.md' | split: '/' | last -%}
 {%- assign google_cloud_api_key = site.data.dev_apis.google_cloud_api_key | default: site.data.apis.google_cloud_api_key -%}
 {%- assign has_wkt = false -%}
 {%- assign map_on = true -%}
+{%- assign records = 0 -%}
 
 <div class="map">
   <div id="map" style="visibility: hidden;"></div>
@@ -19,7 +18,11 @@ layout: page
 
   {% for row in site.data.maps.geoSrbija["L1_183"] %}
     {% if row.ID == gs_ids %}
-      <h2>Zapis: <span class="record">{{ row.opis_dobra }} {{ page.title }}</span></h2>
+      <h2>
+        {%- assign records = records | plus: 1 -%}
+        <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
+        <span class="record">{{ row.opis_dobra }}</span>
+      </h2>
       <p class="source">
         Izvor:
         Zavod za zaštitu prirode Srbije (<a href="https://www.zzps.rs">zzps.rs</a>).
@@ -96,7 +99,11 @@ layout: page
 
   {% for row in site.data.maps.geoSrbija["L1_362"] %}
     {% if row.ID == gs_ids %}
-      <h2>Zapis: <span class="record">{{ row.fcsubtype_opis }} {{ page.title }}</span></h2>
+      <h2>
+        {%- assign records = records | plus: 1 -%}
+        <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
+        <span class="record">{{ row.fcsubtype_opis }}</span>
+      </h2>
       <p class="source">
         Izvor:
         Republički geodetski zavod (<a href="http://www.rgz.gov.rs">rgz.gov.rs</a>).
@@ -174,7 +181,11 @@ layout: page
 
       {% assign desig = row.DESIG_ENG | split: "," | first | downcase %}
       {% if desig == "ramsar site" %}
-        <h2>Zapis: <span class="record">Močvara međunarodne važnosti {{ page.title }}</span></h2>
+        <h2>
+          {%- assign records = records | plus: 1 -%}
+          <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
+          <span class="record">Močvara međunarodne važnosti</span>
+        </h2>
         <p class="source">
           Izvori:
           Svetska baza zaštićenih područja (<a href="https://www.protectedplanet.net/{{ wdpa_id }}">protectedplanet.net/{{ wdpa_id }}</a>),
@@ -185,7 +196,11 @@ layout: page
           <code class="source" style="display: none;">{{ row | jsonify }}</code>
         </p>
       {% else %}
-        <h2>Zapis: <span class="record">{{ row.DESIG }} {{ page.title }}</span></h2>
+        <h2>
+          {%- assign records = records | plus: 1 -%}
+          <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
+          <span class="record">{{ row.DESIG }}</span>
+        </h2>
         <p class="source">
           Izvor:
           Svetska baza zaštićenih područja (<a href="https://www.protectedplanet.net/{{ wdpa_id }}">protectedplanet.net/{{ wdpa_id }}</a>).
