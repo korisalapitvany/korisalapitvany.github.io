@@ -1,0 +1,11 @@
+{%- assign segments = page.url | split: '/' -%}
+{%- if segments[1] == 'en' -%}
+  {%- assign language = page.lang | default: 'en' -%}
+{%- elsif segments[1] == 'hu' -%}
+  {%- assign language = page.lang | default: 'hu' -%}
+{%- else -%}
+  {%- assign language = page.lang | default: 'sr' -%}
+{%- endif -%}
+
+{%- assign site_data = site.data.i18n[language] -%}
+

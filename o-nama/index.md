@@ -2,7 +2,6 @@
 layout: page
 class: about
 
-lang: sr
 title: O nama
 last_modified_at: 2017-12-25T00:00:00-02:00
 

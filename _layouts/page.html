@@ -1,9 +1,7 @@
 ---
 layout: base
 ---
-{%- assign lang = page.lang | default: 'en' -%}
-{%- assign site_data = site.data.i18n[lang] -%}
-
+{%- include vars.html -%}
 {% if page.cover_image %}
   <div class="cover">
     <div class="parallax--cover image" style="background-image: url('{{ page.cover_image }}'); background-position-y: {{ page.cover_position | default: "center" }}"></div>

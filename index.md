@@ -2,7 +2,6 @@
 layout: base
 class: home
 
-lang: sr
 last_modified_at: 2017-12-25T00:00:00-02:00
 
 translations:

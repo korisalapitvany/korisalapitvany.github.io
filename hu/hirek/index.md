@@ -2,7 +2,6 @@
 layout: page
 class: news
 
-lang: hu
 title: Hírek / 2018
 last_modified_at: 2018-03-31T22:00:00-02:00
 

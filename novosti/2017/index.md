@@ -2,7 +2,6 @@
 layout: page
 class: news
 
-lang: sr
 title: Novosti / 2017
 last_modified_at: 2018-03-31T22:00:00-02:00
 

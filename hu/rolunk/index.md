@@ -2,7 +2,6 @@
 layout: page
 class: about
 
-lang: hu
 title: Rólunk
 last_modified_at: 2017-12-26T00:00:00-02:00
 
