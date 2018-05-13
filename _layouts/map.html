@@ -6,9 +6,10 @@ layout: page
 {%- assign page_id = page.path | remove: '/index.md' | split: '/' | last -%}
 {%- assign google_cloud_api_key = site.data.dev_apis.google_cloud_api_key | default: site.data.apis.google_cloud_api_key -%}
 {%- assign has_wkt = false -%}
+{%- assign map_on = true -%}
 
 <div class="map">
-  <div id="map"></div>
+  <div id="map" style="visibility: hidden;"></div>
 
   <div class="sources">
 
@@ -27,9 +28,7 @@ layout: page
         <a href="#" download="{{ page_id }}.1.183.csv" class="csv">CSV</a>.
         <code class="source" style="display: none;">{{ row | jsonify }}</code>
         <div class="geometry">
-          {%for id in page.geoSrbija["L1_183"] %}
-            <link rel="prefetch" href="/{{ page_id }}/1.183.{{ id }}.wkt">
-          {% endfor %}
+          <link rel="prefetch" href="/{{ page_id }}/1.183.json">
         </div>
       </p>
 
@@ -52,7 +51,7 @@ layout: page
             <td>Zaštićena područja / Zaštićena dobra (granice)</td>
           </tr>
           <tr>
-            <td class="sup">WKT<sup>1</sup> fajlovi:</td>
+            <td class="sup">WKT<sup>1</sup> izvorni fajlovi:</td>
             <td class="wkt">
               {%- assign first = true %}
               {%- for id in page.geoSrbija["L1_183"] %}
@@ -67,25 +66,24 @@ layout: page
       </table>
 
       <div class="buttons">
-        <a href="#"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+        <a href="/{{ page_id }}/1.183.json"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
           <i class="material-icons">save_alt</i>
           GeoJSON
         </button></a>
-        <a href="#"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">save_alt</i>
-          WKT
-        </button></a>
-        <a href="#"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">save_alt</i>
-          GPX
-        </button></a>
-        <a href="#"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+        <a href="/{{ page_id }}/1.183.kml"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
           <i class="material-icons">save_alt</i>
           KML
         </button></a>
+        <a href="/{{ page_id }}/1.183.wkt"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons">save_alt</i>
+          WKT
+        </button></a>
       </div>
-      <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1-183">
-        <input type="checkbox" id="switch-1-183" class="mdl-switch__input" checked>
+      <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect map-switch" for="1.183.json">
+        <input type="checkbox" id="1.183.json" class="mdl-switch__input"
+          {%- if map_on %} checked
+          {%- assign map_on = false  %}
+          {%- endif %}>
         <span class="mdl-switch__label">Prikaži na mapi</span>
       </label>
     {% endif %}
@@ -107,9 +105,7 @@ layout: page
         <a href="#" download="{{ page_id }}.1.362.csv" class="csv">CSV</a>.
         <code class="source" style="display: none;">{{ row | jsonify }}</code>
         <div class="geometry">
-          {%for id in page.geoSrbija["L1_362"] %}
-            <link rel="prefetch" href="/{{ page_id }}/1.362.{{ id }}.wkt">
-          {% endfor %}
+          <link rel="prefetch" href="/{{ page_id }}/1.362.json">
         </div>
       </p>
 
@@ -132,7 +128,7 @@ layout: page
             <td>Zaštićena područja</td>
           </tr>
           <tr>
-            <td class="sup">WKT<sup>1</sup> fajlovi:</td>
+            <td class="sup">WKT<sup>1</sup> izvorni fajlovi:</td>
             <td>
               {%- assign first = true %}
               {%- for id in page.geoSrbija["L1_362"] %}
@@ -147,25 +143,24 @@ layout: page
       </table>
 
       <div class="buttons">
-        <a href="#"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+        <a href="/{{ page_id }}/1.362.json"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
           <i class="material-icons">save_alt</i>
           GeoJSON
         </button></a>
-        <a href="#"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">save_alt</i>
-          WKT
-        </button></a>
-        <a href="#"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">save_alt</i>
-          GPX
-        </button></a>
-        <a href="#"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+        <a href="/{{ page_id }}/1.362.kml"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
           <i class="material-icons">save_alt</i>
           KML
         </button></a>
+        <a href="/{{ page_id }}/1.362.wkt"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons">save_alt</i>
+          WKT
+        </button></a>
       </div>
-      <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1-362">
-        <input type="checkbox" id="switch-1-362" class="mdl-switch__input" checked>
+      <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect map-switch" for="1.362.json">
+        <input type="checkbox" id="1.362.json" class="mdl-switch__input"
+          {%- if map_on %} checked
+          {%- assign map_on = false  %}
+          {%- endif %}>
         <span class="mdl-switch__label">Prikaži na mapi.</span>
       </label>
     {% endif %}
