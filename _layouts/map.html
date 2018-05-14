@@ -185,8 +185,14 @@ layout: page
   {% for row in site.data.maps.WDPA %}
     {% if row.WDPAID == wdpa_ids %}
 
-      {% assign desig = row.DESIG_ENG | split: "," | first | downcase %}
-      {% if desig == "ramsar site" %}
+      {%- assign rsis = null -%}
+      {% for item in site.data.maps.RSIS %}
+        {% if item.WDPAID == row.WDPAID %}
+          {% assign rsis = item %}
+        {% endif %}
+      {% endfor %}
+
+      {% if rsis %}
         <h2>
           {%- assign records = records | plus: 1 -%}
           <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
@@ -194,8 +200,8 @@ layout: page
         </h2>
         <p class="source">
           Izvori:
-          Svetska baza zaštićenih područja (<a href="https://www.protectedplanet.net/{{ wdpa_id }}">protectedplanet.net/{{ wdpa_id }}</a>),
-          Ramsarska konvencija (<a href="https://www.ramsar.org/{{ page_id }}">ramsar.org/{{ page_id }}</a>).
+          <a href="https://www.protectedplanet.net/{{ wdpa_id }}">Svetska baza zaštićenih područja</a>,
+          <a href="https://www.ramsar.org/{{ rsis.path }}">Ramsarska konvencija</a>.
           Preuzmi:
           <a href="#" download="{{ page_id }}.wdpa.json" class="json">JSON</a>,
           <a href="#" download="{{ page_id }}.wdpa.csv" class="csv">CSV</a>.
@@ -209,7 +215,7 @@ layout: page
         </h2>
         <p class="source">
           Izvor:
-          Svetska baza zaštićenih područja (<a href="https://www.protectedplanet.net/{{ wdpa_id }}">protectedplanet.net/{{ wdpa_id }}</a>).
+          <a href="https://www.protectedplanet.net/{{ wdpa_id }}">Svetska baza zaštićenih područja</a>.
           Preuzmi:
           <a href="#" download="{{ page_id }}.wdpa.json" class="json">JSON</a>,
           <a href="#" download="{{ page_id }}.wdpa.csv" class="csv">CSV</a>.
@@ -219,22 +225,23 @@ layout: page
 
       <table>
         <tbody>
-          {% if desig == "ramsar site" %}
-            {% for ramsar_id in page.Ramsar %}
-              <tr>
-                <td>RSIS broj:</td>
-                <td><a href="https://rsis.ramsar.org/ris/{{ ramsar_id }}">{{ ramsar_id }}</a></td>
-              </tr>
-            {% endfor %}
-          {% endif %}
           <tr>
             <td>WDPA ID:</td>
             <td><a href="https://www.protectedplanet.net/{{ wdpa_id }}">{{ wdpa_id }}</a></td>
           </tr>
+          {% if rsis %}
+            <tr>
+              <td>RSIS broj:</td>
+              <td>
+                <a href="https://rsis.ramsar.org/ris/{{ rsis.ID }}">{{ rsis.ID }}</a>; izvor:
+                <a href="https://www.ramsar.org/{{ rsis.path }}">ramsar.org/{{ rsis.path }}</a>
+              </td>
+            </tr>
+          {% endif %}
           <tr>
             <td>Oznaka:</td>
             <td>
-              {% if desig == "ramsar site" %}
+              {% if rsis %}
                 Močvara međunarodne važnosti
               {% else %}
                 {{ row.DESIG }}
