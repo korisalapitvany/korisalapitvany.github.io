@@ -2,6 +2,8 @@
 .bundle
 .jekyll-metadata
 .sass-cache
+_cmd/wktconv/wktconv
+_cmd/wktmerge/wktmerge
 _data/dev_apis.yaml
 _site
 vendor
