@@ -5,6 +5,7 @@ cover_image: https://upload.wikimedia.org/wikipedia/commons/0/0a/Paliic_kanal.JP
 cover_position: 40%
 
 title: Palić
+last_modified_at: 2018-05-15T18:16:29+02:00
 
 WDPA: [16393]
 geoSrbija:
