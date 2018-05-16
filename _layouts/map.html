@@ -45,7 +45,7 @@ layout: page
           </tr>
           <tr>
             <td>Tip i opis dobra:</td>
-            <td>{{ row.tip_dobra }} ({{ row.opis_dobra | downcase }})</td>
+            <td>{{ row.tip_dobra }} ({{ site_data.protected_sites[row.tip_dobra] | downcase }})</td>
           </tr>
           <tr>
             <td>Godina upisa:</td>
