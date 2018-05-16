@@ -2,6 +2,7 @@
 .bundle
 .jekyll-metadata
 .sass-cache
+_cmd/regenerate_maps_data.sh
 _cmd/wktconv/wktconv
 _cmd/wktmerge/wktmerge
 _data/dev_apis.yaml
