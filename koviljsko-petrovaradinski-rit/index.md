@@ -2,9 +2,9 @@
 layout: map
 
 title: Koviljsko-Petrovaradinski rit
-last_modified_at: 2018-05-15T18:16:29+02:00
+last_modified_at: 2018-05-17T00:48:12+02:00
 
-WDPA: [328848, 555547953]
+WDPA: [328848]
 geoSrbija:
   L1_183: [132]
   L1_362: [49, 85, 86, 87]

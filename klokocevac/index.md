@@ -2,7 +2,7 @@
 layout: map
 
 title: Klokočevac
-last_modified_at: 2018-05-16T22:03:33+02:00
+last_modified_at: 2018-05-17T00:48:11+02:00
 
 WDPA: [555552437]
 geoSrbija:

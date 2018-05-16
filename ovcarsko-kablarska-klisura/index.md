@@ -2,7 +2,7 @@
 layout: map
 
 title: Ovčarsko-kablarska klisura
-last_modified_at: 2018-05-16T22:03:34+02:00
+last_modified_at: 2018-05-17T00:48:11+02:00
 
 WDPA: [20701]
 geoSrbija:
