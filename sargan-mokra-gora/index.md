@@ -2,7 +2,7 @@
 layout: map
 
 title: Šargan — Mokra gora
-last_modified_at: 2018-05-17T00:48:13+02:00
+last_modified_at: 2018-05-18T00:19:15+02:00
 
 WDPA: [145132]
 geoSrbija:

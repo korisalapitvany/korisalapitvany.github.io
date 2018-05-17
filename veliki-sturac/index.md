@@ -2,7 +2,7 @@
 layout: map
 
 title: Veliki Šturac
-last_modified_at: 2018-05-17T00:48:10+02:00
+last_modified_at: 2018-05-18T00:19:12+02:00
 
 WDPA: [145145]
 geoSrbija:

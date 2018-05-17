@@ -2,7 +2,7 @@
 layout: map
 
 title: Carska bara
-last_modified_at: 2018-05-17T00:48:12+02:00
+last_modified_at: 2018-05-18T00:19:14+02:00
 
 WDPA: [328838]
 geoSrbija:

@@ -2,7 +2,7 @@
 layout: map
 
 title: Lesni profil kod Starog Slankamena
-last_modified_at: 2018-05-17T00:48:11+02:00
+last_modified_at: 2018-05-18T00:19:13+02:00
 
 WDPA: [555552431]
 geoSrbija:
