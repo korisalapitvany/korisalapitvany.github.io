@@ -40,12 +40,33 @@ initMap = ->
   div = document.querySelector '#map'
   return unless div
 
+  mapTypeIds = (item for _, item of google.maps.MapTypeId).concat 'osm'
+  mapTypeRx = new RegExp "[?&]map=(#{mapTypeIds.join '|'})(?:&|$)"
+
   # Create a blank map.
   MAP = new google.maps.Map div,
-    center:
-      lat: 0
-      lng: 0
+    center: new google.maps.LatLng
     zoom: 1
+    mapTypeId: location.search.match(mapTypeRx)?[1] or 'osm'
+    mapTypeControlOptions:
+      mapTypeIds: mapTypeIds
+      style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+    fullscreenControl: true
+    zoomControl: true
+    streetViewControl: true
+
+  MAP.mapTypes.set 'osm', new google.maps.ImageMapType
+    getTileUrl: (coord, zoom) ->
+      "http://tile.openstreetmap.org/#{zoom}/#{coord.x}/#{coord.y}.png"
+    tileSize: new google.maps.Size 256, 256
+    name: 'OSM'
+    maxZoom: 18
+
+  MAP.data.setStyle
+    fillColor: '#2e7d32'    # green-800
+    fillOpacity: 0.5
+    strokeColor: '#ff6f00'  # amber-900
+    strokeWeight: 2
 
   # Show the first prefetch element on the map.
   for link in document.querySelectorAll 'div.geometry > link'
@@ -69,7 +90,7 @@ loadGeoJSON = (path) ->
       ne = new google.maps.LatLng N, E
       sw = new google.maps.LatLng S, W
       bb = new google.maps.LatLngBounds sw, ne
-      MAP.fitBounds bb
+      MAP.fitBounds bb, 0
 
     # Make sure the map is visible.
     MAP.getDiv().style.visibility = ''
