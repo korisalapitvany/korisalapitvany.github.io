@@ -68,6 +68,11 @@ initMap = ->
     strokeColor: '#ff6f00'  # amber-900
     strokeWeight: 2
 
+  MAP.addListener 'maptypeid_changed', ->
+    history.replaceState
+      map: MAP.mapTypeId
+    , document.title, "#{location.pathname}?map=#{MAP.mapTypeId}#{location.hash}"
+
   # Show the first prefetch element on the map.
   for link in document.querySelectorAll 'div.geometry > link'
     loadGeoJSON link.href
