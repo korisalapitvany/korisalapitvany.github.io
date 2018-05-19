@@ -1,8 +1,8 @@
 ---
 layout: map
 
-title: Đavolja varoš
-last_modified_at: 2018-05-18T00:19:12+02:00
+title: Đavolja Varoš
+last_modified_at: 2018-05-19T23:04:03+02:00
 
 WDPA: [328910]
 geoSrbija:

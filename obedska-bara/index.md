@@ -2,7 +2,7 @@
 layout: map
 
 title: Obedska bara
-last_modified_at: 2018-05-18T00:19:11+02:00
+last_modified_at: 2018-05-19T23:04:02+02:00
 
 WDPA: [328840]
 geoSrbija:
