@@ -2,7 +2,7 @@
 layout: map
 
 title: Rtanj
-last_modified_at: 2018-05-20T21:47:45+02:00
+last_modified_at: 2018-05-21T00:02:48+02:00
 
 WDPA: [145140]
 BioRaS: [432]
