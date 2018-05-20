@@ -89,18 +89,21 @@ func NewPoint(wkt string) (*geom.Point, error) {
 }
 
 func NewPolygon(wkt string) (*geom.Polygon, error) {
-	parts := strings.Split(strings.Trim(strings.TrimPrefix(wkt, "POLYGON"), "()"), ",")
+	parts := strings.Split(strings.Trim(strings.TrimPrefix(wkt, "POLYGON"), "()"), "),(")
 
-	coords := []geom.Coord{}
+	coords := [][]geom.Coord{}
 	for _, part := range parts {
-		point, err := NewPoint(part)
-		if err != nil {
-			return nil, err
+		c := []geom.Coord{}
+		for _, p := range strings.Split(part, ",") {
+			point, err := NewPoint(p)
+			if err != nil {
+				return nil, err
+			}
+			c = append(c, point.Coords())
 		}
-		coords = append(coords, point.Coords())
+		coords = append(coords, c)
 	}
-
-	return geom.NewPolygon(geom.XY).SetCoords([][]geom.Coord{coords})
+	return geom.NewPolygon(geom.XY).SetCoords(coords)
 }
 
 func NewMultiPoint(wkt string) (*geom.MultiPoint, error) {
