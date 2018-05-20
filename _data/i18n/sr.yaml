@@ -56,17 +56,17 @@ iucn_cat:
   VI:  Zaštićeno područje sa održivim korišćenjem prirodnih resursa
 
 protected_sites:
-  STRP: Strogi rezervat prirode
-  SP:   Spomenik prirode
-  PS:   Prirodni spomenik
-  STPR: Strogi prirodni rezervat
-  ORP:  Opšti rezervat prirode
-  SRP:  Specijalni rezervat prirode
-  PNPL: Predeo naročite prirodne lepote
-  NP:   Nacionalni park
   MPS:  Memorijalni prirodni spomenik
-  PIO:  Predeo izuzetnih odlika
-  PP:   Park prirode
-  NKD:  Prirodni prostor oko nepokretnog kulturnog dobra
-  ZS:   Zaštićeno staniste
   NIR:  Naučno-istraživački rezervat
+  NKD:  Prirodni prostor oko nepokretnog kulturnog dobra
+  NP:   Nacionalni park
+  ORP:  Opšti rezervat prirode
+  PIO:  Predeo izuzetnih odlika
+  PNPL: Predeo naročite prirodne lepote
+  PP:   Park prirode
+  PS:   Prirodni spomenik
+  SP:   Spomenik prirode
+  SRP:  Specijalni rezervat prirode
+  STPR: Strogi prirodni rezervat
+  STRP: Strogi rezervat prirode
+  ZS:   Zaštićeno staniste
