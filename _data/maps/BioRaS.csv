@@ -75,10 +75,10 @@ ID,naziv,tip,opstina,ha,ar,m2,ekoloska_mreza
 74,Tikvara,Nature Park,Bačka Palanka,508,13,57,JP Sportsko rekreativni centar Tikvara
 75,Sićevačka klisura,Nature Park,"Niš, Bela Palanka",7746,0,0,"JP Srbijašume, Novi Beograd"
 76,Kamaraš,Nature Park,Kanjiža,267,96,0,Udruženje građana za zašt.živ.sred. i poznavanje zavičaja IRINGO
-77,Šargan-Mokra Gora,Nature Park,"Užice, Čajetina, Bajina Bašta",1081 3,73,0,"DOO Park prirode Mokra Gora, Užice"
+77,Šargan-Mokra Gora,Nature Park,"Užice, Čajetina, Bajina Bašta",10813,73,0,"DOO Park prirode Mokra Gora, Užice"
 78,Jegrička,Nature Park,"Bačka Palanka, Vrbas, Temerin, Žabalj",1144,81,0,"Javno vodoprivredno preduzeće ''Vode Vojvodine'', Novi Sad"
 79,Stara Tisa kod Bisernog ostrva,Nature Park,"Novi Bečej, Žabalj, Bečej",391,73,4,"Javno preduzeće za komunalne usluge "" Komunalac"", Bečej"
-80,Stara planina,Nature Park,"Zaječar, Knjaževac, Pirot, Dimitrovgrad",1143 32,0,0,"JP Srbijašume, Novi Beograd"
+80,Stara planina,Nature Park,"Zaječar, Knjaževac, Pirot, Dimitrovgrad",114332,0,0,"JP Srbijašume, Novi Beograd"
 81,Rogovi od srndaća (Capreolus capreolus) ostreljenog u šumi Rogot kod Lapova,Natural rarity,Beograd-Vračar,0,0,0,
 82,Stablo hrasta lužnjaka (Quercus robur L.) Kolare,Natural Monument,Jagodina,0,0,0,
 83,Grupa od osam stabala cera (Quercus cerris L.) - Palibrčki cerovi,Natural Monument,Ivanjica,0,0,0,
@@ -402,12 +402,12 @@ ID,naziv,tip,opstina,ha,ar,m2,ekoloska_mreza
 401,Bifurkacija reke Nerodimke,Nature Reserve,Uroševac,12,78,71,
 402,Obedska bara,Nature Reserve,"Pećinci, Ruma",9820,0,0,"JP Vojvodinašume, Petrovaradin"
 403,Jelašnička klisura,Nature Reserve,Niš,115,72,72,"JP Srbijašume, Novi Beograd"
-404,Gornje Podunavlje,Nature Reserve,"Apatin, Sombor, Odžaci",1964 8,0,0,"JP Vojvodinašume, Petrovaradin"
+404,Gornje Podunavlje,Nature Reserve,"Apatin, Sombor, Odžaci",19648,0,0,"JP Vojvodinašume, Petrovaradin"
 405,Pašnjaci velike droplje,Nature Reserve,"Čoka, Kikinda",979,43,94,"Lovačko društvo Perjanica, Mokrin"
 406,Karađorđevo,Nature Reserve,"Bač, Bačka Palanka",2955,32,54,"Vojna ustanova"" Karađorđevo"""
 407,Klisura reke Trešnjice,Nature Reserve,Ljubovija,595,38,4,Centar za prirodne resurse NATURA
 408,Slano Kopovo,Nature Reserve,Novi Bečej,976,44,89,Lovačko društvo Novi Bečej
-409,Deliblatska peščara,Nature Reserve,"Alibunar, Vršac, Bela Crkva, Kovin, Požarevac",3482 9,32,0,"JP Vojvodinašume, Petrovaradin"
+409,Deliblatska peščara,Nature Reserve,"Alibunar, Vršac, Bela Crkva, Kovin, Požarevac",34829,32,0,"JP Vojvodinašume, Petrovaradin"
 410,Venerina padina,Nature Reserve,Babušnica,0,27,24,"Ugostiteljsko turističko preduzeće Hotel Mir, Zvonačka Banja"
 411,Uvac,Nature Reserve,"Nova Varoš, Sjenica",7543,0,0,"Društvo s ograničenom odgovornošću ""Rezervat Uvac"""
 412,Ludaško jezero,Nature Reserve,Subotica,846,33,0,"JP ""Palić-Ludaš"", Palić"
