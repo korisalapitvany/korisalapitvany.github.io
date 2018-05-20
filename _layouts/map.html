@@ -34,6 +34,46 @@ layout: page
   {% endfor %}
 {% endif %}
 
+{% if page.geoSrbija.L1_302 %}
+  {% assign id_s = page.geoSrbija.L1_302 | first | downcase %}
+
+  {% for row in site.data.maps.geoSrbija.L1_302 %}
+    {% if row.ID == id_s %}
+      {% include map/gs_1_302.html item=row %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if page.geoSrbija.L1_301 %}
+  {% assign id_s = page.geoSrbija.L1_301 | first | downcase %}
+
+  {% for row in site.data.maps.geoSrbija.L1_301 %}
+    {% if row.ID == id_s %}
+      {% include map/gs_1_301.html item=row %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if page.geoSrbija.L1_300 %}
+  {% assign id_s = page.geoSrbija.L1_300 | first | downcase %}
+
+  {% for row in site.data.maps.geoSrbija.L1_300 %}
+    {% if row.ID == id_s %}
+      {% include map/gs_1_300.html item=row %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if page.geoSrbija.L1_299 %}
+  {% assign id_s = page.geoSrbija.L1_299 | first | downcase %}
+
+  {% for row in site.data.maps.geoSrbija.L1_299 %}
+    {% if row.ID == id_s %}
+      {% include map/gs_1_299.html item=row %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
 {% if page.geoSrbija.L1_362 %}
   {% assign id_s = page.geoSrbija.L1_362 | first | downcase %}
 

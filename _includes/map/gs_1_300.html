@@ -1,0 +1,61 @@
+<h2>
+  {%- assign records = records | plus: 1 -%}
+  <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
+  <span class="record">{{ include.item.opis_dobra }}</span>
+</h2>
+
+<p class="source">
+  Izvor:
+  <a href="http://www.pzzp.rs">PZZP / Pokrajinski zavod za zaštitu prirode</a>.
+  Preuzmi:
+  <a href="#" download="{{ page_id }}.1.300.json" class="json">JSON</a>,
+  <a href="#" download="{{ page_id }}.1.300.csv" class="csv">CSV</a>.
+  <code class="source" style="display: none;">{{ include.item | jsonify }}</code>
+  <div class="geometry">
+    <link rel="prefetch" href="/{{ page_id }}/1.300.json">
+  </div>
+</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Baza podataka:</td>
+      <td>Granice područja zaštićenih prirodnih dobara u postupku zaštite na teritoriji AP Vojovodine.</td>
+    </tr>
+    <tr>
+      <td>Tip i opis dobra:</td>
+      <td>{{ include.item.tip_dobra }} ({{ site_data.protected_sites[include.item.tip_dobra] | downcase }})</td>
+    </tr>
+    <tr>
+      <td>geoSrbija sloj:</td>
+      <td>Zaštićena područja AP Vojvodine / Planirane granice zaštićenih dobara</td>
+    </tr>
+    <tr>
+      <td class="sup">WKT<sup>1</sup> izvorni fajlovi:</td>
+      <td class="wkt">
+        {%- assign first = true %}
+        {%- for id in page.geoSrbija.L1_183 %}
+          {%- unless first %}, {% endunless -%}
+          <a href="/{{ page_id }}/1.300.{{ id }}.wkt">1.300.{{ id }}.wkt</a>
+          {%- assign has_wkt = true  %}
+          {%- assign first = false %}
+        {%- endfor -%}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="buttons">
+  <a href="/{{ page_id }}/1.300.json"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+    <i class="material-icons">save_alt</i>
+    GeoJSON
+  </button></a>
+  <a href="/{{ page_id }}/1.300.kml"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+    <i class="material-icons">save_alt</i>
+    KML
+  </button></a>
+  <a href="/{{ page_id }}/1.300.wkt"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+    <i class="material-icons">save_alt</i>
+    WKT
+  </button></a>
+</div>
