@@ -24,6 +24,16 @@ layout: page
   {% endfor %}
 {% endif %}
 
+{% if page.geoSrbija.L1_182 %}
+  {% assign id_s = page.geoSrbija.L1_182 | first | downcase %}
+
+  {% for row in site.data.maps.geoSrbija.L1_182 %}
+    {% if row.ID == id_s %}
+      {% include map/gs_1_182.html item=row %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
 {% if page.geoSrbija.L1_362 %}
   {% assign id_s = page.geoSrbija.L1_362 | first | downcase %}
 
