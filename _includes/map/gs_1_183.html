@@ -6,7 +6,7 @@
 
 <p class="source">
   Izvor:
-  <a href="https://www.zzps.rs">Zavod za zaštitu prirode Srbije</a>.
+  <a href="https://www.zzps.rs">ZZPS / Zavod za zaštitu prirode Srbije</a>.
   Preuzmi:
   <a href="#" download="{{ page_id }}.1.183.json" class="json">JSON</a>,
   <a href="#" download="{{ page_id }}.1.183.csv" class="csv">CSV</a>.
@@ -38,7 +38,7 @@
       <td class="sup">WKT<sup>1</sup> izvorni fajlovi:</td>
       <td class="wkt">
         {%- assign first = true %}
-        {%- for id in page.geoSrbija["L1_183"] %}
+        {%- for id in page.geoSrbija.L1_183 %}
           {%- unless first %}, {% endunless -%}
           <a href="/{{ page_id }}/1.183.{{ id }}.wkt">1.183.{{ id }}.wkt</a>
           {%- assign has_wkt = true  %}

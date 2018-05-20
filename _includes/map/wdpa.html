@@ -5,7 +5,7 @@
 </h2>
 <p class="source">
   Izvor:
-  <a href="https://www.protectedplanet.net/{{ id }}">Svetska baza zaštićenih područja</a>.
+  <a href="https://www.protectedplanet.net/{{ include.item.WDPAID }}">WDPA / Svetska baza zaštićenih područja</a>.
   Preuzmi:
   <a href="#" download="{{ page_id }}.wdpa.json" class="json">JSON</a>,
   <a href="#" download="{{ page_id }}.wdpa.csv" class="csv">CSV</a>.
@@ -16,10 +16,10 @@
   <tbody>
     <tr>
       <td>WDPA ID:</td>
-      <td><a href="https://www.protectedplanet.net/{{ id }}">{{ id }}</a></td>
+      <td><a href="https://www.protectedplanet.net/{{ include.item.WDPAID }}">{{ include.item.WDPAID }}</a></td>
     </tr>
     <tr>
-      <td>Oznaka:</td>
+      <td>Kategorija:</td>
       <td>{{ include.item.DESIG }}</td>
     </tr>
     {% unless include.item.IUCN_CAT == "Not Reported" or include.item.IUCN_CAT == "Not Assigned" %}

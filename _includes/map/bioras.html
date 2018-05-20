@@ -1,0 +1,56 @@
+{% assign desig = include.item.tip | slugify: latin | replace: '-', '_' %}
+{% assign desig = site_data.designations[desig] %}
+
+<h2>
+  {%- assign records = records | plus: 1 -%}
+  <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
+  <span class="record">{{ desig }}</span>
+</h2>
+<p class="source">
+  Izvor:
+  <a href="http://extra.bioras.petnica.rs/index.php?-table=zdobra&-action=browse&-recordid=zdobra%3FID%3D{{ include.item.ID }}">BioRaS / Biološka Raznovrsnost Srbije</a>,
+  Istraživačka stanica Petnica.
+  Preuzmi:
+  <a href="#" download="{{ page_id }}.bioras.json" class="json">JSON</a>,
+  <a href="#" download="{{ page_id }}.bioras.csv" class="csv">CSV</a>.
+  <code class="source" style="display: none;">{{ include.item | jsonify }}</code>
+</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>BioRaS ID:</td>
+      <td><a href="http://extra.bioras.petnica.rs/index.php?-table=zdobra&-action=browse&-recordid=zdobra%3FID%3D{{ include.item.ID }}">{{ include.item.ID }}</a></td>
+    </tr>
+    <tr>
+      <td>Kategorija:</td>
+      <td>{{ desig }}</td>
+    </tr>
+    {% unless include.item.ha == "0" and include.item.ar == "0"  and include.item.m2 == "0" %}
+      <tr>
+        <td>Upisana površina:</td>
+        <td>
+          {% unless include.item.ha == "0" %}{{ include.item.ha }} ha{% endunless %}
+          {% unless include.item.ar == "0" %}{{ include.item.ar }} ar{% endunless %}
+          {% unless include.item.m2 == "0" %}{{ include.item.m2 }} m²{% endunless %}
+        </td>
+      </tr>
+    {% endunless %}
+    <tr>
+      <td>
+        {% if include.item.opstina contains ',' %}
+          Opštine:
+        {% else %}
+          Opština:
+        {% endif %}
+      </td>
+      <td>{{ include.item.opstina }}</td>
+    </tr>
+    {% if include.item.ekoloska_mreza %}
+      <tr>
+        <td>Ekološka mreža:</td>
+        <td>{{ include.item.ekoloska_mreza }}</td>
+      </tr>
+    {% endif %}
+  </tbody>
+</table>

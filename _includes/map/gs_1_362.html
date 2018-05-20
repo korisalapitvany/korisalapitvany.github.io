@@ -6,7 +6,7 @@
 
   <p class="source">
     Izvor:
-    <a href="http://www.rgz.gov.rs">Republički geodetski zavod</a>.
+    <a href="http://www.rgz.gov.rs">RGZ / Republički geodetski zavod</a>.
     Preuzmi:
     <a href="#" download="{{ page_id }}.1.362.json" class="json">JSON</a>,
     <a href="#" download="{{ page_id }}.1.362.csv" class="csv">CSV</a>.
@@ -38,7 +38,7 @@
         <td class="sup">WKT<sup>1</sup> izvorni fajlovi:</td>
         <td>
           {%- assign first = true %}
-          {%- for id in page.geoSrbija["L1_362"] %}
+          {%- for id in page.geoSrbija.L1_362 %}
             {%- unless first %}, {% endunless -%}
             <a href="/{{ page_id }}/1.362.{{ id }}.wkt">1.362.{{ id }}.wkt</a>
             {%- assign has_wkt = true  %}

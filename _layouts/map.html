@@ -66,6 +66,16 @@ layout: page
   {% endfor %}
 {% endfor %}
 
+{% for id in page.BioRaS %}
+  {% assign id_s = id | downcase %}
+
+  {% for row in site.data.maps.BioRaS %}
+    {% if row.ID == id_s %}
+      {% include map/bioras.html item=row %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
 {% if has_wkt %}
   <hr>
   <p class="footnotes">
