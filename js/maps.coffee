@@ -73,14 +73,11 @@ initMap = ->
       map: MAP.mapTypeId
     , document.title, "#{location.pathname}?map=#{MAP.mapTypeId}#{location.hash}"
 
-  # Show the first prefetch element on the map.
-  for link in document.querySelectorAll 'div.geometry > link'
-    loadGeoJSON link.href
-    break
+  loadGeoJSON 'map.json'
 
 N = S = E = W = null
 loadGeoJSON = (path) ->
-  MAP?.data.loadGeoJson path, null, (features) ->
+  MAP.data.loadGeoJson path, null, (features) ->
     # Update the map so the newly added features would fit.
     for f in features
       f.getGeometry().forEachLatLng (x) ->

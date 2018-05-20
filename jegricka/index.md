@@ -2,7 +2,7 @@
 layout: map
 
 title: Jegrička
-last_modified_at: 2018-05-19T23:04:05+02:00
+last_modified_at: 2018-05-20T16:01:50+02:00
 
 WDPA: [16406]
 geoSrbija:

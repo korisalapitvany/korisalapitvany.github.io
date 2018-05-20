@@ -5,6 +5,7 @@
 _cmd/regenerate_maps_data.sh
 _cmd/wktconv/wktconv
 _cmd/wktmerge/wktmerge
+_cmd/jsonmerge/jsonmerge
 _data/dev_apis.yaml
 _site
 vendor

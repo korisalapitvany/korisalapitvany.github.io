@@ -2,7 +2,7 @@
 layout: map
 
 title: Prirodni prostor kompleksa Jasunjskih manastira Svetog Jovana i Svete Bogorodice
-last_modified_at: 2018-05-19T23:04:05+02:00
+last_modified_at: 2018-05-20T16:01:51+02:00
 
 WDPA: [328888]
 geoSrbija:
