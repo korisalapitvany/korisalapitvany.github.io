@@ -2,9 +2,11 @@
 layout: map
 
 title: Botanički lokalitet stepske vegetacije Čarnok
-last_modified_at: 2018-05-20T16:01:49+02:00
+last_modified_at: 2018-05-20T21:47:44+02:00
 
 WDPA: [555552434]
+BioRaS: [170]
 geoSrbija:
   L1_183: [85]
+  L1_302: [24]
 ---

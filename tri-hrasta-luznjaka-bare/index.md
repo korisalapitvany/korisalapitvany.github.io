@@ -2,9 +2,10 @@
 layout: map
 
 title: Tri hrasta lužnjaka – Bare
-last_modified_at: 2018-05-20T16:01:52+02:00
+last_modified_at: 2018-05-20T21:47:48+02:00
 
 WDPA: [555589098]
+BioRaS: [358]
 geoSrbija:
   L1_182: [200]
 ---

@@ -2,9 +2,10 @@
 layout: map
 
 title: Vinatovača
-last_modified_at: 2018-05-20T16:01:48+02:00
+last_modified_at: 2018-05-20T21:47:43+02:00
 
 WDPA: [328833]
+BioRaS: [49]
 geoSrbija:
   L1_183: [26]
   L1_362: [4]
