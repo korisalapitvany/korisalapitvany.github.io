@@ -2,7 +2,7 @@
 layout: map
 
 title: Veliko ratno ostrvo
-last_modified_at: 2018-05-21T19:19:16+02:00
+last_modified_at: 2018-05-21T22:14:48+02:00
 
 WDPA: [20704]
 BioRaS: [59]

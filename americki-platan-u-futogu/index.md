@@ -2,7 +2,7 @@
 layout: map
 
 title: Američki platan u Futogu
-last_modified_at: 2018-05-21T19:19:17+02:00
+last_modified_at: 2018-05-21T22:14:50+02:00
 
 WDPA: [555589002]
 BioRaS: [218]

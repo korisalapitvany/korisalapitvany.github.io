@@ -2,7 +2,7 @@
 layout: map
 
 title: Hrast na Cvetnom trgu
-last_modified_at: 2018-05-21T19:19:18+02:00
+last_modified_at: 2018-05-21T22:14:50+02:00
 
 WDPA: [555589022]
 BioRaS: [273]

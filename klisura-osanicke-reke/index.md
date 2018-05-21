@@ -2,7 +2,7 @@
 layout: map
 
 title: Klisura Osaničke reke
-last_modified_at: 2018-05-21T19:19:13+02:00
+last_modified_at: 2018-05-21T22:14:45+02:00
 
 WDPA: [555552432]
 BioRaS: [378]

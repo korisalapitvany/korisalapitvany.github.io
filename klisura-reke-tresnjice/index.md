@@ -2,7 +2,7 @@
 layout: map
 
 title: Klisura reke Trešnjice
-last_modified_at: 2018-05-21T19:19:15+02:00
+last_modified_at: 2018-05-21T22:14:47+02:00
 
 WDPA: [328836]
 BioRaS: [407]

@@ -2,7 +2,7 @@
 layout: map
 
 title: Stablo hrasta lužnjaka – Bele vode
-last_modified_at: 2018-05-21T19:19:17+02:00
+last_modified_at: 2018-05-21T22:14:50+02:00
 
 WDPA: [555589006]
 BioRaS: [235]

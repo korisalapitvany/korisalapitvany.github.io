@@ -2,7 +2,7 @@
 layout: map
 
 title: Kosmaj
-last_modified_at: 2018-05-21T19:19:14+02:00
+last_modified_at: 2018-05-21T22:14:47+02:00
 
 WDPA: [145130]
 BioRaS: [60]

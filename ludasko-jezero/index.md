@@ -2,9 +2,9 @@
 layout: map
 
 title: Ludaško jezero
-last_modified_at: 2018-05-21T19:19:12+02:00
+last_modified_at: 2018-05-21T22:14:44+02:00
 
-WDPA: [328839]
+WDPA: [328839, 68321]
 BioRaS: [412]
 geoSrbija:
   L1_183: [18]

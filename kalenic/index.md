@@ -2,7 +2,7 @@
 layout: map
 
 title: Kalenić
-last_modified_at: 2018-05-21T19:19:12+02:00
+last_modified_at: 2018-05-21T22:14:44+02:00
 
 WDPA: [145399]
 BioRaS: [447]

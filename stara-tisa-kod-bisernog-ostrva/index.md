@@ -2,7 +2,7 @@
 layout: map
 
 title: „Stara Tisa“ kod Bisernog ostrva
-last_modified_at: 2018-05-21T19:19:14+02:00
+last_modified_at: 2018-05-21T22:14:47+02:00
 
 WDPA: [388809]
 BioRaS: [79]
