@@ -22,7 +22,7 @@
       <td>Kategorija:</td>
       <td>{{ include.item.DESIG }}</td>
     </tr>
-    {% unless include.item.IUCN_CAT == "Not Reported" or include.item.IUCN_CAT == "Not Assigned" %}
+    {% unless include.item.IUCN_CAT == "Not Applicable" or include.item.IUCN_CAT == "Not Reported" or include.item.IUCN_CAT == "Not Assigned" %}
       <tr>
         <td>IUCN kategorija:</td>
         <td>{{ include.item.IUCN_CAT }} ({{ site_data.iucn_cat[include.item.IUCN_CAT] | downcase }})</td>
