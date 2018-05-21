@@ -2,7 +2,7 @@
 layout: map
 
 title: Crni dud u Sremskim Karlovcima
-last_modified_at: 2018-05-21T22:14:50+02:00
+last_modified_at: 2018-05-21T22:45:17+02:00
 
 WDPA: [555589003]
 BioRaS: [237]

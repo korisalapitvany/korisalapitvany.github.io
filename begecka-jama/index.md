@@ -2,7 +2,7 @@
 layout: map
 
 title: Begečka jama
-last_modified_at: 2018-05-21T22:14:46+02:00
+last_modified_at: 2018-05-21T22:45:13+02:00
 
 WDPA: [16398]
 BioRaS: [71]

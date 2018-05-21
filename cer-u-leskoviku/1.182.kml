@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2"><Placemark><name>Cer u Leskoviku</name><Point><coordinates>21.89633054631174,43.40817926220395</coordinates></Point></Placemark></kml>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Placemark><name>Cer u Leskoviku</name><MultiGeometry><Point><coordinates>21.89633054631174,43.40817926220395</coordinates></Point><Point><coordinates>21.894561410985972,43.408309489089376</coordinates></Point></MultiGeometry></Placemark></kml>

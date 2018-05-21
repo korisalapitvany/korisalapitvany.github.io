@@ -2,7 +2,7 @@
 layout: map
 
 title: Fruška gora
-last_modified_at: 2018-05-21T22:14:47+02:00
+last_modified_at: 2018-05-21T22:45:14+02:00
 
 WDPA: [1053]
 BioRaS: [44]

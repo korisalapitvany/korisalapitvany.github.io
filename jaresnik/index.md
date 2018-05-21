@@ -2,7 +2,7 @@
 layout: map
 
 title: Jarešnik
-last_modified_at: 2018-05-21T22:14:45+02:00
+last_modified_at: 2018-05-21T22:45:12+02:00
 
 WDPA: [145142]
 BioRaS: [436]

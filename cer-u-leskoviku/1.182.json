@@ -1,1 +1,1 @@
-{"type":"Feature","id":"gS_182","geometry":{"type":"Point","coordinates":[21.89633054631174,43.40817926220395]},"properties":{"name":"Cer u Leskoviku","url":"https://jasen.org.rs/gS_182/"}}
+{"type":"Feature","id":"gS_182","geometry":{"type":"MultiPoint","coordinates":[[21.89633054631174,43.40817926220395],[21.894561410985972,43.408309489089376]]},"properties":{"name":"Cer u Leskoviku","url":"https://jasen.org.rs/gS_182/"}}

@@ -2,7 +2,7 @@
 layout: map
 
 title: Rusanda
-last_modified_at: 2018-05-21T22:14:49+02:00
+last_modified_at: 2018-05-21T22:45:16+02:00
 
 WDPA: [555561724]
 geoSrbija:
