@@ -2,7 +2,7 @@
 layout: map
 
 title: Tara
-last_modified_at: 2018-05-21T22:45:14+02:00
+last_modified_at: 2018-05-21T23:31:18+02:00
 
 WDPA: [15596]
 BioRaS: [46]

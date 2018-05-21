@@ -2,7 +2,7 @@
 layout: map
 
 title: Platan u dvorištu OŠ Miloš Crnjanski
-last_modified_at: 2018-05-21T22:45:18+02:00
+last_modified_at: 2018-05-21T23:31:22+02:00
 
 WDPA: [555589054]
 BioRaS: [326]

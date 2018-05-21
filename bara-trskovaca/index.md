@@ -2,7 +2,7 @@
 layout: map
 
 title: Bara Trskovača
-last_modified_at: 2018-05-21T22:45:15+02:00
+last_modified_at: 2018-05-21T23:31:19+02:00
 
 WDPA: [555552422]
 BioRaS: [1]
