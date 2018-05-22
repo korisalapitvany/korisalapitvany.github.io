@@ -2,7 +2,7 @@
 layout: map
 
 title: Obedska bara
-last_modified_at: 2018-05-21T23:31:14+02:00
+last_modified_at: 2018-05-22T23:33:57+02:00
 
 WDPA: [328840, 68320]
 BioRaS: [402]

@@ -2,7 +2,7 @@
 layout: map
 
 title: Ivanovačka ada
-last_modified_at: 2018-05-21T23:31:15+02:00
+last_modified_at: 2018-05-22T23:33:58+02:00
 
 WDPA: [145428]
 BioRaS: [394]
