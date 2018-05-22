@@ -5,8 +5,9 @@ layout: page
 
 {%- assign page_id = page.path | remove: '/index.md' | split: '/' | last -%}
 {%- assign google_cloud_api_key = site.data.dev_apis.google_cloud_api_key | default: site.data.apis.google_cloud_api_key -%}
+
+{%- assign has_map = false -%}
 {%- assign has_wkt = false -%}
-{%- assign map_on = true -%}
 {%- assign records = 0 -%}
 
 <div class="map">
@@ -129,13 +130,17 @@ layout: page
   </div>
 </div>
 
-<script>
-'use strict';
 
-window.isMapLoaded = false;
-function mapLoaded() {
-  window.isMapLoaded = true;
-}
-</script>
-<script async defer src="/js/maps.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ google_cloud_api_key }}&region=RS&language={{ language }}&callback=mapLoaded"></script>
+{% if has_map %}
+  <link rel="prefetch" href="/{{ page_id }}/map.json">
+  <script>
+  'use strict';
+
+  window.isMapLoaded = false;
+  function mapLoaded() {
+	window.isMapLoaded = true;
+  }
+  </script>
+  <script async defer src="/js/maps.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ google_cloud_api_key }}&region=RS&language={{ language }}&callback=mapLoaded"></script>
+{% endif %}

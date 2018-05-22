@@ -11,9 +11,7 @@
   <a href="#" download="{{ page_id }}.1.182.json" class="json">JSON</a>,
   <a href="#" download="{{ page_id }}.1.182.csv" class="csv">CSV</a>.
   <code class="source" style="display: none;">{{ include.item | jsonify }}</code>
-  <div class="geometry">
-    <link rel="prefetch" href="/{{ page_id }}/1.182.json">
-  </div>
+  {%- assign has_map = true -%}
 </p>
 
 <table>
