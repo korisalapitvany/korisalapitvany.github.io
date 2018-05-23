@@ -18,7 +18,7 @@
   <tbody>
     <tr>
       <td>Baza podataka:</td>
-      <td>Spomenik prirode – stabla na teritoriji AP Vojvodine.</td>
+      <td>Granice područja zaštićenih prirodnih dobara u postupku zaštite na teritoriji AP Vojovodine.</td>
     </tr>
     <tr>
       <td>Tip i opis dobra:</td>
@@ -26,13 +26,13 @@
     </tr>
     <tr>
       <td>geoSrbija sloj:</td>
-      <td>Zaštićena područja AP Vojvodine / Zaštićena dobra (stabla)</td>
+      <td>Zaštićena područja AP Vojvodine / Planirane granice zaštićenih dobara</td>
     </tr>
     <tr>
       <td class="sup">WKT<sup>1</sup> izvorni fajlovi:</td>
       <td class="wkt">
         {%- assign first = true %}
-        {%- for id in page.geoSrbija.L1_183 %}
+        {%- for id in page.geoSrbija.L1_301 %}
           {%- unless first %}, {% endunless -%}
           <a href="/{{ page_id }}/1.301.{{ id }}.wkt">1.301.{{ id }}.wkt</a>
           {%- assign has_wkt = true  %}
