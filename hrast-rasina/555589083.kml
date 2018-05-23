@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sql_statement" id="sql_statement">
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="WDPAID" type="float"></SimpleField>
+	<SimpleField name="WDPA_PID" type="string"></SimpleField>
+	<SimpleField name="PA_DEF" type="string"></SimpleField>
+	<SimpleField name="ORIG_NAME" type="string"></SimpleField>
+	<SimpleField name="DESIG" type="string"></SimpleField>
+	<SimpleField name="DESIG_ENG" type="string"></SimpleField>
+	<SimpleField name="DESIG_TYPE" type="string"></SimpleField>
+	<SimpleField name="IUCN_CAT" type="string"></SimpleField>
+	<SimpleField name="INT_CRIT" type="string"></SimpleField>
+	<SimpleField name="MARINE" type="string"></SimpleField>
+	<SimpleField name="REP_M_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_M_AREA" type="float"></SimpleField>
+	<SimpleField name="REP_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_AREA" type="float"></SimpleField>
+	<SimpleField name="NO_TAKE" type="string"></SimpleField>
+	<SimpleField name="NO_TK_AREA" type="float"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+	<SimpleField name="STATUS_YR" type="int"></SimpleField>
+	<SimpleField name="GOV_TYPE" type="string"></SimpleField>
+	<SimpleField name="OWN_TYPE" type="string"></SimpleField>
+	<SimpleField name="MANG_AUTH" type="string"></SimpleField>
+	<SimpleField name="MANG_PLAN" type="string"></SimpleField>
+	<SimpleField name="VERIF" type="string"></SimpleField>
+	<SimpleField name="METADATAID" type="int"></SimpleField>
+	<SimpleField name="SUB_LOC" type="string"></SimpleField>
+	<SimpleField name="PARENT_ISO3" type="string"></SimpleField>
+	<SimpleField name="ISO3" type="string"></SimpleField>
+</Schema>
+<Folder><name>sql_statement</name>
+  <Placemark>
+	<name>Hrast Rasina</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="TYPE">Polygon</SimpleData>
+		<SimpleData name="WDPAID">555589083</SimpleData>
+		<SimpleData name="WDPA_PID">555589083</SimpleData>
+		<SimpleData name="PA_DEF">1</SimpleData>
+		<SimpleData name="ORIG_NAME">Hrast Rasina</SimpleData>
+		<SimpleData name="DESIG">Spomenik prirode</SimpleData>
+		<SimpleData name="DESIG_ENG">Natural Monument</SimpleData>
+		<SimpleData name="DESIG_TYPE">National</SimpleData>
+		<SimpleData name="IUCN_CAT">III</SimpleData>
+		<SimpleData name="INT_CRIT">Not Applicable</SimpleData>
+		<SimpleData name="MARINE">0</SimpleData>
+		<SimpleData name="REP_M_AREA">0</SimpleData>
+		<SimpleData name="GIS_M_AREA">0</SimpleData>
+		<SimpleData name="REP_AREA">0</SimpleData>
+		<SimpleData name="GIS_AREA">0.00125069791061</SimpleData>
+		<SimpleData name="NO_TAKE">Not Applicable</SimpleData>
+		<SimpleData name="NO_TK_AREA">0</SimpleData>
+		<SimpleData name="STATUS">Designated</SimpleData>
+		<SimpleData name="STATUS_YR">2010</SimpleData>
+		<SimpleData name="GOV_TYPE">Federal or national ministry or agency</SimpleData>
+		<SimpleData name="OWN_TYPE">Not Reported</SimpleData>
+		<SimpleData name="MANG_AUTH">Institute for Nature Conservation of Serbia</SimpleData>
+		<SimpleData name="MANG_PLAN">Not Reported</SimpleData>
+		<SimpleData name="VERIF">State Verified</SimpleData>
+		<SimpleData name="METADATAID">1839</SimpleData>
+		<SimpleData name="SUB_LOC">Not Reported</SimpleData>
+		<SimpleData name="PARENT_ISO3">SRB</SimpleData>
+		<SimpleData name="ISO3">SRB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>21.357280179836494,43.57645234599903 21.357322163786876,43.576444908605708 21.357361807701295,43.576432285721467 21.357397902890966,43.576414859558156 21.357429353082239,43.576393160715838 21.357455204993755,43.576367848397524 21.357474669920123,43.576339690624252 21.357487158805384,43.576309543550622 21.357492292135646,43.576278323585825 21.357489913428822,43.576246980413885 21.357480092832077,43.576216462819559 21.3574631334169,43.576187701601214 21.357439545998318,43.576161569101203 21.35741005003382,43.576138859420894 21.357375540348983,43.576120263239602 21.357337067351807,43.576106345331652 21.35729579656379,43.576097526579645 21.357252984337833,43.576094077679613 21.357209932892147,43.576096103852137 21.357167947143068,43.576103540346139 21.357128305027288,43.576116163230381 21.357092209837674,43.576133590293011 21.357060758747082,43.576155288236009 21.357034907734828,43.576180600554324 21.357015441909141,43.576208759226915 21.357002952124617,43.576238905401226 21.356997818794355,43.576270125366023 21.357000199299819,43.576301470336659 21.357010017198604,43.576331986132288 21.357026978412364,43.576360748250011 21.357050564931683,43.576386879850702 21.357080060896124,43.576409588631691 21.357114569681698,43.576428186611565 21.357153045376776,43.576442105418892 21.357194315265474,43.576450922372203 21.357237125692848,43.576454371272291 21.357280179836494,43.57645234599903</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

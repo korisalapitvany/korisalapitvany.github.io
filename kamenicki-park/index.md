@@ -2,7 +2,7 @@
 layout: map
 
 title: Kamenički park
-last_modified_at: 2018-05-22T23:34:00+02:00
+last_modified_at: 2018-05-23T08:07:26+02:00
 
 WDPA: [395442]
 BioRaS: [389]

@@ -2,7 +2,7 @@
 layout: map
 
 title: Suteska Sikolske reke sa vodopadom na Mokranjskoj steni
-last_modified_at: 2018-05-22T23:34:00+02:00
+last_modified_at: 2018-05-23T08:07:26+02:00
 
 WDPA: [395445]
 BioRaS: [381]

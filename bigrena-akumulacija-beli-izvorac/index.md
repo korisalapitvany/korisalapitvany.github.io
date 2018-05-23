@@ -2,7 +2,7 @@
 layout: map
 
 title: Bigrena akumulacija Beli izvorac
-last_modified_at: 2018-05-22T23:34:01+02:00
+last_modified_at: 2018-05-23T08:07:27+02:00
 
 WDPA: [555552421]
 BioRaS: [369]

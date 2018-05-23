@@ -2,7 +2,7 @@
 layout: map
 
 title: Grupa stabala – Lozovik
-last_modified_at: 2018-05-22T23:34:03+02:00
+last_modified_at: 2018-05-23T08:07:30+02:00
 
 WDPA: [555588994]
 BioRaS: [255]

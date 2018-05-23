@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sql_statement" id="sql_statement">
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="WDPAID" type="float"></SimpleField>
+	<SimpleField name="WDPA_PID" type="string"></SimpleField>
+	<SimpleField name="PA_DEF" type="string"></SimpleField>
+	<SimpleField name="ORIG_NAME" type="string"></SimpleField>
+	<SimpleField name="DESIG" type="string"></SimpleField>
+	<SimpleField name="DESIG_ENG" type="string"></SimpleField>
+	<SimpleField name="DESIG_TYPE" type="string"></SimpleField>
+	<SimpleField name="IUCN_CAT" type="string"></SimpleField>
+	<SimpleField name="INT_CRIT" type="string"></SimpleField>
+	<SimpleField name="MARINE" type="string"></SimpleField>
+	<SimpleField name="REP_M_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_M_AREA" type="float"></SimpleField>
+	<SimpleField name="REP_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_AREA" type="float"></SimpleField>
+	<SimpleField name="NO_TAKE" type="string"></SimpleField>
+	<SimpleField name="NO_TK_AREA" type="float"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+	<SimpleField name="STATUS_YR" type="int"></SimpleField>
+	<SimpleField name="GOV_TYPE" type="string"></SimpleField>
+	<SimpleField name="OWN_TYPE" type="string"></SimpleField>
+	<SimpleField name="MANG_AUTH" type="string"></SimpleField>
+	<SimpleField name="MANG_PLAN" type="string"></SimpleField>
+	<SimpleField name="VERIF" type="string"></SimpleField>
+	<SimpleField name="METADATAID" type="int"></SimpleField>
+	<SimpleField name="SUB_LOC" type="string"></SimpleField>
+	<SimpleField name="PARENT_ISO3" type="string"></SimpleField>
+	<SimpleField name="ISO3" type="string"></SimpleField>
+</Schema>
+<Folder><name>sql_statement</name>
+  <Placemark>
+	<name>Dva stabla hrasta luznjaka -  Petrovac</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="TYPE">Polygon</SimpleData>
+		<SimpleData name="WDPAID">555589028</SimpleData>
+		<SimpleData name="WDPA_PID">555589028</SimpleData>
+		<SimpleData name="PA_DEF">1</SimpleData>
+		<SimpleData name="ORIG_NAME">Dva stabla hrasta luznjaka -  Petrovac</SimpleData>
+		<SimpleData name="DESIG">Spomenik prirode</SimpleData>
+		<SimpleData name="DESIG_ENG">Natural Monument</SimpleData>
+		<SimpleData name="DESIG_TYPE">National</SimpleData>
+		<SimpleData name="IUCN_CAT">III</SimpleData>
+		<SimpleData name="INT_CRIT">Not Applicable</SimpleData>
+		<SimpleData name="MARINE">0</SimpleData>
+		<SimpleData name="REP_M_AREA">0</SimpleData>
+		<SimpleData name="GIS_M_AREA">0</SimpleData>
+		<SimpleData name="REP_AREA">0</SimpleData>
+		<SimpleData name="GIS_AREA">0.00250092513128</SimpleData>
+		<SimpleData name="NO_TAKE">Not Applicable</SimpleData>
+		<SimpleData name="NO_TK_AREA">0</SimpleData>
+		<SimpleData name="STATUS">Designated</SimpleData>
+		<SimpleData name="STATUS_YR">1983</SimpleData>
+		<SimpleData name="GOV_TYPE">Federal or national ministry or agency</SimpleData>
+		<SimpleData name="OWN_TYPE">Not Reported</SimpleData>
+		<SimpleData name="MANG_AUTH">Institute for Nature Conservation of Serbia</SimpleData>
+		<SimpleData name="MANG_PLAN">Not Reported</SimpleData>
+		<SimpleData name="VERIF">State Verified</SimpleData>
+		<SimpleData name="METADATAID">1839</SimpleData>
+		<SimpleData name="SUB_LOC">Not Reported</SimpleData>
+		<SimpleData name="PARENT_ISO3">SRB</SimpleData>
+		<SimpleData name="ISO3">SRB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>21.415576343773296,44.379796505804165 21.415618899692504,44.37978903693454 21.415659067012371,44.379776387070649 21.415695621755617,44.379758940222985 21.415727455058061,44.379737227890814 21.415753599249229,44.379711910176582 21.415773261127129,44.379683754201949 21.41578583994459,44.379653616121516 21.41579095708704,44.379622414143171 21.415788456072448,44.379591091655584 21.415778410645203,44.379560604638243 21.415761130172086,44.379531877594104 21.415737137159226,44.379505783764955 21.415707159158103,44.379483116352787 21.415672109880006,44.379464562439637 21.415633054122225,44.379450686799828 21.415591177191118,44.37944191301392 21.415547750728138,44.379438503684071 21.415504096736697,44.379440565829498 21.415461539918169,44.379448034699067 21.415421375296262,44.379460684563014 21.415384819653752,44.379478131410679 21.415352986351309,44.379499842843529 21.415326842160084,44.379525162356401 21.415307180282184,44.379553317431714 21.415294599666083,44.379583454612771 21.415289483422953,44.379614658389812 21.415291985336921,44.379645979078703 21.415302028066208,44.37967646699542 21.415319309438644,44.379705193140182 21.415343301552184,44.379731287868708 21.415373279553251,44.379753956180195 21.415408328831347,44.37977250919397 21.415447386387825,44.379786383934515 21.415489264218195,44.379795160418382 21.415532688882536,44.379798567949592 21.415576343773296,44.379796505804165</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>21.415282017251343,44.38012449574893 21.415324574969191,44.380117025980041 21.415364741389737,44.380104377015414 21.415401296132984,44.380086931067069 21.415433131234067,44.380065218734899 21.415459273626652,44.380039900121346 21.415478937303192,44.380011744146714 21.415491516120596,44.379981606965657 21.415496633263047,44.379950403188616 21.415494131349135,44.379919083399045 21.415484087720529,44.379888594583008 21.415466806348093,44.379859868438245 21.415442813335233,44.37983377370972 21.415412835334109,44.379811106297552 21.415377786955332,44.379792553283778 21.415338730298231,44.379778677643912 21.415296851568485,44.379769902059365 21.415253426904201,44.379766493628836 21.415209772013441,44.379768555774262 21.415167216094176,44.379776023744569 21.415127047874989,44.379788673608459 21.4150904931318,44.379806119556804 21.415058659829356,44.379827831888974 21.415032515638131,44.379853149603207 21.415012853760231,44.379881307376479 21.41500027404345,44.379911443658273 21.41499515600168,44.379942647435257 21.414997657016329,44.379973968124204 21.415007700644935,44.380004455141545 21.415024982916691,44.380033183085004 21.415048975929551,44.380059276914153 21.415078953031298,44.380081945225641 21.415114002309394,44.380100499138791 21.415153058966553,44.38011437387928 21.415194935897603,44.380123148564508 21.415238363259903,44.380126556995037 21.415282017251343,44.38012449574893</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -2,7 +2,7 @@
 layout: map
 
 title: Varoš
-last_modified_at: 2018-05-22T23:33:57+02:00
+last_modified_at: 2018-05-23T08:07:21+02:00
 
 WDPA: [145417]
 BioRaS: [455]

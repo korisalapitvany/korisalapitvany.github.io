@@ -2,7 +2,7 @@
 layout: map
 
 title: Stablo klena u Viči
-last_modified_at: 2018-05-22T23:34:04+02:00
+last_modified_at: 2018-05-23T08:07:31+02:00
 
 WDPA: [555589051]
 BioRaS: [298]

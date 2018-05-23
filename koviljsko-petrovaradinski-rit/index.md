@@ -2,7 +2,7 @@
 layout: map
 
 title: Koviljsko-petrovaradinski rit
-last_modified_at: 2018-05-22T23:34:00+02:00
+last_modified_at: 2018-05-23T08:07:26+02:00
 
 WDPA: [328848, 555547953]
 BioRaS: [420]

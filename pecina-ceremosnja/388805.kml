@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sql_statement" id="sql_statement">
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="WDPAID" type="float"></SimpleField>
+	<SimpleField name="WDPA_PID" type="string"></SimpleField>
+	<SimpleField name="PA_DEF" type="string"></SimpleField>
+	<SimpleField name="ORIG_NAME" type="string"></SimpleField>
+	<SimpleField name="DESIG" type="string"></SimpleField>
+	<SimpleField name="DESIG_ENG" type="string"></SimpleField>
+	<SimpleField name="DESIG_TYPE" type="string"></SimpleField>
+	<SimpleField name="IUCN_CAT" type="string"></SimpleField>
+	<SimpleField name="INT_CRIT" type="string"></SimpleField>
+	<SimpleField name="MARINE" type="string"></SimpleField>
+	<SimpleField name="REP_M_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_M_AREA" type="float"></SimpleField>
+	<SimpleField name="REP_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_AREA" type="float"></SimpleField>
+	<SimpleField name="NO_TAKE" type="string"></SimpleField>
+	<SimpleField name="NO_TK_AREA" type="float"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+	<SimpleField name="STATUS_YR" type="int"></SimpleField>
+	<SimpleField name="GOV_TYPE" type="string"></SimpleField>
+	<SimpleField name="OWN_TYPE" type="string"></SimpleField>
+	<SimpleField name="MANG_AUTH" type="string"></SimpleField>
+	<SimpleField name="MANG_PLAN" type="string"></SimpleField>
+	<SimpleField name="VERIF" type="string"></SimpleField>
+	<SimpleField name="METADATAID" type="int"></SimpleField>
+	<SimpleField name="SUB_LOC" type="string"></SimpleField>
+	<SimpleField name="PARENT_ISO3" type="string"></SimpleField>
+	<SimpleField name="ISO3" type="string"></SimpleField>
+</Schema>
+<Folder><name>sql_statement</name>
+  <Placemark>
+	<name>Pecina Ceremosnja</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="TYPE">Polygon</SimpleData>
+		<SimpleData name="WDPAID">388805</SimpleData>
+		<SimpleData name="WDPA_PID">388805</SimpleData>
+		<SimpleData name="PA_DEF">1</SimpleData>
+		<SimpleData name="ORIG_NAME">Pecina Ceremosnja</SimpleData>
+		<SimpleData name="DESIG">Spomenik prirode</SimpleData>
+		<SimpleData name="DESIG_ENG">Natural Monument</SimpleData>
+		<SimpleData name="DESIG_TYPE">National</SimpleData>
+		<SimpleData name="IUCN_CAT">III</SimpleData>
+		<SimpleData name="INT_CRIT">Not Applicable</SimpleData>
+		<SimpleData name="MARINE">0</SimpleData>
+		<SimpleData name="REP_M_AREA">0</SimpleData>
+		<SimpleData name="GIS_M_AREA">0</SimpleData>
+		<SimpleData name="REP_AREA">0.33</SimpleData>
+		<SimpleData name="GIS_AREA">0.333997979276</SimpleData>
+		<SimpleData name="NO_TAKE">Not Applicable</SimpleData>
+		<SimpleData name="NO_TK_AREA">0</SimpleData>
+		<SimpleData name="STATUS">Designated</SimpleData>
+		<SimpleData name="STATUS_YR">2007</SimpleData>
+		<SimpleData name="GOV_TYPE">Federal or national ministry or agency</SimpleData>
+		<SimpleData name="OWN_TYPE">Not Reported</SimpleData>
+		<SimpleData name="MANG_AUTH">Institute for Nature Conservation of Serbia</SimpleData>
+		<SimpleData name="MANG_PLAN">Not Reported</SimpleData>
+		<SimpleData name="VERIF">State Verified</SimpleData>
+		<SimpleData name="METADATAID">1839</SimpleData>
+		<SimpleData name="SUB_LOC">Not Reported</SimpleData>
+		<SimpleData name="PARENT_ISO3">SRB</SimpleData>
+		<SimpleData name="ISO3">SRB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>21.629597195853933,44.393072741214098 21.631031315043231,44.392920319617133 21.632587462341576,44.392405987446409 21.632964681175167,44.392349708772088 21.633314955420929,44.392131033220664 21.633691586097882,44.392020573990351 21.634465334007984,44.391366078881504 21.634791976768383,44.391292016113709 21.634840195718482,44.391093078882534 21.63519182704124,44.391000814735889 21.636068251448705,44.390526344115528 21.635714075943895,44.390383834846148 21.635887634306926,44.390130014688452 21.636593823346345,44.390216374785894 21.636542078154434,44.390090238573691 21.636715827173759,44.389854476802725 21.636713079744879,44.389601642302011 21.636912406382521,44.38940185880881 21.636533441964843,44.389295612002968 21.636354395938667,44.38904376225986 21.636222191101297,44.388466554887657 21.63606774513039,44.388160384294338 21.636268443234144,44.388087020299793 21.63708894509881,44.387107152273302 21.637160570703827,44.386745534878571 21.637968246437481,44.38690356194985 21.638421570399203,44.386901023163716 21.639456259298981,44.384782106209286 21.639859393895961,44.38479790370036 21.640337292731942,44.384741035070761 21.64028356993083,44.384434304199829 21.639830660556584,44.384472969651881 21.638976754273813,44.382382709594424 21.638493756281889,44.381970018801383 21.638288164966866,44.381591894350493 21.638715673889294,44.381535316201962 21.63868438917325,44.380975606039442 21.638906498336269,44.380558960927374 21.636085930321485,44.380556684743283 21.636114249073387,44.380845500219721 21.636198030814512,44.381603586436427 21.635947970722327,44.381767529248123 21.636154135804759,44.382199837852284 21.636586164719802,44.382558641268361 21.636867102135113,44.382918285550488 21.637027232720641,44.383748188927825 21.637032534224147,44.384235801341219 21.63660912531094,44.384671627193882 21.636355522789188,44.38451049566288 21.635506334349884,44.385165425144294 21.635860475680431,44.385307936212314 21.635417939086665,44.386303749218712 21.635017337879901,44.386522711653868 21.63418683555409,44.386581521020446 21.633948672593192,44.387847101862292 21.63377569878952,44.3881550989787 21.633680821212977,44.38869745042706 21.632833685925903,44.389551015866743 21.63283641896561,44.389803851266777 21.63223663501276,44.39024064119269 21.631840283102633,44.390856906121371 21.630991145025348,44.39152986161389 21.630265786037228,44.392003458093143 21.629914723985394,44.392149885708704 21.629790343249795,44.392295059669323 21.629437725370792,44.39229700760086 21.629364299323015,44.392496083327615 21.629592342212845,44.392621249171384 21.629644269967116,44.392765447367537 21.629444713103055,44.392947158084951 21.629597195853933,44.393072741214098</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

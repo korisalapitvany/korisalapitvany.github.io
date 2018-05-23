@@ -2,7 +2,7 @@
 layout: map
 
 title: Tekeriš
-last_modified_at: 2018-05-22T23:34:05+02:00
+last_modified_at: 2018-05-23T08:07:32+02:00
 
 WDPA: [328865]
 BioRaS: [14]

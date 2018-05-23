@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sql_statement" id="sql_statement">
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="WDPAID" type="float"></SimpleField>
+	<SimpleField name="WDPA_PID" type="string"></SimpleField>
+	<SimpleField name="PA_DEF" type="string"></SimpleField>
+	<SimpleField name="ORIG_NAME" type="string"></SimpleField>
+	<SimpleField name="DESIG" type="string"></SimpleField>
+	<SimpleField name="DESIG_ENG" type="string"></SimpleField>
+	<SimpleField name="DESIG_TYPE" type="string"></SimpleField>
+	<SimpleField name="IUCN_CAT" type="string"></SimpleField>
+	<SimpleField name="INT_CRIT" type="string"></SimpleField>
+	<SimpleField name="MARINE" type="string"></SimpleField>
+	<SimpleField name="REP_M_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_M_AREA" type="float"></SimpleField>
+	<SimpleField name="REP_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_AREA" type="float"></SimpleField>
+	<SimpleField name="NO_TAKE" type="string"></SimpleField>
+	<SimpleField name="NO_TK_AREA" type="float"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+	<SimpleField name="STATUS_YR" type="int"></SimpleField>
+	<SimpleField name="GOV_TYPE" type="string"></SimpleField>
+	<SimpleField name="OWN_TYPE" type="string"></SimpleField>
+	<SimpleField name="MANG_AUTH" type="string"></SimpleField>
+	<SimpleField name="MANG_PLAN" type="string"></SimpleField>
+	<SimpleField name="VERIF" type="string"></SimpleField>
+	<SimpleField name="METADATAID" type="int"></SimpleField>
+	<SimpleField name="SUB_LOC" type="string"></SimpleField>
+	<SimpleField name="PARENT_ISO3" type="string"></SimpleField>
+	<SimpleField name="ISO3" type="string"></SimpleField>
+</Schema>
+<Folder><name>sql_statement</name>
+  <Placemark>
+	<name>Bigrena akumulacija kod manastira Tumane</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="TYPE">Polygon</SimpleData>
+		<SimpleData name="WDPAID">395444</SimpleData>
+		<SimpleData name="WDPA_PID">395444</SimpleData>
+		<SimpleData name="PA_DEF">1</SimpleData>
+		<SimpleData name="ORIG_NAME">Bigrena akumulacija kod manastira Tumane</SimpleData>
+		<SimpleData name="DESIG">Spomenik prirode</SimpleData>
+		<SimpleData name="DESIG_ENG">Natural Monument</SimpleData>
+		<SimpleData name="DESIG_TYPE">National</SimpleData>
+		<SimpleData name="IUCN_CAT">III</SimpleData>
+		<SimpleData name="INT_CRIT">Not Applicable</SimpleData>
+		<SimpleData name="MARINE">0</SimpleData>
+		<SimpleData name="REP_M_AREA">0</SimpleData>
+		<SimpleData name="GIS_M_AREA">0</SimpleData>
+		<SimpleData name="REP_AREA">0.06</SimpleData>
+		<SimpleData name="GIS_AREA">0.058546281952</SimpleData>
+		<SimpleData name="NO_TAKE">Not Applicable</SimpleData>
+		<SimpleData name="NO_TK_AREA">0</SimpleData>
+		<SimpleData name="STATUS">Designated</SimpleData>
+		<SimpleData name="STATUS_YR">2009</SimpleData>
+		<SimpleData name="GOV_TYPE">Federal or national ministry or agency</SimpleData>
+		<SimpleData name="OWN_TYPE">Not Reported</SimpleData>
+		<SimpleData name="MANG_AUTH">Institute for Nature Conservation of Serbia</SimpleData>
+		<SimpleData name="MANG_PLAN">Not Reported</SimpleData>
+		<SimpleData name="VERIF">State Verified</SimpleData>
+		<SimpleData name="METADATAID">1839</SimpleData>
+		<SimpleData name="SUB_LOC">Not Reported</SimpleData>
+		<SimpleData name="PARENT_ISO3">SRB</SimpleData>
+		<SimpleData name="ISO3">SRB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>21.647395564253941,44.582545475693223 21.647407386741577,44.582401540998376 21.647338978910796,44.582286831572048 21.647215385981326,44.582038167227665 21.647092433369153,44.581847044205801 21.646955952255439,44.581646400061345 21.646859954123613,44.581464715424318 21.646642393731554,44.58121657808266 21.646492161983758,44.580987247363623 21.646328188595078,44.580729212083497 21.646196485579424,44.58061718173758 21.646095022267502,44.580697148554634 21.645890038894208,44.580789665410805 21.645649094330281,44.580841781123354 21.645485434805039,44.580817333952837 21.645221878586881,44.580752848065515 21.644752373123595,44.580694605271844 21.644516834384433,44.580594436983745 21.644215184683105,44.58060051640075 21.644096392334689,44.580650927898034 21.643979341073759,44.580857636171004 21.644125939560524,44.581113158745325 21.644248086380117,44.581272988957323 21.644330234952406,44.581444513953215 21.644371806114009,44.581576135130604 21.644452941150348,44.581655940069652 21.644557891133843,44.581712675599533 21.644574961165574,44.581804303925537 21.644576486415758,44.581941883111483 21.644593796566483,44.582056444149657 21.644538838096935,44.582165682999914 21.644444188948228,44.582315274430414 21.64431669206175,44.582396252984722 21.644261352279614,44.582471092766752 21.644238297259676,44.582562954017192 21.644174918437784,44.582637840563962 21.644176188280539,44.582752492433656 21.644128675298191,44.582946458212518 21.644131309412444,44.583184354074717 21.645734927424996,44.583192330161978 21.646927627208299,44.583243684148783 21.646940205126441,44.583128070903797 21.646889935722015,44.583000377965107 21.646904467866932,44.582843234927395 21.647138972385733,44.582696477260697 21.647317458134239,44.582637290178866 21.647395564253941,44.582545475693223</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sql_statement" id="sql_statement">
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="WDPAID" type="float"></SimpleField>
+	<SimpleField name="WDPA_PID" type="string"></SimpleField>
+	<SimpleField name="PA_DEF" type="string"></SimpleField>
+	<SimpleField name="ORIG_NAME" type="string"></SimpleField>
+	<SimpleField name="DESIG" type="string"></SimpleField>
+	<SimpleField name="DESIG_ENG" type="string"></SimpleField>
+	<SimpleField name="DESIG_TYPE" type="string"></SimpleField>
+	<SimpleField name="IUCN_CAT" type="string"></SimpleField>
+	<SimpleField name="INT_CRIT" type="string"></SimpleField>
+	<SimpleField name="MARINE" type="string"></SimpleField>
+	<SimpleField name="REP_M_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_M_AREA" type="float"></SimpleField>
+	<SimpleField name="REP_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_AREA" type="float"></SimpleField>
+	<SimpleField name="NO_TAKE" type="string"></SimpleField>
+	<SimpleField name="NO_TK_AREA" type="float"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+	<SimpleField name="STATUS_YR" type="int"></SimpleField>
+	<SimpleField name="GOV_TYPE" type="string"></SimpleField>
+	<SimpleField name="OWN_TYPE" type="string"></SimpleField>
+	<SimpleField name="MANG_AUTH" type="string"></SimpleField>
+	<SimpleField name="MANG_PLAN" type="string"></SimpleField>
+	<SimpleField name="VERIF" type="string"></SimpleField>
+	<SimpleField name="METADATAID" type="int"></SimpleField>
+	<SimpleField name="SUB_LOC" type="string"></SimpleField>
+	<SimpleField name="PARENT_ISO3" type="string"></SimpleField>
+	<SimpleField name="ISO3" type="string"></SimpleField>
+</Schema>
+<Folder><name>sql_statement</name>
+  <Placemark>
+	<name>Mackov kamen</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="TYPE">Polygon</SimpleData>
+		<SimpleData name="WDPAID">328858</SimpleData>
+		<SimpleData name="WDPA_PID">328858</SimpleData>
+		<SimpleData name="PA_DEF">1</SimpleData>
+		<SimpleData name="ORIG_NAME">Mackov kamen</SimpleData>
+		<SimpleData name="DESIG">Podrucje od kulturnog i istorijskog znacaja</SimpleData>
+		<SimpleData name="DESIG_ENG">Area of Cultural and Historical Importance</SimpleData>
+		<SimpleData name="DESIG_TYPE">National</SimpleData>
+		<SimpleData name="IUCN_CAT">Not Assigned</SimpleData>
+		<SimpleData name="INT_CRIT">Not Applicable</SimpleData>
+		<SimpleData name="MARINE">0</SimpleData>
+		<SimpleData name="REP_M_AREA">0</SimpleData>
+		<SimpleData name="GIS_M_AREA">0</SimpleData>
+		<SimpleData name="REP_AREA">0.12</SimpleData>
+		<SimpleData name="GIS_AREA">0.118444046304</SimpleData>
+		<SimpleData name="NO_TAKE">Not Applicable</SimpleData>
+		<SimpleData name="NO_TK_AREA">0</SimpleData>
+		<SimpleData name="STATUS">Designated</SimpleData>
+		<SimpleData name="STATUS_YR">1976</SimpleData>
+		<SimpleData name="GOV_TYPE">Federal or national ministry or agency</SimpleData>
+		<SimpleData name="OWN_TYPE">Not Reported</SimpleData>
+		<SimpleData name="MANG_AUTH">Institute for Nature Conservation of Serbia</SimpleData>
+		<SimpleData name="MANG_PLAN">Not Reported</SimpleData>
+		<SimpleData name="VERIF">State Verified</SimpleData>
+		<SimpleData name="METADATAID">1839</SimpleData>
+		<SimpleData name="SUB_LOC">Not Reported</SimpleData>
+		<SimpleData name="PARENT_ISO3">SRB</SimpleData>
+		<SimpleData name="ISO3">SRB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>19.290366031667077,44.327018248293598 19.290496901011238,44.327172609728223 19.290930355351691,44.327325782259095 19.291687623185339,44.327752406248578 19.291824633999681,44.327969724723062 19.291729304963496,44.328328358167255 19.291633697137456,44.328605068768979 19.291526817208876,44.328995915029509 19.29122909214891,44.329286750383289 19.290868025139275,44.329382320437787 19.290311031828708,44.329370181388811 19.289913875025377,44.329337569273434 19.289736960392474,44.329397788776987 19.289739665553157,44.329578810613668 19.28987673032691,44.329702785754989 19.290216299043038,44.329799308191582 19.290467659554906,44.330100258220398 19.290709185980177,44.330465831732795 19.291447203825442,44.330916935268419 19.291520048911195,44.330967556307712 19.291734669419498,44.331346061171814 19.291957692293693,44.331709450231017 19.292117261702288,44.331881385317729 19.292412965985648,44.332118220879238 19.292654065232966,44.332316138279225 19.292775543856294,44.332154117318737 19.292886353822212,44.331902397977331 19.29299384618912,44.331673490838966 19.293052313813291,44.331487668421232 19.293095861684719,44.331358773988256 19.29312084305252,44.331321045629807 19.293251105354273,44.331130579112994 19.293310960632368,44.331080036314688 19.293559887578795,44.330916106992788 19.293840648726984,44.330752651613636 19.293950077334273,44.330639980950423 19.294036786368622,44.330486965800901 19.294114818743935,44.330358584880855 19.29422556935458,44.33020021336921 19.294249041660009,44.32993956915584 19.294513707641556,44.329690144884353 19.294733994778085,44.329506735347593 19.295186350169956,44.329282969633368 19.295490589019494,44.329133195640509 19.295833674984181,44.328924944130904 19.296299616434226,44.328689945884321 19.296091362226662,44.328641120791133 19.295752285439676,44.328527477061471 19.295138755349342,44.328451650723139 19.294526280163723,44.32843108502658 19.294081313601794,44.32830823583646 19.29378800421307,44.328172409429214 19.293361822690031,44.327859332042578 19.293054810331284,44.327738537803327 19.292544689685712,44.327483260743918 19.292004842849281,44.327338031025363 19.29166942900099,44.327190140212849 19.291188335773143,44.32712389165431 19.29068453016697,44.327108738977188 19.290366031667077,44.327018248293598</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
