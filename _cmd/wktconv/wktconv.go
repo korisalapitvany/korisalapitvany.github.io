@@ -21,12 +21,13 @@ const origin = "https://jasen.org.rs"
 
 var (
 	id     = flag.String("id", "", "ID field")
-	name   = flag.String("name", "", "Name field")
+	name   = flag.String("name", "", "Name property")
+	label  = flag.String("label", "", "Label property")
 	wgs84  = flag.Bool("wgs84", true, "Convert EPSG34N to WGS84")
 	format = flag.String("format", "geojson", "Output format, one of: 'geojson', 'kml'")
 )
 
-func NewFeature(id, name string) (*geojson.Feature, error) {
+func NewFeature(id, name, label string) (*geojson.Feature, error) {
 	geom, err := NewGeometry()
 	if err != nil {
 		return nil, err
@@ -35,8 +36,8 @@ func NewFeature(id, name string) (*geojson.Feature, error) {
 		ID:       id,
 		Geometry: geom,
 		Properties: map[string]interface{}{
-			"name": name,
-			"url":  fmt.Sprintf("%s/%s/", origin, id),
+			"name":  name,
+			"label": label,
 		},
 	}, nil
 }
@@ -209,7 +210,7 @@ func UTM34N2LL(easting, northing float64) (float64, float64, error) {
 func main() {
 	flag.Parse()
 
-	f, err := NewFeature(*id, *name)
+	f, err := NewFeature(*id, *name, *label)
 	if err != nil {
 		log.Printf("E: %v", err)
 		return

@@ -2,7 +2,7 @@
 layout: map
 
 title: Bogovinska pećina
-last_modified_at: 2018-05-23T08:07:23+02:00
+last_modified_at: 2018-05-23T23:37:46+02:00
 
 WDPA: [328920]
 BioRaS: [377]

@@ -75,11 +75,52 @@ initMap = ->
 
   loadGeoJSON 'map.json'
 
+addControls = (labels) ->
+  ul = document.createElement 'ul'
+  ul.className = 'toggle'
+  ul.index = 1
+
+  labels.forEach (label) ->
+    li = document.createElement 'li'
+    # li.tabindex = index
+    li.role = 'button'
+    li.className = label.toLowerCase()
+    li.style.opacity = '0'
+    li.innerText = label
+
+    ul.appendChild li
+
+  MAP.controls[google.maps.ControlPosition.TOP_LEFT].push ul
+
+  setTimeout ->
+    try
+      # Copy padding settings from the map-type-control element:
+      padding = MAP.getDiv().querySelector('div.gm-style-mtc>div[role=button]')?.style.padding
+      if padding and padding isnt '8px'
+        ul.style.marginTop = '16px'
+        for li in ul.children
+          li.style.padding = padding
+    catch e
+
+    i = 0
+    for li in ul.children
+      setTimeout ((li) -> ->
+        li.style.opacity = '1'
+      )(li), i
+      i += 100
+  , 1000
+
 N = S = E = W = null
 loadGeoJSON = (path) ->
+
   MAP.data.loadGeoJson path, null, (features) ->
+    labels = new Set
+
     # Update the map so the newly added features would fit.
     for f in features
+      label = f.getProperty 'label'
+      labels.add label if label
+
       f.getGeometry().forEachLatLng (x) ->
         if !N or x.lat() > N
           N = x.lat()
@@ -93,6 +134,8 @@ loadGeoJSON = (path) ->
       sw = new google.maps.LatLng S, W
       bb = new google.maps.LatLngBounds sw, ne
       MAP.fitBounds bb, 0
+
+    addControls labels
 
     # Make sure the map is visible.
     MAP.getDiv().style.visibility = ''

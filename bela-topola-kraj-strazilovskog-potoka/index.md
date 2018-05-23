@@ -2,7 +2,7 @@
 layout: map
 
 title: Bela topola kraj Stražilovskog potoka
-last_modified_at: 2018-05-23T08:07:30+02:00
+last_modified_at: 2018-05-23T23:37:52+02:00
 
 WDPA: [555589000]
 BioRaS: [242]

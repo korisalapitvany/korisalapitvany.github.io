@@ -2,7 +2,7 @@
 layout: map
 
 title: Sastojina starih slavonskih hrastova Smogva
-last_modified_at: 2018-05-23T08:07:21+02:00
+last_modified_at: 2018-05-23T23:37:44+02:00
 
 WDPA: [555552430]
 BioRaS: [142]

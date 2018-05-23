@@ -2,7 +2,7 @@
 layout: map
 
 title: Hrast lužnjak u dvorištu crpne stanice kod Kumana
-last_modified_at: 2018-05-23T08:07:31+02:00
+last_modified_at: 2018-05-23T23:37:53+02:00
 
 WDPA: [555589034]
 BioRaS: [280]

@@ -2,7 +2,7 @@
 layout: map
 
 title: Park čelarevskog dvorca
-last_modified_at: 2018-05-23T08:07:22+02:00
+last_modified_at: 2018-05-23T23:37:45+02:00
 
 WDPA: [388831]
 BioRaS: [342]
