@@ -1,6 +1,34 @@
 ---
 ---
 
+MAP_LABELS =
+  ZZPS: 'Zavod za zaštitu prirode Srbije'
+  PZZP: 'Pokrajinski zavod za zaštitu prirode'
+  RGZ:  'Republički geodetski zavod'
+  WDPA: 'Svetska baza zaštićenih područja'
+
+MAP_SOURCE_ORDER = [
+  'PZZP',
+  'ZZPS',
+  'RGZ',
+  'WDPA',
+]
+
+MAP_STYLES =
+  active:
+    zIndex: 1
+    fillColor: '#2e7d32' # green-800
+    fillOpacity: 0.5
+    strokeColor: '#9c27b0' # purple-500
+    strokeWeight: 2
+  inactive:
+    zIndex: 0
+    fillColor: 'black'
+    fillOpacity: 0.1
+    strokeColor: 'black'
+    strokeWeight: 1
+    strokeOpacity: 0.25
+
 # -------------------------------- #
 # Generate JSON/CSV download links #
 # -------------------------------- #
@@ -62,11 +90,7 @@ initMap = ->
     name: 'OSM'
     maxZoom: 18
 
-  MAP.data.setStyle
-    fillColor: '#2e7d32'    # green-800
-    fillOpacity: 0.5
-    strokeColor: '#ff6f00'  # amber-900
-    strokeWeight: 2
+  MAP.data.setStyle MAP_STYLES.inactive
 
   MAP.addListener 'maptypeid_changed', ->
     history.replaceState
@@ -80,15 +104,31 @@ addControls = (labels) ->
   ul.className = 'toggle'
   ul.index = 1
 
-  labels.forEach (label) ->
+  i = 1
+  MAP_SOURCE_ORDER.forEach (label) ->
+    return unless labels.has label
+
     li = document.createElement 'li'
-    # li.tabindex = index
+    li.tabindex = i
+    li.title = MAP_LABELS[label]
     li.role = 'button'
-    li.className = label.toLowerCase()
     li.style.opacity = '0'
     li.innerText = label
 
+    li.addEventListener 'click', ->
+      MAP.data.setStyle (feature) ->
+        return MAP_STYLES[if label is feature.getProperty 'label' then 'active' else 'inactive']
+
+      for other in ul.children
+        other.className = ''
+      li.className = 'active'
+
+    # Enable the first source by default:
+    if i is 1
+      li.dispatchEvent new Event 'click'
+
     ul.appendChild li
+    i += 1
 
   MAP.controls[google.maps.ControlPosition.TOP_LEFT].push ul
 

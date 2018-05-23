@@ -97,6 +97,11 @@ main.map .content {
       &:hover {
         background-color: #ebebeb;
       }
+
+      &.active {
+        color: white;
+        background-color: material-color('purple', '500');
+      }
     }
   }
 }
