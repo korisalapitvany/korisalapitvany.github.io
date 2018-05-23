@@ -1,4 +1,4 @@
-MAPS=../maps/wkt
+MAPS=../maps/src
 
 for dir in wktconv wktmerge jsonmerge; do
   pushd _cmd/$dir
