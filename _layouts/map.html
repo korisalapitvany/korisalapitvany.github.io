@@ -12,6 +12,9 @@ layout: page
 
 <div class="map">
   <div id="map" style="visibility: hidden;"></div>
+  {% if page.place_id %}
+    <div id="photos" style="visibility: hidden;" data-place-id="{{ page.place_id }}"></div>
+  {% endif %}
 
   <div class="sources">
 
@@ -142,5 +145,5 @@ layout: page
   }
   </script>
   <script async defer src="/js/maps.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ google_cloud_api_key }}&region=RS&language={{ language }}&callback=mapLoaded"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ google_cloud_api_key }}&region=RS&language={{ language }}&libraries=places&callback=mapLoaded"></script>
 {% endif %}

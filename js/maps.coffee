@@ -1,6 +1,8 @@
 ---
 ---
 
+PHOTO_SIZE = 168
+
 MAP_LABELS =
   ZZPS: 'Zavod za zaštitu prirode Srbije'
   PZZP: 'Pokrajinski zavod za zaštitu prirode'
@@ -65,7 +67,7 @@ for code in document.querySelectorAll 'code.source'
 # ------------------ #
 MAP = null
 initMap = ->
-  div = document.querySelector '#map'
+  div = document.getElementById 'map'
   return unless div
 
   mapTypeIds = (item for _, item of google.maps.MapTypeId).concat 'osm'
@@ -98,6 +100,8 @@ initMap = ->
     , document.title, "#{location.pathname}?map=#{MAP.mapTypeId}#{location.hash}"
 
   loadGeoJSON 'map.json'
+
+  loadPlace()
 
 addControls = (labels) ->
   ul = document.createElement 'ul'
@@ -179,6 +183,53 @@ loadGeoJSON = (path) ->
 
     # Make sure the map is visible.
     MAP.getDiv().style.visibility = ''
+
+loadPlace = (placeId) ->
+  div = document.getElementById 'photos'
+  return unless div
+
+  placeId = div.dataset.placeId
+  service = new google.maps.places.PlacesService MAP
+  service.getDetails {placeId}, (place, status) ->
+    return unless status is google.maps.places.PlacesServiceStatus.OK
+    return unless place.photos
+
+    width = 0
+    showPhotos = false
+    for photo in place.photos
+      w = Math.ceil photo.width * PHOTO_SIZE / photo.height
+      h = PHOTO_SIZE
+
+      img = document.createElement 'div'
+      img.className = 'photo'
+      img.style.width = "#{w}px"
+      img.style.height = "#{h}px"
+      img.style.backgroundImage = "url(#{photo.getUrl
+        maxWidth: w*2
+        maxHeight: h*2
+      })"
+
+      a = document.createElement 'a'
+      a.className = 'full-size'
+      a.href = photo.getUrl
+        maxWidth: window.outerWidth*2
+      img.appendChild a
+
+      if photo.html_attributions.length
+        attr = document.createElement 'div'
+        attr.className = 'attr'
+        attr.innerHTML = "Foto: #{photo.html_attributions.join ' / '}"
+        img.appendChild attr
+
+      if width > photos.clientWidth
+        img.style.display = 'none'
+      width += w + 4
+
+      div.appendChild img
+      showPhotos = true
+
+    if showPhotos
+      div.style.visibility = ''
 
 if @isMapLoaded
   initMap()
