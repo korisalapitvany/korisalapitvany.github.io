@@ -43,8 +43,11 @@
       </tr>
     {% endunless %}
     <tr>
-      <td>Godina upisa:</td>
-      <td>{{ include.item.STATUS_YR }}</td>
+      <td>Datum upisa:</td>
+      <td>
+        {% assign designation_date = include.rsis.designation_date | split: '-' %}
+        {{ designation_date[2] }}.{{ designation_date[1] }}.{{ designation_date[0] }}.
+      </td>
     </tr>
     <tr>
       <td>KML izvorni fajl:</td>
