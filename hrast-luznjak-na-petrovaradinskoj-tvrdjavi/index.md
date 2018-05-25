@@ -2,7 +2,8 @@
 layout: map
 
 title: Hrast lužnjak na Petrovaradinskoj tvrđavi
-last_modified_at: 2018-05-25T17:35:50+02:00
+designation: Spomenik prirode
+last_modified_at: 2018-05-25T23:19:58+02:00
 
 geoSrbija:
   L1_299: [8]

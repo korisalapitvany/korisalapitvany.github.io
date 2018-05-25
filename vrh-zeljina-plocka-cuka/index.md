@@ -2,7 +2,8 @@
 layout: map
 
 title: Vrh Željina – Pločka čuka
-last_modified_at: 2018-05-25T17:35:43+02:00
+designation: Strogi prirodni rezervat
+last_modified_at: 2018-05-25T23:19:51+02:00
 
 WDPA: [555588964]
 BioRaS: [459]

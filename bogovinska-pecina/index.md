@@ -2,7 +2,8 @@
 layout: map
 
 title: Bogovinska pećina
-last_modified_at: 2018-05-25T17:35:41+02:00
+designation: Spomenik prirode
+last_modified_at: 2018-05-25T23:19:48+02:00
 
 WDPA: [328920]
 BioRaS: [377]

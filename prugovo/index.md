@@ -2,7 +2,8 @@
 layout: map
 
 title: Prugovo
-last_modified_at: 2018-05-25T17:35:44+02:00
+designation: Predeo narocite prirodne lepote
+last_modified_at: 2018-05-25T23:19:51+02:00
 
 WDPA: [16417]
 BioRaS: [65]

@@ -2,7 +2,8 @@
 layout: map
 
 title: Vršačke planine
-last_modified_at: 2018-05-25T17:35:41+02:00
+designation: Predeo izuzetnih odlika
+last_modified_at: 2018-05-25T23:19:48+02:00
 
 WDPA: [145129]
 BioRaS: [62]

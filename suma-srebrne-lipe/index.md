@@ -2,7 +2,8 @@
 layout: map
 
 title: Šuma srebrne lipe
-last_modified_at: 2018-05-25T17:35:49+02:00
+designation: Strogi prirodni rezervat
+last_modified_at: 2018-05-25T23:19:57+02:00
 
 geoSrbija:
   L1_183: [151]

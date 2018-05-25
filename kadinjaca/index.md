@@ -2,7 +2,8 @@
 layout: map
 
 title: Kadinjača
-last_modified_at: 2018-05-25T17:35:40+02:00
+designation: Memorijalni prirodni spomenik
+last_modified_at: 2018-05-25T23:19:48+02:00
 
 WDPA: [328853]
 BioRaS: [10]

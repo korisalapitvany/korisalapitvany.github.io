@@ -2,7 +2,8 @@
 layout: map
 
 title: Mačkov kamen
-last_modified_at: 2018-05-25T17:35:44+02:00
+designation: Memorijalni prirodni spomenik
+last_modified_at: 2018-05-25T23:19:52+02:00
 
 WDPA: [328858]
 BioRaS: [11]

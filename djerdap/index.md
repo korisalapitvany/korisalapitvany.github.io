@@ -2,7 +2,8 @@
 layout: map
 
 title: Đerdap
-last_modified_at: 2018-05-25T17:35:45+02:00
+designation: Nacionalni park
+last_modified_at: 2018-05-25T23:19:53+02:00
 
 WDPA: [2522]
 BioRaS: [45]

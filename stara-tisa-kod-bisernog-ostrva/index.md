@@ -2,7 +2,8 @@
 layout: map
 
 title: „Stara Tisa“ kod Bisernog ostrva
-last_modified_at: 2018-05-25T17:35:43+02:00
+designation: Park prirode
+last_modified_at: 2018-05-25T23:19:50+02:00
 
 WDPA: [388809]
 BioRaS: [79]

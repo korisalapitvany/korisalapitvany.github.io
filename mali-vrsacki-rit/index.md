@@ -2,7 +2,8 @@
 layout: map
 
 title: Mali vršački rit
-last_modified_at: 2018-05-25T17:35:45+02:00
+designation: Zaštićeno stanište
+last_modified_at: 2018-05-25T23:19:52+02:00
 
 WDPA: [555560012]
 geoSrbija:

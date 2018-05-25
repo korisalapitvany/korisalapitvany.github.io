@@ -2,7 +2,8 @@
 layout: map
 
 title: Jelašnička klisura
-last_modified_at: 2018-05-25T17:35:41+02:00
+designation: Specijalni rezervat prirode
+last_modified_at: 2018-05-25T23:19:49+02:00
 
 WDPA: [328835]
 BioRaS: [403]

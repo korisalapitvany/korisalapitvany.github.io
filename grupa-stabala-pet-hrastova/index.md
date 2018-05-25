@@ -2,7 +2,8 @@
 layout: map
 
 title: Grupa stabala „Pet hrastova“
-last_modified_at: 2018-05-25T17:35:46+02:00
+designation: Spomenik prirode
+last_modified_at: 2018-05-25T23:19:54+02:00
 
 WDPA: [555588986]
 BioRaS: [236]

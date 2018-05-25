@@ -2,7 +2,8 @@
 layout: map
 
 title: Ponjavica
-last_modified_at: 2018-05-25T17:35:45+02:00
+designation: Park prirode
+last_modified_at: 2018-05-25T23:19:52+02:00
 
 WDPA: [16395]
 BioRaS: [70]

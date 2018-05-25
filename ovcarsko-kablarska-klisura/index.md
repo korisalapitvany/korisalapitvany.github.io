@@ -2,7 +2,8 @@
 layout: map
 
 title: Ovčarsko-kablarska klisura
-last_modified_at: 2018-05-25T17:35:42+02:00
+designation: Predeo izuzetnih odlika
+last_modified_at: 2018-05-25T23:19:50+02:00
 
 WDPA: [20701]
 BioRaS: [55]

@@ -2,7 +2,8 @@
 layout: map
 
 title: Park-arboretum „Aleksa Šantić“
-last_modified_at: 2018-05-25T17:35:39+02:00
+designation: Prirodni spomenik
+last_modified_at: 2018-05-25T23:19:47+02:00
 
 WDPA: [555552429]
 BioRaS: [91]

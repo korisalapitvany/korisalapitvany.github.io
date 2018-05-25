@@ -2,7 +2,8 @@
 layout: map
 
 title: Čalački potok
-last_modified_at: 2018-05-25T17:35:40+02:00
+designation: Strogi prirodni rezervat
+last_modified_at: 2018-05-25T23:19:48+02:00
 
 WDPA: [145396]
 BioRaS: [437]

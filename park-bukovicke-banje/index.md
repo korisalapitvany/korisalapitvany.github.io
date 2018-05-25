@@ -2,7 +2,8 @@
 layout: map
 
 title: Park Bukovičke banje
-last_modified_at: 2018-05-25T17:35:46+02:00
+designation: Spomenik prirode
+last_modified_at: 2018-05-25T23:19:54+02:00
 
 WDPA: [555515219]
 BioRaS: [379]

@@ -2,7 +2,8 @@
 layout: map
 
 title: Park čelarevskog dvorca
-last_modified_at: 2018-05-25T17:35:40+02:00
+designation: Spomenik prirode
+last_modified_at: 2018-05-25T23:19:47+02:00
 
 WDPA: [388831]
 BioRaS: [342]

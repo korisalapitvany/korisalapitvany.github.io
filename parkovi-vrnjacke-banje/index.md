@@ -2,7 +2,8 @@
 layout: map
 
 title: Parkovi Vrnjačke Banje
-last_modified_at: 2018-05-25T17:35:43+02:00
+designation: Spomenik prirode
+last_modified_at: 2018-05-25T23:19:51+02:00
 
 WDPA: [395447]
 BioRaS: [376]

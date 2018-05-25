@@ -2,7 +2,8 @@
 layout: map
 
 title: Ozrenske livade
-last_modified_at: 2018-05-25T17:35:40+02:00
+designation: Predeo narocite prirodne lepote
+last_modified_at: 2018-05-25T23:19:48+02:00
 
 WDPA: [16416]
 BioRaS: [67]

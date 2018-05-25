@@ -2,7 +2,8 @@
 layout: map
 
 title: Varoš
-last_modified_at: 2018-05-25T17:35:39+02:00
+designation: Strogi prirodni rezervat
+last_modified_at: 2018-05-25T23:19:47+02:00
 
 WDPA: [145417]
 BioRaS: [455]

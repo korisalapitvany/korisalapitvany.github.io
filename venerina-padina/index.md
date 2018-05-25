@@ -2,7 +2,8 @@
 layout: map
 
 title: Venerina padina
-last_modified_at: 2018-05-25T17:35:43+02:00
+designation: Specijalni rezervat prirode
+last_modified_at: 2018-05-25T23:19:51+02:00
 
 WDPA: [328837]
 BioRaS: [410]
