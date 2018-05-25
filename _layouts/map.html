@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 ---
 {%- include vars.html -%}
 
@@ -10,14 +10,20 @@ layout: page
 {%- assign has_wkt = false -%}
 {%- assign records = 0 -%}
 
-<div class="map">
-  <div id="map" style="visibility: hidden;"></div>
-  {% if page.Google %}
-    <div id="photos" style="visibility: hidden;" data-place-id="{{ page.Google }}"></div>
-  {% endif %}
+<h1 class="title">
+  <span class="designation">{{ page.designation }}</span><br>
+  {{ page.title }}
+</h1>
+<div class="color--light-green parallax--layer-0 content-block page">
+  <div class="map">
 
-  <div class="sources">
+<div id="map" style="visibility: hidden;"></div>
 
+{% if page.Google %}
+  <div id="photos" style="visibility: hidden;" data-place-id="{{ page.Google }}"></div>
+{% endif %}
+
+<div class="sources">
 {% if page.geoSrbija.L1_183 %}
   {% assign id_s = page.geoSrbija.L1_183 | first | downcase %}
 
@@ -129,6 +135,7 @@ layout: page
     Republičkog geodetskog zavoda.
   </p>
 {% endif %}
+</div>
 
   </div>
 </div>

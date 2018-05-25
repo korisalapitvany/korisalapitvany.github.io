@@ -1,4 +1,19 @@
 main.map .content {
+  .title {
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    background-color: transparent;
+
+    .designation {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: 'Roboto Condensed', Roboto, sans-serif;
+      font-weight: 300;
+      font-size: 24px;
+    }
+  }
+
   table {
     @include simple-table;
 
