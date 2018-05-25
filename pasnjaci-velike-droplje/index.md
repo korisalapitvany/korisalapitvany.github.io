@@ -2,7 +2,7 @@
 layout: map
 
 title: Pašnjaci velike droplje
-last_modified_at: 2018-05-23T23:37:47+02:00
+last_modified_at: 2018-05-25T17:35:42+02:00
 
 WDPA: [328842]
 BioRaS: [405]
