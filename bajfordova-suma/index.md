@@ -3,7 +3,7 @@ layout: map
 
 title: Bajfordova šuma
 designation: Spomenik prirode
-last_modified_at: 2018-05-25T23:19:49+02:00
+last_modified_at: 2018-05-31T00:23:05+02:00
 
 WDPA: [555552435]
 BioRaS: [206]

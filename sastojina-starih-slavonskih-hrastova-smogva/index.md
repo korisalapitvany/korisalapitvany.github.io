@@ -3,7 +3,7 @@ layout: map
 
 title: Sastojina starih slavonskih hrastova Smogva
 designation: Prirodni spomenik
-last_modified_at: 2018-05-25T23:19:46+02:00
+last_modified_at: 2018-05-31T00:23:03+02:00
 
 WDPA: [555552430]
 BioRaS: [142]

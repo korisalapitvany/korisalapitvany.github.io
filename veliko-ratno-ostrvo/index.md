@@ -3,7 +3,7 @@ layout: map
 
 title: Veliko ratno ostrvo
 designation: Predeo izuzetnih odlika
-last_modified_at: 2018-05-25T23:19:52+02:00
+last_modified_at: 2018-05-31T00:23:08+02:00
 
 WDPA: [20704]
 BioRaS: [59]

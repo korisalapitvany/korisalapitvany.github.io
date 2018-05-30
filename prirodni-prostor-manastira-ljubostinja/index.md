@@ -3,7 +3,7 @@ layout: map
 
 title: Prirodni prostor manastira Ljubostinja
 designation: Prirodni prostor oko nepokretnog kulturnog dobra
-last_modified_at: 2018-05-25T23:19:51+02:00
+last_modified_at: 2018-05-31T00:23:07+02:00
 
 WDPA: [555552439]
 BioRaS: [40]

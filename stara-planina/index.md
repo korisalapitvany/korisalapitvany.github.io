@@ -3,7 +3,7 @@ layout: map
 
 title: Stara planina
 designation: Park prirode
-last_modified_at: 2018-05-25T23:19:49+02:00
+last_modified_at: 2018-05-31T00:23:06+02:00
 
 WDPA: [16397]
 BioRaS: [80]
