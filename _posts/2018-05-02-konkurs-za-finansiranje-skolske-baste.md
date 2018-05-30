@@ -178,11 +178,13 @@ p.prijave .cell {
 }
 
 p.prijave .row {
+  z-index: 0;
   height: 30px;
   right: 0;
 }
 
 p.prijave .cell {
+  z-index: 2;
   display: inline-block;
   line-height: 22px;
   min-width: 186px;
@@ -191,6 +193,7 @@ p.prijave .cell {
 }
 
 p.prijave iframe {
+  z-index: 1;
   position: absolute;
   top: 0; right: 0; bottom: 0;
   width: 330px;
