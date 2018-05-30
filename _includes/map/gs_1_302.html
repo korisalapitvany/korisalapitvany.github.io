@@ -10,7 +10,7 @@
   Preuzmi:
   <a href="#" download="{{ page_id }}.1.302.json" class="json">JSON</a>,
   <a href="#" download="{{ page_id }}.1.302.csv" class="csv">CSV</a>.
-  <code class="source" style="display: none;">{{ include.item | jsonify }}</code>
+  <script>"use strict"; SOURCES.push({{ include.item | jsonify }});</script>
   {%- assign has_map = true -%}
 </p>
 

@@ -40,25 +40,21 @@ csvEscape = (text) ->
   return "\"#{text.replace /"/g, '""'}\""
 
 # Process each data source:
-for code in document.querySelectorAll 'code.source'
-  json = code.textContent
-  return unless json
-
-  oldObj = JSON.parse json
-  newObj = {}
-  for key, val of oldObj
-    newObj[key.toLowerCase()] = val
-  json = JSON.stringify newObj
+SOURCES.forEach (source, i) ->
+  obj = {}
+  for key, val of source
+    obj[key.toLowerCase()] = val
+  json = JSON.stringify obj
 
   csv = ""
-  for key, val of newObj
+  for key, val of obj
     csv += "#{csvEscape key},#{csvEscape val}\n"
 
-  a = code.parentElement.querySelector 'a.json'
+  a = document.querySelectorAll('p.source>a.json')[i]
   a.style.display = ''
   a.href = "data:text/json;charset=utf-8,#{json}"
 
-  a = code.parentElement.querySelector 'a.csv'
+  a = document.querySelectorAll('p.source>a.csv')[i]
   a.style.display = ''
   a.href = "data:text/csv;charset=utf-8,#{csv}"
 
