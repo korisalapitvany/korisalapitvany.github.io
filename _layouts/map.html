@@ -10,6 +10,22 @@ layout: base
 {%- assign has_wkt = false -%}
 {%- assign records = 0 -%}
 
+<script id="ld" type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Place",
+  "name": "{{ page.title }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "geo": {
+    "addressCountry": "RS"
+  },
+  "additionalProperty": {
+    "name": "designation",
+    "value": "{{ page.designation }}"
+  }
+}
+</script>
+
 <script>
   "use strict";
   const SOURCES = [];
