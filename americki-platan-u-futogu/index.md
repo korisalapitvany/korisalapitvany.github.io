@@ -3,7 +3,7 @@ layout: map
 
 title: Američki platan u Futogu
 designation: Spomenik prirode
-last_modified_at: 2018-05-31T00:23:10+02:00
+last_modified_at: 2018-06-02T23:12:19+02:00
 
 WDPA: [555589002]
 BioRaS: [218]

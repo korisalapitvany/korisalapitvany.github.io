@@ -3,7 +3,7 @@ layout: map
 
 title: Klisura reke Gradac
 designation: Predeo izuzetnih odlika
-last_modified_at: 2018-05-31T00:23:05+02:00
+last_modified_at: 2018-06-02T23:12:14+02:00
 
 WDPA: [16422]
 BioRaS: [53]

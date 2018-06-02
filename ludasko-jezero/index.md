@@ -3,7 +3,7 @@ layout: map
 
 title: Ludaško jezero
 designation: Specijalni rezervat prirode
-last_modified_at: 2018-05-31T00:23:03+02:00
+last_modified_at: 2018-06-02T23:12:12+02:00
 
 WDPA: [328839, 68321]
 BioRaS: [412]

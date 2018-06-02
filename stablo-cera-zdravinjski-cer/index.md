@@ -3,7 +3,7 @@ layout: map
 
 title: Stablo cera „Zdravinjski cer“
 designation: Spomenik prirode
-last_modified_at: 2018-05-31T00:23:12+02:00
+last_modified_at: 2018-06-02T23:12:20+02:00
 
 WDPA: [555589064]
 BioRaS: [315]
