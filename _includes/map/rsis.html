@@ -4,15 +4,15 @@
   <div class="chip">
     {%- assign records = records | plus: 1 -%}
     <div id="zapis-{{ records }}" class="counter">{{ records }}</div>
-    <div class="source-id">WDPA</div>
+    <div class="source-id">RSIS</div>
   </div>
 
   <div class="mdl-shadow--2dp ribbon">
-    <a href="https://www.protectedplanet.net/">Svetska baza zaštićenih područja</a>
+    <a href="https://www.ramsar.org/">Ramsarska konvencija o zaštiti močvara</a>
   </div>
 
   <p class="description">
-    Izvod iz <em>Svetske baze zaštićenih područja</em> (World Database on Protected Areas).
+    Izvod iz baze podataka <em>Informacione službe Ramsarske konvencije</em> (Ramsar Sites Information Service).
   </p>
 
   <table class="mdl-data-table mdl-js-data-table">
@@ -22,10 +22,17 @@
         <td class="mdl-data-table__cell--non-numeric"><a href="https://www.protectedplanet.net/{{ include.item.WDPAID }}">{{ include.item.WDPAID }}</a></td>
       </tr>
       <tr>
-        <td class="mdl-data-table__cell--non-numeric">Kategorija:</td>
-        <td class="mdl-data-table__cell--non-numeric">{{ include.item.DESIG }}</td>
+        <td class="mdl-data-table__cell--non-numeric">RSIS broj:</td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="https://rsis.ramsar.org/ris/{{ include.rsis.ID }}">{{ include.rsis.ID }}</a>; izvor:
+          <a href="https://www.ramsar.org/{{ include.rsis.path }}">ramsar.org/{{ include.rsis.path }}</a>
+        </td>
       </tr>
-      {% unless include.item.IUCN_CAT == "Not Applicable" or include.item.IUCN_CAT == "Not Reported" or include.item.IUCN_CAT == "Not Assigned" %}
+      <tr>
+        <td class="mdl-data-table__cell--non-numeric">Kategorija:</td>
+        <td class="mdl-data-table__cell--non-numeric">Močvara međunarodne važnosti</td>
+      </tr>
+      {% unless include.item.IUCN_CAT == "Not Reported" or include.item.IUCN_CAT == "Not Assigned" %}
         <tr>
           <td class="mdl-data-table__cell--non-numeric">IUCN kategorija:</td>
           <td class="mdl-data-table__cell--non-numeric">{{ include.item.IUCN_CAT }} ({{ site_data.iucn_cat[include.item.IUCN_CAT] | downcase }})</td>
@@ -38,8 +45,11 @@
         </tr>
       {% endunless %}
       <tr>
-        <td class="mdl-data-table__cell--non-numeric">Godina upisa:</td>
-        <td class="mdl-data-table__cell--non-numeric">{{ include.item.STATUS_YR }}</td>
+        <td class="mdl-data-table__cell--non-numeric">Datum upisa:</td>
+        <td class="mdl-data-table__cell--non-numeric">
+          {% assign designation_date = include.rsis.designation_date | split: '-' %}
+          {{ designation_date[2] }}.{{ designation_date[1] }}.{{ designation_date[0] }}.
+        </td>
       </tr>
     </tbody>
   </table>

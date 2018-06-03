@@ -1,63 +1,71 @@
-<h2>
-  {%- assign records = records | plus: 1 -%}
-  <span id="zapis-{{ records }}" class="marker">Zapis {{ records }}</span>
-  <span class="record">{{ include.item.fcsubtype_opis }}</span>
-</h2>
+{%- assign has_map = true -%}
 
-<p class="source">
-  Izvor:
-  <a href="http://www.rgz.gov.rs">RGZ / Republički geodetski zavod</a>.
-  Preuzmi:
-  <a href="#" download="{{ page_id }}.1.362.json" class="json">JSON</a>,
-  <a href="#" download="{{ page_id }}.1.362.csv" class="csv">CSV</a>.
-  <script>"use strict"; SOURCES.push({{ include.item | jsonify }});</script>
-  {%- assign has_map = true -%}
-</p>
+<div class="source mdl-shadow--2dp">
+  <div class="chip">
+    {%- assign records = records | plus: 1 -%}
+    <div id="zapis-{{ records }}" class="counter">{{ records }}</div>
+    <div class="source-id">RGZ</div>
+  </div>
 
-<table>
-  <tbody>
-    <tr>
-      <td>Baza podataka:</td>
-      <td>Nacionalni parkovi i prirodni rezervati površine veće od 0.4 km²</td>
-    </tr>
-    <tr>
-      <td>Tip zaštićenog područja:</td>
-      <td>{{ include.item.na3_opis }}</td>
-    </tr>
-    <tr>
-      <td>Podtip:</td>
-      <td>{{ include.item.fcsubtype_opis }}</td>
-    </tr>
-    <tr>
-      <td>geoSrbija sloj:</td>
-      <td>Zaštićena područja</td>
-    </tr>
-    <tr>
-      <td class="sup">WKT<sup>1</sup> izvorni fajlovi:</td>
-      <td>
-        {%- assign first = true %}
-        {%- for id in page.geoSrbija.L1_362 %}
+  <div class="mdl-shadow--2dp ribbon">
+    <a href="http://www.rgz.gov.rs">Republički geodetski zavod</a>
+  </div>
+
+  <p class="description">
+    Izvod iz baze podataka „<em>Nacionalni parkovi i prirodni rezervati površine veće od 0.4 km²</em>“ Republičkog geodetskog zavoda,
+    geoSrbija sloj „<em>Zaštićena područja</em>“.
+  </p>
+
+  <table class="mdl-data-table mdl-js-data-table">
+    <tbody>
+      <tr>
+        <td class="mdl-data-table__cell--non-numeric">Tip zaštićenog područja:</td>
+        <td class="mdl-data-table__cell--non-numeric">{{ include.item.na3_opis }}</td>
+      </tr>
+      <tr>
+        <td class="mdl-data-table__cell--non-numeric">Podtip:</td>
+        <td class="mdl-data-table__cell--non-numeric">{{ include.item.fcsubtype_opis }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="gis">
+    <div class="heading">
+      <div class="text"><i class="material-icons">map</i> GIS podaci</div>
+    </div>
+
+    <p>
+      {% if page.geoSrbija.L1_362.size == 1 %}
+        WKT<sup>1</sup> izvorni fajl:
+
+        {% assign id = page.geoSrbija.L1_362 | first %}
+        <a href="/{{ page_id }}/1.362.{{ id }}.wkt">1.362.{{ id }}.wkt</a>
+      {% else %}
+        WKT<sup>1</sup> izvorni fajlovi:
+
+        {% assign first = true %}
+        {% for id in page.geoSrbija.L1_362 %}
           {%- unless first %}, {% endunless -%}
           <a href="/{{ page_id }}/1.362.{{ id }}.wkt">1.362.{{ id }}.wkt</a>
           {%- assign has_wkt = true  %}
           {%- assign first = false %}
         {%- endfor -%}
-      </td>
-    </tr>
-  </tbody>
-</table>
+      {% endif %}
+    </p>
+  </div>
 
-<div class="buttons">
-  <a href="/{{ page_id }}/1.362.json"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    <i class="material-icons">save_alt</i>
-    GeoJSON
-  </button></a>
-  <a href="/{{ page_id }}/1.362.kml"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    <i class="material-icons">save_alt</i>
-    KML
-  </button></a>
-  <a href="/{{ page_id }}/1.362.wkt"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    <i class="material-icons">save_alt</i>
-    WKT
-  </button></a>
+  <div class="buttons">
+    <a href="/{{ page_id }}/1.362.json"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">save_alt</i>
+      GeoJSON
+    </button></a>
+    <a href="/{{ page_id }}/1.362.kml"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">save_alt</i>
+      KML
+    </button></a>
+    <a href="/{{ page_id }}/1.362.wkt"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">save_alt</i>
+      WKT
+    </button></a>
+  </div>
 </div>
