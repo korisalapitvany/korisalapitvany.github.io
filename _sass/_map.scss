@@ -29,6 +29,10 @@ main.map {
       padding: 0 0 24px;
       background-color: white;
 
+      &:last-child {
+        margin-bottom: 48px;
+      }
+
       .chip {
         position: relative;
         height: 48px;
@@ -113,7 +117,12 @@ main.map {
         tr {
           td:first-child {
             width: 0.01%;
+            vertical-align: top;
             color: material-color('grey', '800');
+          }
+
+          td:last-child {
+            white-space: initial;
           }
         }
       }
@@ -150,37 +159,6 @@ main.map {
           line-height: 48px;
           margin-right: 8px;
         }
-      }
-    }
-
-    .sources {
-      h2 {
-        line-height: 32px;
-        margin: 48px 0 8px;
-
-        &:first-child {
-          margin-top: 24px;
-        }
-
-        .marker {
-          padding: 4px 8px;
-          margin-left: -6px;
-          text-transform: uppercase;
-          font-size: 16px;
-          background-color: material-color('teal', '800');
-          color: white;
-        }
-
-        .record {
-          text-decoration: underline dotted rgba(0, 0, 0, .5);
-        }
-        + .source {
-          margin-top: 0;
-        }
-      }
-
-      a {
-        font-weight: inherit;
       }
     }
   }
