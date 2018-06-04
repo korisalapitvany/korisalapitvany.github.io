@@ -5,6 +5,10 @@ main.map {
   }
 
   .content {
+    a {
+      font-weight: inherit;
+    }
+
     .title {
       display: block;
       text-align: center;
