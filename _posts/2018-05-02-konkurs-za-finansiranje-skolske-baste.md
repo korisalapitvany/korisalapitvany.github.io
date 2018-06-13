@@ -163,63 +163,18 @@ Odluka o dodeli sredstava se objavljuje na internet stranici Fondacije.
 
 Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim školama.
 
-<style scoped>
-p.prijave {
-  position: relative;
-  height: 100px;
-  width: 100%;
-}
-
-p.prijave .row,
-p.prijave .cell {
-  background-color: #6ca04e;
-  position: absolute;
-  top: 0; left: 0;
-}
-
-p.prijave .row {
-  z-index: 0;
-  height: 30px;
-  right: 0;
-}
-
-p.prijave .cell {
-  z-index: 2;
-  display: inline-block;
-  line-height: 22px;
-  min-width: 186px;
-  border-right: 2px solid #7bb15b;
-  padding: 4px;
-}
-
-p.prijave iframe {
-  z-index: 1;
-  position: absolute;
-  top: 0; right: 0; bottom: 0;
-  width: 330px;
-}
-</style>
-
-<p class="prijave">
-  <span class="row"></span>
-  <iframe
-    src="https://datastudio.google.com/embed/reporting/1MgnXAFxPib5XammecrCtndBPidOtXw9n/page/EaeS"
-    width="330"
-    height="100"
-    frameborder="0"
-    style="border: 0;"></iframe>
-  <strong class="cell">Broj primljenih prijava:</strong>
-</p>
+| Broj primljenih prijava: | 38              |
+| Ukupan traženi iznos:    | 4,017,560.91din |
 
 <p class="buttons">
   <a href="/docs/konkurs-za-finansiranje-skolske-baste.pdf"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
     <i class="material-icons">print</i>
     Štampana verzija
   </button></a>
-  <a href="/form/konkurs-za-finansiranje-skolske-baste"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-button--disabled">
     <i class="material-icons">edit</i>
     Online prijava
-  </button></a>
+  </button>
 </p>
 
 _Više informacija o konkursu mogu se dobiti preko e-mail adrese [info@jasen.org.rs]._
