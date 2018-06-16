@@ -164,7 +164,7 @@ Odluka o dodeli sredstava se objavljuje na internet stranici Fondacije.
 Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim školama.
 
 | Broj primljenih prijava: | 38              |
-| Ukupan traženi iznos:    | 4,017,560.91din |
+| Ukupan traženi iznos:    | 4,619,868.00din |
 
 <p class="buttons">
   <a href="/docs/konkurs-za-finansiranje-skolske-baste.pdf"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
