@@ -76,7 +76,7 @@ naučili. Što se tiče načina prikupljanja prijave, neki primeri su:
   različite škole su različito interpretirali ovo polje, pa ćemo sledeći put
   ovo potpuno izostaviti, i tražićemo samo finansijski plan.
 * Prvo nismo konfigurisali formular da šalje email potvrdu o prijavi.
-  * Ovu grešk smo ispravili posle prve primljene prijave.
+  * Ovu grešku smo ispravili posle prve primljene prijave.
 * Prvo nismo dozvolili otpremanje više dokumenata.
   * Pošto su neke prijave imali dodatni materijal (npr. slike), kasnije smo
   omogućili otpremanje ostalih datoteka uz opšti plan.
