@@ -58,7 +58,7 @@ svaka škola dobije najmanje 3×1=3, a najviše 3×38=114 bodova.
 * Dobili smo 38 prijava na konkurs: 29 osnovnih škola, 6 srednjih škola i 3
   osnovnih i srednjih škola su se prijavila.
 * Ukupan traženi iznos je 4.619.868,00 dinara, od kojih Fondacija finansira
-  10.28%.
+  10,28%.
 
 ## Retrospektiva
 
