@@ -3,7 +3,7 @@ layout: map
 
 title: Stablo ginka kod hotela Park u Novom Sadu
 designation: Spomenik prirode
-last_modified_at: 2018-06-02T23:12:22+02:00
+last_modified_at: 2018-07-29T18:32:14+02:00
 
 geoSrbija:
   L1_299: [3]

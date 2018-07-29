@@ -3,7 +3,7 @@ layout: map
 
 title: Majzecova bašta
 designation: Strogi prirodni rezervat
-last_modified_at: 2018-06-02T23:12:12+02:00
+last_modified_at: 2018-07-29T18:32:06+02:00
 
 WDPA: [145423]
 BioRaS: [457]
