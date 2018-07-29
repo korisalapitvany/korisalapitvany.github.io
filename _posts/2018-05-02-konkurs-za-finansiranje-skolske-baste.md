@@ -15,7 +15,7 @@ cover_image: https://storage.googleapis.com/jasen.org.rs/2018/boy-planting-veget
 cover_position: 50%;
 
 excerpt: |
-  Fondacija „Jasen“ raspisuje konkurs za finansiranje pokretanja školske bašte
+  Fondacija „Jasen” raspisuje konkurs za finansiranje pokretanja školske bašte
   u osnovnim i srednjim školama na teritoriji AP Vojvodine. U prvom krugu biće
   podeljeno ukupno **360.000,00 dinara** odabranim školama, do **150.000,00
   dinara po školi** ([raspored sredstava]).
@@ -44,14 +44,14 @@ h3 {
 
 *U skladu sa ciljevima i aktivnostima Fondacije (član 6. stav 1. tačka 2., i
 član 7. stav 1. tačka 5. [Statuta]) Fondacija za zaštitu životne sredine
-„Jasen“ raspisuje*
+„Jasen” raspisuje*
 
 ## KONKURS
 
 _**za finansiranje pokretanja školske bašte u osnovnim i srednjim školama na
 teritoriji AP Vojvodine**_
 
-Fondacija „Jasen“ (u daljem tekstu: Fondacija) u skladu sa finansijskim planom
+Fondacija „Jasen” (u daljem tekstu: Fondacija) u skladu sa finansijskim planom
 i mogućnostima u budžetskoj 2018 godini, finansira i sufinansira najmanje tri
 škole na teritoriji AP Vojvodine, za projekat izgradnje ili pokretanje školske
 bašte, kao mesto i mogućnost obrazovno-vaspitnog prostora za školsku decu.

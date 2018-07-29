@@ -18,15 +18,15 @@ cover_position: 50%;
 excerpt_separator: <!-- details -->
 ---
 
-Upravni odbor Fondacije „Jasen“ doneo je odluku o rezultatima konkursa.
+Upravni odbor Fondacije „Jasen” doneo je odluku o rezultatima konkursa.
 Najbolji projekti su:
 
-1. **Staklenik u Tehničkoj školi „9. maj“** – Bačka Palanka
-2. **„Lolina botanička bašta“** u Osnovnoj školi „Ivo Lola Ribar“ – Sombor
-3. **„Jovina organska bašta“** u Osnovnoj školi „Jovan Popović“ – Kikinda
+1. **Staklenik u Tehničkoj školi „9. maj”** – Bačka Palanka
+2. **„Lolina botanička bašta”** u Osnovnoj školi „Ivo Lola Ribar” – Sombor
+3. **„Jovina organska bašta”** u Osnovnoj školi „Jovan Popović” – Kikinda
 
 Specijalnu nagradu dobija Osnovna i srednja škola sa domom učenika „Petro
-Kuzmjak“ – Ruski Krstur, za projekat **„Pametna školska bašta“**, kao pilot
+Kuzmjak” – Ruski Krstur, za projekat **„Pametna školska bašta”**, kao pilot
 projekat za testiranje [UrbiGo zelene kocke](https://urbigo.me) u učionici.
 
 <!-- details -->
@@ -37,13 +37,13 @@ Pošto smo dobili mnogo veoma dobrih prijava, odlučili smo da povećamo ukupan
 iznos finansiranja sa 360.000,00 dinara na **474.790,50 dinara**. Raspodela
 sredstava je sledeća:
 
-* **Tehnička škola „9. maj“ – Bačka Palanka** dobija 149.940,00 dinara, 100%
+* **Tehnička škola „9. maj” – Bačka Palanka** dobija 149.940,00 dinara, 100%
   traženog iznosa.
-* **Osnovna škola „Ivo Lola Ribar“ – Sombor** dobija 144.923,00 dinara, 100%
+* **Osnovna škola „Ivo Lola Ribar” – Sombor** dobija 144.923,00 dinara, 100%
   traženog iznosa.
-* **Osnovna škola „Jovan Popović“ – Kikinda** dobija 128.127,50 dinara, 85%
+* **Osnovna škola „Jovan Popović” – Kikinda** dobija 128.127,50 dinara, 85%
   traženog iznosa (fondacija ne finansira marketing materijal).
-* **Osnovna i srednja škola sa domom učenika „Petro Kuzmjak“ – Ruski Krstur**
+* **Osnovna i srednja škola sa domom učenika „Petro Kuzmjak” – Ruski Krstur**
   dobija 51.800,00 dinara, 100% traženog iznosa.
 
 ## Rezultati ocenjivanja žirija

@@ -13,8 +13,8 @@ translations:
 ---
 ## Basic information
 
-| Name:                  | Ash Foundation for Environmental Protection<br>(Serbian: Fondacija za zaštitu životne sredine „Jasen“) |
-| Shortened name:        | Ash Foundation<br>(Serbian: Fondacija „Jasen“)                                                         |
+| Name:                  | Ash Foundation for Environmental Protection<br>(Serbian: Fondacija za zaštitu životne sredine „Jasen”) |
+| Shortened name:        | Ash Foundation<br>(Serbian: Fondacija „Jasen”)                                                         |
 | Identification number: | 28830386                                                                                               |
 | TIN:                   | 110200183                                                                                              |
 | Date of foundation:    | 7/26/2017                                                                                              |

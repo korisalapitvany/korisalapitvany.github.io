@@ -13,7 +13,7 @@ permalink: /:title/
 ---
 Poštovani pčelari,
 
-Obraćam vam se u ime Fondacije za zaštitu životne sredine „Jasen“. Kao
+Obraćam vam se u ime Fondacije za zaštitu životne sredine „Jasen”. Kao
 novoosnovana organizacija, želimo da stupimo u saradnju sa drugim
 organizacijama i osobama iz našeg društva, u cilju poboljšanja zaštite životne
 sredine i zaštite prirode u Srbiji.
@@ -26,7 +26,7 @@ ciljevima i aktivnostima (članovi 6. i 7. [našeg statuta]).
 
 Kao primer, neke ideje gde bi naša fondacija mogla da pomogne su:
 
-**Organizacija javnih “parkinga” za pčele/košnice.** Na primer, fondacija bi po
+**Organizacija javnih ”parkinga” za pčele/košnice.** Na primer, fondacija bi po
 mogućnosti kupila zemljišta što bi pretvorili u livadu ili šumu povoljnu za
 pčelartsto. Članovi naše fondacije lično poznavaju osobe koje ulagaju u otkup
 zemljišta i pošumljavanje pa bi pokušali da izgradimo bezbednu okolinu za

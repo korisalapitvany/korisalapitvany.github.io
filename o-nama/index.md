@@ -13,8 +13,8 @@ translations:
 ---
 ## Osnovni podaci
 
-| Naziv:               | Fondacija za zaštitu životne sredine „Jasen“ |
-| Skraćeni naziv:      | Fondacija „Jasen“                            |
+| Naziv:               | Fondacija za zaštitu životne sredine „Jasen” |
+| Skraćeni naziv:      | Fondacija „Jasen”                            |
 | Matični broj:        | 28830386                                     |
 | PIB:                 | 110200183                                    |
 | Datum osnivanja:     | 26.7.2017                                    |

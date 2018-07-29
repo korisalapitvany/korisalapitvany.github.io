@@ -13,8 +13,8 @@ translations:
 ---
 ## Alapinformációk
 
-| Név:                       | Kőris Környezetvédelmi Alapítvány<br>(Szerbül: Fondacija za zaštitu životne sredine „Jasen“) |
-| Rövidített név:            | Kőris Alapítvány<br>(Szerbül: Fondacija „Jasen“)                                             |
+| Név:                       | Kőris Környezetvédelmi Alapítvány<br>(Szerbül: Fondacija za zaštitu životne sredine „Jasen”) |
+| Rövidített név:            | Kőris Alapítvány<br>(Szerbül: Fondacija „Jasen”)                                             |
 | Anyakönyvi szám:           | 28830386                                                                                     |
 | Adószám:                   | 110200183                                                                                    |
 | Alapítás dátuma:           | 2017.7.26.                                                                                   |

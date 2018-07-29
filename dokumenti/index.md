@@ -21,11 +21,11 @@ translations:
 
 ## 2017
 
-- [Odluka o finansiranju dečijeg igrališta „Gornje Podunavlje“]
+- [Odluka o finansiranju dečijeg igrališta „Gornje Podunavlje”]
 
   27.12.2017. · 3 strane
 
-[Odluka o finansiranju dečijeg igrališta „Gornje Podunavlje“]: /docs/odluka-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf
+[Odluka o finansiranju dečijeg igrališta „Gornje Podunavlje”]: /docs/odluka-o-finansiranju-decijeg-igralista-gornje-podunavlje.pdf
 
 ## Osnivački dokumenti
 
