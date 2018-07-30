@@ -3,7 +3,7 @@ layout: map
 
 title: Vinatovača
 designation: Opšti rezervat prirode
-last_modified_at: 2018-07-29T18:32:06+02:00
+last_modified_at: 2018-07-30T09:53:03+02:00
 
 WDPA: [328833]
 BioRaS: [49]

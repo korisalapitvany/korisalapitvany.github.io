@@ -3,7 +3,7 @@ layout: map
 
 title: Lepterija-Sokograd
 designation: Predeo izuzetnih odlika
-last_modified_at: 2018-07-29T18:32:07+02:00
+last_modified_at: 2018-07-30T09:53:04+02:00
 
 WDPA: [16414]
 BioRaS: [57]

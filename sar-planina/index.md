@@ -3,7 +3,7 @@ layout: map
 
 title: Šar planina
 designation: Nacionalni park
-last_modified_at: 2018-07-29T18:32:14+02:00
+last_modified_at: 2018-07-30T09:53:13+02:00
 
 BioRaS: [48]
 geoSrbija:

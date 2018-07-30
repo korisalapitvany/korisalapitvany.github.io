@@ -3,7 +3,7 @@ layout: map
 
 title: Bogojevački brest
 designation: Spomenik prirode
-last_modified_at: 2018-07-29T18:32:13+02:00
+last_modified_at: 2018-07-30T09:53:12+02:00
 
 WDPA: [555589068]
 BioRaS: [321]

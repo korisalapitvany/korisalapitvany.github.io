@@ -3,10 +3,11 @@ layout: map
 
 title: Fruška gora
 designation: Nacionalni park
-last_modified_at: 2018-07-29T18:32:09+02:00
+last_modified_at: 2018-07-30T09:53:07+02:00
 
 WDPA: [1053]
 BioRaS: [44]
+PZZP: [1]
 geoSrbija:
   L1_183: [31]
   L1_302: [1]

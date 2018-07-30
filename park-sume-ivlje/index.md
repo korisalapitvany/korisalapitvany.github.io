@@ -3,7 +3,7 @@ layout: map
 
 title: Park šume Ivlje
 designation: Predeo narocite prirodne lepote
-last_modified_at: 2018-07-29T18:32:06+02:00
+last_modified_at: 2018-07-30T09:53:03+02:00
 
 WDPA: [16412]
 BioRaS: [64]

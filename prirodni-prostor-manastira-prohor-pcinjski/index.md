@@ -3,7 +3,7 @@ layout: map
 
 title: Prirodni prostor manastira Prohor Pčinjski
 designation: Prirodni prostor oko nepokretnog kulturnog dobra
-last_modified_at: 2018-07-29T18:32:14+02:00
+last_modified_at: 2018-07-30T09:53:14+02:00
 
 geoSrbija:
   L1_183: [138]

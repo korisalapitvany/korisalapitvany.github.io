@@ -3,10 +3,11 @@ layout: map
 
 title: Ponjavica
 designation: Park prirode
-last_modified_at: 2018-07-29T18:32:10+02:00
+last_modified_at: 2018-07-30T09:53:09+02:00
 
 WDPA: [16395]
 BioRaS: [70]
+PZZP: [10]
 geoSrbija:
   L1_183: [174]
   L1_302: [25]

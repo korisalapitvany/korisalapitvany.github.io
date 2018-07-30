@@ -3,10 +3,11 @@ layout: map
 
 title: Carska bara
 designation: Specijalni rezervat prirode
-last_modified_at: 2018-07-29T18:32:09+02:00
+last_modified_at: 2018-07-30T09:53:06+02:00
 
 WDPA: [328838]
 BioRaS: [421]
+PZZP: [36]
 geoSrbija:
   L1_183: [131]
   L1_302: [5]

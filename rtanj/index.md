@@ -3,7 +3,7 @@ layout: map
 
 title: Rtanj
 designation: Strogi prirodni rezervat
-last_modified_at: 2018-07-29T18:32:09+02:00
+last_modified_at: 2018-07-30T09:53:06+02:00
 
 WDPA: [145140]
 BioRaS: [432]

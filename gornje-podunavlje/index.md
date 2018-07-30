@@ -3,10 +3,11 @@ layout: map
 
 title: Gornje Podunavlje
 designation: Specijalni rezervat prirode
-last_modified_at: 2018-07-29T18:32:06+02:00
+last_modified_at: 2018-07-30T09:53:02+02:00
 
 WDPA: [328846, 903091]
 BioRaS: [404]
+PZZP: [38]
 geoSrbija:
   L1_183: [81]
   L1_302: [22]
