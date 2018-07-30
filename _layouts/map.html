@@ -7,7 +7,6 @@ layout: base
 {%- assign google_cloud_api_key = site.data.dev_apis.google_cloud_api_key | default: site.data.apis.google_cloud_api_key -%}
 
 {%- assign has_map = false -%}
-{%- assign has_wkt = false -%}
 {%- assign records = 0 -%}
 
 <script id="ld" type="application/ld+json">
@@ -182,16 +181,6 @@ layout: base
     {% endif %}
   {% endfor %}
 {% endfor %}
-
-{% if has_wkt %}
-  <hr>
-  <p class="footnotes">
-    <sup>1</sup>
-    WKT fajlovi su u <a href="https://en.wikipedia.org/wiki/European_Terrestrial_Reference_System_1989">SRB_ETRS89</a> prostornom referentnom sistemu, po
-    <a href="http://www.rgz.gov.rs/content/Datoteke/Dokumenta/02%20Pravilnici/Pravilnik%20za%20osnovne%20geodetske%20radove%20-%2016.03.2012.pdf">pravilniku</a>
-    Republičkog geodetskog zavoda.
-  </p>
-{% endif %}
 </div>
 
 </div>

@@ -35,37 +35,32 @@
     </div>
 
     <p>
+      Preuzmi:
+      <a href="/{{ page_id }}/1.362.json">GeoJSON</a>,
+      <a href="/{{ page_id }}/1.362.kml">KML</a>,
+      <a href="/{{ page_id }}/1.362.wkt">WKT</a>.
+      <br>
+
       {% if page.geoSrbija.L1_362.size == 1 %}
-        WKT<sup>1</sup> izvorni fajl:
+        WKT<sup>*</sup> izvorni fajl:
 
         {% assign id = page.geoSrbija.L1_362 | first %}
-        <a href="/{{ page_id }}/1.362.{{ id }}.wkt">1.362.{{ id }}.wkt</a>
+        <a href="/{{ page_id }}/1.362.{{ id }}.wkt">1.362.{{ id }}.wkt</a>.
       {% else %}
-        WKT<sup>1</sup> izvorni fajlovi:
+        WKT<sup>*</sup> izvorni fajlovi:
 
         {% assign first = true %}
         {% for id in page.geoSrbija.L1_362 %}
           {%- unless first %}, {% endunless -%}
           <a href="/{{ page_id }}/1.362.{{ id }}.wkt">1.362.{{ id }}.wkt</a>
-          {%- assign has_wkt = true  %}
           {%- assign first = false %}
-        {%- endfor -%}
+        {%- endfor -%}.
       {% endif %}
-    </p>
-  </div>
+      <br>
 
-  <div class="buttons">
-    <a href="/{{ page_id }}/1.362.json"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-      <i class="material-icons">save_alt</i>
-      GeoJSON
-    </button></a>
-    <a href="/{{ page_id }}/1.362.kml"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-      <i class="material-icons">save_alt</i>
-      KML
-    </button></a>
-    <a href="/{{ page_id }}/1.362.wkt"><button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-      <i class="material-icons">save_alt</i>
-      WKT
-    </button></a>
+      <sup>*</sup>WKT fajlovi su u <a href="https://en.wikipedia.org/wiki/European_Terrestrial_Reference_System_1989">SRB_ETRS89</a> prostornom referentnom sistemu, po
+      <a href="http://www.rgz.gov.rs/content/Datoteke/Dokumenta/02%20Pravilnici/Pravilnik%20za%20osnovne%20geodetske%20radove%20-%2016.03.2012.pdf">pravilniku</a>
+      Republičkog geodetskog zavoda.
+    </p>
   </div>
 </div>
