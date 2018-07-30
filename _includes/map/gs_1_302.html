@@ -19,8 +19,18 @@
   <table class="mdl-data-table mdl-js-data-table">
     <tbody>
       <tr>
+        <td class="mdl-data-table__cell--non-numeric">PZZP ID:</td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <a href="http://www.pzzp.rs/rs/sr/zastita-prirode/ekoloska-mreza.html">{{ include.pzzp.ID }}</a>
+        </td>
+      </tr>
+      <tr>
         <td class="mdl-data-table__cell--non-numeric">Tip i opis dobra:</td>
         <td class="mdl-data-table__cell--non-numeric">{{ include.item.tip_dobra }} ({{ site_data.protected_sites[include.item.tip_dobra] | downcase }})</td>
+      </tr>
+      <tr>
+        <td class="mdl-data-table__cell--non-numeric">Upisana površina:</td>
+        <td class="mdl-data-table__cell--non-numeric">{{ include.pzzp.povrsina_ha }} ha</td>
       </tr>
     </tbody>
   </table>

@@ -67,40 +67,76 @@ layout: base
 
 {% if page.geoSrbija.L1_302 %}
   {% assign id_s = page.geoSrbija.L1_302 | first | downcase %}
+  {% assign pzzp_s = page.PZZP | first | downcase %}
 
   {% for row in site.data.maps.geoSrbija.L1_302 %}
     {% if row.ID == id_s %}
-      {% include map/gs_1_302.html item=row %}
+      {%- assign pzzp = null -%}
+
+      {% for item in site.data.maps.PZZP %}
+        {% if item.ID == pzzp_s %}
+          {% assign pzzp = item %}
+        {% endif %}
+      {% endfor %}
+
+      {% include map/gs_1_302.html item=row pzzp=pzzp %}
     {% endif %}
   {% endfor %}
 {% endif %}
 
 {% if page.geoSrbija.L1_301 %}
   {% assign id_s = page.geoSrbija.L1_301 | first | downcase %}
+  {% assign pzzp_s = page.PZZP | first | downcase %}
 
   {% for row in site.data.maps.geoSrbija.L1_301 %}
     {% if row.ID == id_s %}
-      {% include map/gs_1_301.html item=row %}
+      {%- assign pzzp = null -%}
+
+      {% for item in site.data.maps.PZZP %}
+        {% if item.ID == pzzp_s %}
+          {% assign pzzp = item %}
+        {% endif %}
+      {% endfor %}
+
+      {% include map/gs_1_301.html item=row pzzp=pzzp %}
     {% endif %}
   {% endfor %}
 {% endif %}
 
 {% if page.geoSrbija.L1_300 %}
   {% assign id_s = page.geoSrbija.L1_300 | first | downcase %}
+  {% assign pzzp_s = page.PZZP | first | downcase %}
 
   {% for row in site.data.maps.geoSrbija.L1_300 %}
     {% if row.ID == id_s %}
-      {% include map/gs_1_300.html item=row %}
+      {%- assign pzzp = null -%}
+
+      {% for item in site.data.maps.PZZP %}
+        {% if item.ID == pzzp_s %}
+          {% assign pzzp = item %}
+        {% endif %}
+      {% endfor %}
+
+      {% include map/gs_1_300.html item=row pzzp=pzzp %}
     {% endif %}
   {% endfor %}
 {% endif %}
 
 {% if page.geoSrbija.L1_299 %}
   {% assign id_s = page.geoSrbija.L1_299 | first | downcase %}
+  {% assign pzzp_s = page.PZZP | first | downcase %}
 
   {% for row in site.data.maps.geoSrbija.L1_299 %}
     {% if row.ID == id_s %}
-      {% include map/gs_1_299.html item=row %}
+      {%- assign pzzp = null -%}
+
+      {% for item in site.data.maps.PZZP %}
+        {% if item.ID == pzzp_s %}
+          {% assign pzzp = item %}
+        {% endif %}
+      {% endfor %}
+
+      {% include map/gs_1_299.html item=row pzzp=pzzp %}
     {% endif %}
   {% endfor %}
 {% endif %}
