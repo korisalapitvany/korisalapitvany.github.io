@@ -7,12 +7,13 @@ title: Akcija sakupljanja smeća u Subotici
 last_modified_at: 2018-09-18T00:00:00-02:00
 author: gabor
 
+category: projekti
+permalink: /:categories/:title/
+
 current: true
 event_date: 6. oktobar 2018
 cover_image: https://storage.googleapis.com/jasen.org.rs/2018/agriculture-beautiful-view-city-park.jpg
 cover_position: 20%;
-
-permalink: /sr/:title/
 
 excerpt_separator: <!-- details -->
 ---
