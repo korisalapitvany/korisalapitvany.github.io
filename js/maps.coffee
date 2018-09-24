@@ -136,8 +136,9 @@ addControls = (labels) ->
     try
       # Copy padding settings from the map-type-control element:
       padding = MAP.getDiv().querySelector('div.gm-style-mtc>div[role=button]')?.style.padding
-      if padding and padding isnt '8px'
-        ul.style.marginTop = '16px'
+      if padding
+        if padding is '11px 23px'
+          ul.style.marginTop = '20px'
         for li in ul.children
           li.style.padding = padding
     catch e
