@@ -60,6 +60,10 @@ svaka škola dobije najmanje 3×1=3, a najviše 3×38=114 bodova.
 * Ukupan traženi iznos je 4.619.868,00 dinara, od kojih Fondacija finansira
   10,28%.
 
+<div class="mdl-typography--text-center">
+  <a href="https://datastudio.google.com/open/113yK19w0mdLtbny59KdP1ICFDAoF-aoX"><img alt="Primljene prijave" class="mdl-shadow--2dp staticmap" src="https://storage.googleapis.com/jasen.org.rs/2018/skolska-basta-prijave.png" style="max-width: 100%;"></a>
+</div>
+
 ## Retrospektiva
 
 Ovo je prvi put da smo ispisali konkurs, pa smo i mi neke stvari tek sada
