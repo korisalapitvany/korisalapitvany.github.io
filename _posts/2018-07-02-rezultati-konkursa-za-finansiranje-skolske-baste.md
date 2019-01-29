@@ -10,7 +10,6 @@ author: attila
 category: projekti
 permalink: /:categories/:title/
 
-current: true
 event_date: 2018/2019
 cover_image: https://storage.googleapis.com/jasen.org.rs/2018/boy-planting-vegetables-in-garden.jpg
 cover_position: 50%;
