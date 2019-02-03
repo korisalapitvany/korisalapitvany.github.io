@@ -12,8 +12,8 @@ permalink: /:categories/:title/
 
 front_page: true
 event_date: 2019/2020
-cover_image: https://storage.googleapis.com/jasen.org.rs/2018/boy-planting-vegetables-in-garden.jpg
-cover_position: 50%;
+cover_image: https://storage.googleapis.com/jasen.org.rs/2019/kids-earth.jpg
+cover_position: 60%;
 
 excerpt: |
   Fondacija „Jasen” raspisuje konkurs za finansiranje pokretanja bašte
