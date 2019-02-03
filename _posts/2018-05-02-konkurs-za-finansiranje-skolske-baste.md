@@ -167,7 +167,7 @@ Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim školama.
 | Broj primljenih prijava: | 38              |
 | Ukupan traženi iznos:    | 4.619.868,00din |
 
-[Rezultati konkursa.](/projekti/rezultati-konkursa-za-finansiranje-skolske-baste/)
+[Rezultati konkursa.](/projekti/2018/rezultati-konkursa-za-finansiranje-skolske-baste/)
 
 <p class="buttons">
   <a href="/docs/konkurs-za-finansiranje-skolske-baste.pdf"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
