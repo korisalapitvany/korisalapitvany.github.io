@@ -91,7 +91,7 @@ naučili. Što se tiče načina prikupljanja prijave, neki primeri su:
   predale nepotpune planove. Neki su imali teškoće i sa finansijskim
   izveštajom. 
   * Da bi olakšali izradu plana projekta, sledeći put ćemo dati konkretnu
-  formu za plan projekta, kao i šablon za finansijski plan, 
+  formu za plan projekta, kao i šablon za finansijski plan,.
 * Naš online konkurs su pogledali 3.782 posetilaca, dok 38 su predala konkurs
   (1% posetilaca).
 * Fejsbuk reklame su dobar i jeftin način za promovisanje konkursa. Za €35,
