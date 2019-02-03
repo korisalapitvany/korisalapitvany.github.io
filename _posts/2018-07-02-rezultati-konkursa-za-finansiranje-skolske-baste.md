@@ -72,26 +72,26 @@ naučili. Što se tiče načina prikupljanja prijave, neki primeri su:
 
 * [Google Forms] je savršena forma za prikupljanje prijava.
 * Google Forms automatski dodaje prijave u [Google Sheets] tabelu, gde smo
-  lako mogli da pratimo broj prijava, a i neke statistike o prijavama.  
+  lako mogli da pratimo broj prijava, a i neke statistike o prijavama.
 * [Google Data Studio] je pogodan za prikaz statističkih podataka o prijavama.
   To smo koristili ne samo za praćenje prijava, već za prikaz broj primljenih
   prijava na samom konkursu, kao i za prikaz konačnih rezultata.
 * Google Forms nije pogodan za tabelarni unos podataka.
   * Zato smo za listu traženih sredstva ostavili samo jedno polje. Međutim,
-  različite škole su različito interpretirali ovo polje, pa ćemo sledeći put
-  ovo potpuno izostaviti, i tražićemo samo finansijski plan.
+    različite škole su različito interpretirali ovo polje, pa ćemo sledeći put
+    ovo potpuno izostaviti, i tražićemo samo finansijski plan.
 * Prvo nismo konfigurisali formular da šalje email potvrdu o prijavi.
   * Ovu grešku smo ispravili posle prve primljene prijave.
 * Prvo nismo dozvolili otpremanje više dokumenata.
   * Pošto su neke prijave imali dodatni materijal (npr. slike), kasnije smo
-  omogućili otpremanje ostalih datoteka uz opšti plan.
+    omogućili otpremanje ostalih datoteka uz opšti plan.
 * Mnogi su nas pitali da li imamo "formular" za opšti i finansijski plan.
   * Mi smo hteli da svi koriste formu koja im je najviše pogodna za planiranje
-  projekta. Zato neke škole su predale previše opširne dokumente, dok su neke
-  predale nepotpune planove. Neki su imali teškoće i sa finansijskim
-  izveštajom. 
+    projekta. Zato neke škole su predale previše opširne dokumente, dok su neke
+    predale nepotpune planove. Neki su imali teškoće i sa finansijskim
+    izveštajom.
   * Da bi olakšali izradu plana projekta, sledeći put ćemo dati konkretnu
-  formu za plan projekta, kao i šablon za finansijski plan,.
+    formu za plan projekta, kao i šablon za finansijski plan,.
 * Naš online konkurs su pogledali 3.782 posetilaca, dok 38 su predala konkurs
   (1% posetilaca).
 * Fejsbuk reklame su dobar i jeftin način za promovisanje konkursa. Za €35,
