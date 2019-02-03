@@ -10,7 +10,7 @@ author: hermina
 category: projekti
 permalink: /:categories/:title/
 
-current: true
+front_page: true
 event_date: 2019/2020
 cover_image: https://storage.googleapis.com/jasen.org.rs/2018/boy-planting-vegetables-in-garden.jpg
 cover_position: 50%;

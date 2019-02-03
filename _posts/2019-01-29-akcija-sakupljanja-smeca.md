@@ -11,7 +11,7 @@ category: projekti
 permalink: /:categories/:title/
 excerpt_separator: <!-- details -->
 
-current: true
+front_page: true
 event_date: 2019
 cover_image: https://storage.googleapis.com/jasen.org.rs/2019/park-bench.jpg
 cover_position: 60%;

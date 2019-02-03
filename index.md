@@ -31,7 +31,7 @@ omladinu**, o važnosti očuvanja i zaštite životne sredine i prirode.
 ## Aktuelni projekti {#projekti}
 
 <div class="more-link">
-  {% include project-cards.html active_only=true %}
+  {% include project-cards.html front_page=true %}
 </div>
 
 [Svi projekti](/projekti/)
