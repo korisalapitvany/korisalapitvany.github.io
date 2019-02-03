@@ -67,12 +67,12 @@ cilj unapređivanje i uvođenje novih metoda u nastavi i dugotrajnu brigu i
 učenika.
 
 Sredstva u vrednosti od 360.000,00 dinara namenjena su za finansiranje i
-sufinansiranje sledeđih prioriteta:
+sufinansiranje sledećih prioriteta:
 
 1. Modernizacija obrazovno-vaspitnog rada
 2. Usaglašavanje obrazovanja sa praktičnim metodama
 3. Negovanje multikulturalnosti, interkulturalnosti i tradicije između učenika
-   raznih nacionalnih manjina putem pratkičnog rada
+   raznih nacionalnih manjina putem praktičnog rada
 4. Prevencija ranog napuštanja formalnog obrazovanja
 5. Podsticanje vannastavnih aktivnosti
 6. Rad u prirodi, razvijanje ekološke svesti učenika
