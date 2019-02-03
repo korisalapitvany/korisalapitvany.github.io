@@ -7,7 +7,9 @@ title: Izrada dečijeg igrališta „Gornje Podunavlje”
 last_modified_at: 2017-12-25T00:00:00-02:00
 author: attila
 
-category: projekti
+category:
+- projekti
+- 2017
 permalink: /:categories/:title/
 excerpt_separator: <!-- details -->
 

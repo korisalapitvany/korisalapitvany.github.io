@@ -7,7 +7,9 @@ title: Rezultati konkursa za finansiranje školske bašte
 last_modified_at: 2018-07-02T08:00:00-02:00
 author: attila
 
-category: projekti
+category:
+- projekti
+- 2018
 permalink: /:categories/:title/
 
 event_date: 2018/2019

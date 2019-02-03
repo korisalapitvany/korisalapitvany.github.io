@@ -7,7 +7,9 @@ title: Akcija sakupljanja smeća u Subotici
 last_modified_at: 2018-09-18T00:00:00-02:00
 author: gabor
 
-category: projekti
+category:
+- projekti
+- 2018
 permalink: /:categories/:title/
 
 event_date: 6. oktobar 2018

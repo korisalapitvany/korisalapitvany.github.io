@@ -7,7 +7,9 @@ title: Konkurs za finansiranje školske bašte
 last_modified_at: 2018-05-02T00:00:00-02:00
 author: hermina
 
-category: projekti
+category:
+- projekti
+- 2018
 permalink: /:categories/:title/
 
 event_date: 2018/2019

@@ -1,7 +1,12 @@
 {%- include vars.html -%}
   <div class="project-cards">
   {%- for post in site.posts %}
-    {%- if post.class == 'project' and post.lang == language and (post.current or include.active_only == false) %}
+    {% assign post_year = post.date | date: "%Y" %}
+    {% assign post_year_filter = include.year | append: "" %}
+    {%- if post.class == 'project'
+        and post.lang == language
+        and (include.year == null or post_year == post_year_filter)
+        and (post.current or include.active_only == false) %}
     <div class="mdl-card mdl-shadow--2dp">
       <div class="mdl-card__title" style="background-image: url('{{ post.cover_image }}');">
         <h2 class="mdl-card__title-text">{{ post.title }}</h2>

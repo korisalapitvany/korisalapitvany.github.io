@@ -7,7 +7,9 @@ title: Játszótér a Felső-Dunamelléknél
 last_modified_at: 2018-01-25T00:00:00-02:00
 author: attila
 
-category: projektek
+category:
+- projektek
+- 2018
 permalink: /hu/:categories/:title/
 excerpt_separator: <!-- details -->
 

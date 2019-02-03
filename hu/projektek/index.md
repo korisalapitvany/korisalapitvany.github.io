@@ -10,6 +10,4 @@ cover_image: https://storage.googleapis.com/jasen.org.rs/2018/droplets.jpg
 translations:
   sr: /projekti
 ---
-## 2018 / aktuális projektek
-
 {% include project-cards.html %}
