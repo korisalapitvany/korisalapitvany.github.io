@@ -15,8 +15,8 @@
         "Serbian"
       ],
       "contactType": "customer support",
-      "name": "Tamás Vinkó",
-      "telephone": "+381-65-838-94-79"
+      "name": "Gábor Szabó",
+      "telephone": "+381-65-221-98-76"
     },
     {
       "type": "ContactPoint",
@@ -75,12 +75,11 @@
   "name": "Fondacija „Jasen”",
   "sameAs": [
     "https://github.com/korisalapitvany",
-    "https://plus.google.com/100755315240775198013",
     "https://twitter.com/korisalapitvany",
     "https://facebook.com/korisalapitvany",
     "https://www.youtube.com/channel/UCVbAEoRLcvft4RnCTm1hxtQ"
   ],
   "taxID": "110200183",
-  "telephone": "+381-65-838-94-79",
+  "telephone": "+381-65-221-98-76",
   "url": "{{ site.url }}"
 }
