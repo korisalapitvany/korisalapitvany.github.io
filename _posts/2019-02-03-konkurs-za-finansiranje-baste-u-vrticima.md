@@ -27,25 +27,19 @@ excerpt: |
   [podnošenje prijave]: /projekti/konkurs-za-finansiranje-baste-u-vrticima/#podnošenje-prijave-na-konkurs
 
 json_ld:
-- "@context": http://schema.org/
-  "@type": Organization
+- "@context": http://schema.org
+  "@type": NGO
   name: Fondacija „Jasen”
   url: https://jasen.org.rs
   logo: https://jasen.org.rs/logo/png/circle-576x576.min.png
-- "@context": http://schema.org/
+- "@context": http://schema.org
   "@type": Event
   startDate: 2019-02-03
   endDate: 2019-03-03
   organizer:
-    "@context": http://schema.org/
+    "@context": http://schema.org
     "@type": NGO
     name: Fondacija „Jasen”
-- "@context": http://schema.org/
-  "@type": EmailMessage
-  subjectLine: Konkurs za finansiranje bašte u vrtićima
-- "@context": http://schema.org/
-  "@type": PromotionCard
-  image: https://storage.googleapis.com/jasen.org.rs/2019/kids-earth.jpg
 ---
 <style scoped>
 #konkurs,
