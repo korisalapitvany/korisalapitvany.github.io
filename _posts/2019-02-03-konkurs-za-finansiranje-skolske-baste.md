@@ -25,6 +25,27 @@ excerpt: |
 
   [raspored sredstava]: /projekti/konkurs-za-finansiranje-skolske-baste/#raspored-sredstava
   [podnošenje prijave]: /projekti/konkurs-za-finansiranje-skolske-baste/#podnošenje-prijave-na-konkurs
+
+json_ld:
+- "@context": http://schema.org/
+  "@type": Organization
+  name: Fondacija „Jasen”
+  url: https://jasen.org.rs
+  logo: https://jasen.org.rs/logo/png/circle-576x576.min.png
+- "@context": http://schema.org/
+  "@type": Event
+  startDate: 2019-02-03
+  endDate: 2019-03-15
+  organizer:
+    "@context": http://schema.org/
+    "@type": NGO
+    name: Fondacija „Jasen”
+- "@context": http://schema.org/
+  "@type": EmailMessage
+  subjectLine: Konkurs za finansiranje školske bašte
+- "@context": http://schema.org/
+  "@type": PromotionCard
+  image: https://storage.googleapis.com/jasen.org.rs/2019/lewis-clarke-vegetable-garden-1936x1286.jpg
 ---
 <style scoped>
 #konkurs,

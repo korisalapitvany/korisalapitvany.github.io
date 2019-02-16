@@ -42,4 +42,7 @@
   <script type="application/ld+json">
   {%- include js/ld.json %}  </script>
   {%- endif %}
+  {%- if page.json_ld %}
+  <script type="application/ld+json">{{ page.json_ld | jsonify }}</script>
+  {%- endif %}
 </head>
