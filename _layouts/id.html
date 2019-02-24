@@ -15,31 +15,36 @@
 <body>
   <div id='id-container'></div>
   <script>
-    // Google Analytics:
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-38039653-2']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+    'use strict';
+    if (!location.hash) {
+      // Set initial map location.
+      // https://google.com/search?q=Serbia+coordinates
+      const lat = 44.0165;
+      const lon = 21.0059;
+      const zoom = 8;
+      location.hash = `map=${[zoom, lat, lon].join('/')}`;
+    }
+  </script>
+  <script>
+    'use strict';
 
-    // Crazyegg:
-    setTimeout(function(){var a=document.createElement('script');
-    var b=document.getElementsByTagName('script')[0];
-    a.src=document.location.protocol+'//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/6714.js?'+Math.floor(new Date().getTime()/3600000);
-    a.async=true;a.type='text/javascript';b.parentNode.insertBefore(a,b)}, 1);
+    const assetPath = '/third_party/id/';
 
+    const defaultLocale = 'sr';
+    const match = location.search.match(/.*[?&]locale=([^&]*)*/);
+    const locale = match ? match[1] : defaultLocale;
+
+    // iD editor:
     if (typeof iD == 'undefined' || !iD.Detect().support) {
       document.getElementById('id-container').innerHTML = 'Sorry, your browser is not currently supported. Please use Potlatch 2 to edit the map.';
       document.getElementById('id-container').className = 'unsupported';
-
     } else {
-      var id = iD.Context().assetPath('/third_party/id/');
+      const id = iD.Context()
+        .assetPath(assetPath)
+        .locale(locale);
 
       // Disable boundaries (unless we have an explicit disable_features list).
-      var q = iD.utilStringQs(window.location.hash.substring(1));
+      const q = iD.utilStringQs(window.location.hash.substring(1));
       if (!q.hasOwnProperty('disable_features')) {
         id.features().disable('boundaries');
       }
