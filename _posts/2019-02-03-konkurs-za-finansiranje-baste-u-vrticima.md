@@ -169,6 +169,9 @@ Odluka o dodeli sredstava se objavljuje na internet stranici Fondacije.
 
 Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim ustanovama.
 
+| Broj primljenih prijava: | 8             |
+| Ukupan traženi iznos:    | 143.937,00din |
+
 <p class="buttons">
   <a href="/docs/2019/konkurs-za-finansiranje-baste-u-vrticima.pdf"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
     <i class="material-icons">print</i>
