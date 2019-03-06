@@ -51,7 +51,7 @@ je sledeća:
 normalizovali i sabrali bodove, te svaki vrtić dobije najmanje 3×1=3, a najviše
 3×8=24 bodova.
 
-[Konačna rang-lista](https://datastudio.google.com/u/0/reporting/17YZn215CoGBLo5D98QUWP9JIoPgW6fR7/page/J2rj).
+[Konačna rang-lista](https://datastudio.google.com/open/17YZn215CoGBLo5D98QUWP9JIoPgW6fR7).
 
 ## Statistički podaci
 
@@ -66,7 +66,7 @@ normalizovali i sabrali bodove, te svaki vrtić dobije najmanje 3×1=3, a najvi�
 Raspodela primljenih prijava po opštini:
 
 <div class="mdl-typography--text-center">
-  <a href="https://datastudio.google.com/open/17YZn215CoGBLo5D98QUWP9JIoPgW6fR7"><img alt="Primljene prijave" class="mdl-shadow--2dp staticmap" src="https://storage.googleapis.com/jasen.org.rs/2019/vrtici-prijave.png" style="max-width: 100%;"></a>
+  <a href="https://datastudio.google.com/reporting/17YZn215CoGBLo5D98QUWP9JIoPgW6fR7/page/T7rj"><img alt="Primljene prijave" class="mdl-shadow--2dp staticmap" src="https://storage.googleapis.com/jasen.org.rs/2019/vrtici-prijave.png" style="max-width: 100%;"></a>
 </div>
 
 ## Retrospektiva
