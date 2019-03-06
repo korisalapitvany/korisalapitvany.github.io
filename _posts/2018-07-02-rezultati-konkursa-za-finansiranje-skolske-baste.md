@@ -34,9 +34,9 @@ projekat za testiranje [UrbiGo zelene kocke](https://urbigo.me) u učionici.
 
 ## Raspodela sredstava
 
-Pošto smo dobili mnogo veoma dobrih prijava, odlučili smo da povećamo ukupan
-iznos finansiranja sa 360.000,00 dinara na **474.790,50 dinara**. Raspodela
-sredstava je sledeća:
+Pošto smo dobili mnogo dobrih prijava, odlučili smo da povećamo ukupan iznos
+finansiranja sa 360.000,00 dinara na **474.790,50 dinara**. Raspodela sredstava
+je sledeća:
 
 * **Tehnička škola „9. maj” – Bačka Palanka** dobija 149.940,00 dinara, 100%
   traženog iznosa.

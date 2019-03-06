@@ -32,9 +32,9 @@ Najbolji projekti su:
 
 ## Raspodela sredstava
 
-Pošto smo dobili mnogo veoma dobrih prijava, odlučili smo da povećamo ukupan
-iznos finansiranja sa 60.000,00 dinara na **83.937,00 dinara**. Raspodela
-sredstava je sledeća:
+Pošto smo dobili mnogo dobrih prijava, odlučili smo da povećamo ukupan iznos
+finansiranja sa 60.000,00 dinara na **83.937,00 dinara**. Raspodela sredstava
+je sledeća:
 
 * **Bašta vrtića „Radost” –Novi Banovci** dobija 19.945,00 dinara
 * **Bašta vrtića „Zeka” – Subotica** dobija 11.192,00 dinara
