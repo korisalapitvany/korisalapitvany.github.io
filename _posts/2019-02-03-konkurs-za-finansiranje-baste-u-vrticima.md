@@ -10,7 +10,6 @@ author: hermina
 category: projekti
 permalink: /:categories/:title/
 
-front_page: true
 event_date: 2019/2020
 cover_image: https://storage.googleapis.com/jasen.org.rs/2019/kids-earth.jpg
 cover_position: 60%;
