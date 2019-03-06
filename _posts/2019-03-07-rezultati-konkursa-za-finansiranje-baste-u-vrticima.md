@@ -22,11 +22,11 @@ excerpt_separator: <!-- details -->
 Upravni odbor Fondacije „Jasen” doneo je odluku o rezultatima konkursa.
 Najbolji projekti su:
 
-1. **Bašta vrtića „Radost” – Novi Banovci** dobija 19.945,00 dinara
-2. **Bašta vrtića „Zeka” – Subotica** dobija 11.192,00 dinara
-3. **„Bubamarina oaza” – Nadalj** dobija 19.800,00 dinara
-4. **Za zeleniji vrtić „Kolibri” – Bač** dobija 20.000,00 dinara
-5. **Bašta vrtića „Marjai Maria” – Subotica** dobija 13.000,00 dinara
+1. **Bašta vrtića „Radost”** – Novi Banovci
+2. **Bašta vrtića „Zeka”** – Subotica
+3. **„Bubamarina oaza”** – Nadalj
+4. **Za zeleniji vrtić „Kolibri”** – Bač
+5. **Bašta vrtića „Marjai Maria”** – Subotica
 
 <!-- details -->
 
@@ -36,11 +36,14 @@ Pošto smo dobili mnogo dobrih prijava, odlučili smo da povećamo ukupan iznos
 finansiranja sa 60.000,00 dinara na **83.937,00 dinara**. Raspodela sredstava
 je sledeća:
 
-* **Bašta vrtića „Radost” –Novi Banovci** dobija 19.945,00 dinara
-* **Bašta vrtića „Zeka” – Subotica** dobija 11.192,00 dinara
-* **„Bubamarina oaza” – Nadalj** dobija 19.800,00 dinara
-* **Za zeleniji vrtić „Kolibri” – Bač** dobija 20.000,00 dinara
-* **Bašta vrtića „Marjai Maria” – Subotica** dobija 13.000,00 dinara
+* **Predškolska ustanova „Radost” — Novi Banovci** dobija 19.945,00 dinara.
+* **Predškolska ustanova „Naša radost” objekat „Zeka” — Subotica** dobija 11.192,00
+  dinara.
+* **Ustanova za predškolsko vaspitanje i obrazovanje „Radost” objekat
+  „Bubamara” — Nadalj** dobija 19.800,00 dinara.
+* **Predškolska ustanova „Kolibri” – Bač** dobija 20.000,00 dinara.
+* **Predškolska ustanova „Nasa radost” objekat „Marjai Maria” – Subotica**
+  dobija 13.000,00 dinara.
 
 ## Rezultati ocenjivanja žirija
 
