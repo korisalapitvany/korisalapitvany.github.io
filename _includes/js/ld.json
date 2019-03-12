@@ -10,24 +10,26 @@
         "HU"
       ],
       "availableLanguage": [
-        "English",
-        "Hungarian",
-        "Serbian"
+        "en",
+        "hu",
+        "sr"
       ],
       "contactType": "customer support",
+      "email": "gabor@jasen.org.rs",
       "name": "Gábor Szabó",
       "telephone": "+381-65-221-98-76"
     },
     {
       "type": "ContactPoint",
       "availableLanguage": [
-        "English",
-        "German",
-        "Hungarian",
-        "Serbian"
+        "de-CH",
+        "en",
+        "hu",
+        "sr"
       ],
-      "name": "Hermina Oláh Vass",
       "contactType": "customer support",
+      "email": "hermina@jasen.org.rs",
+      "name": "Hermina Oláh Vass",
       "telephone": "+41-79-870-63-50"
     }
   ],
@@ -41,11 +43,11 @@
       "givenName": "Attila",
       "name": "Attila Oláh",
       "sameAs": [
+        "https://attilaolah.eu",
         "https://facebook.com/attilaolah",
         "https://github.com/attilaolah",
-        "https://plus.google.com/+AttilaOlah42",
-        "https://twitter.com/attilaolah",
-        "https://www.linkedin.com/in/attilaolah"
+        "https://linkedin.com/in/attilaolah",
+        "https://twitter.com/attilaolah"
       ],
       "telephone": "+41-79-247-25-10",
       "worksFor": {
@@ -64,7 +66,8 @@
       "name": "Hermina Oláh Vass",
       "sameAs": [
         "https://facebook.com/herminaov",
-        "https://github.com/herminaov"
+        "https://github.com/herminaov",
+        "https://linkedin.com/in/herminaov"
       ],
       "telephone": "+41-79-870-63-50"
     }
@@ -74,10 +77,10 @@
   "logo": "{{ site.url }}/logo/png/circle-576x576.min.png",
   "name": "Fondacija „Jasen”",
   "sameAs": [
+    "https://facebook.com/korisalapitvany",
     "https://github.com/korisalapitvany",
     "https://twitter.com/korisalapitvany",
-    "https://facebook.com/korisalapitvany",
-    "https://www.youtube.com/channel/UCVbAEoRLcvft4RnCTm1hxtQ"
+    "https://youtube.com/channel/UCVbAEoRLcvft4RnCTm1hxtQ"
   ],
   "taxID": "110200183",
   "telephone": "+381-65-221-98-76",
