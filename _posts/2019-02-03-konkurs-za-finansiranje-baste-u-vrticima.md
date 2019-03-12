@@ -40,7 +40,7 @@ json_ld:
   location:
     "@context": http://schema.org
     "@type": Place
-    name: Sedište Fondacij e„Jasen”
+    name: Sedište Fondacije „Jasen”
     address:
       "@context": http://schema.org
       "@type": PostalAddress
