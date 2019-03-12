@@ -12,7 +12,7 @@ permalink: /:categories/:title/
 
 front_page: true
 event_date: 2019/2020
-cover_image: https://storage.googleapis.com/jasen.org.rs/2019/lewis-clarke-vegetable-garden-1936x1286.jpg
+cover_image: &image https://storage.googleapis.com/jasen.org.rs/2019/lewis-clarke-vegetable-garden-1936x1286.jpg
 cover_position: 30%;
 
 excerpt: |
@@ -43,6 +43,7 @@ json_ld:
     name: Fondacija „Jasen”
     url: https://jasen.org.rs
     logo: https://jasen.org.rs/logo/png/circle-576x576.min.png
+  image: *image
 ---
 <style scoped>
 #konkurs,

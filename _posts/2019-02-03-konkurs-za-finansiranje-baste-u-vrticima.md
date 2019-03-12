@@ -11,7 +11,7 @@ category: projekti
 permalink: /:categories/:title/
 
 event_date: 2019/2020
-cover_image: https://storage.googleapis.com/jasen.org.rs/2019/kids-earth.jpg
+cover_image: &image https://storage.googleapis.com/jasen.org.rs/2019/kids-earth.jpg
 cover_position: 60%;
 
 excerpt: |
@@ -42,6 +42,7 @@ json_ld:
     name: Fondacija „Jasen”
     url: https://jasen.org.rs
     logo: https://jasen.org.rs/logo/png/circle-576x576.min.png
+  image: *image
 ---
 <style scoped>
 #konkurs,
