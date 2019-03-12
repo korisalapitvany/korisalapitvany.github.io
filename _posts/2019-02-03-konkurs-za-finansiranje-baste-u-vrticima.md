@@ -29,19 +29,24 @@ json_ld:
   "@context": http://schema.org
   "@type": Event
   name: *title
-  location:
-    "@context": http://schema.org
-    "@type": PostalAddress
-    addressCountry: RS
-    addressRegion: Vojvodina
   startDate: 2019-02-03
   endDate: 2019-03-03
   organizer:
     "@context": http://schema.org
     "@type": NGO
-    name: Fondacija „Jasen”
+    name: &ngo Fondacija „Jasen”
     url: https://jasen.org.rs
     logo: https://jasen.org.rs/logo/png/circle-576x576.min.png
+    location: &location
+      "@context": http://schema.org
+      "@type": PostalAddress
+      name: &ngo
+      addressCountry: RS
+      addressLocality: Čantavir
+      addressRegion: Vojvodina
+      postalCode: 24220
+      streetAddress: Senćanska 51
+  location: *location
   image: *image
 ---
 <style scoped>
