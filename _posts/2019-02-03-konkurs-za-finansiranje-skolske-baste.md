@@ -102,7 +102,7 @@ sufinansiranje sledećih prioriteta:
 5. Podsticanje vannastavnih aktivnosti
 6. Rad u prirodi, razvijanje ekološke svesti učenika
 
-Svaka škola koja bude odabrana za učešće u programu dobija do 150.000,00 dinara
+Svaka škola koja bude odabrana za učešće u programu dobija do 100.000,00 dinara
 od ukupne vrednosti. Donacija važi za jednu školsku godinu. Ako je realizacija
 programa uspešna, škola ima mogućnost na donaciju i za sledeću školsku godinu.
 Ukoliko ne dođe do realizacije programa Fondacija ima pravo na oduzimanje
