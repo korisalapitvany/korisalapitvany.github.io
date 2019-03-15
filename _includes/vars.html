@@ -1,9 +1,12 @@
 {%- assign segments = page.url | split: '/' -%}
 {%- if segments[1] == 'en' -%}
+  {%- assign root = '/en/' -%}
   {%- assign language = page.lang | default: 'en' -%}
 {%- elsif segments[1] == 'hu' -%}
+  {%- assign root = '/hu/' -%}
   {%- assign language = page.lang | default: 'hu' -%}
 {%- else -%}
+  {%- assign root = '/' -%}
   {%- assign language = page.lang | default: 'sr' -%}
 {%- endif -%}
 
