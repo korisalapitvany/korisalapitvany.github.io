@@ -1,0 +1,3 @@
+[submodule "third_party/materialize"]
+	path = third_party/materialize
+	url = https://github.com/Dogfalo/materialize
