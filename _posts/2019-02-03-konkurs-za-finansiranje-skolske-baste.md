@@ -189,6 +189,9 @@ Odluka o dodeli sredstava se objavljuje na internet stranici Fondacije.
 
 Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim školama.
 
+| Broj primljenih prijava: | 44              |
+| Ukupan traženi iznos:    | 3.658.484,00din |
+
 <p class="buttons">
   <a href="/docs/2019/konkurs-za-finansiranje-skolske-baste.pdf"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
     <i class="material-icons">print</i>
@@ -198,10 +201,10 @@ Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim školama.
     <i class="material-icons">print</i>
     Materijal za prijavu
   </button></a>
-  <a href="/form/konkurs-za-finansiranje-skolske-baste"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-button--disabled">
     <i class="material-icons">edit</i>
     Online prijava
-  </button></a>
+  </button>
 </p>
 
 _Više informacija o konkursu mogu se dobiti preko e-mail adrese [info@jasen.org.rs]._
