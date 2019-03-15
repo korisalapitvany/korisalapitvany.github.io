@@ -1,0 +1,68 @@
+{%- include vars.html -%}
+<!doctype html>
+<html lang="{{ language }}">
+{% include head.html %}
+<body>
+  <div class="mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--waterfall{% if page.cover_image %} has-cover{% endif %}">
+      {% if page.cover_image %}
+        <div class="clip">
+          <div class="image" style="background-image: url('{{ page.cover_image }}'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
+        </div>
+      {% endif %}
+      <!-- Top row, always visible -->
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">{{ site_data.name }}</span>
+        <div class="mdl-layout-spacer"></div>
+      </div>
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        {%- for link in site_data.links %}
+          {% assign link_path = site_data.prefix | append: link.href %}
+          <a class="mdl-layout__tab{% if page.url == link_path %} is-active{% endif %}" href="{{ site.url }}{{ link_path }}">{{ link.text }}</a>
+        {%- endfor %}
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">{{ site_data.name }}</span>
+      <nav class="mdl-navigation">
+        {%- for link in site_data.links %}
+        <a class="mdl-navigation__link{% if page.url == link.href %} active{% endif %}" href="{{ site.url }}{{ site_data.prefix }}{{ link.href }}">{{ link.text }}</a>
+        {%- endfor %}
+      </nav>
+      <div class="mdl-layout-spacer"></div>
+      <div class="languages top">
+        {%- for lang in site.data.i18n.languages -%}
+          {%- assign lang_data = site.data.i18n[lang] -%}
+          {%- if language == lang %}
+        <button class="mdl-button mdl-js-button" disabled>
+          {{- lang_data.text -}}
+        </button>
+          {%- else -%}
+            {%- for tr in page.translations -%}
+              {%- if lang == tr[0] %}
+        <a href="{{ site.url }}{{ lang_data.prefix }}{{ tr[1] }}/"><button class="mdl-button mdl-js-button">
+          {{- lang_data.text -}}
+        </button></a>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+        {%- endfor %}
+      </div>
+    </div>
+    <div class="mdl-layout__content parallax">
+      <div class="page-content">
+        <main
+          {%- if page.class %} class="{{ page.class }}"
+          {%- else if page.layout != "base" %} class="{{ page.layout }}"
+          {%- endif %}>
+          <div class="container content">
+            {{ content }}
+          </div>
+          {% include footer.html %}
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

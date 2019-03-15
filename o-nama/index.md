@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mat-page
 class: about
 
 title: O nama
