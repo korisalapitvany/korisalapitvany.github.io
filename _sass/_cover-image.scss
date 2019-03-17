@@ -62,3 +62,9 @@ body:not(.top) {
     }
   }
 }
+
+body:not(.has-cover) {
+  nav .image {
+    display: none;
+  }
+}

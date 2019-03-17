@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="{{ language }}">
 {% include head.html %}
-<body class="top">
+<body class="{% if page.cover_image %}has-cover {% endif %}top">
   <div class="navbar-fixed">
     <nav role="banner" class="title z-depth-0">
       <div class="image" style="background-image: url('/images/cover/{{ page.cover_image }}.jpg'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
