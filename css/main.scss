@@ -1,7 +1,11 @@
 ---
 ---
-@import 'main';
+/* Page template */
+@import 'template';
 
-body {
-  font-family: 'Roboto', 'Arial', sans-serif;
-}
+/* Page layout: */
+@import 'top-navigation-bar';
+@import 'cover-image';
+
+/* Components */
+@import 'striped-tables';

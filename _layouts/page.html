@@ -2,25 +2,4 @@
 layout: base
 ---
 {%- include vars.html -%}
-{% if page.cover_image %}
-  <div class="cover">
-    <div class="parallax--cover image" style="background-image: url('{{ page.cover_image }}'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
-    <div class="parallax--layer-0 container">
-      <h1>{{ page.title }}</h1>
-    </div>
-  </div>
-{% else %}
-  <h1 class="title">{{ page.title }}</h1>
-{% endif %}
-<div class="color--light-green parallax--layer-0 content-block page">
-  {{ content }}
-  {% if page.author %}
-  <div class="mdl-typography--text-right mdl-color-text--grey-900 clearfix author">
-    <img alt="{{ site_data.team[page.author].name }}" src="{{ site.url }}/images/team/416/{{ page.author }}.jpg">
-    <em>{{ site_data.team[page.author].name }}</em><br>
-    <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" class="mdl-color-text--grey-800">
-      {{ page.last_modified_at | date: site_data.date_format }}
-    </time>
-  </div>
-  {% endif %}
-</div>
+{{ content }}

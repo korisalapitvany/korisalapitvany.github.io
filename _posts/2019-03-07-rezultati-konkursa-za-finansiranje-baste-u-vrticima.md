@@ -13,7 +13,7 @@ permalink: /:categories/:title/
 
 front_page: true
 event_date: 2019/2020
-cover_image: https://storage.googleapis.com/jasen.org.rs/2019/kids-earth.jpg
+cover_image: 641340.pxhere.com
 cover_position: 60%;
 
 excerpt_separator: <!-- details -->
@@ -30,7 +30,7 @@ Najbolji projekti su:
 
 <!-- details -->
 
-## Raspodela sredstava
+#### Raspodela sredstava
 
 Pošto smo dobili mnogo dobrih prijava, odlučili smo da povećamo ukupan iznos
 finansiranja sa 60.000,00 dinara na **83.937,00 dinara**. Raspodela sredstava
@@ -45,7 +45,7 @@ je sledeća:
 * **Predškolska ustanova „Naša radost” objekat „Marjai Maria” – Subotica**
   dobija 13.000,00 dinara.
 
-## Rezultati ocenjivanja žirija
+#### Rezultati ocenjivanja žirija
 
 Članovi žirija su prvo samostalno ocenjivali vrtiće, a nakon toga smo
 normalizovali i sabrali bodove, te svaki vrtić dobije najmanje 3×1=3, a najviše
@@ -53,7 +53,7 @@ normalizovali i sabrali bodove, te svaki vrtić dobije najmanje 3×1=3, a najvi�
 
 [Konačna rang-lista](https://datastudio.google.com/open/17YZn215CoGBLo5D98QUWP9JIoPgW6fR7).
 
-## Statistički podaci
+#### Statistički podaci
 
 * Dobili smo 8 prijava na konkurs, iz 7 predškolskih ustanova.
 * Ukupan traženi iznos je 143.937,00 dinara, od kojih Fondacija finansira
@@ -69,7 +69,7 @@ Raspodela primljenih prijava po opštini:
   <a href="https://datastudio.google.com/reporting/17YZn215CoGBLo5D98QUWP9JIoPgW6fR7/page/T7rj"><img alt="Primljene prijave" class="mdl-shadow--2dp staticmap" src="https://storage.googleapis.com/jasen.org.rs/2019/vrtici-prijave.png" style="max-width: 100%;"></a>
 </div>
 
-## Retrospektiva
+#### Retrospektiva
 
 Prošle godine smo ispisali konkurs samo za osnovne i srednje škole. Iz nekoliko
 vrtića su nas pitali, da li bi i oni mogli da učestvuju, zato smo ove godine

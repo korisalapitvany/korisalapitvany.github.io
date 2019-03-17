@@ -1,0 +1,22 @@
+tr {
+  border: none;
+
+  &:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  &:nth-child(even):last-child {
+    td {
+      border-bottom: 4px solid rgba(0, 0, 0, 0.05);
+    }
+  }
+}
+
+td {
+  padding: 8px 4px;
+  vertical-align: top;
+
+  &:first-child {
+    white-space: nowrap;
+    width: 20%;
+  }
+}

@@ -1,10 +1,15 @@
-/* Classes that are applied throughout the site. */
+body {
+  font-family: 'Raleway', 'Verdana', 'Arial', sans-serif;
+}
 
-@import 'mixins';
+main {
+  ul,
+  ul:not(.browser-default) {
+    padding-left: 24px;
 
-@media screen {
-  .color--light-green {
-    background-color: $light-green;
+    > li { 
+      list-style-type: square;
+    }
   }
 }
 
@@ -41,7 +46,6 @@
     text-align: right;
 
     a {
-      color: material-color('green', '900');
       text-transform: lowercase;
 
       &::after {

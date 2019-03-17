@@ -1,5 +1,5 @@
 ---
-layout: mat-page
+layout: page
 class: about
 
 title: O nama
@@ -12,7 +12,18 @@ translations:
   en: /about-us
   hu: /rolunk
 ---
-## Osnovni podaci
+<!-- TODO: Move this to a per-page style. -->
+<style scoped>
+td:first-child {
+  white-space: nowrap;
+  width: 20%;
+}
+td + td {
+  font-weight: bold;
+}
+</style>
+
+#### Osnovni podaci
 
 | Naziv:               | Fondacija za zaštitu životne sredine „Jasen” |
 | Skraćeni naziv:      | Fondacija „Jasen”                            |
@@ -21,7 +32,7 @@ translations:
 | Datum osnivanja:     | 26.7.2017                                    |
 | Datum registrovanja: | 28.8.2017                                    |
 
-## Kontakt podaci
+#### Kontakt podaci
 
 | Web sajt:               | [jasen.org.rs]                  |
 | E-mail:                 | [info@jasen.org.rs]             |
@@ -31,7 +42,7 @@ translations:
 [jasen.org.rs]: https://jasen.org.rs
 [info@jasen.org.rs]: mailto:info@jasen.org.rs
 
-## Računi u banci
+#### Računi u banci
 
 Tekući račun u Raiffeisen banci:
 
@@ -43,7 +54,7 @@ Devizni račun u Raiffeisen banci:
 | IBAN:        | RS35 2651 0000 0019 5076 24 |
 | SWIFT/BIC:   | RZBSRSBG                    |
 
-## Osnivački dokumenti
+#### Osnivački dokumenti
 
 - [Ugovor o osnivanju]
 - [Statut]
@@ -53,7 +64,7 @@ Svi ostali dokumenti su dostupni [ovde](/dokumenti/).
 [Ugovor o osnivanju]: /docs/ugovor-o-osnivanju.pdf
 [Statut]: /docs/statut.pdf
 
-## Ostali podaci
+#### Ostali podaci
 
 Podaci registrovani kod Agencije za privredne registre:
 

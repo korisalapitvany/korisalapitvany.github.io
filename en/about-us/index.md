@@ -11,7 +11,7 @@ translations:
   hu: /rolunk
   sr: /o-nama
 ---
-## Basic information
+#### Basic information
 
 | Name:                  | Ash Foundation for Environmental Protection<br>(Serbian: Fondacija za zaštitu životne sredine „Jasen”) |
 | Shortened name:        | Ash Foundation<br>(Serbian: Fondacija „Jasen”)                                                         |
@@ -20,7 +20,7 @@ translations:
 | Date of foundation:    | 7/26/2017                                                                                              |
 | Date of registration:  | 8/28/2017                                                                                              |
 
-## Contact information
+#### Contact information
 
 | Website:      | [jasen.org.rs]                             |
 | Email:        | [info@jasen.org.rs]                        |
@@ -30,7 +30,7 @@ translations:
 [jasen.org.rs]: https://jasen.org.rs
 [info@jasen.org.rs]: mailto:info@jasen.org.rs
 
-## Bank accounts
+#### Bank accounts
 
 Current account at Raiffeisen Bank:
 
@@ -42,7 +42,7 @@ Foreign currency account at Raiffeisen Bank:
 | IBAN:           | RS35 2651 0000 0019 5076 24 |
 | SWIFT/BIC:      | RZBSRSBG                    |
 
-## Founding documents
+#### Founding documents
 
 - [Founding contract] (in Serbian)
 - [Statute] (in Serbian)
@@ -52,7 +52,7 @@ All other documents are available [here](/en/documents/).
 [Founding contract]: /docs/ugovor-o-osnivanju.pdf
 [Statute]: /docs/statut.pdf
 
-## Other data
+#### Other data
 
 Data registered at the Serbian Business Registers Agency:
 

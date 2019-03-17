@@ -47,7 +47,7 @@ A játszótér nyilvános lesz, és a továbbiakban környezetvédelemmel és
 természetvédelemmel kapcsolatos műhelyek és más aktivitások szervezésében is
 igénybe szeretnénk venni.
 
-## Helyszín
+#### Helyszín
 
 A játszótér a parkoló és a múzeum előtti tér között lesz, a főbejárathoz vezető
 út bal oldalánál. Ez a Bezdán helyi közösség kataszteri irodájában 5196/1-es
@@ -61,7 +61,7 @@ földterületet nyilvános parkként tartja számon.
   </div>
 </div>
 
-## A játszótér elemei
+#### A játszótér elemei
 
 A játszótér a következő elemeket tartalmazza majd:
 
@@ -86,7 +86,7 @@ További információk a [15/12/17-es számú ajánlatban].
 
 [15/12/17-es számú ajánlatban]: /docs/tabori-exteriors-doo-ponuda-15-12-17.pdf
 
-## A támogatásról szóló döntés
+#### A támogatásról szóló döntés
 
 A Kőris Alapítvány 2017 december 27-én [döntést hozott] a játszótér
 megépítésének támogatásáról.

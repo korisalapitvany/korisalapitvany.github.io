@@ -32,7 +32,7 @@ projekat za testiranje [UrbiGo zelene kocke](https://urbigo.me) u učionici.
 
 <!-- details -->
 
-## Raspodela sredstava
+#### Raspodela sredstava
 
 Pošto smo dobili mnogo dobrih prijava, odlučili smo da povećamo ukupan iznos
 finansiranja sa 360.000,00 dinara na **474.790,50 dinara**. Raspodela sredstava
@@ -47,14 +47,14 @@ je sledeća:
 * **Osnovna i srednja škola sa domom učenika „Petro Kuzmjak” – Ruski Krstur**
   dobija 51.800,00 dinara, 100% traženog iznosa.
 
-## Rezultati ocenjivanja žirija
+#### Rezultati ocenjivanja žirija
 
 Članovi žirija su rangirali škole bodovima, od 1 do 38. Bodovi se sabiraju, te
 svaka škola dobije najmanje 3×1=3, a najviše 3×38=114 bodova.
 
 [Konačna rang-lista](https://datastudio.google.com/open/1Hk_tlxS4XUGiA8edYBMmbck6dk0VTi4X).
 
-## Statistički podaci
+#### Statistički podaci
 
 * Dobili smo 38 prijava na konkurs: 29 osnovnih škola, 6 srednjih škola i 3
   osnovnih i srednjih škola su se prijavila.
@@ -65,7 +65,7 @@ svaka škola dobije najmanje 3×1=3, a najviše 3×38=114 bodova.
   <a href="https://datastudio.google.com/open/113yK19w0mdLtbny59KdP1ICFDAoF-aoX"><img alt="Primljene prijave" class="mdl-shadow--2dp staticmap" src="https://storage.googleapis.com/jasen.org.rs/2018/skolska-basta-prijave.png" style="max-width: 100%;"></a>
 </div>
 
-## Retrospektiva
+#### Retrospektiva
 
 Ovo je prvi put da smo ispisali konkurs, pa smo i mi neke stvari tek sada
 naučili. Što se tiče načina prikupljanja prijave, neki primeri su:

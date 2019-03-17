@@ -46,7 +46,7 @@ Igralište će biti otvoreno za javnost, i planiramo je koristiti za
 organizovanje radionica i ostalih aktivnosti na temi zaštite životne sredine i
 zaštite prirode.
 
-## Lokacija
+#### Lokacija
 
 Igralište će biti između parkinga i platoa muzeja, sa
 leve strane glavne staze prema muzeju. To je 4. deo parcele upisanoj pod brojem
@@ -60,7 +60,7 @@ zemljišta po katastru je ”javni park”.
   </div>
 </div>
 
-## Elementi igrališta
+#### Elementi igrališta
 
 Igralište će da sadrži sledeće elemente:
 
@@ -85,7 +85,7 @@ U gore navedene cene je uračunat PDV i troškovi montaže. Više informacije u
 
 [ponudi br. 15/12/17]: /docs/tabori-exteriors-doo-ponuda-15-12-17.pdf
 
-## Odluka o finansiranju
+#### Odluka o finansiranju
 
 Fondacija „Jasen” je dana 27.12.2017. godine doneo [odluku o finansiranju]
 dečijeg igrališta. Dana 12.03.2018.

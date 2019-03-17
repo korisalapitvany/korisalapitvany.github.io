@@ -73,7 +73,7 @@ h3 {
 član 7. stav 1. tačka 5. [Statuta]) Fondacija za zaštitu životne sredine
 „Jasen” raspisuje*
 
-## KONKURS
+#### KONKURS
 
 _**za finansiranje pokretanja bašte u predškolskim ustanovama na teritoriji AP
 Vojvodine**_

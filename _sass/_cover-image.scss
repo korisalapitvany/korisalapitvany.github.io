@@ -8,18 +8,21 @@ $height: 480px;
     height: $height;
     display: flex;
     align-items: baseline;
-    padding: 0;
+    padding: 112px 0 0;
   }
 
   h1 {
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Gentium Basic', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
     text-shadow: 0 0 2px black;
-    background-color: rgba(0, 0, 0, 0.25);
-    align-self: flex-end;
-    width: 100%;
-    line-height: 44px;
-    padding: 16px 24px;
-    margin: 0;
+    text-align: center;
+    align-self: center;
+    padding: 16px 40px;
+    margin: 0 auto;
   }
 }
 

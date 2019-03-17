@@ -1,3 +1,7 @@
+$nav-height: 56px;
+$nav-height-wide: 64px;
+$tab-height: 48px;
+
 nav {
   background-color: rgba(0, 0, 0, 0.5);
   overflow-y: hidden;
@@ -8,11 +12,11 @@ nav {
     0.1s box-shadow cubic-bezier(0.4, 0, 0.2, 1);
 
   &.nav-extended {
-    height: 112px !important;
+    height: ($nav-height + $tab-height) !important;
   }
 
   .brand-logo {
-    font-size: 24px;
+    font-size: 22px;
     white-space: nowrap;
   }
 
@@ -24,6 +28,10 @@ nav {
 
   .tabs {
     margin-left: -24px;
+
+    li.active {
+      border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+    }
   }
 }
 
@@ -33,7 +41,7 @@ nav {
 
 body:not(.top) {
   nav {
-    height: 64px !important;
+    height: $nav-height !important;
     background-color: black;
     box-shadow:
       0 2px 2px 0 rgba(0, 0, 0, 2.14),
@@ -44,6 +52,22 @@ body:not(.top) {
     .nav-content {
       opacity: 0;
     }
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  nav {
+    &.nav-extended {
+      height: ($nav-height-wide + $tab-height) !important;
+    }
+
+    .brand-logo {
+      font-size: 24px;
+    }
+  }
+
+  body:not(.top) nav {
+    height: $nav-height-wide !important;
   }
 }
 

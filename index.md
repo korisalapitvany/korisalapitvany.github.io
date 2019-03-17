@@ -28,7 +28,7 @@ omladinu**, o važnosti očuvanja i zaštite životne sredine i prirode.
 
 [Više o našoj fondaciji](/o-nama/)
 
-## Aktuelni projekti {#projekti}
+#### Aktuelni projekti {#projekti}
 
 <div class="more-link">
   {% include project-cards.html front_page=true %}
@@ -36,6 +36,6 @@ omladinu**, o važnosti očuvanja i zaštite životne sredine i prirode.
 
 [Svi projekti](/projekti/)
 
-## Naš tim {#tim}
+#### Naš tim {#tim}
 
 {% include team.html %}

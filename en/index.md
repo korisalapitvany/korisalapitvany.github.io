@@ -28,6 +28,6 @@ environment and nature.
 
 [More about our foundation](/en/about-us/)
 
-## Our team {#team}
+#### Our team {#team}
 
 {% include team.html %}

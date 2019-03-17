@@ -11,7 +11,7 @@ translations:
   en: /about-us
   sr: /o-nama
 ---
-## Alapinformációk
+#### Alapinformációk
 
 | Név:                       | Kőris Környezetvédelmi Alapítvány<br>(Szerbül: Fondacija za zaštitu životne sredine „Jasen”) |
 | Rövidített név:            | Kőris Alapítvány<br>(Szerbül: Fondacija „Jasen”)                                             |
@@ -20,7 +20,7 @@ translations:
 | Alapítás dátuma:           | 2017.7.26.                                                                                   |
 | Cégjegyzékbe vétel dátuma: | 2017.8.28.                                                                                   |
 
-## Elérhetőségeink
+#### Elérhetőségeink
 
 | Weboldal:       | [jasen.org.rs]                                 |
 | Email:          | [info@jasen.org.rs]                            |
@@ -30,7 +30,7 @@ translations:
 [jasen.org.rs]: https://jasen.org.rs
 [info@jasen.org.rs]: mailto:info@jasen.org.rs
 
-## Bankszámlák
+#### Bankszámlák
 
 Folyószámla a Raiffeisen Banknál:
 
@@ -42,7 +42,7 @@ Deviza számla a Raiffeisen Banknál:
 | IBAN:       | RS35 2651 0000 0019 5076 24 |
 | SWIFT/BIC:  | RZBSRSBG                    |
 
-## Alapító okiratok
+#### Alapító okiratok
 
 - [Alapító szerződés] (szerb nyelven)
 - [Statútum] (szerb nyelven)
@@ -52,7 +52,7 @@ Az összes többi okirat elérhető [itt](/hu/okiratok/).
 [Alapító szerződés]: /docs/ugovor-o-osnivanju.pdf
 [Statútum]: /docs/statut.pdf
 
-## Egyéb adatok
+#### Egyéb adatok
 
 A szerbiai cégjegyzéki ügynökségben nyilvántartott adatok:
 
