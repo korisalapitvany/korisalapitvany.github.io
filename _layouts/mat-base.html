@@ -16,7 +16,7 @@
         <ul class="tabs tabs-transparent">
           {%- for link in site_data.links %}
             {% assign link_path = site_data.prefix | append: link.href %}
-            <li class="tab"><a{% if page.url == link_path %} class="is-active"{% endif %} href="{{ site.url }}{{ link_path }}">{{ link.text }}</a></li>
+            <li class="tab"><a{% if page.url == link_path %} class="active"{% endif %} href="{{ site.url }}{{ link_path }}">{{ link.text }}</a></li>
           {%- endfor %}
         </ul>
       </div>
