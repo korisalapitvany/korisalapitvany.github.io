@@ -6,26 +6,37 @@ nav {
   background-color: rgba(0, 0, 0, 0.5);
   overflow-y: hidden;
 
-  transition:
-    0.2s height cubic-bezier(0.4, 0, 0.2, 1),
-    0.2s background-color cubic-bezier(0.4, 0, 0.2, 1),
-    0.1s box-shadow cubic-bezier(0.4, 0, 0.2, 1);
+  &.title {
+    transition:
+      0.2s background-color cubic-bezier(0.4, 0, 0.2, 1),
+      0.1s box-shadow cubic-bezier(0.4, 0, 0.2, 1);
 
-  &.nav-extended {
-    height: ($nav-height + $tab-height) !important;
+    .nav-content {
+      opacity: 1;
+
+      transition: 0.5s opacity cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  &.navbar-tabs {
+    height: $tab-height;
+
+    position: absolute;
+    top: $nav-height; left: 0; right: 0;
+    z-index: 1;
   }
 
   .brand-logo {
     font-size: 22px;
     white-space: nowrap;
   }
+}
 
-  .nav-content {
-    opacity: 1;
+.navbar-fixed {
+  height: 0 !important;
+}
 
-    transition: 0.5s opacity cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
+.navbar-tabs {
   .tabs {
     margin-left: -24px;
 
@@ -35,12 +46,8 @@ nav {
   }
 }
 
-.navbar-fixed {
-  height: 0 !important;
-}
-
 body:not(.top) {
-  nav {
+  nav.title {
     height: $nav-height !important;
     background-color: black;
     box-shadow:
@@ -57,22 +64,22 @@ body:not(.top) {
 
 @media only screen and (min-width: 601px) {
   nav {
-    &.nav-extended {
-      height: ($nav-height-wide + $tab-height) !important;
-    }
-
     .brand-logo {
       font-size: 24px;
     }
   }
 
-  body:not(.top) nav {
+  body:not(.top) nav.title {
     height: $nav-height-wide !important;
+  }
+
+  nav.navbar-tabs {
+    top: $nav-height-wide;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  nav .tabs {
+  nav.navbar-tabs .tabs {
     margin-left: initial;
   }
 }
