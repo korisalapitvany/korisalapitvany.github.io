@@ -43,8 +43,14 @@ links:
   href: /dokumenti/
 - text: O nama
   href: /o-nama/
-- text: OSM editor
-  href: /map/
+
+footer_links:
+- text: Naslovna
+  href: /
+- text: Projekti
+  href: /projekti/
+- text: O nama
+  href: /o-nama/
 
 details: Detaljnije
 

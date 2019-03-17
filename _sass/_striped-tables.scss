@@ -19,4 +19,8 @@ td {
     white-space: nowrap;
     width: 20%;
   }
+
+  + td {
+    border-left: 4px solid white;
+  }
 }
