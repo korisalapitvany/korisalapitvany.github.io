@@ -42,7 +42,7 @@ je sledeća:
 * **Ustanova za predškolsko vaspitanje i obrazovanje „Radost” objekat
   „Bubamara” — Nadalj** dobija 19.800,00 dinara.
 * **Predškolska ustanova „Kolibri” – Bač** dobija 20.000,00 dinara.
-* **Predškolska ustanova „Nasa radost” objekat „Marjai Maria” – Subotica**
+* **Predškolska ustanova „Naša radost” objekat „Marjai Maria” – Subotica**
   dobija 13.000,00 dinara.
 
 ## Rezultati ocenjivanja žirija
