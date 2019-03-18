@@ -33,7 +33,13 @@
   </div>
 
   <div class="container">
-    <main>{{ content }}</main>
+    <main>
+      {% if page.css %}
+        <style scoped>
+{{ page.css }}</style>
+      {% endif %}
+      {{ content }}
+    </main>
   </div>
 
   {% include footer.html %}
