@@ -1,8 +1,6 @@
 'use strict';
 
 (() => {
-  const classList = document.body.classList;
-
   let isTop;
   function scroll() {
     let newTop = document.documentElement.scrollTop === 0;
@@ -12,15 +10,19 @@
     isTop = newTop;
 
     if (newTop) {
-	  classList.add('top');
+      document.body.classList.add('top');
     } else {
-	  classList.remove('top');
-	}
+      document.body.classList.remove('top');
+  }
   };
 
   document.addEventListener('DOMContentLoaded', scroll);
   document.addEventListener('scroll', scroll, {
-	passive: true
+    passive: true
   });
-  setTimeout(scroll, 1);
+  setTimeout(() => {
+    try {
+      scroll();
+    } catch (e) {}
+  }, 1);
 })();
