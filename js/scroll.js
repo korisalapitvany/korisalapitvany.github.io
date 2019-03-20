@@ -13,8 +13,8 @@
       document.body.classList.add('top');
     } else {
       document.body.classList.remove('top');
+    }
   }
-  };
 
   document.addEventListener('DOMContentLoaded', scroll);
   document.addEventListener('scroll', scroll, {
