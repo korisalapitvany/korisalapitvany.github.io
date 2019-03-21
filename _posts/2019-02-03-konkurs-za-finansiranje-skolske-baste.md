@@ -11,7 +11,7 @@ category: projekti
 permalink: /:categories/:title/
 
 event_date: 2019/2020
-cover_image: &image https://storage.googleapis.com/jasen.org.rs/2019/lewis-clarke-vegetable-garden-1936x1286.jpg
+cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 30%;
 
 excerpt: |
@@ -49,24 +49,22 @@ json_ld:
       postalCode: 24220
       addressRegion: Vojvodina
       addressCountry: RS
-  image: *image
+  image: https://jasen.org.rs/images/cover/2019/lewis-clarke-vegetable-garden-1936x1286.jpg
+
+css: |
+  #konkurs,
+  #konkurs + p {
+    text-align: center;
+  }
+  .buttons a,
+  .buttons button {
+    line-height: 38px;
+    margin-right: 8px;
+  }
+  .buttons i {
+    line-height: 36px;
+  }
 ---
-<style scoped>
-#konkurs,
-#konkurs + p {
-  text-align: center;
-}
-h3 {
-  font-size: 20px;
-  font-family: inherit;
-  text-decoration: underline;
-  margin: 0 0 16px;
-}
-.buttons a {
-  line-height: 48px;
-  margin-right: 8px;
-}
-</style>
 
 *U skladu sa ciljevima i aktivnostima Fondacije (član 6. stav 1. tačka 2., i
 član 7. stav 1. tačka 5. [Statuta]) Fondacija za zaštitu životne sredine
@@ -74,15 +72,15 @@ h3 {
 
 #### KONKURS
 
-_**za finansiranje pokretanja školske bašte u osnovnim i srednjim školama na
-teritoriji AP Vojvodine**_
+**za finansiranje pokretanja školske bašte u osnovnim i srednjim školama na
+teritoriji AP Vojvodine**
 
 Fondacija „Jasen” (u daljem tekstu: Fondacija) u skladu sa finansijskim planom
 i mogućnostima u budžetskoj 2019 godini, finansira i sufinansira najmanje tri
 škole na teritoriji AP Vojvodine, za projekat izgradnje ili pokretanje školske
 bašte, kao mesto i mogućnost obrazovno-vaspitnog prostora za školsku decu.
 
-### Raspored sredstava
+##### Raspored sredstava
 
 Pravo na učestvovanje na konkursu imaju osnovne i srednje škole na teritoriji
 AP Vojvodine, koje će kao jedan od ciljeva naznačiti da ovaj projekat ima za
@@ -111,7 +109,7 @@ Ako su u pitanju gradske škole bez zelenih površina, mogućnost za konkurisanj
 takođe postoji. Konkurs se dodeljuje i za finansiranje školskih bašta na
 betonskim površinama (saksijske biljke, viseće bašte, vertikalne bašte i sl.)
 
-### Uslovi za učešće na konkursu:
+##### Uslovi za učešće na konkursu:
 
 - Izrađen **finansijski plan i projekat plan** kao i **lista željenih
   sredstava**
@@ -127,14 +125,14 @@ Odgovornosti komisije:
 - da nastavnici uvode korišćenje školske bašte u nastavnim planovima
 - da školska bašta ne bude zanemarena tokom školske godine
 
-### Kriterijumi za dodelu sredstava:
+##### Kriterijumi za dodelu sredstava:
 
 1. Uticaj predloženog projekta
 2. Odgovornost na temu projekta
 3. Kompetentnost predlagača, predhodno iskustvo
 4. Uključivanje ideja i planova učenika 
 
-### Sugestije za uspešno konkurisanje:
+##### Sugestije za uspešno konkurisanje:
 
 - Manji projekti koji imaju prostora za razvoj i proširenje mogu da budu u
   prednosti.
@@ -149,27 +147,27 @@ odgovoran da vodi dnevnik aktivnosti koji sadrži slike i dokumentaciju o radu.
 A na kraju realizacije projekta dnevnik se predaje upravitelju Fondacije,
 uključujući i ocenu komisije kao i utiske najmanje tri učenika.
 
-### Potrebna dokumentacija:
+##### Potrebna dokumentacija:
 
 1. Obrazac o prijavi (uredno popunjen, u elektronskoj formi)
 2. Projekat plan sa ciljevima i misijom projekta
 3. Finansijski plan
 
-### Podnošenje prijave na konkurs
+##### Podnošenje prijave na konkurs
 
 Prijava na konkurs se podnosi isključivo u elektronskoj formi na adresi
 [jasen.org.rs/form/konkurs-za-finansiranje-skolske-baste].
 
 Konkurs je otvoren od 03.02.2019. godine do 15.03.2019. godine.
 
-### Rok za realizaciju projekta
+##### Rok za realizaciju projekta
 
 15.04.2019.–01.05.2020.
 
 Rok za slanje dnevnika aktivnosti, ocene komisije i utisaka učenika najkasnije
 do 31.05.2020. godine
 
-### Dokumentacija koja se ne uzima u razmatranje:
+##### Dokumentacija koja se ne uzima u razmatranje:
 
 - Neblagovremena i nepotpuna prijava
 - Prijava podneta od strane neovlašćenog lica i subjekata koji nisu predviđeni
@@ -178,7 +176,7 @@ do 31.05.2020. godine
 - Prijava kojom se traže sredstva u iznosu koji su veći od iznosa predviđenog
   za dodelu po konkursu
 
-### Dodela sredstava
+##### Dodela sredstava
 
 Članovi upravnog odbora Fondacije vrše stručni pregled podnetih prijava,
 vrednuju projekte u skladu sa uslovima i kriterijumima navedenim u konkursu i
@@ -192,18 +190,9 @@ Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim školama.
 | Ukupan traženi iznos:    | 3.658.484,00din |
 
 <p class="buttons">
-  <a href="/docs/2019/konkurs-za-finansiranje-skolske-baste.pdf"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
-    <i class="material-icons">print</i>
-    Štampana verzija
-  </button></a>
-  <a href="/docs/2019/konkurs-za-finansiranje-skolske-baste-prijava.pdf"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
-    <i class="material-icons">print</i>
-    Materijal za prijavu
-  </button></a>
-  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-button--disabled">
-    <i class="material-icons">edit</i>
-    Online prijava
-  </button>
+  <a class="btn waves-effect waves-light" href="/docs/2019/konkurs-za-finansiranje-skolske-baste.pdf"><i class="material-icons left">print</i>Štampana verzija</a>
+  <a class="btn waves-effect waves-light" href="/docs/2019/konkurs-za-finansiranje-skolske-baste-prijava.pdf"><i class="material-icons left">list_alt</i>Materijal za prijavu</a>
+  <button class="btn disabled"><i class="material-icons left">edit</i>Online prijava</button>
 </p>
 
 _Više informacija o konkursu mogu se dobiti preko e-mail adrese [info@jasen.org.rs]._

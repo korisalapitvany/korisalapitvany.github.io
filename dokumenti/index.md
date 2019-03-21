@@ -5,6 +5,9 @@ class: documents
 title: Dokumenti
 last_modified_at: 2017-09-26T00:00:00-02:00
 
+cover_image: 2019/mushrooms
+cover_position: 60%
+
 translations:
   en: /documents
   hu: /okiratok

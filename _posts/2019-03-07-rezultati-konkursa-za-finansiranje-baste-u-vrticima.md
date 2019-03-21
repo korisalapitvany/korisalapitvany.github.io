@@ -13,7 +13,7 @@ permalink: /:categories/:title/
 
 front_page: true
 event_date: 2019/2020
-cover_image: 641340.pxhere.com
+cover_image: 2019/boys-wellington-boots
 cover_position: 60%;
 
 excerpt_separator: <!-- details -->
@@ -65,8 +65,8 @@ normalizovali i sabrali bodove, te svaki vrtić dobije najmanje 3×1=3, a najvi�
 
 Raspodela primljenih prijava po opštini:
 
-<div class="mdl-typography--text-center">
-  <a href="https://datastudio.google.com/reporting/17YZn215CoGBLo5D98QUWP9JIoPgW6fR7/page/T7rj"><img alt="Primljene prijave" class="mdl-shadow--2dp staticmap" src="https://storage.googleapis.com/jasen.org.rs/2019/vrtici-prijave.png" style="max-width: 100%;"></a>
+<div class="center-align">
+  <a href="https://datastudio.google.com/reporting/17YZn215CoGBLo5D98QUWP9JIoPgW6fR7/page/T7rj"><img alt="Primljene prijave" src="https://storage.googleapis.com/jasen.org.rs/2019/vrtici-prijave.png" style="max-width: 100%;"></a>
 </div>
 
 #### Retrospektiva

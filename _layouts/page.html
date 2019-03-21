@@ -3,3 +3,14 @@ layout: base
 ---
 {%- include vars.html -%}
 {{ content }}
+{% if page.author %}
+  <div class="author valign-wrapper right-align">
+    <div class="text">
+      <em class="grey-text text-darken-4">{{ site_data.team[page.author].name }}</em><br>
+      <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" class="grey-text text-darken-3">
+        {{ page.last_modified_at | date: site_data.date_format }}
+      </time>
+    </div>
+    <img alt="{{ site_data.team[page.author].name }}" src="{{ site.url }}/images/team/416/{{ page.author }}.jpg">
+  </div>
+{% endif %}

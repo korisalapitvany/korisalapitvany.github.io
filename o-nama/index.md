@@ -5,7 +5,7 @@ class: about
 title: O nama
 last_modified_at: 2017-12-25T00:00:00-02:00
 
-cover_image: 641340.pxhere.com
+cover_image: 2019/mushrooms
 cover_position: 75%
 
 translations:

@@ -5,7 +5,8 @@ class: projects
 title: Projekti / 2019
 last_modified_at: 2019-02-03T00:00:00-02:00
 
-cover_image: https://storage.googleapis.com/jasen.org.rs/2018/droplets.jpg
+cover_image: 2019/mushrooms
+cover_position: 60%
 
 translations:
   hu: /projektek

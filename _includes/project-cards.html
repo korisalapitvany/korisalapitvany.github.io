@@ -8,15 +8,15 @@
     {%- if post.lang == language %}
     {%- if include.year == null or post_year == post_year_filter %}
     {%- if include.front_page != true or post.front_page == true %}
-    <div class="mdl-card mdl-shadow--2dp">
-      <div class="mdl-card__title" style="background-image: url('{{ post.cover_image }}');">
-        <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+    <div class="card medium">
+      <div class="card-image">
+        <div class="image" style="background-image: url('/images/cover/{{ post.cover_image }}.jpg'); background-position-y: {{ post.cover_position | default: "center" }}"></div>
+        <span class="card-title">{{ post.title }}</span>
       </div>
-      <div class="mdl-card__supporting-text">
-
-{{ post.excerpt | markdownify | split: '</h1>' | last }}
+      <div class="card-content">
+        {{ post.excerpt | markdownify | split: '</h1>' | last }}
       </div>
-      <div class="mdl-card__actions mdl-card--border">
+      <div class="card-actions">
         {%- if post.event_date %}
           <i class="material-icons">event</i>
           <time>
@@ -24,7 +24,7 @@
           </time>
         {%- endif %}
         <div class="mdl-layout-spacer"></div>
-        <a href="{{ post.url }}" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+        <a class="btn-flat waves-effect waves-light right" href="{{ post.url }}">
           {{- site_data.details -}}
         </a>
       </div>
