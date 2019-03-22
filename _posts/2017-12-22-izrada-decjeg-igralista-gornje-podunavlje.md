@@ -14,11 +14,32 @@ permalink: /:categories/:title/
 excerpt_separator: <!-- details -->
 
 event_date: <del>2018 mart/april</del>
-cover_image: https://storage.googleapis.com/jasen.org.rs/2018/tabori-exteriors-playground.jpg
+cover_image: 2019/tabori-exteriors-playground
 cover_position: 75%;
 
 translations:
   hu: /projektek/jatszoter-a-felso-dunamelleknel
+
+css: |
+  table {
+    em {
+      font-weight: initial;
+    }
+
+    tr:last-child {
+      font-weight: bold;
+    }
+
+    td:first-child {
+      white-space: initial;
+      width: 80%;
+    }
+
+    td:last-child {
+      text-align: right;
+      white-space: nowrap;
+    }
+  }
 ---
 Zbog neuspešne saradnje sa Gradskim muzejom Sombora, Fondacija „Jasen” odustaje
 od finansiranja igrališta.

@@ -1,13 +1,16 @@
 ---
 ---
-/* Page template */
+/* Overall website template */
 @import 'template';
 
-/* Page layout: */
+/* Page layout */
 @import 'top-navigation-bar';
 @import 'cover-image';
 @import 'main-content';
 @import 'footer';
 
-/* Components */
+/* Individual components */
 @import 'striped-tables';
+
+/* Individual pages */
+@import 'projects';

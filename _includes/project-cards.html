@@ -1,5 +1,5 @@
 {%- include vars.html -%}
-  <div class="project-cards">
+  <div class="projects">
   {%- for post in site.posts %}
     {%- assign post_year = post.date | date: "%Y" %}
     {%- assign post_year_filter = include.year | append: "" %}
@@ -16,15 +16,16 @@
       <div class="card-content">
         {{ post.excerpt | markdownify | split: '</h1>' | last }}
       </div>
-      <div class="card-actions">
+      <div class="card-action">
         {%- if post.event_date %}
-          <i class="material-icons">event</i>
-          <time>
-            {{ post.event_date }}
-          </time>
+          <span class="event-date">
+            <i class="material-icons">event</i>
+            <time>
+              {{ post.event_date }}
+            </time>
+          </span>
         {%- endif %}
-        <div class="mdl-layout-spacer"></div>
-        <a class="btn-flat waves-effect waves-light right" href="{{ post.url }}">
+        <a class="btn btn-flat waves-effect waves-light" href="{{ post.url }}">
           {{- site_data.details -}}
         </a>
       </div>

@@ -1,18 +1,12 @@
-/** ALL SCREENS **/
 .projects {
-  .years {
-    margin-top: 16px;
-    text-align: center;
-  }
-  .project-cards {
-    margin-top: 8px;
-  }
-}
-.project-cards {
-  .mdl-card {
-    width: 100%;
+  .card {
+    .card-image {
+      .image {
+        height: 200px;
+      }
+    }
 
-    .mdl-card__title {
+    .card-title {
       color: white;
       text-shadow: 0 0 2px black;
 
@@ -21,15 +15,12 @@
       background-size: cover;
     }
 
-    .mdl-card__supporting-text {
+    .card-content {
       width: 100%;
       box-sizing: border-box;
     }
 
-    .mdl-card__actions {
-      display: flex;
-      box-sizing: border-box;
-      align-items: center;
+    .card-action {
       text-transform: uppercase;
 
       i {
@@ -41,55 +32,8 @@
       }
     }
 
-    + .mdl-card {
+    + .card {
       margin-top: 24px;
     }
   }
-}
-
-.project {
-  h2 {
-    font-size: 24px;
-    margin: 0 0 4px
-  }
-
-  table {
-    @include simple-table;
-  }
-
-  .pricelist {
-    table {
-      em {
-        font-weight: initial;
-      }
-
-      tr:last-child {
-        font-weight: bold;
-      }
-
-      td:first-child {
-        white-space: initial;
-        width: 80%;
-      }
-
-      td:last-child {
-        text-align: right;
-        white-space: nowrap;
-      }
-    }
-  }
-
-  .staticmap {
-    border: 4px solid white;
-    margin: 0 -4px;
-    max-width: calc(100% + 8px);
-
-    &.wide {
-      width: 100%;
-    }
-  }
-}
-
-/** 0-1024px **/
-@media screen and (max-width: 1024px) {
 }
