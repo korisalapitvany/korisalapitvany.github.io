@@ -1,28 +1,6 @@
-main.documents .content {
-  ul {
-    padding-left: 16px;
-
+.documents {
+  ul:not(.browser-default) {
     li {
-      margin-bottom: 4px;
-      list-style-type: none;
-      clear: both;
-
-      &::before {
-        $icon-size: 44px;
-
-        content: "insert_drive_file";
-        font-family: 'Material Icons';
-        font-size: $icon-size;
-        line-height: 1;
-        display: block;
-        float: left;
-        width: $icon-size;
-        height: $icon-size;
-        font-feature-settings: 'liga';
-        -moz-font-feature-settings: 'liga';
-        -webkit-font-feature-settings: 'liga';
-        -webkit-font-smoothing: antialiased;
-      }
       p {
         margin: 0;
         white-space: nowrap;
@@ -32,6 +10,7 @@ main.documents .content {
         a {
           font-size: 16px;
         }
+
         + p {
           margin-top: -4px;
         }
