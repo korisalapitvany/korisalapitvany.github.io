@@ -57,12 +57,3 @@ rászorulókkal foglalkozó szervezetnek ajánlanak fel.
     <img src="https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-3.jpg" alt="A diákok">
   </div>
 </div>
-
-<script>
-"use strict";
-
-document.addEventListener('DOMContentLoaded', () => {
-  const elems = document.querySelectorAll('.gallery img');
-  M.Materialbox.init(elems, {});
-});
-</script>

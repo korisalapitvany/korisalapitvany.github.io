@@ -1,6 +1,6 @@
-'use strict';
-
 (() => {
+  'use strict';
+
   let isTop;
   function scroll() {
     let newTop = document.documentElement.scrollTop === 0;
@@ -16,13 +16,16 @@
     }
   }
 
-  document.addEventListener('DOMContentLoaded', scroll);
   document.addEventListener('scroll', scroll, {
     passive: true
   });
-  setTimeout(() => {
-    try {
-      scroll();
-    } catch (e) {}
-  }, 1);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', scroll);
+  } else {
+    setTimeout(() => {
+      try {
+        scroll();
+      } catch (e) {}
+    }, 1);
+  }
 })();

@@ -1,6 +1,6 @@
-'use strict';
-
 (() => {
+  'use strict';
+
   const link = document.head.querySelector('link[rel=canonical]');
   if (!link) {
     return;

@@ -47,6 +47,7 @@ nešto za prirodu i okolinu.
     <img alt="Sakupljanje smeća" src="//storage.googleapis.com/jasen.org.rs/2019/recycle.jpg">
   </div>
   <div class="col l6 m12">
+
 <div markdown="1">
 Raspored škola za drugo polugodište:
 
@@ -56,14 +57,6 @@ Raspored škola za drugo polugodište:
 - Maj: **O.Š. Petefi Šandor**, Hajdukovo
 - Jun: **O.Š. Miroslav Antić**, Palić
 </div>
+
   </div>
 </div>
-
-<script>
-"use strict";
-
-document.addEventListener('DOMContentLoaded', () => {
-  const elems = document.querySelectorAll('.gallery img');
-  M.Materialbox.init(elems, {});
-});
-</script>
