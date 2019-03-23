@@ -56,14 +56,6 @@ css: |
   #konkurs + p {
     text-align: center;
   }
-  .buttons a,
-  .buttons button {
-    line-height: 38px;
-    margin-right: 8px;
-  }
-  .buttons i {
-    line-height: 36px;
-  }
 ---
 
 *U skladu sa ciljevima i aktivnostima Fondacije (član 6. stav 1. tačka 2., i

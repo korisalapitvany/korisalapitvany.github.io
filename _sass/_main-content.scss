@@ -45,4 +45,19 @@ main {
       font-style: initial;
     }
   }
+
+  .buttons {
+    font-family: 'Roboto', 'Raleway', 'Verdana', 'Arial', sans-serif;
+
+    a,
+    button {
+      margin-right: 8px;
+      margin-bottom: 16px;
+      line-height: 38px;
+    }
+
+    i {
+      line-height: 36px;
+    }
+  }
 }

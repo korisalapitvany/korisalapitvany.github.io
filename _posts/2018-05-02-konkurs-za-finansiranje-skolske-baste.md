@@ -25,23 +25,13 @@ excerpt: |
 
   [raspored sredstava]: /projekti/konkurs-za-finansiranje-skolske-baste/#raspored-sredstava
   [podnošenje prijave]: /projekti/konkurs-za-finansiranje-skolske-baste/#podnošenje-prijave-na-konkurs
+
+css: |
+  #konkurs,
+  #konkurs + p {
+    text-align: center;
+  }
 ---
-<style scoped>
-#konkurs,
-#konkurs + p {
-  text-align: center;
-}
-h3 {
-  font-size: 20px;
-  font-family: inherit;
-  text-decoration: underline;
-  margin: 0 0 16px;
-}
-.buttons a {
-  line-height: 48px;
-  margin-right: 8px;
-}
-</style>
 
 *U skladu sa ciljevima i aktivnostima Fondacije (član 6. stav 1. tačka 2., i
 član 7. stav 1. tačka 5. [Statuta]) Fondacija za zaštitu životne sredine
@@ -169,14 +159,8 @@ Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim školama.
 [Rezultati konkursa.](/projekti/2018/rezultati-konkursa-za-finansiranje-skolske-baste/)
 
 <p class="buttons">
-  <a href="/docs/2018/konkurs-za-finansiranje-skolske-baste.pdf"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
-    <i class="material-icons">print</i>
-    Štampana verzija
-  </button></a>
-  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-button--disabled">
-    <i class="material-icons">edit</i>
-    Online prijava
-  </button>
+  <a class="btn waves-effect waves-light" href="/docs/2018/konkurs-za-finansiranje-skolske-baste.pdf"><i class="material-icons left">print</i>Štampana verzija</a>
+  <button class="btn disabled"><i class="material-icons left">edit</i>Online prijava</button>
 </p>
 
 _Više informacija o konkursu mogu se dobiti preko e-mail adrese [info@jasen.org.rs]._
