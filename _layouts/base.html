@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="{{ language }}">
 {% include head.html %}
-<body class="{% if page.cover_image %}has-cover {% endif %}top">
+<body class="{% if page.cover_image %}has-cover {% endif %} grey darken-2 top">
   <div class="navbar-fixed">
     <nav role="banner" class="title z-depth-0">
       <div class="image" style="background-image: url('/images/cover/{{ page.cover_image }}.jpg'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
@@ -32,8 +32,8 @@
     </div>
   </div>
 
-  <div class="container">
-    <main{% if page.class %} class="{{ page.class }}"{% endif %}>
+  <div class="container main-content">
+    <main class="z-depth-2 top-flat{% if page.class %} {{ page.class }}{% endif %}">
       {% if page.css %}
         <style scoped>
 {{ page.css }}</style>

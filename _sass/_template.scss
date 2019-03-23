@@ -1,3 +1,13 @@
 body {
   font-family: 'Raleway', 'Verdana', 'Arial', sans-serif;
 }
+
+.top-flat {
+  transition: 200ms box-shadow ease-in-out;
+}
+
+body.top {
+  .top-flat {
+    box-shadow: none;
+  }
+}

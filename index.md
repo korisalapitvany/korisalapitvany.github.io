@@ -4,6 +4,8 @@ class: home
 
 last_modified_at: 2017-12-25T00:00:00-02:00
 
+cover_image: 2019/wallhaven-598602
+
 translations:
   en:
   hu:
