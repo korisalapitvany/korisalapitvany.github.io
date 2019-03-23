@@ -1,5 +1,12 @@
 ---
 ---
+/* Materialize
+ *
+ * For now, include all components. This should be stripped down eventually to
+ * what is actually being used.
+ */
+@import 'materialize';
+
 /* Overall website template */
 @import 'template';
 
