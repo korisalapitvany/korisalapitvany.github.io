@@ -33,7 +33,7 @@
   </div>
 
   <div class="container">
-    <main>
+    <main{% if page.class %} class="{{ page.class }}"{% endif %}>
       {% if page.css %}
         <style scoped>
 {{ page.css }}</style>

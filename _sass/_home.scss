@@ -1,23 +1,7 @@
-main.home .content {
-  h2:not(.mdl-card__title-text) {
+.home {
+  h2 {
     font-size: 32px;
     margin: 24px 0;
-  }
-
-  .project-cards {
-    p,
-    ol,
-    ul {
-      font-weight: 300;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-
-    strong {
-      font-weight: 400;
-    }
   }
 
   .team {
@@ -36,7 +20,7 @@ main.home .content {
 
       .avatar {
         width: 100%;
-        border: 8px solid $light-green;
+        border: 8px solid purple;
         border-radius: 50%;
         box-sizing: border-box;
       }
@@ -54,21 +38,7 @@ main.home .content {
 
 /* Tablet: */
 @media screen and (min-width: 760px) {
-  main.home .content {
-    .intro {
-      p {
-        font-size: 18px;
-      }
-    }
-
-    .project-cards {
-      p,
-      ol,
-      ul {
-        font-size: 16px;
-      }
-    }
-
+  .home {
     .team {
       .person {
         width: 224px;
