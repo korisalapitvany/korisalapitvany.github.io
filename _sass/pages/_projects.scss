@@ -11,13 +11,18 @@
 
   .card-title {
     width: 100%;
-    padding: 20px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
     text-shadow: 0 0 2px black;
+    padding-left: 20px !important;
 
     .highlight {
-      padding: 0 4px;
       background: rgba(0, 0, 0, 0.5);
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+
+      -webkit-box-decoration-break: clone;
+      -moz-box-decoration-break: clone;
+      box-decoration-break: clone;
     }
   }
 

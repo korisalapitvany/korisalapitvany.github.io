@@ -18,8 +18,19 @@ cover_position: 60%
 
 translations:
   hu: /projektek/szemetszedesi-akcio
+
+css: |
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  img,
+  .material-placeholder {
+    max-height: 250px;
+  }
 ---
-Fondacija Jasenu i u ovoj godini, nastavlja **sa akcijom „Sakupljanja smeća u,
+Fondacija Jasenu i u ovoj godini, nastavlja sa akcijom **„Sakupljanja smeća u,
 i okolini škola”**. Za drugo školsko polugodište postavili smo raspored i
 termine u koje škole dolazimo i sa određenimm brojem dece krećemo u čišćenje
 okoline škole.
@@ -31,6 +42,12 @@ nešto za prirodu i okolinu.
 
 <!-- details -->
 
+<div class="row">
+  <div class="col l6 m12 gallery">
+    <img alt="Sakupljanje smeća" src="//storage.googleapis.com/jasen.org.rs/2019/recycle.jpg">
+  </div>
+  <div class="col l6 m12">
+<div markdown="1">
 Raspored škola za drugo polugodište:
 
 - Februar: **O.Š. Vuk Karadžić**, Bajmok
@@ -38,5 +55,15 @@ Raspored škola za drugo polugodište:
 - April: **Gimnazija Kostolanji Deže**, Subotica
 - Maj: **O.Š. Petefi Šandor**, Hajdukovo
 - Jun: **O.Š. Miroslav Antić**, Palić
+</div>
+  </div>
+</div>
 
-<img alt="Sakupljanje smeća" class="mdl-shadow--2dp staticmap" src="//storage.googleapis.com/jasen.org.rs/2019/recycle.jpg" style="max-width: 100%;">
+<script>
+"use strict";
+
+document.addEventListener('DOMContentLoaded', () => {
+  const elems = document.querySelectorAll('.gallery img');
+  M.Materialbox.init(elems, {});
+});
+</script>

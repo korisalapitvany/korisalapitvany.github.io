@@ -7,7 +7,7 @@ title: Otvoreno pismo pčelarima
 last_modified_at: 2018-03-02T00:00:00-02:00
 author: attila
 
-cover_image: https://storage.googleapis.com/jasen.org.rs/2018/bees-pasture.jpg
+cover_image: 2018/bees-pasture
 
 permalink: /:title/
 ---

@@ -33,20 +33,22 @@ mission: >
   környezetvédelmi problémákra és oktatással kívánunk elérni.
 
 links:
-- text: Hírek
-  href: /hirek/
 - text: Projektek
   href: /projektek/
+- text: Hírek
+  href: /hirek/
 - text: Okiratok
   href: /okiratok/
 - text: Rólunk
   href: /rolunk/
 
 footer_links:
-- text: Hírek
-  href: /hirek/
+- text: Kezdőlap
+  href: /
 - text: Projektek
   href: /projektek/
+- text: Hírek
+  href: /hirek/
 - text: Okiratok
   href: /okiratok/
 - text: Rólunk

@@ -1,0 +1,11 @@
+.gallery {
+  padding: 0 !important;
+
+  img {
+    cursor: zoom-in;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

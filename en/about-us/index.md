@@ -5,7 +5,8 @@ class: about
 title: About Us
 last_modified_at: 2017-12-26T00:00:00-02:00
 
-cover_image: https://storage.googleapis.com/jasen.org.rs/2018/saplings.jpg
+cover_image: 2019/mushrooms
+cover_position: 75%
 
 translations:
   hu: /rolunk

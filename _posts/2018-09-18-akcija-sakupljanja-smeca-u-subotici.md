@@ -13,7 +13,7 @@ category:
 permalink: /:categories/:title/
 
 event_date: 6. oktobar 2018
-cover_image: https://storage.googleapis.com/jasen.org.rs/2018/agriculture-beautiful-view-city-park.jpg
+cover_image: 2018/agriculture-beautiful-view-city-park
 cover_position: 20%
 
 excerpt_separator: <!-- details -->
