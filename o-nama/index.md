@@ -11,15 +11,6 @@ cover_position: 75%
 translations:
   en: /about-us
   hu: /rolunk
-
-css: |
-  td:first-child {
-    white-space: nowrap;
-    width: 20%;
-  }
-  td + td {
-    font-weight: bold;
-  }
 ---
 
 #### Osnovni podaci
