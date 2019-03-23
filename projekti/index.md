@@ -13,8 +13,10 @@ translations:
 ---
 {% include project-cards.html year=2019 %}
 
-<div class="years" markdown="1">
-2019 &middot;
-[2018](/projekti/2018) &middot;
-[2017](/projekti/2017)
-</div>
+<ul class="pagination center">
+  <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+  <li class="active orange accent-2"><a href="#!">2019</a></li>
+  <li class="waves-effect"><a href="/projekti/2018">2018</a></li>
+  <li class="waves-effect"><a href="/projekti/2017">2017</a></li>
+  <li class="waves-effect"><a href="/projekti/2018"><i class="material-icons">chevron_right</i></a></li>
+</ul>

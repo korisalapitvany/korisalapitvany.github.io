@@ -7,18 +7,8 @@ main {
     clear: both;
   }
 
-  a:not(.btn) {
-    text-decoration: underline;
-
-    &:hover,
-    &:active,
-    &:focus {
-      color: #00acc1;
-    }
-
-    > img:first-child:last-child {
-      border: 2px solid;
-    }
+  a > img:first-child:last-child {
+    border: 2px solid;
   }
 
   strong {
@@ -36,20 +26,8 @@ main {
     }
   }
 
-  .pics {
-    padding: 0 0 8px;
-    text-align: center;
-
-    img {
-      padding: 4px;
-      max-width: 100%;
-    }
-
-    &.max-270 {
-      img {
-        max-height: 270px;
-      }
-    }
+  img {
+    max-width: 100%;
   }
 
   .author {
@@ -60,8 +38,6 @@ main {
     img {
       width: 72px;
       height: 72px;
-      border-radius: 50%;
-      float: right;
       margin-left: 8px;
     }
 

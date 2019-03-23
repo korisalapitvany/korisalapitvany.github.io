@@ -12,7 +12,7 @@ permalink: /:categories/:title/
 
 event_date: 2019/2020
 cover_image: 2019/lewis-clarke-vegetable-garden
-cover_position: 30%;
+cover_position: 30%
 
 excerpt: |
   Fondacija „Jasen” raspisuje konkurs za finansiranje pokretanja školske bašte

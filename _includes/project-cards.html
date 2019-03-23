@@ -8,24 +8,25 @@
     {%- if post.lang == language %}
     {%- if include.year == null or post_year == post_year_filter %}
     {%- if include.front_page != true or post.front_page == true %}
-    <div class="card medium">
+    <div class="card">
       <div class="card-image">
-        <div class="image" style="background-image: url('/images/cover/{{ post.cover_image }}.jpg'); background-position-y: {{ post.cover_position | default: "center" }}"></div>
-        <span class="card-title">{{ post.title }}</span>
+        <img class="image" src="/images/cover/{{ post.cover_image }}.jpg" style="object-position: 50% {{ post.cover_position | default: "50%" }};" alt="{{ post.title | escape }}">
+        <div class="card-title">
+          <span class="highlight">{{ post.title }}</span>
+        </div>
       </div>
       <div class="card-content">
         {{ post.excerpt | markdownify | split: '</h1>' | last }}
       </div>
-      <div class="card-action">
+      <div class="card-action valign-wrapper">
         {%- if post.event_date %}
-          <span class="event-date">
-            <i class="material-icons">event</i>
-            <time>
-              {{ post.event_date }}
-            </time>
-          </span>
+          <i class="material-icons">event</i>
+          <time>
+            {{ post.event_date }}
+          </time>
         {%- endif %}
-        <a class="btn btn-flat waves-effect waves-light" href="{{ post.url }}">
+        <div class="spacer"></div>
+        <a class="details right" href="{{ post.url }}">
           {{- site_data.details -}}
         </a>
       </div>

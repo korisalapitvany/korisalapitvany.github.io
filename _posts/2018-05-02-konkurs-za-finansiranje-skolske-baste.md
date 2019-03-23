@@ -14,7 +14,7 @@ permalink: /:categories/:title/
 
 event_date: 2018/2019
 cover_image: https://storage.googleapis.com/jasen.org.rs/2018/boy-planting-vegetables-in-garden.jpg
-cover_position: 50%;
+cover_position: 50%
 
 excerpt: |
   Fondacija „Jasen” raspisuje konkurs za finansiranje pokretanja školske bašte

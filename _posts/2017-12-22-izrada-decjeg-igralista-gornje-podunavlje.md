@@ -14,31 +14,25 @@ permalink: /:categories/:title/
 excerpt_separator: <!-- details -->
 
 event_date: <del>2018 mart/april</del>
-cover_image: 2019/tabori-exteriors-playground
-cover_position: 75%;
+cover_image: 2017/tabori-exteriors-playground
+cover_position: 75%
 
 translations:
-  hu: /projektek/jatszoter-a-felso-dunamelleknel
+  hu: /projektek/2018/jatszoter-a-felso-dunamelleknel
 
 css: |
-  table {
-    em {
-      font-weight: initial;
-    }
+  tr:last-child {
+    font-weight: bold;
+  }
 
-    tr:last-child {
-      font-weight: bold;
-    }
+  td:first-child {
+    white-space: initial;
+    width: 80%;
+  }
 
-    td:first-child {
-      white-space: initial;
-      width: 80%;
-    }
-
-    td:last-child {
-      text-align: right;
-      white-space: nowrap;
-    }
+  td:last-child {
+    text-align: right;
+    white-space: nowrap;
   }
 ---
 Zbog neuspešne saradnje sa Gradskim muzejom Sombora, Fondacija „Jasen” odustaje
@@ -74,10 +68,10 @@ leve strane glavne staze prema muzeju. To je 4. deo parcele upisanoj pod brojem
 5196/1 u katastarskoj opštini Bezdan, opština Sombor. Način korišćenja
 zemljišta po katastru je ”javni park”.
 
-<div class="mdl-typography--text-center">
-  <img alt="Mapa muzeja" class="mdl-shadow--2dp staticmap" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:I|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&language=sr&key={{ site.data.apis.google_cloud_api_key }}" style="width: 640px;">
+<div class="center-align">
+  <img class="responsive-img" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:I|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&language=sr&key={{ site.data.apis.google_cloud_api_key }}" alt="Mapa" style="width: 640px;">
   <div markdown="1">
-  *I: igralište; M: muzej; P: parking.*
+*I: igralište; M: muzej; P: parking.*
   </div>
 </div>
 

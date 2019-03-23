@@ -12,7 +12,7 @@ permalink: /:categories/:title/
 
 event_date: 2019/2020
 cover_image: 2019/boys-wellington-boots
-cover_position: 60%;
+cover_position: 60%
 
 excerpt: |
   Fondacija „Jasen” raspisuje konkurs za finansiranje pokretanja bašte

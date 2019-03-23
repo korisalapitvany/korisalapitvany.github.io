@@ -11,6 +11,6 @@ layout: base
         {{ page.last_modified_at | date: site_data.date_format }}
       </time>
     </div>
-    <img alt="{{ site_data.team[page.author].name }}" src="{{ site.url }}/images/team/416/{{ page.author }}.jpg">
+    <img class="circle" src="{{ site.url }}/images/team/416/{{ page.author }}.jpg" alt="{{ site_data.team[page.author].name }}">
   </div>
 {% endif %}

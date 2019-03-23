@@ -7,10 +7,20 @@ title: „Székely Kapuk – Zöld Kapuk” Csantavéren
 last_modified_at: 2018-03-01T00:00:00-02:00
 author: gabor
 
-cover_image: https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-1.jpg
-cover_position: 20%;
+cover_image: 2018/szekelykapuk-1
+cover_position: 20%
 
 permalink: /hu/:title/
+
+css: |
+  img {
+    height: 270px;
+    cursor: zoom-in;
+    object-fit: cover;
+  }
+  img:hover {
+    opacity: 0.8;
+  }
 ---
 A csantavéri Hunyadi János Általános Iskola tanulói idén először vesznek részt
 a „Székely Kapuk – Zöld Kapuk” Nemzetközi Ökocivilizácós játékokon. A játék az idei
@@ -19,9 +29,13 @@ felkészítőik segítségével pozitív jövőképet alakítsanak ki egy adott 
 problémáról, illetve olyan munkákat készítsenek, amelyek aktuális ökológiai
 problémákat írnak le, vagy azok alternatív megoldásait mutatják be.
 
-<div class="pics max-270" markdown="1">
-[![a diákok][szekelykapuk-1]][szekelykapuk-1]
-[![HUnikornis][hunikornis]][hunikornis]
+<div class="row center-align gallery">
+  <div class="col m7 s12">
+    <img src="https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-1.jpg" alt="A diákok">
+  </div>
+  <div class="col m5 s12">
+    <img src="https://storage.googleapis.com/jasen.org.rs/2018/hunikornis.jpg" alt="HUnikornis">
+  </div>
 </div>
 
 A kiállítás 6 plakát elkészítéséből áll, amelyhez a tanulók mellékelik a
@@ -35,12 +49,20 @@ nemes célt szolgálnak, hiszen a verseny elbírálásakor figyelembe veszik, ho
 mekkora összeget sikerült a diákoknak összegyűjteni, amelyet egy helyi
 rászorulókkal foglalkozó szervezetnek ajánlanak fel.
 
-<div class="pics max-270" markdown="1">
-[![a plakátok][szekelykapuk-2]][szekelykapuk-2]
-[![a diákok][szekelykapuk-3]][szekelykapuk-3]
+<div class="row center-align gallery">
+  <div class="col m5 s12">
+    <img src="https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-2.jpg" alt="A plakátok">
+  </div>
+  <div class="col m7 s12">
+    <img src="https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-3.jpg" alt="A diákok">
+  </div>
 </div>
 
-[hunikornis]: https://storage.googleapis.com/jasen.org.rs/2018/hunikornis.jpg
-[szekelykapuk-1]: https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-1.jpg
-[szekelykapuk-2]: https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-2.jpg
-[szekelykapuk-3]: https://storage.googleapis.com/jasen.org.rs/2018/szekelykapuk-3.jpg
+<script>
+"use strict";
+
+document.addEventListener('DOMContentLoaded', () => {
+  const elems = document.querySelectorAll('.gallery img');
+  M.Materialbox.init(elems, {});
+});
+</script>

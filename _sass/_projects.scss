@@ -1,39 +1,53 @@
 .projects {
-  .card {
-    .card-image {
-      .image {
-        height: 200px;
-      }
+  .card-image {
+    height: 250px;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .card-title {
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
+    text-shadow: 0 0 2px black;
+
+    .highlight {
+      padding: 0 4px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .card-action {
+    font-size: 16px;
+    white-space: nowrap;
+
+    i {
+      padding-right: 8px;
     }
 
-    .card-title {
-      color: white;
-      text-shadow: 0 0 2px black;
+    .details {
+      line-height: 32px;
+      margin-right: 8px !important;
+      text-decoration: none;
 
-      height: 176px;
-      background-position: center 75%;
-      background-size: cover;
+      font-family: 'Roboto', 'Raleway', 'Verdana', 'Arial', sans-serif;
     }
 
-    .card-content {
-      width: 100%;
-      box-sizing: border-box;
+    .spacer {
+      flex: 1;
     }
+  }
 
-    .card-action {
-      text-transform: uppercase;
+  .card + .card {
+    margin-top: 24px;
+  }
 
-      i {
-        padding: 0 8px;
-      }
-
-      time {
-        white-space: nowrap;
-      }
-    }
-
-    + .card {
-      margin-top: 24px;
-    }
+  + .pagination {
+    padding-left: 0;
+    margin: 24px 0 0;
   }
 }

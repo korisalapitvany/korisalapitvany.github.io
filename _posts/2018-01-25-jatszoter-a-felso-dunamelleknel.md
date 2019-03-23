@@ -14,11 +14,26 @@ permalink: /hu/:categories/:title/
 excerpt_separator: <!-- details -->
 
 event_date: <del>2018 március/április</del>
-cover_image: https://storage.googleapis.com/jasen.org.rs/2018/tabori-exteriors-playground.jpg
-cover_position: 75%;
+cover_image: 2017/tabori-exteriors-playground
+cover_position: 75%
 
 translations:
   sr: /projekti/izrada-decjeg-igralista-gornje-podunavlje
+
+css: |
+  tr:last-child {
+    font-weight: bold;
+  }
+
+  td:first-child {
+    white-space: initial;
+    width: 80%;
+  }
+
+  td:last-child {
+    text-align: right;
+    white-space: nowrap;
+  }
 ---
 A Kőris Alapítvány sikertelen közreműködés miatt eláll a játszótér
 kiépítésétől.
@@ -54,10 +69,10 @@ A játszótér a parkoló és a múzeum előtti tér között lesz, a főbejára
 szám alatt nyilvántartott telek 4. része. A kataszteri bejegyzés ezt a
 földterületet nyilvános parkként tartja számon.
 
-<div class="mdl-typography--text-center">
-  <img alt="Mapa muzeja" class="mdl-shadow--2dp staticmap" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:J|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&language=hu&key={{ site.data.apis.google_cloud_api_key }}" style="width: 640px;">
+<div class="center-align">
+  <img class="responsive-img" src="https://maps.googleapis.com/maps/api/staticmap?zoom=17&size=640x280&scale=2&maptype=hybrid&markers=color:green|label:I|45.850479,18.860708&markers=color:red|label:M|45.850602,18.861131&markers=color:blue|label:P|45.849931,18.861064&language=sr&key={{ site.data.apis.google_cloud_api_key }}" alt="Térkép" style="width: 640px;">
   <div markdown="1">
-  *J: játszótér; M: múzeum; P: parkoló.*
+*J: játszótér; M: múzeum; P: parkoló.*
   </div>
 </div>
 

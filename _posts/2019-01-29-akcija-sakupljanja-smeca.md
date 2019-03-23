@@ -14,7 +14,7 @@ excerpt_separator: <!-- details -->
 front_page: true
 event_date: 2019
 cover_image: 2019/park-bench
-cover_position: 60%;
+cover_position: 60%
 
 translations:
   hu: /projektek/szemetszedesi-akcio
