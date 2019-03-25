@@ -63,12 +63,6 @@ body:not(.top) {
   }
 }
 
-body:not(.has-cover) {
-  nav .image {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 992px) {
   nav,
   .cover {

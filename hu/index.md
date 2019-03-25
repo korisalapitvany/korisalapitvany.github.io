@@ -1,6 +1,5 @@
 ---
-layout: base
-class: home
+layout: home
 
 last_modified_at: 2017-09-28T22:00:00-02:00
 
@@ -42,5 +41,3 @@ védelmének fontosságáról.
 [Összes projekt](/hu/projektek/)
 
 #### Csapatunk {#csapat}
-
-{% include team.html %}

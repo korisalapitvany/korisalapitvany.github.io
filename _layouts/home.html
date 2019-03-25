@@ -1,0 +1,35 @@
+---
+layout: base
+---
+{%- include vars.html -%}
+
+<div class="cover home">
+  <!-- TODO: Use <picture> tag. -->
+  <div class="image" style="background-image: url('/images/cover/{{ page.cover_image }}.jpg'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
+  <div class="container center-align">
+    <h1 class="title">
+      <span class="before">
+        {{- site_data.name_parts[0] -}}
+      </span>
+      <img class="circle" src="{{ site.url }}/logo/svg/circle.svg">
+      <span class="after">
+        {{- site_data.name_parts[1] -}}
+      </span>
+    </h1>
+  </div>
+</div>
+<div class="container main-content">
+  <main class="home">
+    {{ content }}
+
+    <div class="team">
+      {% for person in site_data.team %}
+        <div class="person">
+          <img src="/images/team/416/{{ person[0] }}.jpg" class="circle avatar">
+          <div class="name">{{ person[1].name }}</div>
+          <span>{{ person[1].role }}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </main>
+</div>

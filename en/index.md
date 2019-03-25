@@ -1,6 +1,5 @@
 ---
-layout: base
-class: home
+layout: home
 
 last_modified_at: 2017-09-26T00:00:00-02:00
 
@@ -33,5 +32,3 @@ environment and nature.
 [More about our foundation](/en/about-us/)
 
 #### Our team {#team}
-
-{% include team.html %}

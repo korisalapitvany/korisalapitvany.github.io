@@ -2,15 +2,33 @@
 layout: base
 ---
 {%- include vars.html -%}
-{{ content }}
-{% if page.author %}
-  <div class="author valign-wrapper right-align">
-    <div class="text">
-      <em class="grey-text text-darken-4">{{ site_data.team[page.author].name }}</em><br>
-      <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" class="grey-text text-darken-3">
-        {{ page.last_modified_at | date: site_data.date_format }}
-      </time>
-    </div>
-    <img class="circle" src="{{ site.url }}/images/team/416/{{ page.author }}.jpg" alt="{{ site_data.team[page.author].name }}">
+
+<div class="cover">
+  <div class="image" style="background-image: url('/images/cover/{{ page.cover_image }}.jpg'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
+  <div class="container">
+    <h1>{{ page.title }}</h1>
   </div>
-{% endif %}
+</div>
+
+<div class="container main-content">
+  <main class="z-depth-2 top-flat{% if page.class %} {{ page.class }}{% endif %}">
+    {% if page.css %}
+      <style scoped>{{ page.css }}</style>
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.author %}
+      <div class="author valign-wrapper right-align">
+        <div class="text">
+          <em class="grey-text text-darken-4">{{ site_data.team[page.author].name }}</em><br>
+          <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" class="grey-text text-darken-3">
+            {{ page.last_modified_at | date: site_data.date_format }}
+          </time>
+        </div>
+        <img class="circle" src="{{ site.url }}/images/team/416/{{ page.author }}.jpg" alt="{{ site_data.team[page.author].name }}">
+      </div>
+    {% endif %}
+
+  </main>
+</div>

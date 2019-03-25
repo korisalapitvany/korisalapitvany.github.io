@@ -2,45 +2,32 @@
 <!doctype html>
 <html lang="{{ language }}">
 {% include head.html %}
-<body class="{% if page.cover_image %}has-cover {% endif %} grey darken-2 top">
-  <div class="navbar-fixed">
-    <nav role="banner" class="title z-depth-0">
-      <div class="image" style="background-image: url('/images/cover/{{ page.cover_image }}.jpg'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
-      <div class="nav-wrapper">
-        <div class="container">
-          <a href="{{ root }}" class="brand-logo">{{ site_data.name }}</a>
+<body class="grey darken-2 top">
+  {% unless page.layout == "home" %}
+    <div class="navbar-fixed">
+      <nav role="banner" class="title z-depth-0">
+        <div class="image" style="background-image: url('/images/cover/{{ page.cover_image }}.jpg'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="{{ root }}" class="brand-logo">{{ site_data.name }}</a>
+          </div>
+          <a href="#" data-target="side-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
-        <a href="#" data-target="side-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </nav>
+    </div>
+    <nav role="navigation" class="navbar-tabs z-depth-0">
+      <div class="container">
+        <ul class="tabs tabs-transparent">
+          {%- for link in site_data.links %}
+            {% assign link_path = site_data.prefix | append: link.href %}
+            <li class="tab{% if page.url == link_path %} active{% endif %}"><a{% if page.url == link_path %} class="active"{% endif %} href="{{ site.url }}{{ link_path }}">{{ link.text }}</a></li>
+          {%- endfor %}
+        </ul>
       </div>
     </nav>
-  </div>
-  <nav role="navigation" class="navbar-tabs z-depth-0">
-    <div class="container">
-      <ul class="tabs tabs-transparent">
-        {%- for link in site_data.links %}
-          {% assign link_path = site_data.prefix | append: link.href %}
-          <li class="tab{% if page.url == link_path %} active{% endif %}"><a{% if page.url == link_path %} class="active"{% endif %} href="{{ site.url }}{{ link_path }}">{{ link.text }}</a></li>
-        {%- endfor %}
-      </ul>
-    </div>
-  </nav>
+  {% endunless %}
 
-  <div class="cover">
-    <div class="image" style="background-image: url('/images/cover/{{ page.cover_image }}.jpg'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
-    <div class="container">
-      <h1>{{ page.title }}</h1>
-    </div>
-  </div>
-
-  <div class="container main-content">
-    <main class="z-depth-2 top-flat{% if page.class %} {{ page.class }}{% endif %}">
-      {% if page.css %}
-        <style scoped>
-{{ page.css }}</style>
-      {% endif %}
-      {{ content }}
-    </main>
-  </div>
+  {{ content }}
 
   {% include footer.html %}
 </body>

@@ -1,6 +1,5 @@
 ---
-layout: base
-class: home
+layout: home
 
 last_modified_at: 2017-12-25T00:00:00-02:00
 
@@ -10,9 +9,7 @@ translations:
   en:
   hu:
 ---
-{% include hero.html %}
-
-<div id="uvod" class="intro more-link" markdown="1">
+<div id="uvod" class="intro z-depth-2" markdown="1">
 **Fondacija za zaštitu životne sredine „Jasen”** je neprofitna, nevladina
 organizacija sa sedištem u Bajmoku.
 
@@ -39,5 +36,3 @@ omladinu**, o važnosti očuvanja i zaštite životne sredine i prirode.
 [Svi projekti](/projekti/)
 
 #### Naš tim {#tim}
-
-{% include team.html %}
