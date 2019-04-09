@@ -42,7 +42,7 @@ je sledeća:
 * **Osnovna škola „Petar Kočić” — Inđija** dobija 99.460,00 dinara.
 * **Osnovna škola „Ivan Gundulić” — Novi Sad** dobija 45.000,00 dinara.
 * **Osnovna škola „Aleksa Šantić” — Stepanovićevo** dobija 45.553,00 dinara.
-* **Osnovna škola „Dr. Jovan Cvijić” — Zrenjanin** dobija 95.178,00 dinara.
+* **Osnovna škola „Dr Jovan Cvijić” — Zrenjanin** dobija 95.178,00 dinara.
 * **Osnovna škola „Miloš Crnjanski” — Hrtkovci** dobija 55.550,00 dinara.
 
 ## Rezultati ocenjivanja žirija
