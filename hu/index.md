@@ -31,9 +31,7 @@ védelmének fontosságáról.
 
 #### Aktuális projektek {#projektek}
 
-<div class="more-link">
-  {% include project-cards.html front_page=true %}
-</div>
+{% include project-cards.html front_page=true %}
 
 <a href="/hu/projektek/" class="all-projects">Összes projekt</a>
 
