@@ -36,14 +36,21 @@
   .intro {
     font-size: 16px;
     padding: 16px 24px;
-    background: white;
     position: relative;
 
     clip-path: polygon(0 16px, 100% 0, calc(100% - 16px) 100%, 16px calc(100% - 16px));
 
     animation-duration: 2s;
     animation-name: intro-reshape;
+
+    transition: 200ms ease-out background-color;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    strong {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
   }
+
 
   .learn-more,
   .all-projects {
@@ -59,15 +66,20 @@
     position: relative;
     float: right;
     margin-right: 48px;
-    margin-top: -36px;
+    margin-top: -24px;
 
     transition: 200ms ease-out all;
   }
 
-  .learn-more:hover,
-  .intro:hover + p .learn-more {
-    background: #ff9100;
-    margin-right: 64px;
+  .intro-area:hover {
+    .intro {
+      background-color: white;
+    }
+
+    .learn-more {
+      background: #ff9100;
+      margin-right: 64px;
+    }
   }
 
   .all-projects {
