@@ -3,16 +3,13 @@ layout: home
 
 last_modified_at: 2017-09-26T00:00:00-02:00
 
-cover_image: 2019/mushrooms
-cover_position: 60%
+cover_image: 2019/wallhaven-598602
 
 translations:
   hu:
   sr:
 ---
-{% include hero.html %}
-
-<div id="introduction" class="color--light-green content-block intro more-link" markdown="1">
+<div id="introduction" class="intro z-depth-2" markdown="1">
 **Ash Foundation for Environmental Protection** is a nonprofit,
 non-governmental organization based in Serbia.
 
@@ -29,6 +26,6 @@ children and youth**, of the importance of preserving and protecting the
 environment and nature.
 </div>
 
-[More about our foundation](/en/about-us/)
+<a href="/en/about-us/" class="learn-more">More about our foundation</a>
 
 #### Our team {#team}

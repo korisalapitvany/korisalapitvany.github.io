@@ -3,16 +3,13 @@ layout: home
 
 last_modified_at: 2017-09-28T22:00:00-02:00
 
-cover_image: 2019/mushrooms
-cover_position: 60%
+cover_image: 2019/wallhaven-598602
 
 translations:
   en:
   sr:
 ---
-{% include hero.html %}
-
-<div id="bemutatkozas" class="color--light-green content-block intro more-link" markdown="1">
+<div id="bemutatkozas" class="intro z-depth-2" markdown="1">
 A **Kőris Környezetvédelmi Alapítvány** egy nonprofit civil szervezet, melynek
 székhelye Bajmok, Szerbia.
 
@@ -30,14 +27,14 @@ az elhatározásunk, hogy tájékoztassuk és oktassuk a társadalmat, különö
 védelmének fontosságáról.
 </div>
 
-[Bővebben alapítványunkról](/hu/rolunk/)
+<a href="/hu/rolunk/" class="learn-more">Bővebben alapítványunkról</a>
 
 #### Aktuális projektek {#projektek}
 
 <div class="more-link">
-  {% include project-cards.html active_only=true %}
+  {% include project-cards.html front_page=true %}
 </div>
 
-[Összes projekt](/hu/projektek/)
+<a href="/hu/projektek/" class="all-projects">Összes projekt</a>
 
 #### Csapatunk {#csapat}

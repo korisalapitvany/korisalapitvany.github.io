@@ -5,13 +5,14 @@ class: documents
 title: Okiratok
 last_modified_at: 2017-09-26T00:00:00-02:00
 
-cover_image: https://storage.googleapis.com/jasen.org.rs/2018/branch.jpg
+cover_image: 2019/mushrooms
+cover_position: 60%
 
 translations:
   en: /documents
   sr: /dokumenti
 ---
-# Alapító okiratok
+#### Alapító okiratok
 
 - [Statútum] (szerb nyelven)
 

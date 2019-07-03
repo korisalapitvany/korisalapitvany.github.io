@@ -23,11 +23,42 @@
     }
   }
 
+  h4 {
+    color: white;
+    background: #424242;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 24px;
+  }
+
   .intro {
     font-size: 16px;
     padding: 16px 24px;
     background: white;
     position: relative;
+
+    clip-path: polygon(0 16px, 100% 0, calc(100% - 16px) 100%, 16px calc(100% - 16px));
+  }
+
+  .learn-more,
+  .all-projects {
+    color: white;
+    background: #ffab40;
+
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .learn-more {
+    position: relative;
+    float: right;
+    margin-right: 48px;
+    margin-top: -36px;
+  }
+
+  .all-projects {
+    margin-left: 48px;
   }
 
   .team {
@@ -62,6 +93,22 @@
 
 @media only screen and (max-width: 992px) {
   .home {
+    .title {
+      height: auto;
+      font-size: 36px;
+      margin: 144px auto 0;
+
+      span {
+        top: auto;
+      }
+
+      img {
+        position: absolute;
+        top: 128px;
+        left: calc(50% - 96px);
+      }
+    }
+
     .team {
       .person {
         max-width: 180px;

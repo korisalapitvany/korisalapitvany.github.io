@@ -5,7 +5,8 @@ class: news
 title: Hírek / 2017
 last_modified_at: 2018-03-31T22:00:00-02:00
 
-cover_image: https://storage.googleapis.com/jasen.org.rs/2018/branch.jpg
+cover_image: 2019/mushrooms
+cover_position: 60%
 
 translations:
   en: /news/2017
