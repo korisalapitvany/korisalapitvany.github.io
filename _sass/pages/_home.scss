@@ -28,37 +28,6 @@
     padding: 16px 24px;
     background: white;
     position: relative;
-
-    /*
-    &::after,
-    &::before {
-      content: "";
-      background: white;
-      display: block;
-      width: 200px;
-      height: 200px;
-
-      position: absolute;
-      top: -160px;
-      left: calc(50% - 100px);
-      right: calc(50% - 100px);
-
-      border-radius: 50%;
-    }
-
-    &::before {
-      box-shadow:
-        0 4px 5px 0 rgba(0, 0, 0, 0.14),
-        0 1px 10px 0 rgba(0, 0, 0, 0.12),
-        0 2px 4px -1px rgba(0, 0, 0, 0.3);
-      z-index: -1;
-    }
-
-    &::after {
-      background-image: url('/logo/svg/circle.svg');
-      background-size: cover;
-    }
-    */
   }
 
   .team {
