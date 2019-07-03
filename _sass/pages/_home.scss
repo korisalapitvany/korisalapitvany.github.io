@@ -1,6 +1,31 @@
 .home {
   background-color: initial;
 
+  &.cover {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    .image {
+      height: 100%;
+
+      animation-duration: 20s;
+      animation-name: cover-zoom;
+    }
+
+    + .main-content {
+      margin-top: -100vh;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 60vh;
+        min-height: 400px;
+      }
+    }
+  }
+
   .title {
     display: block;
     margin: 0 auto;
@@ -116,6 +141,10 @@
   }
 }
 
+.top .home.cover .image {
+  transform: scale(1);
+}
+
 @media only screen and (max-width: 992px) {
   .home {
     .title {
@@ -141,6 +170,16 @@
         max-width: 180px;
       }
     }
+  }
+}
+
+@keyframes cover-zoom {
+  from {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
   }
 }
 
