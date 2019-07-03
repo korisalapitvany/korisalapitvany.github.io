@@ -6,6 +6,7 @@
     margin: 0 auto;
     height: 96px;
     white-space: nowrap;
+    padding: 16px 24px;
 
     > * {
       position: relative;
@@ -13,6 +14,7 @@
 
     span {
       top: -144px;
+      padding: 0 16px;
     }
 
     img {
@@ -97,9 +99,11 @@
       height: auto;
       font-size: 36px;
       margin: 144px auto 0;
+      padding: 16px 40px;
 
       span {
         top: auto;
+        padding: 0;
       }
 
       img {
