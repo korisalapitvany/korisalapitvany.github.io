@@ -16,6 +16,9 @@ event_date: 6. oktobar 2018
 cover_image: 2018/agriculture-beautiful-view-city-park
 cover_position: 20%
 
+redirect_from:
+- /projekti/akcija-sakupljanja-smeca-u-subotici
+
 excerpt_separator: <!-- details -->
 ---
 Poštovana deca, mladi, odrasli i svi zainteresovani!

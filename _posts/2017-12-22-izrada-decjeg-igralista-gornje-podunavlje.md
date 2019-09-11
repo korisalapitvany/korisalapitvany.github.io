@@ -20,6 +20,9 @@ cover_position: 75%
 translations:
   hu: /projektek/2018/jatszoter-a-felso-dunamelleknel
 
+redirect_from:
+- /projekti/izrada-decjeg-igralista-gornje-podunavlje
+
 css: |
   tr:last-child {
     font-weight: bold;
