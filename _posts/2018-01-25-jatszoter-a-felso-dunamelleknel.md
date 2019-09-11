@@ -21,7 +21,7 @@ translations:
   sr: /projekti/izrada-decjeg-igralista-gornje-podunavlje
 
 redirect_from:
-- /projekti/jatszoter-a-felso-dunamelleknel
+- /hu/projektek/jatszoter-a-felso-dunamelleknel
 
 css: |
   tr:last-child {
