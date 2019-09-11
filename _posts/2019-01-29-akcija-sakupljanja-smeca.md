@@ -11,7 +11,6 @@ category: projekti
 permalink: /:categories/:title/
 excerpt_separator: <!-- details -->
 
-front_page: true
 event_date: 2019
 cover_image: 2019/park-bench
 cover_position: 60%
