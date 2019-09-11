@@ -12,9 +12,11 @@ sass:
   style: compressed
 
 exclude:
+- CNAME
 - Gemfile
 - Gemfile.lock
-- node_modules/
-- src/
-- vendor/
+- Makefile
+- README.md
 - third_party/
+- vendor/
+- src/
