@@ -12,7 +12,7 @@ translations:
   en: /news
   hu: /hirek
 redirect_from:
-- /novosti/2018
+- /novosti/2019
 ---
 **U martu** je objavljen prvi godišnji finansijski izveštaj Fondacije.
 

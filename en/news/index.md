@@ -12,9 +12,8 @@ translations:
   hu: /hirek
   sr: /novosti
 redirect_from:
-- /en/news/2018
+- /en/news/2019
 ---
-
 **In March** we publish the Foundation's first annual financial report.
 
 The report is available on the [APR website](http://www.apr.gov.rs), however,

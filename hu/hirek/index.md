@@ -12,7 +12,7 @@ translations:
   en: /news
   sr: /novosti
 redirect_from:
-- /hu/hirek/2018
+- /hu/hirek/2019
 ---
 **Márciusban** nyilvánossá tettük az alapítvány első éves pénzügyi beszámolóját.
 
