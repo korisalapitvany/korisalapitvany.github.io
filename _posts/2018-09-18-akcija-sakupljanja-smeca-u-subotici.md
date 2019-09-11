@@ -18,6 +18,7 @@ cover_position: 20%
 
 redirect_from:
 - /projekti/akcija-sakupljanja-smeca-u-subotici
+- /projekti/akcija-sakupljanja-smeca-u-subotici/
 
 excerpt_separator: <!-- details -->
 ---

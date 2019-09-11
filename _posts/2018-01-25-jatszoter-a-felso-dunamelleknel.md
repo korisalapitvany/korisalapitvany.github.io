@@ -22,6 +22,7 @@ translations:
 
 redirect_from:
 - /hu/projektek/jatszoter-a-felso-dunamelleknel
+- /hu/projektek/jatszoter-a-felso-dunamelleknel/
 
 css: |
   tr:last-child {

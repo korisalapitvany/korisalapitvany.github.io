@@ -22,6 +22,7 @@ translations:
 
 redirect_from:
 - /projekti/izrada-decjeg-igralista-gornje-podunavlje
+- /projekti/izrada-decjeg-igralista-gornje-podunavlje/
 
 css: |
   tr:last-child {
