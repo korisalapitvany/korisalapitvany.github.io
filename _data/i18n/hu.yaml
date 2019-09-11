@@ -35,8 +35,6 @@ mission: >
 links:
 - text: Projektek
   href: /projektek/
-- text: Hírek
-  href: /hirek/
 - text: Okiratok
   href: /okiratok/
 - text: Rólunk
@@ -47,8 +45,6 @@ footer_links:
   href: /
 - text: Projektek
   href: /projektek/
-- text: Hírek
-  href: /hirek/
 - text: Okiratok
   href: /okiratok/
 - text: Rólunk

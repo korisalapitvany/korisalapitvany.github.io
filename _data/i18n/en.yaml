@@ -35,8 +35,6 @@ mission: >
 links:
 - text: Home
   href: /
-- text: News
-  href: /news/
 - text: Documents
   href: /documents/
 - text: About us

@@ -35,8 +35,6 @@ mission: >
 links:
 - text: Projekti
   href: /projekti/
-- text: Novosti
-  href: /novosti/
 - text: Dokumenti
   href: /dokumenti/
 - text: O nama
@@ -47,8 +45,6 @@ footer_links:
   href: /
 - text: Projekti
   href: /projekti/
-- text: Novosti
-  href: /novosti/
 - text: O nama
   href: /o-nama/
 
