@@ -51,7 +51,7 @@ je sledeća:
 normalizovali i sabrali bodove, te svaka škola dobije najmanje 3×1=3, a najviše
 3×44=132 bodova.
 
-[Konačna rang-lista](https://datastudio.google.com/open/1nbttSoZ5lxHsHdWtYTbiiYJQUjUgrcrT).
+[Konačna rang-lista](https://datastudio.google.com/open/1FsDfjRGbC-QeWw52jVsOsqm5oqmrEwGO).
 
 #### Statistički podaci
 
@@ -66,7 +66,7 @@ normalizovali i sabrali bodove, te svaka škola dobije najmanje 3×1=3, a najvi�
 Raspodela primljenih prijava po opštini:
 
 <div class="center-align">
-  <a href="https://datastudio.google.com/reporting/1nbttSoZ5lxHsHdWtYTbiiYJQUjUgrcrT/page/tOSk"><img alt="Primljene prijave" src="https://storage.googleapis.com/jasen.org.rs/2019/skole-prijave.png"></a>
+  <a href="https://datastudio.google.com/reporting/1FsDfjRGbC-QeWw52jVsOsqm5oqmrEwGO/page/tOSk"><img alt="Primljene prijave" src="https://storage.googleapis.com/jasen.org.rs/2019/skole-prijave.png"></a>
 </div>
 
 Planiramo da raspišemo sličan konkurs i sledeće godine.

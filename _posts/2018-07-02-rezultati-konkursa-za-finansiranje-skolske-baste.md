@@ -51,7 +51,7 @@ je sledeća:
 Članovi žirija su rangirali škole bodovima, od 1 do 38. Bodovi se sabiraju, te
 svaka škola dobije najmanje 3×1=3, a najviše 3×38=114 bodova.
 
-[Konačna rang-lista](https://datastudio.google.com/open/1Hk_tlxS4XUGiA8edYBMmbck6dk0VTi4X).
+[Konačna rang-lista](https://datastudio.google.com/open/1HE2Ibhr8yj6ls2HvWnECcF0StvyAjZe_).
 
 #### Statistički podaci
 
@@ -61,7 +61,7 @@ svaka škola dobije najmanje 3×1=3, a najviše 3×38=114 bodova.
   10,28%.
 
 <div class="center-align">
-  <a href="https://datastudio.google.com/open/113yK19w0mdLtbny59KdP1ICFDAoF-aoX"><img alt="Primljene prijave" src="https://storage.googleapis.com/jasen.org.rs/2018/skolska-basta-prijave.png"></a>
+  <a href="https://datastudio.google.com/open/1NMTG1vAoFS1GTxw8rnH0wo61Jl32DFIR"><img alt="Primljene prijave" src="https://storage.googleapis.com/jasen.org.rs/2018/skolska-basta-prijave.png"></a>
 </div>
 
 #### Retrospektiva
