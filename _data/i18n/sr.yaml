@@ -35,8 +35,8 @@ mission: >
 links:
 - text: Projekti
   href: /projekti/
-- text: Dokumenti
-  href: /dokumenti/
+- text: Bašte
+  href: /baste/
 - text: O nama
   href: /o-nama/
 
@@ -45,6 +45,10 @@ footer_links:
   href: /
 - text: Projekti
   href: /projekti/
+- text: Školske bašte
+  href: /baste/
+- text: Dokumenti
+  href: /dokumenti/
 - text: O nama
   href: /o-nama/
 

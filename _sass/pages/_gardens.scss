@@ -1,0 +1,75 @@
+.gardens {
+  .stats {
+    padding: 0 32px 8px;
+    margin: 16px -32px;
+    font-family: Roboto;
+
+    .fact {
+      display: flex;
+      margin-top: 16px;
+      min-width: 144px;
+
+      i {
+        width: 64px;
+        height: 64px;
+        font-size: 32px;
+        padding: 16px;
+        border-radius: 100%;
+        background: white;
+        margin-right: 8px;
+      }
+      strong {
+        font-size: 32px;
+        white-space: nowrap;
+
+        + div {
+          position: relative;
+          top: -8px;
+        }
+      }
+    }
+  }
+
+  .garden-card {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 256px;
+
+    .picture,
+    .picture img {
+      display: block;
+      width: 256px;
+      height: 256px;
+      min-width:256px;
+      transition: opacity 0.25s ease-out;
+    }
+    .picture:hover {
+      opacity: .8;
+    }
+
+    .text {
+      padding: 4px 8px 8px;
+    }
+
+    .project-name {
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+      color: inherit;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .table {
+    margin: 0 -8px;
+    overflow-x: scroll;
+
+    th {
+      padding: 8px 4px;
+      border-bottom: 4px solid white;
+    }
+  }
+}
