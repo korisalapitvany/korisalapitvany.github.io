@@ -47,7 +47,7 @@ i mogućnostima u budžetskoj 2018 godini, finansira i sufinansira najmanje tri
 škole na teritoriji AP Vojvodine, za projekat izgradnje ili pokretanje školske
 bašte, kao mesto i mogućnost obrazovno-vaspitnog prostora za školsku decu.
 
-### Raspored sredstava
+##### Raspored sredstava
 
 Pravo na učestvovanje na konkursu imaju osnovne i srednje škole na teritoriji
 AP Vojvodine, koje će kao jedan od ciljeva naznačiti da ovaj projekat ima za
@@ -76,7 +76,7 @@ Ako su u pitanju gradske škole bez zelenih površina, mogućnost za konkurisanj
 takođe postoji. Konkurs se dodeljuje i za finansiranje školskih bašta na
 betonskim površinama (saksijske biljke, viseće bašte, vertikalne bašte i sl.)
 
-### Uslovi za učešće na konkursu:
+##### Uslovi za učešće na konkursu:
 
 - Izrađen **finansijski plan i projekat plan** kao i **lista željenih
   sredstava**
@@ -92,14 +92,14 @@ Odgovornosti komisije:
 - da nastavnici uvode korišćenje školske bašte u nastavnim planovima
 - da školska bašta ne bude zanemarena tokom školske godine
 
-### Kriterijumi za dodelu sredstava:
+##### Kriterijumi za dodelu sredstava:
 
 1. Uticaj predloženog projekta
 2. Odgovornost na temu projekta
 3. Kompetentnost predlagača, predhodno iskustvo
 4. Uključivanje ideja i planova učenika 
 
-### Sugestije za uspešno konkurisanje:
+##### Sugestije za uspešno konkurisanje:
 
 - Manji projekti koji imaju prostora za razvoj i proširenje mogu da budu u
   prednosti.
@@ -114,27 +114,27 @@ odgovoran da vodi dnevnik aktivnosti koji sadrži slike i dokumentaciju o radu.
 A na kraju realizacije projekta dnevnik se predaje upravitelju Fondacije,
 uključujući i ocenu komisije kao i utiske najmanje tri učenika.
 
-### Potrebna dokumentacija:
+##### Potrebna dokumentacija:
 
 1. Obrazac o prijavi (uredno popunjen, u elektronskoj formi)
 2. Projekat plan sa ciljevima i misijom projekta
 3. Finansijski plan
 
-### Podnošenje prijave na konkurs
+##### Podnošenje prijave na konkurs
 
 Prijava na konkurs se podnosi isključivo u elektronskoj formi na adresi
 [jasen.org.rs/form/konkurs-za-finansiranje-skolske-baste].
 
 Konkurs je otvoren od 03.05.2018. godine do 12.06.2018. godine.
 
-### Rok za realizaciju projekta
+##### Rok za realizaciju projekta
 
 Školska 2018/2019 godina (01.09.2018.–15.05.2019.)
 
 Rok za slanje dnevnika aktivnosti, ocene komisije i utisaka učenika najkasnije
 do 31.05.2019. godine
 
-### Dokumentacija koja se ne uzima u razmatranje:
+##### Dokumentacija koja se ne uzima u razmatranje:
 
 - Neblagovremena i nepotpuna prijava
 - Prijava podneta od strane neovlašćenog lica i subjekata koji nisu predviđeni
@@ -143,7 +143,7 @@ do 31.05.2019. godine
 - Prijava kojom se traže sredstva u iznosu koji su veći od iznosa predviđenog
   za dodelu po konkursu
 
-### Dodela sredstava
+##### Dodela sredstava
 
 Članovi upravnog odbora Fondacije vrše stručni pregled podnetih prijava,
 vrednuju projekte u skladu sa uslovima i kriterijumima navedenim u konkursu i
