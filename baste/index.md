@@ -16,30 +16,132 @@ sponzorisali smo **15 projekata** sa ukupnim budžetom od 946.222,50 dinara.
 
 {% include sr/baste/inicijativa.html %}
 
+<div class="row">
+  <div class="col s12 l6 xl8" markdown="1">
+
+[Prvi konkurs za škole](/projekti/2018/konkurs-za-finansiranje-skolske-baste/)
+smo raspisali u maju 2018. godine. Primili smo 38 prijava, od kojih smo
+izabrali
+[4 najboljih projekata](/projekti/2018/rezultati-konkursa-za-finansiranje-skolske-baste/)
+i podelili 474.790,50 dinara.
+
+U februaru 2019. godine smo raspisali dva konkursa:
+[drugi konkurs za škole](/projekti/konkurs-za-finansiranje-skolske-baste/) i
+[prvi konkurs za vrtiće](/projekti/konkurs-za-finansiranje-baste-u-vrticima/).
+Prijavile su se 44 škola i 8 vrtića, od kojih smo izabrali
+[6 najboljih škola](/projekti/rezultati-konkursa-za-finansiranje-skolske-baste/)
+i
+[5 najboljih vrtića](/projekti/rezultati-konkursa-za-finansiranje-baste-u-vrticima/).
+
+Treći krug konkursa planiramo raspisati do kraja 2019. godine.
+
+  </div>
+  <div class="video-col col s12 l6 xl4">
+    <div class="video">
+      <iframe
+        src="https://www.youtube.com/embed/w2Wo-_1OxcU?controls=0"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <em>Pannon RTV</em>
+  </div>
+</div>
+
 #### Naše bašte
 
 {% include sr/baste/nase-baste.html %}
 
 #### Raspodela sredstava
 
-<div class="table" markdown="1">
-
-Naziv projekta         | Ime ustanove (škola/vrtić)                               | Mesto         | Iznos (din) | Godina
------------------------|----------------------------------------------------------|---------------|------------:|-------
-Staklenik              | Tehnička škola „9. maj”                                  | Bačka Palanka |  149.940,00 |  2018
-Lolina botanička bašta | Osnovna škola „Ivo Lola Ribar”                           | Sombor        |  144.923,00 |  2018
-Jovina organska bašta  | Osnovna škola „Jovan Popović”                            | Kikinda       |  128.127,50 |  2018
-Pametna školska bašta  | Osnovna i srednja škola sa domom učenika „Petro Kuzmjak” | Ruski Krstur  |   51.800,00 |  2018
-Mini bio-bašta         | Osnovna škola „Dr Đorđe Joanović”                        | Novo Miloševo |   46.754,00 |  2019
-Školska bašta „Pavle”  | Osnovna škola „Petar Kočić”                              | Inđija        |   99.460,00 |  2019
-Organska bašta „Čenejci” | Osnovna škola „Ivan Gundulić”                          | Novi Sad      |   45.000,00 |  2019
-Mala školska bašta     | Osnovna škola „Aleksa Šantić”                            | Stepanovićevo |   45.553,00 |  2019
-Banatska oaza mirisa i zdravlja | Osnovna škola „Dr Jovan Cvijić”                 | Zrenjanin     |   95.178,00 |  2019
-Naša bašta             | Osnovna škola „Miloš Crnjanski”                          | Hrtkovci      |   55.550,00 |  2019
-Bašta vrtića „Radost”  | Predškolska ustanova „Radost”                            | Novi Banovci  |  19.945,00  |  2019
-Bašta vrtića „Zeka”    | Predškolska ustanova „Naša radost” objekat „Zeka”        | Subotica      |  11.192,00  |  2019
-Bubamarina oaza      | Ustanova za predškolsko vaspitanje i obrazovanje „Radost” objekat „Bubamara” | Nadalj | 19.800,00 | 2019
-Za zeleniji vrtić „Kolibri” | Predškolska ustanova „Kolibri”                      | Bač           | 20.000,00   |  2019
-Bašta vrtića „Marjai Maria” | Predškolska ustanova „Naša radost” objekat „Marjai Maria” | Subotica | 13.000,00  |  2019
-
+<div class="table">
+  <table>
+    <thead>
+      <tr>
+        <th>Škola/vrtić</th>
+        <th>Mesto</th>
+        <th>Iznos (din)</th>
+        <th class="year">God.</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Tehnička škola „9. maj”</td>
+        <td>Bačka Palanka</td>
+        <td class="right-align">149.940,00</td>
+        <td class="year" rowspan="4"><span>2018</span></td>
+      </tr>
+      <tr>
+        <td>Osnovna škola „Ivo Lola Ribar”</td>
+        <td>Sombor</td>
+        <td class="right-align">144.923,00</td>
+      </tr>
+      <tr>
+        <td>Osnovna škola „Jovan Popović”</td>
+        <td>Kikinda</td>
+        <td class="right-align">128.127,50</td>
+      </tr>
+      <tr>
+        <td>Osnovna i srednja škola sa domom učenika „Petro Kuzmjak”</td>
+        <td>Ruski Krstur</td>
+        <td class="right-align">51.800,00</td>
+      </tr>
+      <tr>
+        <td>Osnovna škola „Dr Đorđe Joanović”</td>
+        <td>Novo Miloševo</td>
+        <td class="right-align">46.754,00</td>
+        <td class="year" rowspan="11"><span>2019</span></td>
+      </tr>
+      <tr>
+        <td>Osnovna škola „Petar Kočić”</td>
+        <td>Inđija</td>
+        <td class="right-align">99.460,00</td>
+      </tr>
+      <tr>
+        <td>Osnovna škola „Ivan Gundulić”</td>
+        <td>Novi Sad</td>
+        <td class="right-align">45.000,00</td>
+      </tr>
+      <tr>
+        <td>Osnovna škola „Aleksa Šantić”</td>
+        <td>Stepanovićevo</td>
+        <td class="right-align">45.553,00</td>
+      </tr>
+      <tr>
+        <td>Osnovna škola „Dr Jovan Cvijić”</td>
+        <td>Zrenjanin</td>
+        <td class="right-align">95.178,00</td>
+      </tr>
+      <tr>
+        <td>Osnovna škola „Miloš Crnjanski”</td>
+        <td>Hrtkovci</td>
+        <td class="right-align">55.550,00</td>
+      </tr>
+      <tr>
+        <td>Predškolska ustanova „Radost”</td>
+        <td>Novi Banovci</td>
+        <td class="right-align">19.945,00</td>
+      </tr>
+      <tr>
+        <td>Predškolska ustanova „Naša radost” objekat „Zeka”</td>
+        <td>Subotica</td>
+        <td class="right-align">11.192,00</td>
+      </tr>
+      <tr>
+        <td>Ustanova za predškolsko vaspitanje i obrazovanje „Radost” objekat „Bubamara”</td>
+        <td>Nadalj</td>
+        <td class="right-align">19.800,00</td>
+      </tr>
+      <tr>
+        <td>Predškolska ustanova „Kolibri”</td>
+        <td>Bač</td>
+        <td class="right-align">20.000,00</td>
+      </tr>
+      <tr>
+        <td>Predškolska ustanova „Naša radost” objekat „Marjai Maria”</td>
+        <td>Subotica</td>
+        <td class="right-align">13.000,00</td>
+      </tr>
+    </tbody>
+  </table>
 </div>

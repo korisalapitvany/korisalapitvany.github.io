@@ -30,6 +30,25 @@
     }
   }
 
+  .video-col {
+    max-width: 480px;
+  }
+
+  .video {
+    width: 100%;
+    padding-top: 56.25%;
+    margin-bottom: 8px;
+    position: relative;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
   .garden-card {
     display: inline-flex;
     flex-direction: column;
@@ -67,9 +86,52 @@
     margin: 0 -8px;
     overflow-x: scroll;
 
+    table {
+      border-bottom: 2px solid white;
+      max-width: calc(100% - 2px);
+    }
+
     th {
       padding: 8px 4px;
       border-bottom: 4px solid white;
+      width: 1%;
+
+      &:first-child {
+        width: 100%;
+      }
+    }
+
+    td {
+      + td {
+        white-space: nowrap;
+      }
+
+      &:first-child {
+        white-space: initial;
+      }
+
+      &.year {
+        text-align: center;
+        vertical-align: middle;
+        padding: 8px 0;
+
+        span {
+          writing-mode: vertical-lr;
+          text-align: right;
+        }
+      }
+    }
+
+    tr:not(:first-child) .year {
+      border-top: 4px solid white;
+    }
+  }
+}
+
+@media (min-width: 993px) {
+  .gardens {
+    .video {
+      margin-top: 15px;
     }
   }
 }
