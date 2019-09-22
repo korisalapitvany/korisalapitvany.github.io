@@ -64,8 +64,8 @@ css: |
 
 #### KONKURS
 
-**za finansiranje pokretanja školske bašte u osnovnim i srednjim školama na
-teritoriji AP Vojvodine**
+_**za finansiranje pokretanja školske bašte u osnovnim i srednjim školama na
+teritoriji AP Vojvodine**_
 
 Fondacija „Jasen” (u daljem tekstu: Fondacija) u skladu sa finansijskim planom
 i mogućnostima u budžetskoj 2019 godini, finansira i sufinansira najmanje tri
