@@ -3,7 +3,7 @@ layout: page
 class: garden
 
 title: Jovina organska bašta
-last_modified_at: 2019-09-19T00:00:00-02:00
+last_modified_at: 2019-10-05T00:00:00-02:00
 
 cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 60%;
