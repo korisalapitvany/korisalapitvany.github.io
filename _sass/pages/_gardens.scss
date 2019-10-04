@@ -1,4 +1,5 @@
 .gardens {
+  /* Section: Initiative */
   .stats {
     padding: 0 32px 8px;
     margin: 16px -32px;
@@ -49,6 +50,7 @@
     }
   }
 
+  /* Section: Our Gardens */
   .garden-card {
     display: inline-flex;
     flex-direction: column;
@@ -82,18 +84,91 @@
     }
   }
 
+  /* Section: Allocation of Funds */
+  .schools-vs-preschools {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+
+    .chart-placeholder {
+      background-color: #eee;
+      margin-right: 16px;
+      height: 320px;
+      width: 320px;
+    }
+
+    .legend {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+
+      li {
+        list-style-type: none;
+        padding: 2px 16px 2px 4px;
+
+        &::before {
+          content: "";
+          display: inline-block;
+          height: 24px;
+          width: 24px;
+          border-style: solid;
+          border-width: 2px;
+          position: relative;
+          top: 6px;
+          left: -4px;
+        }
+
+        &.school::before {
+          background-color: #673ab7;
+          border-color: #320b86;
+        }
+
+        &.preschool::before {
+          background-color: #ff7043;
+          border-color: #c63f17;
+        }
+      }
+    }
+  }
+
   .table {
     margin: 0 -8px;
     overflow-x: scroll;
 
     table {
-      border-bottom: 2px solid white;
+      border-bottom: 4px solid white;
       max-width: calc(100% - 2px);
+    }
+
+    tr {
+      &.school {
+        &:nth-child(odd) td {
+          background-color: #ede7f6;
+        }
+        &:nth-child(even) td {
+          background-color: #d1c4e9;
+        }
+      }
+
+      &.preschool {
+        &:nth-child(odd) td {
+          background-color: #fbe9e7;
+        }
+        &:nth-child(even) td {
+          background-color: #ffccbc;
+        }
+      }
+    }
+
+    th, td {
+      border-radius: 0;
     }
 
     th {
       padding: 8px 4px;
       border-bottom: 4px solid white;
+      background-color: #eee;
       width: 1%;
 
       &:first-child {
@@ -102,7 +177,10 @@
     }
 
     td {
+      border-bottom: 2px solid white;
+
       + td {
+        border-left: 2px solid white;
         white-space: nowrap;
       }
 
@@ -114,6 +192,7 @@
         text-align: center;
         vertical-align: middle;
         padding: 8px 0;
+        background-color: #eee !important;
 
         span {
           writing-mode: vertical-lr;
@@ -123,7 +202,7 @@
     }
 
     tr:not(:first-child) .year {
-      border-top: 4px solid white;
+      border-top: 2px solid white;
     }
   }
 }
@@ -132,6 +211,9 @@
   .gardens {
     .video {
       margin-top: 15px;
+    }
+    .schools-vs-preschools {
+      flex-direction: row;
     }
   }
 }

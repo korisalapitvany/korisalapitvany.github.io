@@ -22,3 +22,5 @@ cover_position: 60%;
 #### Osnovna škola „Jovan Popović”
 
 Kikinda
+
+Stranica u izradi.

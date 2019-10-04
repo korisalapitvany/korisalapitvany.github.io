@@ -16,14 +16,14 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   {%- for lang in site.data.i18n.languages -%}
     {%- assign lang_data = site.data.i18n[lang] -%}
-    {%- if language != lang %}
+    {%- if language != lang -%}
       {%- for tr in page.translations -%}
-        {%- if lang == tr[0] %}
-  <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ lang_data.prefix }}{{ tr[1] }}/">
+        {%- if lang == tr[0] -%}
+          <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ lang_data.prefix }}{{ tr[1] }}/">
         {%- endif -%}
       {%- endfor -%}
     {%- endif -%}
-  {%- endfor %}
+  {%- endfor -%}
 
   <link rel="icon" href="{{ site.url }}/logo/png/solid-152x152.min.png">
 
@@ -33,15 +33,15 @@
 
   <script async src="{{ site.url }}/js/materialize.js"></script>
   <script async src="{{ site.url }}/js/main.js"></script>
-  <script>
-  {%- include js/analytics.js %}  </script>
-  <script>
-  {%- include js/facebook.js %}  </script>
-  {%- if page.class == 'home' %}
-  <script type="application/ld+json">
-  {%- include js/ld.json %}  </script>
-  {%- endif %}
-  {%- if page.json_ld %}
-  <script type="application/ld+json">{{ page.json_ld | jsonify }}</script>
-  {%- endif %}
+  <script>{%- include js/analytics.js -%}</script>
+  <script>{%- include js/facebook.js -%}</script>
+  {%- if page.class == 'home' -%}
+    <script type="application/ld+json">{%- include js/ld.json -%}</script>
+  {%- endif -%}
+  {%- if page.json_ld -%}
+    <script type="application/ld+json">{{ page.json_ld | jsonify }}</script>
+  {%- endif -%}
+  {%- if page.google_charts -%}
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+  {%- endif -%}
 </head>
