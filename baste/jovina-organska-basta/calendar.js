@@ -1,5 +1,7 @@
 "use strict";
 
+(() => {
+
 const longMonths = [
   "januar", "februar", "mart", "april", "maj", "jun",
   "jul", "avgust", "septembar", "oktobar", "novembar", "decembar",
@@ -106,3 +108,5 @@ function tooltip(date, text) {
 
   return div.outerHTML;
 }
+
+})();
