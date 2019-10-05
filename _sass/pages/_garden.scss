@@ -1,11 +1,11 @@
 .garden {
+  /* Section: Header */
   /* TODO: Add back the map.
   .top-map {
     margin: -16px -24px;
     max-width: none;
   }
    */
-  /* Section: Header */
 
   /* Section: Scheduled Activities */
   #calendar {
@@ -13,5 +13,30 @@
     overflow-x: auto;
     position: relative;
     top: -24px;
+
+    .google-visualization-tooltip {
+      border: none;
+      box-shadow: none;
+      background: #283142;
+      border-radius: 0;
+      color: #eceff1;
+      font-size: 14px;
+
+      .tooltip {
+        padding: 4px 8px;
+
+        strong {
+          color: inherit;
+        }
+
+        em {
+          font-style: inherit;
+        }
+      }
+    }
+
+    .google-visualization-tooltip-item-list {
+      display: none;
+    }
   }
 }
