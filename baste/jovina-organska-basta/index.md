@@ -7,6 +7,8 @@ last_modified_at: 2019-10-05T00:00:00-02:00
 
 cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 60%;
+
+google_charts: true
 ---
 
 {%- assign google_cloud_api_key = site.data.dev_apis.google_cloud_api_key | default: site.data.apis.google_cloud_api_key -%}
@@ -45,3 +47,8 @@ Komisija za izradu školske bašte:
 4. D. Vunjak
 5. N. Đurić Kun
 6. S. Iličin
+
+#### Kalendar aktivnosti
+
+<div id="calendar" class="chart-placeholder"></div>
+<script async src="/baste/jovina-organska-basta/calendar.js"></script>

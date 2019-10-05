@@ -1,6 +1,19 @@
 .garden {
+  /* TODO: Add back the map.
   .top-map {
     margin: -16px -24px;
     max-width: none;
+  }
+   */
+
+  /* Section: Scheduled Activities */
+  #calendar {
+    height: 300px;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+    > div {
+      top: -36px;
+    }
   }
 }

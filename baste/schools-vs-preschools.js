@@ -17,7 +17,7 @@ google.charts.setOnLoadCallback(() => {
     pieHole: 0.4,
     fontName: "'Raleway', 'Verdana', 'Arial', sans-serif",
     pieSliceText: "percent",
-    fontSize: 15,
+    fontSize: 14,
     legend: {
       position: "none",
     },
