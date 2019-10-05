@@ -48,6 +48,7 @@ google.charts.setOnLoadCallback(() => {
      // Translate months:
      textNodes[8].innerHTML = "Maj";
      textNodes[11].innerHTML = "Avg";
+     textNodes[13].innerHTML = "Okt";
   });
 
   chart.draw(dataTable, {
