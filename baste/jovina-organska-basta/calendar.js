@@ -13,18 +13,18 @@ google.charts.setOnLoadCallback(() => {
     [new Date(2018, 6, 2), -1, "Rezultati konkursa"],
     [new Date(2018, 6, 18), -1, "Potpis ugovora"],
     [new Date(2018, 6, 23), -1, "Prenos sredstava"],
-    [new Date(2019, 4, 31), -1, "Rok za slanje dnevnika aktivnosti"],
+    [new Date(2019, 4, 31), 1, "Rok za slanje dnevnika aktivnosti"],
   ]);
   const submit = new Date(2018, 4, 31);
   dateRange(new Date(2018, 4, 3), new Date(2018, 5, 12)).forEach((date) => {
     if (date.getTime() === submit.getTime()) {
       dataTable.addRow([date, -1, "Prijava na konkurs"]);
     } else {
-      dataTable.addRow([date, 0, "Otvoren konkurs"]);
+      dataTable.addRow([date, -0.25, "Otvoren konkurs"]);
     }
   });
   dateRange(new Date(2018, 8, 1), new Date(2019, 4, 15)).forEach((date) => {
-    dataTable.addRow([date, 1, "Realizacija projekta"]);
+    dataTable.addRow([date, 0.75, "Realizacija projekta"]);
   });
 
   const chart = new google.visualization.Calendar(
