@@ -9,6 +9,7 @@ cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 60%;
 
 google_charts:
+- corechart
 - calendar
 ---
 
@@ -34,11 +35,27 @@ finansiramo marketing materijal.
 
 Raspodela sredstava po finansijskom planu:
 
-- Materijal i oprema za nadogradnju bašte: 75.820,00 din.
-- Alati i oprema za baštu: 20,957,50 din.
-- Setveni i sadni materijal: 16.950,00 din.
-- Ambalaža za pakovanje i deklaracija: 14.400,00 din.
-- <del>Marketinški materijal: 21.500,00 din.</del>
+<div class="pie-chart funds-distribution">
+  <div id="funds-distribution" class="chart-placeholder"></div>
+  <script async src="/baste/jovina-organska-basta/funds-distribution.js"></script>
+  <ul class="legend">
+    <li>
+      <strong>Materijal i oprema za nadogradnju bašte:</strong> 75.820,00 din.
+    </li>
+    <li>
+      <strong>Alati i oprema za baštu:</strong> 20,957,50 din.
+    </li>
+    <li>
+      <strong>Setveni i sadni materijal:</strong> 16.950,00 din.
+    </li>
+    <li>
+      <strong>Ambalaža za pakovanje i deklaracija:</strong> 14.400,00 din.
+    </li>
+    <li class="del">
+      <strong>Marketinški materijal:</strong> 21.500,00 din.
+    </li>
+  </ul>
+</div>
 
 Komisija za izradu školske bašte:
 

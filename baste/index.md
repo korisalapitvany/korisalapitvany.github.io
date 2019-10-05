@@ -59,7 +59,7 @@ Treći krug konkursa planiramo raspisati do kraja 2019. godine.
 
 Većinu sredstava (preko 90%) dobile su škole, dok smo vrtićima podelili 9% budžeta.
 
-<div class="schools-vs-preschools">
+<div class="pie-chart schools-vs-preschools">
   <div id="schools-vs-preschools" class="chart-placeholder"></div>
   <script async src="/baste/schools-vs-preschools.js"></script>
   <ul class="legend">
