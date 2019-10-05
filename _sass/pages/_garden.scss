@@ -8,12 +8,9 @@
 
   /* Section: Scheduled Activities */
   #calendar {
-    height: 300px;
-    overflow-y: hidden;
+    height: 348px;
     overflow-x: auto;
-
-    > div {
-      top: -36px;
-    }
+    position: relative;
+    top: -24px;
   }
 }

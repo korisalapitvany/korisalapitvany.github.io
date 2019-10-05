@@ -1,7 +1,9 @@
 "use strict";
 
-google.charts.load("current", {
+google.charts.load("46.2", {
   packages: ["calendar"],
+  // TODO: Use sr-Latin when supported.
+  // language: "sr-Latn",
 });
 
 google.charts.setOnLoadCallback(() => {
@@ -27,15 +29,32 @@ google.charts.setOnLoadCallback(() => {
     dataTable.addRow([date, 0.75, "Realizacija projekta"]);
   });
 
-  const chart = new google.visualization.Calendar(
-    document.getElementById("calendar")
-  );
+  const div = document.getElementById("calendar");
+  const chart = new google.visualization.Calendar(div);
+
+   google.visualization.events.addListener(chart, "ready", () => {
+     const textNodes = div.querySelectorAll("text");
+     // Remove legend: [low, mid, high] values.
+     textNodes[0].remove();
+     textNodes[1].remove();
+     textNodes[2].remove();
+     // Remove legend box and gradient:
+     div.querySelectorAll("[fill-opacity='1']").forEach((node) => {
+       node.remove();
+     });
+     div.querySelectorAll("linearGradient").forEach((node) => {
+       node.remove();
+     });
+     // Translate months:
+     textNodes[8].innerHTML = "Maj";
+     textNodes[11].innerHTML = "Avg";
+  });
 
   chart.draw(dataTable, {
     legend: "none",
     calendar: {
       cellSize: 16,
-      daysOfWeek: "NPUČSPS",
+      daysOfWeek: "NPUSČPS",
       monthLabel: {
         fontName: "'Raleway', 'Verdana', 'Arial', sans-serif",
         fontSize: 14,

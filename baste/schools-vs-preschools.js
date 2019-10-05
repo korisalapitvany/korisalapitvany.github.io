@@ -1,6 +1,6 @@
 "use strict";
 
-google.charts.load("current", {
+google.charts.load("46.2", {
   packages: ["corechart"],
 });
 google.charts.setOnLoadCallback(() => {
