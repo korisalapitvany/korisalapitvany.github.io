@@ -8,7 +8,8 @@ last_modified_at: 2019-10-05T00:00:00-02:00
 cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 60%;
 
-google_charts: true
+google_charts:
+- corechart
 ---
 #### Inicijativa
 
@@ -46,7 +47,7 @@ Treći krug konkursa planiramo raspisati do kraja 2019. godine.
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
-    <em>Pannon RTV</em>
+    <em>Pannon RTV izveštaj</em>
   </div>
 </div>
 

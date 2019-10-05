@@ -1,11 +1,5 @@
 "use strict";
 
-google.charts.load("46.2", {
-  packages: ["calendar"],
-  // TODO: Use sr-Latin when supported.
-  // language: "sr-Latn",
-});
-
 google.charts.setOnLoadCallback(() => {
   const dataTable = new google.visualization.DataTable();
   dataTable.addColumn({type: "date", id: "date" });
@@ -46,9 +40,12 @@ google.charts.setOnLoadCallback(() => {
        node.remove();
      });
      // Translate months:
-     textNodes[8].innerHTML = "Maj";
-     textNodes[11].innerHTML = "Avg";
-     textNodes[13].innerHTML = "Okt";
+     [
+       "jan", "feb", "mar", "apr", "maj", "jun",
+       "jul", "avg", "sep", "okt", "nov", "dec",
+     ].forEach((month, i) => {
+       textNodes[i + 4].innerHTML = month;
+     });
   });
 
   chart.draw(dataTable, {

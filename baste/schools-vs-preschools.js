@@ -1,8 +1,5 @@
 "use strict";
 
-google.charts.load("46.2", {
-  packages: ["corechart"],
-});
 google.charts.setOnLoadCallback(() => {
   const data = google.visualization.arrayToDataTable([
     ["Vrsta ustanove", "Iznos"],
