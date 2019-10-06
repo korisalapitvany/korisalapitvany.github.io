@@ -37,7 +37,8 @@ Raspodela sredstava po finansijskom planu:
 
 <div class="pie-chart funds-distribution">
   <div id="funds-distribution" class="chart-placeholder"></div>
-  <script async src="/baste/jovina-organska-basta/funds-distribution.js"></script>
+  <script defer src="/js/charts.js"></script>
+  <script defer src="/baste/jovina-organska-basta/funds-distribution.js"></script>
   <ul class="legend">
     <li>
       <strong>Materijal i oprema za nadogradnju bašte:</strong> 75.820,00 din.
