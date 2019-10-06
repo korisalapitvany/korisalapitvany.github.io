@@ -69,5 +69,135 @@ Komisija za izradu školske bašte:
 
 #### Kalendar aktivnosti
 
+Pregled planiranih aktivnosti za 2018. i 2019. godinu:
+
 <div id="calendar" class="chart-placeholder"></div>
-<script async src="/baste/jovina-organska-basta/calendar.js"></script>
+<script defer src="/baste/jovina-organska-basta/calendar.js"></script>
+
+#### Izvod iz dnevnika aktivnosti
+
+<div class="timeline" markdown="1">
+
+<div class="year"><strong>2018</strong></div>
+
+**jul**
+
+- **Nadogradnja bašte.**
+
+- Postavljanje „zasene”  preko bašte, zaštita od prejakog
+  sunčevog zračenja i vremenskih nepogoda (led, vetar…)
+
+- Svakodnevno zalivanje (paprika, paradajz), u 6 i 19 časova.
+
+**avgust**
+
+- Paprika „napadnuta” vašima i plemenjačom. Prehranjivanje svakih 15 dana
+  SLAVOL (preko lista). Svakih 7 dana prskati rastvorom od belog luka protiv
+  plemenjače.
+
+- Tretirana paprika rastvorom od ljute paprike. _— 9. avgust._
+
+- Nema vaši na paprikama. _— 13. avgust._
+
+**Priprema površina za ozelenjavanje.** _— 20. avgust._
+
+- Površina zemlje van bašte tretirana glifosanom (uništavanje postojećeg
+  korova, priprema za ozelenjavanje. Farbanje stubova (ograde oko organske
+  bašte).
+
+**septembar**
+
+- Branje paprika, ukrasnih tikvica. Humanitarna prodaja na manifestaciji „Dani
+  ludaje”. _— 20. septembar._
+
+**oktobar**
+
+- **Spremanje turšije od naših proizvoda** (paprika, šargarepa, paradajz).
+
+- Turšija se koristi za ishranu dece koja borave u produženom boravku škole.
+  Koordinator aktivnosti je nastavnica biologije.
+
+- Spremanje bašte za zimu.
+
+- **Sađenje ozimnog povrća** (bebi spanać, beli i crni luk, salata). _— 12.
+  oktobar._
+
+**novembar, decembar**
+
+- Priprema novih „sanduka” za prolećno sađenje.
+
+- Na sekciji „Ruke moje vešte” učenici članovi sekcije prave sanduke koje ćemo
+  postaviti u baštu, nasuti ih organskom zemljom i saditi povrće u njima. Vođa
+  sekcije je profesor tehničkog i informatičkog obrazovanja.
+
+<div class="year"><strong>2019</strong></div>
+
+**januar**
+
+- Nastavljaju se aktivnosti iz prethodna dva meseca.
+
+**februar**
+
+- Kupovina trave za sađenje i ruža stablašica. _— 20. februar._
+
+**mart**
+
+- **Branje ozimnog povrća** (bebi spanać, luk i salata).
+
+- Proizvode spremali u „Jovine eko kesice” — poklon mami, baki, povodom 8.
+  marta.
+
+- Sađenje ruža stablašica.
+
+- Freziranje zemljišta, nasipanje zemlje, priprema za sađenje trave.
+
+**april**
+
+- **Nadogradnja bašte.**
+
+- Varenje dodatnih cevi, postavljanje sajli, ojačavanje građe, priprema za
+  postavljanje zasene u letnjem periodu.
+
+- Ruže ne napreduju. Konsultovali S. Stojanović, vlasnica gazdinstva organske
+  hrane. Napravljen rastvor od helatnog gvožđa i organskog đubriva. Svakih 7
+  dana prehranjivati ruže. _— 24. april_
+
+- **Sađenje salate, luka i rotkvica** u organskoj bašti.
+
+**maj**
+
+- Stanje ruža nepromenjeno. Nastaviti sa prehranom. _— 1. maj._
+
+- Stanje ruža nepromenjeno. Nastaviti sa prehranom. _— 8. maj._
+
+- Stanje ruža nepromenjeno. Konsultovana S. Stojanović. Koren mrtav. Odluka da
+  se izvade ruže. Odnete dobavljaču na uvid. Prihvaćena reklamacija, sadnice
+  nisu bile ispravne (nije do održavanja). Sledeće godine dobavljač o svom
+  trošku donosi ruže. _— 15. maj._
+
+- Nabavka cveća iz rasadnika, sađenje ukrasnog cveća na zelenim površinama mimo
+  organske bašte (portulake, gazanije). _— 22. maj._
+
+- **Branje salate, rotkvica, luka, nane, matičnjaka.**
+
+- Prodaja na gradskoj pijaci. Sredstva usmerena na štampanje eko kesica za
+  pakovanje, nabavka flaširane vode za učenike osmog razreda prilikom polaganja
+  završnog ispita. _— 24. maj._
+
+- **Sađenje paradajza, paprike.** U 16:30 nevreme, zasađene sadnice (paprika i
+  paradajz) pretrpele štetu. Pratiti oporavak narednih 7 dana. _— 29. maj._
+
+- Nabavka viseće žardinjere za ukršavanje bašte. _— 30. maj._
+
+- Sadnice paradajz i paprika deluju zdravo. _—31. maj._
+
+**jun**
+
+- **NAPOMENA:** Aktivnosti se nastavljaju, kontinuirano tokom letnjeg raspusta.
+
+- Određivanje timova za zalivanje, određivanje timova za održavanje zelenih
+  površina.
+
+- Nabavka supstrata, žardinjera za cveće.
+
+</div>
