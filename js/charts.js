@@ -41,22 +41,35 @@ function pieCallback(config) {
   });
 }
 
-const i18n = {
+const I18N = {
+  en: {
+    days: "SMTWTFS",
+    months: [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December",
+    ],
+  },
   sr: {
+    days: "NPUSČPS",
     months: [
       "januar", "februar", "mart", "april", "maj", "jun",
       "jul", "avgust", "septembar", "oktobar", "novembar", "decembar",
     ],
   },
 };
-i18n.sr.shortMonths = i18n.sr.months.map((month) => month.substr(0, 3));
+I18N.en.shortMonths = I18N.en.months.map((month) => month.substr(0, 3));
+I18N.sr.shortMonths = I18N.sr.months.map((month) => month.substr(0, 3));
 
 function calendarCallback(config) {
+  if (!config.hasOwnProperty("lang")) {
+    config.lang = "en";
+  }
+
   const dataTable = new google.visualization.DataTable();
   dataTable.addColumn({type: "date", id: "date" });
   dataTable.addColumn({type: "number", id: "value" });
   dataTable.addColumn({type: "string", role: "tooltip", p: {html: true}});
-  dataTable.addRows(makeRows(config.data));
+  dataTable.addRows(makeRows(config.data, config.lang));
 
   const div = document.getElementById(config.id);
   const chart = new google.visualization.Calendar(div);
@@ -75,7 +88,7 @@ function calendarCallback(config) {
        node.remove();
      });
      // Translate months:
-     i18n.sr.shortMonths.forEach((month, i) => {
+     I18N[config.lang].shortMonths.forEach((month, i) => {
        textNodes[i + 4].innerHTML = month.toUpperCase();
      });
   });
@@ -84,7 +97,7 @@ function calendarCallback(config) {
     legend: "none",
     calendar: {
       cellSize: 16,
-      daysOfWeek: "NPUSČPS",
+      daysOfWeek: I18N[config.lang].days,
       monthLabel: {
         fontName: "'Raleway', 'Verdana', 'Arial', sans-serif",
         fontSize: 14,
@@ -98,20 +111,20 @@ function calendarCallback(config) {
   });
 }
 
-function makeRows(data) {
+function makeRows(data, lang) {
   const map = new Map();
   data.forEach((row) => {
     if (row[0].length === 1) {
       map.set(row[0][0], [
         row[0][0],
         row[1],
-        makeTooltip(row[0][0], row[2]),
+        makeTooltip(row[2], localeDateString(row[0][0], lang)),
       ]);
     } else {
       dateRange(row[0][0], row[0][1]).forEach((date) => map.set(date, [
         date,
         row[1],
-        makeTooltip(date, row[2]),
+        makeTooltip(row[2], localeDateString(date, lang)),
       ]));
     }
   });
@@ -140,7 +153,7 @@ function dateRange(start, stop) {
   return result;
 }
 
-function makeTooltip(date, text) {
+function makeTooltip(text, subtext) {
   const div = document.createElement("div");
   div.className = "tooltip";
 
@@ -152,16 +165,23 @@ function makeTooltip(date, text) {
   div.appendChild(br);
 
   const em = document.createElement("em");
-  em.innerText = `${
-    date.getDate()
-  }. ${
-    i18n.sr.months[date.getMonth()]
-  } ${
-    date.getFullYear()
-  }.`;
+  em.innerText = subtext;
   div.appendChild(em);
 
   return div.outerHTML;
+}
+
+function localeDateString(date, lang) {
+  const month = I18N[lang].months[date.getMonth()];
+  switch (lang) {
+    default:
+    case "en":
+      return `${date.getDate()} ${month} ${date.getFullYear()}`;
+    case "sr":
+      return `${date.getDate()}. ${month} ${date.getFullYear()}.`;
+    case "hu":
+      return `${date.getFullYear()}. ${month} ${date.getDate()}.`;
+  }
 }
 
 window.CHARTS = {

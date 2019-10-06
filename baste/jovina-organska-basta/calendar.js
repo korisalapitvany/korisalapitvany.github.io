@@ -13,4 +13,5 @@ CHARTS.calendar({
     [[new Date(2018, 8, 1),
       new Date(2019, 4, 15)],  0.75, "Realizacija projekta"],
   ],
+  lang: "sr",
 });
