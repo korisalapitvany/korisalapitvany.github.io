@@ -43,12 +43,6 @@
   {%- endif -%}
   {%- if page.google_charts -%}
     <script src="https://www.gstatic.com/charts/loader.js"></script>
-    <script>
-"use strict";
-google.charts.load("46.2", {
-  packages: {{ page.google_charts | jsonify }},
-  language: {{ language | jsonify }},
-});
-    </script>
+    <script>"use strict";google.charts.load("46.2", {packages: {{ page.google_charts | jsonify }}});</script>
   {%- endif -%}
 </head>
