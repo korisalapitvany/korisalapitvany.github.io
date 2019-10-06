@@ -8,44 +8,6 @@
    */
 
   /* Section: Scheduled Activities */
-  #calendar {
-    height: 336px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    position: relative;
-    margin-top: -24px;
-
-    .google-visualization-tooltip {
-      border: none;
-      box-shadow: none;
-      background: #283142;
-      border-radius: 0;
-      color: #eceff1;
-      font-size: 14px;
-
-      .tooltip {
-        padding: 4px 8px;
-
-        strong {
-          color: inherit;
-        }
-
-        em {
-          font-style: inherit;
-        }
-      }
-    }
-
-    .google-visualization-tooltip-item-list {
-      display: none;
-    }
-
-    + * + h4 {
-      margin-top: 0;
-    }
-  }
-
-  /* Section: Activity Log */
   .timeline {
     border-left: 2px solid #8eacbb;
     margin-left: 15px;

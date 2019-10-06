@@ -71,7 +71,7 @@ Komisija za izradu školske bašte:
 
 Pregled planiranih aktivnosti za 2018. i 2019. godinu:
 
-<div id="calendar" class="chart-placeholder"></div>
+<div id="calendar" class="calendar-chart"></div>
 <script defer src="/baste/jovina-organska-basta/calendar.js"></script>
 
 Izvod iz dnevnika aktivnosti:

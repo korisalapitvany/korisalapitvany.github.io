@@ -76,6 +76,40 @@
 
 }
 
+.calendar-chart {
+  height: 336px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  margin-top: -24px;
+
+  .google-visualization-tooltip {
+    border: none;
+    box-shadow: none;
+    background: #283142;
+    background: #455a64;
+    border-radius: 0;
+    color: #eceff1;
+    font-size: 14px;
+
+    .tooltip {
+      padding: 4px 8px;
+
+      strong {
+        color: inherit;
+      }
+
+      em {
+        font-style: inherit;
+      }
+    }
+  }
+
+  .google-visualization-tooltip-item-list {
+    display: none;
+  }
+}
+
 @media (min-width: 993px) {
   .pie-chart {
     flex-direction: row;
