@@ -2,6 +2,9 @@
 
 (() => {
 
+const FONT_NAME = "'Raleway', 'Verdana', 'Arial', sans-serif";
+const FONT_SIZE = 14;
+
 function pieCallback(config) {
   const data = google.visualization.arrayToDataTable(config.data);
 
@@ -19,10 +22,10 @@ function pieCallback(config) {
     document.getElementById(config.id)
   );
   chart.draw(data, {
+    fontName: FONT_NAME,
+    fontSize: FONT_SIZE,
     pieHole: 0.4,
-    fontName: "'Raleway', 'Verdana', 'Arial', sans-serif",
     pieSliceText: "percent",
-    fontSize: 14,
     legend: {
       position: "none",
     },
@@ -99,8 +102,8 @@ function calendarCallback(config) {
     calendar: {
       cellSize: 16,
       monthLabel: {
-        fontName: "'Raleway', 'Verdana', 'Arial', sans-serif",
-        fontSize: 14,
+        fontName: FONT_NAME,
+        fontSize: FONT_SIZE,
       },
     },
     tooltip: {
