@@ -74,13 +74,11 @@ Pregled planiranih aktivnosti za 2018. i 2019. godinu:
 <div id="calendar" class="chart-placeholder"></div>
 <script defer src="/baste/jovina-organska-basta/calendar.js"></script>
 
-#### Izvod iz dnevnika aktivnosti
+Izvod iz dnevnika aktivnosti:
 
 <div class="timeline" markdown="1">
 
-<div class="year"><strong>2018</strong></div>
-
-**jul**
+**jul 2018.**
 
 - **Nadogradnja bašte.**
 
@@ -89,7 +87,7 @@ Pregled planiranih aktivnosti za 2018. i 2019. godinu:
 
 - Svakodnevno zalivanje (paprika, paradajz), u 6 i 19 časova.
 
-**avgust**
+**avgust 2018.**
 
 - Paprika „napadnuta” vašima i plemenjačom. Prehranjivanje svakih 15 dana
   SLAVOL (preko lista). Svakih 7 dana prskati rastvorom od belog luka protiv
@@ -105,12 +103,12 @@ Pregled planiranih aktivnosti za 2018. i 2019. godinu:
   korova, priprema za ozelenjavanje. Farbanje stubova (ograde oko organske
   bašte).
 
-**septembar**
+**septembar 2018.**
 
 - Branje paprika, ukrasnih tikvica. Humanitarna prodaja na manifestaciji „Dani
   ludaje”. _— 20. septembar._
 
-**oktobar**
+**oktobar 2018.**
 
 - **Spremanje turšije od naših proizvoda** (paprika, šargarepa, paradajz).
 
@@ -122,7 +120,7 @@ Pregled planiranih aktivnosti za 2018. i 2019. godinu:
 - **Sađenje ozimnog povrća** (bebi spanać, beli i crni luk, salata). _— 12.
   oktobar._
 
-**novembar, decembar**
+**novembar, decembar 2018.**
 
 - Priprema novih „sanduka” za prolećno sađenje.
 
@@ -130,17 +128,15 @@ Pregled planiranih aktivnosti za 2018. i 2019. godinu:
   postaviti u baštu, nasuti ih organskom zemljom i saditi povrće u njima. Vođa
   sekcije je profesor tehničkog i informatičkog obrazovanja.
 
-<div class="year"><strong>2019</strong></div>
-
-**januar**
+**januar 2019.**
 
 - Nastavljaju se aktivnosti iz prethodna dva meseca.
 
-**februar**
+**februar 2019.**
 
 - Kupovina trave za sađenje i ruža stablašica. _— 20. februar._
 
-**mart**
+**mart 2019.**
 
 - **Branje ozimnog povrća** (bebi spanać, luk i salata).
 
@@ -151,7 +147,7 @@ Pregled planiranih aktivnosti za 2018. i 2019. godinu:
 
 - Freziranje zemljišta, nasipanje zemlje, priprema za sađenje trave.
 
-**april**
+**april 2019.**
 
 - **Nadogradnja bašte.**
 
@@ -164,7 +160,7 @@ Pregled planiranih aktivnosti za 2018. i 2019. godinu:
 
 - **Sađenje salate, luka i rotkvica** u organskoj bašti.
 
-**maj**
+**maj 2019.**
 
 - Stanje ruža nepromenjeno. Nastaviti sa prehranom. _— 1. maj._
 
@@ -191,7 +187,7 @@ Pregled planiranih aktivnosti za 2018. i 2019. godinu:
 
 - Sadnice paradajz i paprika deluju zdravo. _—31. maj._
 
-**jun**
+**jun 2019.**
 
 - **NAPOMENA:** Aktivnosti se nastavljaju, kontinuirano tokom letnjeg raspusta.
 
