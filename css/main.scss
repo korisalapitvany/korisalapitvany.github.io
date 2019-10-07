@@ -1,25 +1,27 @@
 ---
 ---
-/* Materialize
+/*
+ * Materialize
  *
  * For now, include all components. This should be stripped down eventually to
  * what is actually being used.
+ *
  */
-@import 'materialize';
+@import "materialize";
 
 /* Overall website template */
-@import 'template';
+@import "template";
 
 /* Page layout */
-@import 'top-navigation-bar';
-@import 'cover-image';
-@import 'main-content';
-@import 'footer';
+@import "top-navigation-bar";
+@import "cover-image";
+@import "main-content";
+@import "footer";
 
 /* Individual components */
-@import 'image-gallery';
-@import 'striped-tables';
-@import 'charts';
+@import "image-gallery";
+@import "striped-tables";
+@import "charts";
 
 /* Individual pages */
-@import 'all-pages';
+@import "all-pages";

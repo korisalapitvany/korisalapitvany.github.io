@@ -7,22 +7,20 @@ nav {
   overflow-y: hidden;
 
   &.title {
-    transition:
-      0.2s background-color cubic-bezier(0.4, 0, 0.2, 1),
-      0.1s box-shadow cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 0.2s background-color cubic-bezier(0.4, 0, 0.2, 1), 0.1s box-shadow cubic-bezier(0.4, 0, 0.2, 1);
 
     .nav-content {
       opacity: 1;
-
       transition: 0.5s opacity cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 
   &.navbar-tabs {
     height: $tab-height;
-
     position: absolute;
-    top: $nav-height; left: 0; right: 0;
+    top: $nav-height;
+    left: 0;
+    right: 0;
     z-index: 1;
   }
 
@@ -50,11 +48,7 @@ body:not(.top) {
   nav.title {
     height: $nav-height !important;
     background-color: black;
-    box-shadow:
-      0 2px 2px 0 rgba(0, 0, 0, 2.14),
-      0 3px 1px -2px rgba(0, 0, 0, 0.2),
-      0 1px 5px 0 rgba(0, 0, 0, 0.12)
-      !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 2.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
 
     .nav-content {
       opacity: 0;

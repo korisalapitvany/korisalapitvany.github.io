@@ -4,6 +4,7 @@ tr {
   &:nth-child(odd) {
     background-color: rgba(0, 0, 0, 0.05);
   }
+
   &:nth-child(even):last-child {
     td {
       border-bottom: 4px solid rgba(0, 0, 0, 0.05);

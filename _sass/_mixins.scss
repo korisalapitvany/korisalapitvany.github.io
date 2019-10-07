@@ -1,5 +1,5 @@
 /* On wide screens, limit the content width to (1080px - 2×32px). */
-$max-content-width: 1016px; /* 1080p - 2×32px */
+$max-content-width: calc(1080px - 32px - 32px);
 
 /* On bigger screens, make sure the footer sticks to the bottom. */
 $footer-height: 320px;
@@ -26,7 +26,7 @@ $light-green: #7bb15b;
 @mixin mdl-shadow--2dp {
   @include mdl-shadow;
 
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12)
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 @mixin mdl-shadow--4dp {
@@ -43,6 +43,7 @@ $light-green: #7bb15b;
     &:nth-child(odd) {
       background-color: $main-green;
     }
+
     &:nth-child(even):last-child {
       td {
         border-bottom: 2px solid $main-green;

@@ -26,6 +26,7 @@ footer {
       a {
         color: #e0e0e0;
       }
+
       li {
         list-style-type: none;
         display: inline-block;
@@ -46,16 +47,19 @@ footer {
     line-height: 36px;
     margin: 0 0 8px;
     padding: 0;
+
     li {
       display: inline-block;
       list-style-type: none;
     }
+
     a {
       width: 24px;
       height: 24px;
       line-height: 24px;
       margin: 0 0 0 8px;
     }
+
     svg {
       width: 24px;
       height: 24px;
@@ -87,22 +91,24 @@ footer {
       ul.links {
         li {
           margin-right: 16px;
+
           &::after {
             display: none !important;
           }
         }
       }
     }
+
     .mission {
       .logo {
         display: block;
-
         float: left;
         width: 144px;
         height: 144px;
         margin-top: -9px;
         padding-right: 8px;
       }
+
       p {
         max-width: 560px;
       }

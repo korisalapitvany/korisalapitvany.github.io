@@ -19,6 +19,7 @@
         background: white;
         margin-right: 8px;
       }
+
       strong {
         font-size: 32px;
         white-space: nowrap;
@@ -65,9 +66,10 @@
       display: block;
       width: 256px;
       height: 256px;
-      min-width:256px;
+      min-width: 256px;
       transition: opacity 0.25s ease-out;
     }
+
     .picture:hover {
       opacity: .8;
     }
@@ -115,6 +117,7 @@
         &:nth-child(odd) td {
           background-color: #ede7f6;
         }
+
         &:nth-child(even) td {
           background-color: #d1c4e9;
         }
@@ -124,6 +127,7 @@
         &:nth-child(odd) td {
           background-color: #fbe9e7;
         }
+
         &:nth-child(even) td {
           background-color: #ffccbc;
         }
@@ -181,6 +185,7 @@
     .video {
       margin-top: 15px;
     }
+
     .schools-vs-preschools {
       flex-direction: row;
     }
