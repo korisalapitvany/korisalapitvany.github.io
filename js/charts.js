@@ -58,43 +58,43 @@ function calendarCallback(config) {
   const div = document.getElementById(config.id);
   const chart = new google.visualization.Calendar(div);
 
-   google.visualization.events.addListener(chart, "ready", () => {
-     const textNodes = div.querySelectorAll("text");
+  google.visualization.events.addListener(chart, "ready", () => {
+    const textNodes = div.querySelectorAll("text");
 
-     // Remove legend: [low, mid, high] values.
-     textNodes[0].remove();
-     textNodes[1].remove();
-     textNodes[2].remove();
-     // Remove legend box and gradient:
-     div.querySelectorAll("[fill-opacity='1']").forEach((node) => {
-       node.remove();
-     });
-     div.querySelectorAll("linearGradient").forEach((node) => {
-       node.remove();
-     });
+    // Remove legend: [low, mid, high] values.
+    textNodes[0].remove();
+    textNodes[1].remove();
+    textNodes[2].remove();
+    // Remove legend box and gradient:
+    div.querySelectorAll("[fill-opacity='1']").forEach((node) => {
+      node.remove();
+    });
+    div.querySelectorAll("linearGradient").forEach((node) => {
+      node.remove();
+    });
 
-     // Translate months and weekdays:
-     const d = new Date(2000, 0, 2);
-     const month = new Intl.DateTimeFormat(config.locale, {
-       month: "short",
-     });
-     const weekday = new Intl.DateTimeFormat(config.locale, {
-       weekday: "narrow",
-     });
-     textNodes.forEach((node, i) => {
-       if (i < 4) {
-         return;
-       }
-       if (i < 16) {
-         textNodes[i].innerHTML = month.format(new Date(2000, i - 4, 1)).toUpperCase();
-         return;
-       }
-       if (i % 8 === 0) {
-         return;
-       }
-       node.innerHTML = weekday.format(d).toUpperCase();
-       d.setDate(d.getDate() + 1);
-     });
+    // Translate months and weekdays:
+    const d = new Date(2000, 0, 2);
+    const month = new Intl.DateTimeFormat(config.locale, {
+      month: "short",
+    });
+    const weekday = new Intl.DateTimeFormat(config.locale, {
+      weekday: "narrow",
+    });
+    textNodes.forEach((node, i) => {
+      if (i < 4) {
+        return;
+      }
+      if (i < 16) {
+        textNodes[i].innerHTML = month.format(new Date(2000, i - 4, 1)).toUpperCase();
+        return;
+      }
+      if (i % 8 === 0) {
+        return;
+      }
+      node.innerHTML = weekday.format(d).toUpperCase();
+      d.setDate(d.getDate() + 1);
+    });
   });
 
   chart.draw(dataTable, {
