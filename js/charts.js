@@ -66,21 +66,21 @@ function calendarCallback(config) {
   dataTable.addColumn({type: "string", role: "tooltip", p: {html: true}});
   dataTable.addRows(makeRows(config.data, config.locale));
 
-  const div = document.getElementById(config.id);
-  const chart = new google.visualization.Calendar(div);
+  const elem = document.getElementById(config.id);
+  const chart = new google.visualization.Calendar(elem);
 
   google.visualization.events.addListener(chart, "ready", () => {
-    const textNodes = div.querySelectorAll("text");
+    const textNodes = elem.querySelectorAll("text");
 
     // Remove legend: [low, mid, high] values.
     textNodes[0].remove();
     textNodes[1].remove();
     textNodes[2].remove();
     // Remove legend box and gradient:
-    div.querySelectorAll("[fill-opacity='1']").forEach((node) => {
+    elem.querySelectorAll("[fill-opacity='1']").forEach((node) => {
       node.remove();
     });
-    div.querySelectorAll("linearGradient").forEach((node) => {
+    elem.querySelectorAll("linearGradient").forEach((node) => {
       node.remove();
     });
 
