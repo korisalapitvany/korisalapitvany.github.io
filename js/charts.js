@@ -18,9 +18,20 @@ function pieCallback(config) {
   }
   const slices = config.colors.map((color) => ({color: color}));
 
-  const chart = new google.visualization.PieChart(
-    document.getElementById(config.id)
-  );
+  const elem = document.getElementById(config.id)
+  const chart = new google.visualization.PieChart(elem);
+
+  google.visualization.events.addListener(chart, "onmouseover", (e) => {
+    const legend = elem.parentNode.querySelector(".legend");
+    legend.querySelectorAll("li:not(.del)")[e.row].classList.add("active");
+    legend.classList.add("hover");
+  });
+  google.visualization.events.addListener(chart, "onmouseout", (e) => {
+    const legend = elem.parentNode.querySelector(".legend");
+    legend.querySelectorAll("li:not(.del)")[e.row].classList.remove("active");
+    legend.classList.remove("hover");
+  });
+
   chart.draw(data, {
     fontName: FONT_NAME,
     fontSize: FONT_SIZE,
