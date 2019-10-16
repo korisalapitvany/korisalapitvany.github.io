@@ -14,6 +14,10 @@ function pieCallback(config) {
         "#f44336",  // red-500
         "#ff9800",  // orange-500
         "#4caf50",  // green-500
+        "#9c27b0",  // purple-500
+        "#00bcd4",  // cyan-500
+        "#e91e63",  // pink-500
+        "#8bc34a",  // light-green-500
     ].slice(0, config.data.length - 1);
   }
   const slices = config.colors.map((color) => ({color: color}));

@@ -10,6 +10,24 @@ cover_position: 60%;
 
 google_charts:
 - corechart
+
+gardens:
+- id: staklenik-u-tehnickoj-skoli-9-maj
+  name: Staklenik
+  school: TŠ „9. maj”
+  location: Bačka Palanka
+- id: lolina-botanicka-basta
+  name: Lolina botanička bašta
+  school: OŠ „Ivo Lola Ribar”
+  location: Sombor
+- id: jovina-organska-basta
+  name: Jovina organska bašta
+  school: OŠ „Jovan Popović”
+  location: Kikinda
+- id: pametna-skolska-basta
+  name: Pametna školska bašta
+  school: OSŠ „Petro Kuzmjak”
+  location: Ruski Krstur
 ---
 #### Inicijativa
 

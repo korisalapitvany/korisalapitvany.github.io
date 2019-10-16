@@ -38,7 +38,7 @@ Raspodela sredstava po finansijskom planu:
 <div class="pie-chart funds-distribution">
   <div id="funds-distribution" class="chart-placeholder"></div>
   <script defer src="/js/charts.js"></script>
-  <script defer src="/baste/jovina-organska-basta/funds-distribution.js"></script>
+  <script defer src="funds-distribution.js"></script>
   <ul class="legend">
     <li>
       <strong>Materijal i oprema za nadogradnju bašte:</strong> 75.820,00 din.
@@ -72,7 +72,7 @@ Komisija za izradu školske bašte:
 Pregled planiranih aktivnosti za 2018. i 2019. godinu:
 
 <div id="calendar" class="calendar-chart"></div>
-<script defer src="/baste/jovina-organska-basta/calendar.js"></script>
+<script defer src="calendar.js"></script>
 
 Izvod iz dnevnika aktivnosti:
 

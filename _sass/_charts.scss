@@ -67,6 +67,21 @@
           background-color: #9c27b0;
           border-color: #6a0080;
         }
+
+        &:nth-child(6)::before {
+          background-color: #00bcd4;
+          border-color: #008ba3;
+        }
+
+        &:nth-child(7)::before {
+          background-color: #e91e63;
+          border-color: #b0003a;
+        }
+
+        &:nth-child(8)::before {
+          background-color: #8bc34a;
+          border-color: #5a9216;
+        }
       }
 
       &.del {

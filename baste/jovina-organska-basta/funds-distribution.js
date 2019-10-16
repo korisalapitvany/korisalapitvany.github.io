@@ -3,7 +3,7 @@
 CHARTS.pie({
   id: "funds-distribution",
   data: [
-    ["Vrsta ustanove", "Iznos"],
+    ["Opis troškova", "Iznos"],
     ["Materijal i oprema za nadogradnju bašte", 75820],
     ["Alati i oprema za baštu", 20957.5],
     ["Setveni i sadni materijal", 16950],
