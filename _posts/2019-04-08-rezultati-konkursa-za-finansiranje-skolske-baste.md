@@ -11,7 +11,6 @@ category:
 - projekti
 permalink: /:categories/:title/
 
-front_page: true
 event_date: 2019/2020
 cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 60%;
