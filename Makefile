@@ -1,5 +1,5 @@
 build:
-	bundle install --path vendor/bundle
+	bundle install
 
 serve:
 	bundle exec jekyll serve --watch
