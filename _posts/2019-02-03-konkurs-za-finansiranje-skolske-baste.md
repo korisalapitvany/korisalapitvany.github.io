@@ -121,7 +121,7 @@ Odgovornosti komisije:
 
 1. Uticaj predloženog projekta
 2. Odgovornost na temu projekta
-3. Kompetentnost predlagača, predhodno iskustvo
+3. Kompetentnost predlagača, prethodno iskustvo
 4. Uključivanje ideja i planova učenika 
 
 ##### Sugestije za uspešno konkurisanje:
