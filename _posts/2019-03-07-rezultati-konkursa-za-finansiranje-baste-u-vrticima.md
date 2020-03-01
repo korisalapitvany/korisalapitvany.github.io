@@ -9,11 +9,16 @@ author: attila
 
 category:
 - projekti
+- 2019
 permalink: /:categories/:title/
 
 event_date: 2019/2020
 cover_image: 2019/boys-wellington-boots
 cover_position: 60%
+
+redirect_from:
+- /projekti/rezultati-konkursa-za-finansiranje-baste-u-vrticima
+- /projekti/rezultati-konkursa-za-finansiranje-baste-u-vrticima/
 
 excerpt_separator: <!-- details -->
 ---

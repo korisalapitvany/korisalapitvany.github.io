@@ -7,13 +7,19 @@ title: Akcija sakupljanja smeća
 last_modified_at: 2019-01-29T00:00:00-02:00
 author: gabor
 
-category: projekti
+category:
+- projekti
+- 2019
 permalink: /:categories/:title/
 excerpt_separator: <!-- details -->
 
 event_date: 2019
 cover_image: 2019/park-bench
 cover_position: 60%
+
+redirect_from:
+- /projekti/akcija-sakupljanja-smeca
+- /projekti/akcija-sakupljanja-smeca/
 
 translations:
   hu: /projektek/szemetszedesi-akcio

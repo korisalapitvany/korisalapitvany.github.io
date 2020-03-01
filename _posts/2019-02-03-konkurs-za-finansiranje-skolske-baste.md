@@ -7,12 +7,18 @@ title: &title Konkurs za finansiranje školske bašte
 last_modified_at: 2019-02-03T00:00:00-02:00
 author: hermina
 
-category: projekti
+category:
+- projekti
+- 2019
 permalink: /:categories/:title/
 
 event_date: 2019/2020
 cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 30%
+
+redirect_from:
+- /projekti/konkurs-za-finansiranje-skolske-baste
+- /projekti/konkurs-za-finansiranje-skolske-baste/
 
 excerpt: |
   Fondacija „Jasen” raspisuje konkurs za finansiranje pokretanja školske bašte
