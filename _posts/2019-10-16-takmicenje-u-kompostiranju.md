@@ -95,7 +95,7 @@ Prijava na konkurs se podnosi isključivo u elektronskoj formi na adresi
 **Rok za prijavu: 01.11.2019.**
 
 <p class="buttons">
-  <a class="btn waves-effect waves-light" href="/form/takmicenje-u-kompostiranju"><i class="material-icons left">edit</i>Online prijava</a>
+  <button class="btn disabled"><i class="material-icons left">edit</i>Online prijava</button>
 </p>
 
 Fondacija nudi mogućnost posete prijavljenim školama, tokom novembra, kako bi
