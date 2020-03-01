@@ -12,7 +12,6 @@ category:
 - 2019
 permalink: /:categories/:title/
 
-front_page: true
 event_date: 2019/2020
 cover_image: 2019/pixabay-1637302
 cover_position: 75%
