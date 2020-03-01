@@ -11,16 +11,20 @@ name_parts:
 
 team:
   hermina:
-    name: Oláh Vass Hermina
+    name: Hermina
+    full_name: Oláh Vass Hermina
     role: az igazgató bizottság elnöke, alapító tag
   attila:
-    name: Oláh Attila
+    name: Attila
+    full_name: Oláh Attila
     role: az igazgató bizottság tagja, alapító tag
   aleksandra:
-    name: Aleksandra Dulić
+    name: Aleksandra
+    full_name: Aleksandra Dulić
     role: az igazgató bizottság tagja
   gabor:
-    name: Szabó Gábor
+    name: Gábor
+    full_name: Szabó Gábor
     role: ügyvezető
 
 contact_us: Elérhetőségeink

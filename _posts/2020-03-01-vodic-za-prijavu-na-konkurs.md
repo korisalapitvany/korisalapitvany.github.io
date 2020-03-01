@@ -5,7 +5,9 @@ class: project
 lang: sr
 title: Vodič za prijavu na konkurs
 last_modified_at: 2020-03-01T00:00:00-02:00
-author: hermina
+authors:
+- hermina
+- aleksandra
 
 category:
 - projekti

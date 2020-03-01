@@ -5,7 +5,8 @@ class: post
 lang: hu
 title: „Székely Kapuk – Zöld Kapuk” Csantavéren
 last_modified_at: 2018-03-01T00:00:00-02:00
-author: gabor
+authors:
+- gabor
 
 cover_image: 2018/szekelykapuk-1
 cover_position: 20%

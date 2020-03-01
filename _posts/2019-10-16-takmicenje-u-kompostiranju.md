@@ -5,7 +5,9 @@ class: project
 lang: sr
 title: &title Takmičenje u kompostiranju
 last_modified_at: 2019-10-16T00:00:00-02:00
-author: gabor
+authors:
+- gabor
+- aleksandra
 
 category:
 - projekti

@@ -5,7 +5,8 @@ class: project
 lang: hu
 title: Szemétszedési akció
 last_modified_at: 2019-01-29T00:00:00-02:00
-author: gabor
+authors:
+- gabor
 
 category:
 - projektek

@@ -11,16 +11,20 @@ name_parts:
 
 team:
   hermina:
-    name: Hermina Olah Vaš
+    name: Hermina
+    full_name: Hermina Olah Vaš
     role: predsednik upravnog odbora, suosnivač
   attila:
-    name: Atila Olah
+    name: Atila
+    full_name: Atila Olah
     role: član upravnog odbora, suosnivač
   aleksandra:
-    name: Aleksandra Dulić
+    name: Aleksandra
+    full_name: Aleksandra Dulić
     role: član upravnog odbora
   gabor:
-    name: Gabor Sabo
+    name: Gabor
+    full_name: Gabor Sabo
     role: upravitelj
 
 contact_us: Kontaktiraj nas

@@ -5,7 +5,10 @@ class: project
 lang: sr
 title: Rezultati konkursa za finansiranje bašte u vrtićima
 last_modified_at: 2019-03-07T08:00:00-02:00
-author: attila
+authors:
+- hermina
+- aleksandra
+- attila
 
 category:
 - projekti

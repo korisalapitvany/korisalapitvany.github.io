@@ -5,7 +5,8 @@ class: project
 lang: sr
 title: Akcija sakupljanja smeća
 last_modified_at: 2019-01-29T00:00:00-02:00
-author: gabor
+authors:
+- gabor
 
 category:
 - projekti

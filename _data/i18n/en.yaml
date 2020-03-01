@@ -11,16 +11,20 @@ name_parts:
 
 team:
   hermina:
-    name: Hermina Olah Vas
+    name: Hermina
+    full_name: Hermina Olah Vas
     role: chairman, co-founder
   attila:
-    name: Attila Olah
+    name: Attila
+    full_name: Attila Olah
     role: board member, co-founder
   aleksandra:
-    name: Aleksandra Dulić
+    name: Aleksandra
+    full_name: Aleksandra Dulić
     role: board member
   gabor:
-    name: Gabor Sabo
+    name: Gabor
+    full_name: Gabor Sabo
     role: administrator
 
 contact_us: Contact us

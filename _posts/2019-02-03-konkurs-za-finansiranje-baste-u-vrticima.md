@@ -5,7 +5,9 @@ class: project
 lang: sr
 title: &title Konkurs za finansiranje bašte u vrtićima
 last_modified_at: 2019-02-03T00:00:00-02:00
-author: hermina
+authors:
+- aleksandra
+- attila
 
 category:
 - projekti

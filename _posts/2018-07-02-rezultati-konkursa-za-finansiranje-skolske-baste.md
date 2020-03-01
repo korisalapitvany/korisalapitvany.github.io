@@ -5,7 +5,10 @@ class: project
 lang: sr
 title: Rezultati konkursa za finansiranje školske bašte
 last_modified_at: 2018-07-02T08:00:00-02:00
-author: attila
+authors:
+- gabor
+- hermina
+- attila
 
 category:
 - projekti

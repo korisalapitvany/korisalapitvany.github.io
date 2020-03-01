@@ -26,7 +26,7 @@ layout: base
       {% for person in site_data.team %}
         <div class="person">
           <img src="/images/team/416/{{ person[0] }}.jpg" class="circle avatar">
-          <div class="name">{{ person[1].name }}</div>
+          <div class="name">{{ person[1].full_name }}</div>
           <span>{{ person[1].role }}</span>
         </div>
       {% endfor %}

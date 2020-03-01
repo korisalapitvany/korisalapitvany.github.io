@@ -18,15 +18,28 @@ layout: base
 
     {{ content }}
 
-    {% if page.author %}
+    {% if page.authors %}
       <div class="author valign-wrapper right-align">
         <div class="text">
-          <em class="grey-text text-darken-4">{{ site_data.team[page.author].name }}</em><br>
+          <em class="grey-text text-darken-4">
+            {%- for author in page.authors -%}
+              <a href="mailto:{{ author }}{{ "@jasen.org.rs" | cgi_escape -}}
+                      ?cc={{ site.data.contact.email | cgi_escape -}}
+                      &subject={{ page.title | cgi_escape }}">
+                {{- site_data.team[author].name -}}
+              </a>
+              {%- unless forloop.last -%}
+                {% if forloop.rindex == 2 %} & {% else %}, {% endif %}
+              {%- endunless -%}
+            {%- endfor -%}
+          </em><br>
           <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" class="grey-text text-darken-3">
             {{ page.last_modified_at | date: site_data.date_format }}
           </time>
         </div>
-        <img class="circle" src="{{ site.url }}/images/team/416/{{ page.author }}.jpg" alt="{{ site_data.team[page.author].name }}">
+        {%- for author in page.authors -%}
+        <img class="circle" src="{{ site.url }}/images/team/416/{{ author }}.jpg" alt="{{ site_data.team[author].full_name }}" title="{{ site_data.team[author].full_name }}">
+        {%- endfor -%}
       </div>
     {% endif %}
 
