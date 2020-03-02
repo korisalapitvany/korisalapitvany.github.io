@@ -13,6 +13,14 @@ nav {
       opacity: 1;
       transition: 0.5s opacity cubic-bezier(0.4, 0, 0.2, 1);
     }
+
+    .language-switcher {
+      text-transform: uppercase;
+
+      &:not(:hover) {
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
   }
 
   &.navbar-tabs {
@@ -54,6 +62,10 @@ body:not(.top) {
       opacity: 0;
     }
   }
+}
+
+#languages.dropdown-content {
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 601px) {

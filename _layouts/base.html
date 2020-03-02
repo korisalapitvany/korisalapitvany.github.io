@@ -12,6 +12,22 @@
             <a href="{{ root }}" class="brand-logo">{{ site_data.name }}</a>
           </div>
           <a href="#" data-target="side-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a id="i18n" class="dropdown-trigger language-switcher{% unless page.translations %} disabled{% endunless %}" href="#!" data-target="languages">
+                <i class="material-icons left">language</i>
+                {{- language -}}
+                <i class="material-icons right">arrow_drop_down</i>
+              </a>
+            </li>
+          </ul>
+          {% if page.translations %}
+            <ul id="languages" class="dropdown-content">
+              {% for tr in page.translations %}
+                <li><a href="{% unless tr[0] == site.data.i18n.languages[0] %}/{{ tr[0] }}{% endunless %}{{ tr[1] }}">{{ tr[0] }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </div>
       </nav>
     </div>
