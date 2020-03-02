@@ -11,7 +11,7 @@ authors:
 
 category:
 - projektek
-permalink: /:categories/:title/
+permalink: /hu/:categories/:title/
 
 front_page: true
 cover_image: 2020/pixabay-1666632
