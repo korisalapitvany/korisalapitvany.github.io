@@ -24,7 +24,7 @@ redirect_from:
 - /projektek/szemetszedesi-akcio/
 
 translations:
-  rs: /projekti/akcija-sakupljanja-smeca
+  sr: /projekti/akcija-sakupljanja-smeca
 ---
 A Kőris Alapίtvány az idén is folytatja a **szemétgyűjtési akcióját az
 iskolákban**. A második iskolai tanévre meghatároztuk az időpontokat és az

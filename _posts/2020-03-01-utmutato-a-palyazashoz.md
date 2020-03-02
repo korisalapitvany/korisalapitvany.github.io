@@ -18,7 +18,7 @@ cover_image: 2020/pixabay-1666632
 cover_position: 60%
 
 translations:
-  rs: /projekti/vodic-za-prijavu-na-konkurs
+  sr: /projekti/vodic-za-prijavu-na-konkurs
 ---
 Ez a dokumentum arra hivatott, hogy útmutatóként szolgáljon a pályázat
 megírásakor. Célunk továbbá, hogy a pályázók betekintést nyerjenek az
