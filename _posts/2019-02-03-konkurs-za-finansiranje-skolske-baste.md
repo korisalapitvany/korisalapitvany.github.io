@@ -57,7 +57,7 @@ json_ld:
       postalCode: 24220
       addressRegion: Vojvodina
       addressCountry: RS
-  image: https://jasen.org.rs/images/cover/2019/lewis-clarke-vegetable-garden-1936x1286.jpg
+  image: https://jasen.org.rs/images/cover/2019/lewis-clarke-vegetable-garden.jpg
 
 css: |
   #konkurs,
