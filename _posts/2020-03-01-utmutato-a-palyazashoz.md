@@ -10,7 +10,7 @@ authors:
 - aleksandra
 
 category:
-- projekti
+- projektek
 permalink: /:categories/:title/
 
 front_page: true
