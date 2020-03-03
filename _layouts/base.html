@@ -21,13 +21,11 @@
               </a>
             </li>
           </ul>
-          {% if page.translations %}
-            <ul id="languages" class="dropdown-content">
-              {% for tr in page.translations %}
-                <li><a href="{% unless tr[0] == site.data.i18n.languages[0] %}/{{ tr[0] }}{% endunless %}{{ tr[1] }}">{{ tr[0] }}</a></li>
-              {% endfor %}
-            </ul>
-          {% endif %}
+          <ul id="languages" class="dropdown-content">
+            {% for tr in page.translations %}
+              <li><a href="{% unless tr[0] == site.data.i18n.languages[0] %}/{{ tr[0] }}{% endunless %}{{ tr[1] }}">{{ tr[0] }}</a></li>
+            {% endfor %}
+          </ul>
         </div>
       </nav>
     </div>

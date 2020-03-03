@@ -17,6 +17,7 @@ nav {
     .language-switcher {
       text-transform: uppercase;
 
+      &.disabled,
       &:not(:hover) {
         color: rgba(255, 255, 255, 0.7);
       }
