@@ -1,6 +1,6 @@
 ---
 layout: redirect
 redirect:
-  to: https://goo.gl/forms/1N6ZP7gfWYzbR3zB3
+  to: https://forms.gle/bvdirf6KH8K1WDPG8
 sitemap: false
 ---
