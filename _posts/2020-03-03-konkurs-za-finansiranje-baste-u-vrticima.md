@@ -86,7 +86,7 @@ pokretanje bašte, kao mesto i mogućnost obrazovno-vaspitnog prostora za decu.
 <div class="card-panel purple darken-2 white-text guide">
   <i class="material-icons left">school</i>
   Za osnovne i srednje škole pogledajte naš
-  <a href="/projekti/konkurs-za-finansiranje-skolske-baste">konkurs za finansiranje školske bašte</a>.
+  <a href="/projekti/konkurs-za-finansiranje-skolske-baste/">konkurs za finansiranje školske bašte</a>.
 </div>
 
 ##### Raspored sredstava

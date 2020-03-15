@@ -86,7 +86,7 @@ bašte, kao mesto i mogućnost obrazovno-vaspitnog prostora za školsku decu.
 <div class="card-panel purple darken-2 white-text guide">
   <i class="material-icons left">child_care</i>
   Za predškolske ustanove pogledajet naš
-  <a href="/projekti/konkurs-za-finansiranje-baste-u-vrticima">konkurs za finansiranje bašte u vrtićima</a>.
+  <a href="/projekti/konkurs-za-finansiranje-baste-u-vrticima/">konkurs za finansiranje bašte u vrtićima</a>.
 </div>
 
 ##### Raspored sredstava
