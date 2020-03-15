@@ -18,10 +18,6 @@ event_date: 2019/2020
 cover_image: 2019/boys-wellington-boots
 cover_position: 60%
 
-redirect_from:
-- /projekti/konkurs-za-finansiranje-baste-u-vrticima
-- /projekti/konkurs-za-finansiranje-baste-u-vrticima/
-
 excerpt: |
   Fondacija „Jasen” raspisuje konkurs za finansiranje pokretanja bašte
   u predškolskim ustanovama na teritoriji AP Vojvodine. U prvom krugu biće

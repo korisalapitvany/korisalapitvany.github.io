@@ -18,10 +18,6 @@ event_date: 2019/2020
 cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 30%
 
-redirect_from:
-- /projekti/konkurs-za-finansiranje-skolske-baste
-- /projekti/konkurs-za-finansiranje-skolske-baste/
-
 excerpt: |
   Fondacija „Jasen” raspisuje konkurs za finansiranje pokretanja školske bašte
   u osnovnim i srednjim školama na teritoriji AP Vojvodine. I ove godine biće
