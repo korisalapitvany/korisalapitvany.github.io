@@ -21,7 +21,7 @@ footer {
 
   .top-row {
     ul.links {
-      padding-left: 0;
+      margin: 0;
 
       a {
         color: #e0e0e0;
@@ -30,12 +30,13 @@ footer {
       li {
         list-style-type: none;
         display: inline-block;
-        margin-right: 4px;
+        margin-bottom: 12px;
 
         &:not(:last-child)::after {
           content: "·";
           display: inline-block;
           padding-left: 4px;
+          margin-right: 4px;
           font-weight: bold;
         }
       }
@@ -67,7 +68,7 @@ footer {
   }
 
   .mission {
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     padding-left: 0 !important;
 
     .logo {
