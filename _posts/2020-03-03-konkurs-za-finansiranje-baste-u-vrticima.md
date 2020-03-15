@@ -74,6 +74,7 @@ css: |
 „Jasen“ raspisuje*
 
 #### KONKURS
+
 _**za finansiranje pokretanja bašte u predškolskim ustanovama na teritoriji AP
 Vojvodine**_
 
@@ -81,6 +82,12 @@ Fondacija „Jasen“ (u daljem tekstu: Fondacija) u skladu sa finansijskim plan
 i mogućnostima u budžetskoj 2020. godini, finansira i sufinansira najmanje tri
 predškolske ustanove na teritoriji AP Vojvodine, za projekat izgradnje ili
 pokretanje bašte, kao mesto i mogućnost obrazovno-vaspitnog prostora za decu.
+
+<div class="card-panel purple darken-2 white-text guide">
+  <i class="material-icons left">school</i>
+  Za osnovne i srednje škole pogledajte naš
+  <a href="/projekti/konkurs-za-finansiranje-skolske-baste">konkurs za finansiranje školske bašte</a>.
+</div>
 
 ##### Raspored sredstava
 

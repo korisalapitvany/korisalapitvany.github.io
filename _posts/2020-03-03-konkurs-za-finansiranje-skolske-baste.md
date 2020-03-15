@@ -83,6 +83,12 @@ i mogućnostima u budžetskoj 2020 godini, finansira i sufinansira najmanje pet
 škola na teritoriji AP Vojvodine, za projekat izgradnje ili pokretanje školske
 bašte, kao mesto i mogućnost obrazovno-vaspitnog prostora za školsku decu.
 
+<div class="card-panel purple darken-2 white-text guide">
+  <i class="material-icons left">child_care</i>
+  Za predškolske ustanove pogledajet naš
+  <a href="/projekti/konkurs-za-finansiranje-baste-u-vrticima">konkurs za finansiranje bašte u vrtićima</a>.
+</div>
+
 ##### Raspored sredstava
 
 Pravo na učestvovanje na konkursu imaju osnovne i srednje škole na teritoriji
