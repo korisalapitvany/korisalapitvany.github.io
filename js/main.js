@@ -8,6 +8,7 @@
   'use strict';
 
   const INIT = [];
+  {% include js/sidenav.js %}
   {% include js/image-gallery.js %}
   {% include js/i18n.js %}
 

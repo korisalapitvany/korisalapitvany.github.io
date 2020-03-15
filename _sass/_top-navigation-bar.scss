@@ -36,6 +36,7 @@ nav {
   .brand-logo {
     font-size: 22px;
     white-space: nowrap;
+    transition: 200ms opacity ease-in;
   }
 }
 
@@ -67,6 +68,12 @@ body:not(.top) {
 
 #languages.dropdown-content {
   text-transform: uppercase;
+}
+
+.sidenav-on .brand-logo {
+  opacity: 0;
+  left: -100vw;
+  transition: 500ms all ease-in;
 }
 
 @media only screen and (min-width: 601px) {

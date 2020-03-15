@@ -39,6 +39,19 @@
         </ul>
       </div>
     </nav>
+    <ul id="side-nav" class="sidenav">
+      <li><div class="top">
+        <a href="{{site.url}}">
+          <img class="logo circle" src="{{ site.url }}/logo/svg/circle.svg">
+        </a>
+        <span class="page-title">{{ site_data.name }}</span>
+      </div></li>
+      {%- for link in site_data.footer_links %}
+        <li{% if page.url == link.href %} class="active"{% endif %}>
+          <a href="{{ site.url }}{{ site_data.prefix }}{{ link.href }}" class="waves-effect">{{ link.text }}</a>
+        </li>
+      {%- endfor %}
+    </ul>
   {% endunless %}
 
   {{ content }}

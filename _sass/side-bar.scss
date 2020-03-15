@@ -1,0 +1,61 @@
+.sidenav {
+  .top {
+    height: 104px;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+
+      background-image: url('/logo/svg/solid.svg');
+      background-size: 200%;
+      background-position: 25% 55%;
+      filter: grayscale(1) brightness(0.5);
+      transform: rotate(15deg) scale(1.75);
+      transform-origin: center;
+    }
+
+    a {
+      position: relative;
+    }
+    .logo {
+      width: 50px;
+      height: 50px;
+      padding: 6px 0 0 6px;
+    }
+    .page-title {
+      color: white;
+      position: absolute;
+      top: 0; left: 100%;
+      font-size: 22px;
+      line-height: 56px;
+      white-space: nowrap;
+      transition: 100ms all ease-in;
+    }
+  }
+}
+
+.sidenav-on .top .page-title {
+  left: 56px;
+}
+
+@media only screen and (min-width: 601px) {
+  .sidenav .top {
+    height: 112px;
+
+    .logo {
+      width: 56px;
+      height: 56px;
+    }
+    .page-title {
+      font-size: 24px;
+      line-height: 64px;
+    }
+  }
+  .sidenav-on .top .page-title {
+    left: 64px;
+  }
+}
