@@ -1,5 +1,6 @@
 .sidenav {
   .top {
+    color: white;
     height: 104px;
     position: relative;
     overflow: hidden;
@@ -27,13 +28,42 @@
       padding: 6px 0 0 6px;
     }
     .page-title {
-      color: white;
       position: absolute;
       top: 0; left: 100%;
       font-size: 22px;
       line-height: 56px;
       white-space: nowrap;
       transition: 100ms all ease-in;
+    }
+    ul.i18n {
+      position: relative;
+      text-transform: uppercase;
+      height: 48px;
+      bottom: 12px;
+
+      li {
+        display: block;
+        line-height: 48px;
+        float: left;
+
+        i {
+          line-height: 32px;
+          padding: 8px 0 0 12px;
+        }
+        span {
+          display: inline-block;
+          line-height: 32px;
+          padding: 0 8px;
+          margin: 0 8px 0 -4px;
+          border-radius: 8px;
+          background: rgba(255, 255, 255, 0.75);
+          color: black;
+        }
+        a {
+          color: inherit;
+          padding: 0 16px;
+        }
+      }
     }
   }
 }

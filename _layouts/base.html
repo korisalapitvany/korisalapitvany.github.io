@@ -48,6 +48,17 @@
         <img class="logo circle" src="{{ site.url }}/logo/svg/circle.svg">
       </a>
       <span class="page-title">{{ site_data.name }}</span>
+      <ul class="i18n">
+        <li>
+          <i class="material-icons left">language</i>
+          <span>{{ language }}</span>
+        </li>
+        {% for tr in page.translations %}
+          <li>
+            <a href="{% unless tr[0] == site.data.i18n.languages[0] %}/{{ tr[0] }}{% endunless %}{{ tr[1] }}">{{ tr[0] }}</a>
+          </li>
+        {% endfor %}
+      </a>
     </div></li>
     {%- for link in site_data.footer_links %}
       <li{% if page.url == link.href %} class="active"{% endif %}>
