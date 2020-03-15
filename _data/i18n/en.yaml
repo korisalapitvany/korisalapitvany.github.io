@@ -43,5 +43,11 @@ links:
   href: /documents/
 - text: About us
   href: /about-us/
-- text: OSM editor
-  href: /map/
+
+footer_links:
+- text: Home
+  href: /
+- text: Documents
+  href: /documents/
+- text: About us
+  href: /about-us/
