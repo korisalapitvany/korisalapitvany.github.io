@@ -3,7 +3,9 @@
 <html lang="{{ language }}">
 {% include head.html %}
 <body class="grey darken-2 top">
-  {% unless page.layout == "home" %}
+  {% if page.layout == "home" %}
+    <a href="#" data-target="side-nav" class="sidenav-trigger float"><i class="material-icons">menu</i></a>
+  {% else %}
     <div class="navbar-fixed">
       <nav role="banner" class="title z-depth-0">
         <div class="image" style="background-image: url('/images/cover/{{ page.cover_image }}.jpg'); background-position-y: {{ page.cover_position | default: "center" }}"></div>
@@ -39,20 +41,20 @@
         </ul>
       </div>
     </nav>
-    <ul id="side-nav" class="sidenav">
-      <li><div class="top">
-        <a href="{{site.url}}">
-          <img class="logo circle" src="{{ site.url }}/logo/svg/circle.svg">
-        </a>
-        <span class="page-title">{{ site_data.name }}</span>
-      </div></li>
-      {%- for link in site_data.footer_links %}
-        <li{% if page.url == link.href %} class="active"{% endif %}>
-          <a href="{{ site.url }}{{ site_data.prefix }}{{ link.href }}" class="waves-effect">{{ link.text }}</a>
-        </li>
-      {%- endfor %}
-    </ul>
-  {% endunless %}
+  {% endif %}
+  <ul id="side-nav" class="sidenav">
+    <li><div class="top">
+      <a href="{{site.url}}">
+        <img class="logo circle" src="{{ site.url }}/logo/svg/circle.svg">
+      </a>
+      <span class="page-title">{{ site_data.name }}</span>
+    </div></li>
+    {%- for link in site_data.footer_links %}
+      <li{% if page.url == link.href %} class="active"{% endif %}>
+        <a href="{{ site.url }}{{ site_data.prefix }}{{ link.href }}" class="waves-effect">{{ link.text }}</a>
+      </li>
+    {%- endfor %}
+  </ul>
 
   {{ content }}
 

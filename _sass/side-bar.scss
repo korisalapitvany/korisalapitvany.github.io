@@ -42,6 +42,16 @@
   left: 56px;
 }
 
+.sidenav-trigger.float {
+  color: white;
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  width: 48px;
+  height: 48px;
+  z-index: 1;
+}
+
 @media only screen and (min-width: 601px) {
   .sidenav .top {
     height: 112px;
@@ -57,5 +67,8 @@
   }
   .sidenav-on .top .page-title {
     left: 64px;
+  }
+  .sidenav-trigger.float {
+    top: 20px;
   }
 }
