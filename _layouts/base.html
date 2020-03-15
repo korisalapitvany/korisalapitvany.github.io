@@ -25,7 +25,7 @@
           </ul>
           <ul id="languages" class="dropdown-content">
             {% for tr in page.translations %}
-              <li><a href="{% unless tr[0] == site.data.i18n.languages[0] %}/{{ tr[0] }}{% endunless %}{{ tr[1] }}">{{ tr[0] }}</a></li>
+              <li><a href="{% unless tr[0] == site.data.i18n.languages[0] %}/{{ tr[0] }}{% endunless %}{{ tr[1] }}/">{{ tr[0] }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -55,7 +55,7 @@
         </li>
         {% for tr in page.translations %}
           <li>
-            <a href="{% unless tr[0] == site.data.i18n.languages[0] %}/{{ tr[0] }}{% endunless %}{{ tr[1] }}">{{ tr[0] }}</a>
+            <a href="{% if tr[0] != site.data.i18n.languages[0] %}/{{ tr[0] }}{% endif %}{{ tr[1] }}/">{{ tr[0] }}</a>
           </li>
         {% endfor %}
       </a>
