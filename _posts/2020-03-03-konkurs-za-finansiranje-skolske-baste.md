@@ -24,7 +24,7 @@ excerpt: |
   podeljeno ukupno **360.000,00 dinara** odabranim školama, do **80.000,00
   dinara po školi** ([raspored sredstava]).
 
-  Konkurs je otvoren do 17. marta 2020. godine ([podnošenje prijave]).
+  Konkurs je otvoren do 15. juna 2020. godine ([podnošenje prijave]).
 
   [raspored sredstava]: /projekti/konkurs-za-finansiranje-skolske-baste/#raspored-sredstava
   [podnošenje prijave]: /projekti/konkurs-za-finansiranje-skolske-baste/#podnošenje-prijave-na-konkurs
@@ -34,7 +34,7 @@ json_ld:
   "@type": Event
   name: *title
   startDate: 2019-03-03
-  endDate: 2019-03-17
+  endDate: 2019-06-15
   organizer:
     "@context": http://schema.org
     "@type": NGO
@@ -175,14 +175,14 @@ uključujući i ocenu komisije kao i utiske najmanje tri učenika.
 Prijava na konkurs se podnosi isključivo u elektronskoj formi na adresi
 [jasen.org.rs/form/konkurs-za-finansiranje-skolske-baste].
 
-Konkurs je otvoren od 03.03.2020. godine do 17.03.2020. godine.
+Konkurs je otvoren od 03.03.2020. godine do 15.06.2020. godine.
 
 ##### Rok za realizaciju projekta
 
-15.04.2020.–01.05.2021.
+01.09.2020.–01.09.2021.
 
 Rok za slanje dnevnika aktivnosti, ocene komisije i utisaka učenika najkasnije
-do 31.05.2021. godine.
+do 31.09.2021. godine.
 
 ##### Dokumentacija koja se ne uzima u razmatranje:
 
