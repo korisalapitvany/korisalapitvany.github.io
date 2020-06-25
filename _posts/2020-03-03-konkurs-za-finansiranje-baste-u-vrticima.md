@@ -196,7 +196,7 @@ Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim ustanovama.
 <p class="buttons">
   <a class="btn waves-effect waves-light" href="/docs/2020/konkurs-za-finansiranje-baste-u-vrticima.pdf"><i class="material-icons left">print</i>Štampana verzija</a>
   <a class="btn waves-effect waves-light" href="/docs/2020/konkurs-za-finansiranje-baste-u-vrticima-prijava.pdf"><i class="material-icons left">list_alt</i>Materijal za prijavu</a>
-  <a class="btn wabes-effect waves-light" href="/form/konkurs-za-finansiranje-baste-u-vrticima"><i class="material-icons left">edit</i>Online prijava</a>
+  <button class="btn disabled"><i class="material-icons left">edit</i>Online prijava</button>
 </p>
 
 _Više informacija o konkursu mogu se dobiti preko e-mail adrese [info@jasen.org.rs]._
