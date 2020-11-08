@@ -48,10 +48,3 @@ Komisija za izradu školske bašte:
 1. **T. Katona**, predsednik komisije
 2. J. Šomođi
 3. K. Sabadoš
-
-#### Kalendar aktivnosti
-
-Pregled planiranih aktivnosti za 2018., 2019. i 2020. godinu:
-
-<div id="calendar" class="calendar-chart"></div>
-<script defer src="calendar.js"></script>

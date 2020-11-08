@@ -10,7 +10,6 @@ cover_position: 60%;
 
 google_charts:
 - corechart
-- calendar
 ---
 
 #### Osnovna škola „Ivo Lola Ribar”
@@ -64,10 +63,3 @@ Komisija za izradu školske bašte:
 5. T. Hinić
 6. A. Brzaković
 7. B. Ostojić
-
-#### Kalendar aktivnosti
-
-Pregled planiranih aktivnosti za 2018., 2019. i 2020. godinu:
-
-<div id="calendar" class="calendar-chart"></div>
-<script defer src="calendar.js"></script>
