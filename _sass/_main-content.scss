@@ -4,6 +4,9 @@ main {
   margin-bottom: 24px;
   position: relative;
 
+  /* Make the footer stick. */
+  min-height: calc(100vh - 806px);
+
   &::after {
     content: "";
     display: block;
