@@ -16,3 +16,9 @@ cover_position: 60%;
 Tim **Staklenik u Tehničkoj školi „9. maj”** je 2018. godine
 [osvojio 1. mesto](/projekti/2018/rezultati-konkursa-za-finansiranje-skolske-baste/)
 na konkursu. Projekat smo finansirali sa **149.940,00 dinara**.
+
+Komisija za izradu školske bašte:
+
+1. **S. Jarčević**, predsednik komisije
+2. D. Čadžić
+3. S. Milić
