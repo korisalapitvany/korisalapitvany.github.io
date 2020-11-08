@@ -12,6 +12,7 @@ google_charts:
 - corechart
 
 gardens:
+# 2018 schools:
 - id: staklenik-u-tehnickoj-skoli-9-maj
   name: Staklenik
   school: TŠ „9. maj”
@@ -28,6 +29,53 @@ gardens:
   name: Pametna školska bašta
   school: OSŠ „Petro Kuzmjak”
   location: Ruski Krstur
+# 2019 schools:
+- id: mini-bio-basta
+  name: Mini bio-bašta
+  school: OŠ „Dr Đorđe Joanović”
+  location: Novo Miloševo
+- id: skolska-basta-pavle
+  name: Školska bašta „Pavle”
+  school: OŠ „Petar Kočić”
+  location: Inđija
+- id: organska-basta-cenejci
+  name: Organska bašta „Čenejci”
+  school: OŠ „Ivan Gundulić”
+  location: Novi Sad
+- id: mala-skolska-basta
+  name: Mala školska bašta
+  school: OŠ „Aleksa Šantić”
+  location: Stepanovićevo
+- id: banatska-oaza-mirisa-i-zdravlja
+  name: Banatska oaza mirisa i zdravlja
+  school: OŠ „Dr Jovan Cvijić”
+  location: Zrenjanin
+- id: nasa-basta
+  name: Naša bašta
+  school: OŠ „Miloš Crnjanski”
+  location: Hrtkovci
+# 2019 preschools:
+- id: basta-vrtica-radost
+  name: Bašta vrtića „Radost”
+  school: PU „Radost”
+  location: Novi Banovci
+- id: basta-vrtica-zeka
+  name: Bašta vrtića „Zeka”
+  school: PU „Naša radost”
+  location: Subotica
+- id: bubamarina-oaza
+  name: „Bubamarina oaza”
+  school: UPVO „Radost”
+  locaton: Nadalj
+- id: za-zeleniji-vrtic-kolibri
+  name: Za zeleniji vrtić „Kolibri”
+  school: PU „Kolibri”
+  location: Bač
+- id: basta-vrtica-marjai-maria
+  name: Bašta vrtića „Marjai Maria”
+  school: PU „Naša radost”
+  location: Subotica
+
 ---
 #### Inicijativa
 
