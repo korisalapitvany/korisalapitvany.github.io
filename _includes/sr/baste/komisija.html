@@ -1,0 +1,10 @@
+{% assign board = page.school_garden.board %}
+
+<div class="board" markdown="1">
+Komisija za izradu školske bašte:
+
+1. **{{ board.president }}**, predsednik komisije
+{% for member in board.members -%}
+1. {{ member }}
+{% endfor %}
+</div>

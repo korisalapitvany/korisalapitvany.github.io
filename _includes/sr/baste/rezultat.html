@@ -1,0 +1,14 @@
+{% assign garden = page.school_garden %}
+{% assign school = page.school_garden.school %}
+
+<div markdown="1">
+#### {{ school.full_name }}
+
+[{{ school.address.town }}, {{ school.address.street }} {{ school.address.house_number }}](https://goo.gl/maps/{{ school.address.maps_link_id }})
+
+{% for grant in garden.grants %}
+Tim **{{ garden.name }}** je {{ grant.year }}. godine
+[osvojio {{ grant.place }}. mesto](/projekti/{{ grant.year }}/{{ grant.link }}/#:~:text={{ garden.name }})
+na konkursu. Projekat smo finansirali sa **{{ grant.amount }} dinara**.
+{% endfor %}
+</div>

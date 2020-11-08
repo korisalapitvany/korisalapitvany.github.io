@@ -2,7 +2,7 @@
 layout: page
 class: garden
 
-title: Pametna školska bašta
+title: &title Pametna školska bašta
 last_modified_at: 2019-11-16T00:00:00-02:00
 
 cover_image: 2019/pametna-skolska-basta-cover
@@ -10,16 +10,45 @@ cover_position: 80%;
 
 google_charts:
 - corechart
-- calendar
+
+school_garden:
+  name: *title
+  grants:
+    - year: 2018
+      place: special
+      amount: 51.800,00
+      link: rezultati-konkursa-za-finansiranje-skolske-baste
+  school:
+    prefix: OSŠ
+    category: Osnovna i srednja škola sa domom učenika
+    short_name: Petro Kuzmjak
+    full_name: Osnovna i srednja škola sa domom učenika „Petro Kuzmjak”
+    address:
+      town: Ruski Krstur
+      street: Rusinska
+      house_number: 63
+      maps_link_id: JjaDxY4hazBvzQMp6
+  board:
+    president: T. Katona
+    members:
+    - J. Šomođi
+    - K. Sabadoš
 ---
 
-#### Osnovna i srednja škola sa domom učenika „Petro Kuzmjak”
+{% assign garden = page.school_garden %}
+{% assign school = page.school_garden.school %}
 
-[Ruski Krstur, Rusinska 63](https://goo.gl/maps/JjaDxY4hazBvzQMp6)
+<div markdown="1">
+#### {{ school.full_name }}
 
-Tim **„Pametna školska bašta”** je 2018. godine
-[dobio specijalnu nagradu](/projekti/2018/rezultati-konkursa-za-finansiranje-skolske-baste/)
-na konkursu. Projekat smo finansirali sa **51.800,00 dinara**.
+[{{ school.address.town }}, {{ school.address.street }} {{ school.address.house_number }}](https://goo.gl/maps/{{ school.address.maps_link_id }})
+
+{% for grant in garden.grants %}
+Tim **{{ garden.name }}** je {{ grant.year }}. godine
+[dobio specijalnu nagradu](/projekti/{{ grant.year }}/{{ grant.link }}/#:~:text={{ garden.name }})
+na konkursu. Projekat smo finansirali sa **{{ grant.amount }} dinara**.
+{% endfor %}
+</div>
 
 Raspodela sredstava po finansijskom planu:
 
@@ -43,8 +72,4 @@ Raspodela sredstava po finansijskom planu:
   </ul>
 </div>
 
-Komisija za izradu školske bašte:
-
-1. **T. Katona**, predsednik komisije
-2. J. Šomođi
-3. K. Sabadoš
+{% include sr/baste/komisija.html %}

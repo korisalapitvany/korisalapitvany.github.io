@@ -2,7 +2,7 @@
 layout: page
 class: garden
 
-title: Lolina botanička bašta
+title: &title Lolina botanička bašta
 last_modified_at: 2019-11-16T00:00:00-02:00
 
 cover_image: 2019/lewis-clarke-vegetable-garden
@@ -10,15 +10,36 @@ cover_position: 60%;
 
 google_charts:
 - corechart
+
+school_garden:
+  name: *title
+  grants:
+    - year: 2018
+      place: 2
+      amount: 144.923,00
+      link: rezultati-konkursa-za-finansiranje-skolske-baste
+  school:
+    prefix: OŠ
+    category: Osnovna škola
+    short_name: Ivo Lola Ribar
+    full_name: Osnovna škola „Ivo Lola Ribar”
+    address:
+      town: Sombor
+      street: Monoštorska
+      house_number: 6a
+      maps_link_id: MLySj7uymxoMienm6
+  board:
+    president: D. Babić
+    members:
+    - S. Balać
+    - K. Đurđev
+    - M. Mudrinić
+    - T. Hinić
+    - A. Brzaković
+    - B. Ostojić
 ---
 
-#### Osnovna škola „Ivo Lola Ribar”
-
-[Sombor, Monoštorska 6a](https://goo.gl/maps/MLySj7uymxoMienm6)
-
-Tim **„Lolina botanička bašta”** je 2018. godine
-[osvojio 2. mesto](/projekti/2018/rezultati-konkursa-za-finansiranje-skolske-baste/)
-na konkursu. Projekat smo finansirali sa **144.923,00 dinara**.
+{% include sr/baste/rezultat.html %}
 
 Raspodela sredstava po finansijskom planu:
 
@@ -54,12 +75,4 @@ Raspodela sredstava po finansijskom planu:
   </ul>
 </div>
 
-Komisija za izradu školske bašte:
-
-1. **D. Babić**, predsednik komisije
-2. S. Balać,
-3. K. Đurđev
-4. M. Mudrinić
-5. T. Hinić
-6. A. Brzaković
-7. B. Ostojić
+{% include sr/baste/komisija.html %}
