@@ -13,7 +13,6 @@ category:
 - projekti
 permalink: /:categories/:title/
 
-front_page: true
 cover_image: 2020/pixabay-1666632
 cover_position: 60%
 

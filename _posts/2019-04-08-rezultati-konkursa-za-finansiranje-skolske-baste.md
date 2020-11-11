@@ -19,10 +19,6 @@ event_date: 2019/2020
 cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 60%;
 
-redirect_from:
-- /projekti/rezultati-konkursa-za-finansiranje-skolske-baste
-- /projekti/rezultati-konkursa-za-finansiranje-skolske-baste/
-
 excerpt_separator: <!-- details -->
 ---
 
