@@ -26,6 +26,10 @@ team:
     name: Gabor
     full_name: Gabor Sabo
     role: administrator
+  csongor:
+    name: Csongor
+    full_name: Csongor Rafai
+    role: collaborator
 
 contact_us: Contact us
 address: Senćanska 51, 24220 Čantavir, Serbia

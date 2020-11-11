@@ -26,6 +26,10 @@ team:
     name: Gábor
     full_name: Szabó Gábor
     role: ügyvezető
+  csongor:
+    name: Csongor
+    full_name: Csongor Rafai
+    role: munkatárs
 
 contact_us: Elérhetőségeink
 address: Zentai utca 51, 24220 Csantavér, Szerbia
