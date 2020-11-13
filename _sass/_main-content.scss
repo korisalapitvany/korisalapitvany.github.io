@@ -32,6 +32,14 @@ main {
     }
   }
 
+  ol.continue {
+    margin-bottom: 0;
+
+    + ol {
+      margin-top: 0;
+    }
+  }
+
   img {
     max-width: 100%;
   }

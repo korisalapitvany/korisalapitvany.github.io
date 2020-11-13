@@ -134,6 +134,9 @@
           background-color: #ffccbc;
         }
       }
+      &:last-child td {
+        border-bottom: none;
+      }
     }
 
     th, td {

@@ -4,7 +4,9 @@
 <div markdown="1">
 #### {{ school.full_name }}
 
+{% if school.address %}
 [{{ school.address.town }}, {{ school.address.street }} {{ school.address.house_number }}](https://goo.gl/maps/{{ school.address.maps_link_id }})
+{% endif %}
 
 {% for grant in garden.grants %}
 Tim **{{ garden.name }}** je {{ grant.year }}. godine

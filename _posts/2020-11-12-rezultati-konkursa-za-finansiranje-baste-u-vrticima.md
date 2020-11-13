@@ -26,6 +26,7 @@ Upravni odbor Fondacije „Jasen” doneo je odluku o rezultatima konkursa.
 Najbolji projekti su:
 
 1. **Bašta vrtića „Palčica”** — Novi Sad
+{:.continue}
 1. **Eko bašta** — Inđija
 2. **Stonogicina bio-bašta** — Mitrovica
 
@@ -39,7 +40,7 @@ sredstava je sledeća:
 
 * **Predškolska ustanova „Radosno detinjstvo” vrtić „Palčica” — Novi Sad** dobija 14.817,00 dinara.
 * **Predškolska ustanova „Boško Buha” — Inđija** dobija 19.843,00 dinara.
-* **Predškolska ustanova „Stonogica” — Sremska Mitrovica** dobija 18.260,00din dinara.
+* **Predškolska ustanova „Stonogica” — Sremska Mitrovica** dobija 18.260,00 dinara.
 
 #### Rezultati ocenjivanja žirija
 

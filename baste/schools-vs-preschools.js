@@ -4,8 +4,8 @@ CHARTS.pie({
   id: "schools-vs-preschools",
   data: [
     ["Vrsta ustanove", "Iznos"],
-    ["Škole", 862285],
-    ["Vrtići", 83937],
+    ["Škole", 1246212],
+    ["Vrtići", 136857],
   ],
   colors: [
       "#673ab7",  // deep-purple

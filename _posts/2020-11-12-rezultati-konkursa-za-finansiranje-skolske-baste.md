@@ -26,6 +26,7 @@ Upravni odbor Fondacije „Jasen” doneo je odluku o rezultatima konkursa.
 Najbolji projekti su:
 
 1. **Edukativna bašta „Na krilima mašte do edukativne bašte”** — Kikinda
+{:.continue}
 1. **Začinska bašta** — Ruma
 2. **Naša bašta** — Bočar
 3. **Bio bašta „Kanjiža”** — Kanjiža

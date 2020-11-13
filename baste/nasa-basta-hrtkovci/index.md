@@ -8,6 +8,10 @@ last_modified_at: 2020-11-08T00:00:00-02:00
 cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 60%;
 
+redirect_from:
+- /baste/nasa-basta
+- /baste/nasa-basta/
+
 school_garden:
   name: *title
   grants:
