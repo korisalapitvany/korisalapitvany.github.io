@@ -4,6 +4,9 @@
 Komisija za izradu školske bašte:
 
 1. **{{ board.president }}**, predsednik komisije
+{%- if board.coordinator %}
+1. **{{ board.coordinator}}**, koordinator
+{%- endif %}
 {% for member in board.members -%}
 1. {{ member }}
 {% endfor %}

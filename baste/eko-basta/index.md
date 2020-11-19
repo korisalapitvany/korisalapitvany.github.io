@@ -20,6 +20,18 @@ school_garden:
     category: Predškolska ustanova
     short_name: Boško Buha
     full_name: Predškolska ustanova „Boško Buha”
+    address:
+      town: Inđija
+      street: Dušana Jerkovića
+      house_number: 17a
+      maps_link_id: bcako3t2EXnKpiCK6
+  board:
+    president: B. Mandić
+    coordinator: A. Kljajić
+    members:
+    - S. Prelić
+    - S. Repac
 ---
 
 {% include sr/baste/rezultat.html %}
+{% include sr/baste/komisija.html %}
