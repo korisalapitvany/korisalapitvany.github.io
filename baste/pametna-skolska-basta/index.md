@@ -14,10 +14,10 @@ google_charts:
 school_garden:
   name: *title
   grants:
-    - year: 2018
-      place: special
-      amount: 51.800,00
-      link: rezultati-konkursa-za-finansiranje-skolske-baste
+  - year: 2018
+    place: special
+    amount: 51.800,00
+    link: rezultati-konkursa-za-finansiranje-skolske-baste
   school:
     prefix: OSŠ
     category: Osnovna i srednja škola sa domom učenika

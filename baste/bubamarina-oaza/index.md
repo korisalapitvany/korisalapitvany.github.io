@@ -11,10 +11,10 @@ cover_position: 60%;
 school_garden:
   name: *title
   grants:
-    - year: 2019
-      place: 3
-      amount: 19.800,00
-      link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
+  - year: 2019
+    place: 3
+    amount: 19.800,00
+    link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
   school:
     prefix: PU
     category: Predškolska ustanova

@@ -11,10 +11,10 @@ cover_position: 60%;
 school_garden:
   name: *title
   grants:
-    - year: 2019
-      place: 5
-      amount: 95.178,00
-      link: rezultati-konkursa-za-finansiranje-skolske-baste
+  - year: 2019
+    place: 5
+    amount: 95.178,00
+    link: rezultati-konkursa-za-finansiranje-skolske-baste
   school:
     prefix: OŠ
     category: Osnovna škola

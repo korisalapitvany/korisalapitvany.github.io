@@ -11,10 +11,10 @@ cover_position: 60%;
 school_garden:
   name: *title
   grants:
-    - year: 2020
-      place: 4
-      amount: 80.000,00
-      link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
+  - year: 2020
+    place: 4
+    amount: 80.000,00
+    link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
   school:
     prefix: OSŠ
     category: Osnovna i srednja škola

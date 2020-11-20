@@ -15,10 +15,10 @@ google_charts:
 school_garden:
   name: *title
   grants:
-    - year: 2018
-      place: 3
-      amount: 128.127,50
-      link: rezultati-konkursa-za-finansiranje-skolske-baste
+  - year: 2018
+    place: 3
+    amount: 128.127,50
+    link: rezultati-konkursa-za-finansiranje-skolske-baste
   school:
     prefix: OŠ
     category: Osnovna škola

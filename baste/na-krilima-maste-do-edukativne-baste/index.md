@@ -11,10 +11,10 @@ cover_position: 60%;
 school_garden:
   name: *title
   grants:
-    - year: 2020
-      place: 1
-      amount: 69.608,00
-      link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
+  - year: 2020
+    place: 1
+    amount: 69.608,00
+    link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
   school:
     prefix: VŠSS
     category: Visoka škola strukovnih studija

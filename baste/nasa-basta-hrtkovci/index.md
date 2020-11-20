@@ -15,10 +15,10 @@ redirect_from:
 school_garden:
   name: *title
   grants:
-    - year: 2019
-      place: 6
-      amount: 55.550,00
-      link: rezultati-konkursa-za-finansiranje-skolske-baste
+  - year: 2019
+    place: 6
+    amount: 55.550,00
+    link: rezultati-konkursa-za-finansiranje-skolske-baste
   school:
     prefix: OŠ
     category: Osnovna škola

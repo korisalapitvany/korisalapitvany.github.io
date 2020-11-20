@@ -11,10 +11,10 @@ cover_position: 60%;
 school_garden:
   name: Staklenik u Tehničkoj školi „9. maj”
   grants:
-    - year: 2018
-      place: 1
-      amount: 149.940,00
-      link: rezultati-konkursa-za-finansiranje-skolske-baste
+  - year: 2018
+    place: 1
+    amount: 149.940,00
+    link: rezultati-konkursa-za-finansiranje-skolske-baste
   school:
     prefix: TŠ
     category: Tehnička škola
