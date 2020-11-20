@@ -36,14 +36,11 @@ garden_ids:
 - basta-vrtica-palcica
 - eko-basta
 - stonogicina-bio-basta
-
 ---
-#### Inicijativa
 
-U okviru inicijative „Školske bašte” Fondacija „Jasen” već od 2018. godine
-uspešno sarađuje sa školama i vrtićima u Vojvodini. Tokom postojanja programa
-sponzorisali smo **{{ page.garden_ids.size }} projekata** sa ukupnim budžetom
-od 1.383.069,50 dinara.
+{% include gardens/vars.html %}
+
+#### Inicijativa
 
 {% include sr/baste/inicijativa.html %}
 

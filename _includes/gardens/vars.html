@@ -1,0 +1,38 @@
+{% assign garden_ids = page.garden_ids %}
+
+{% assign school_garden_ids = "" %}
+{% assign preschool_garden_ids = "" %}
+
+{% assign total_budget = "0" %}
+
+{% for id in page.garden_ids %}
+  {% assign url = page.url | append: id | append: "/" %}
+  {% for page in site.pages %}{% if page.url == url %}
+    {% assign garden = page.school_garden %}
+    {% if garden.school.preschool %}
+      {% assign preschool_garden_ids = preschool_garden_ids | append: " " | append: id %}
+    {% else %}
+      {% assign school_garden_ids = school_garden_ids | append: " " | append: id %}
+    {% endif %}
+    {% for grant in garden.grants %}
+      {% assign amount = grant.amount | replace: ".", "" | replace: ",", "." %}
+      {% assign total_budget = total_budget | append: "+" | append: amount %}
+    {% endfor %}
+  {% endif %}{% endfor %}
+{% endfor %}
+
+{% assign school_garden_ids = school_garden_ids | trim | split: " " %}
+{% assign preschool_garden_ids = preschool_garden_ids | trim | split: " " %}
+{% capture total_budget -%}
+<script>
+  "use strict";
+
+  try {
+    document.write(({{ total_budget }}).toLocaleString("sr-RS", {
+      minimumFractionDigits: 2,
+    }));
+  } catch (error) {
+    document.write("?");
+  }
+</script>
+{%- endcapture %}
