@@ -42,7 +42,8 @@ garden_ids:
 
 U okviru inicijative „Školske bašte” Fondacija „Jasen” već od 2018. godine
 uspešno sarađuje sa školama i vrtićima u Vojvodini. Tokom postojanja programa
-sponzorisali smo **24 projekata** sa ukupnim budžetom od 1.383.069,50 dinara.
+sponzorisali smo **{{ page.garden_ids.size }} projekata** sa ukupnim budžetom
+od 1.383.069,50 dinara.
 
 {% include sr/baste/inicijativa.html %}
 
@@ -94,19 +95,7 @@ koja su predala prijavu su dobila novčanu podršku.
 
 Većinu sredstava (oko 90%) dobile su škole, dok smo vrtićima podelili oko 10% budžeta.
 
-<div class="pie-chart schools-vs-preschools">
-  <div id="schools-vs-preschools" class="chart-placeholder"></div>
-  <script defer src="/js/charts.js"></script>
-  <script defer src="/baste/schools-vs-preschools.js"></script>
-  <ul class="legend">
-    <li class="school">
-      <strong>Škole:</strong> <span class="amount">…</span> din.
-    </li>
-    <li class="preschool">
-      <strong>Vrtići:</strong> <span class="amount">…</span> din.
-    </li>
-  </ul>
-</div>
+{% include sr/baste/raspodela-sredstava.html %}
 
 {% include sr/baste/tabela.html %}
 
