@@ -20,6 +20,11 @@ school_garden:
     category: Predškolska ustanova
     short_name: Radosno detinjstvo / Palčica
     full_name: Predškolska ustanova „Radosno detinjstvo” vrtić „Palčica”
+    preschool: true
+    address:
+      town: Novi Sad
+      street: Branimira Ćošića
+      house_number: 40
 ---
 
 {% include sr/baste/rezultat.html %}

@@ -20,6 +20,7 @@ school_garden:
     category: Predškolska ustanova
     short_name: Radost
     full_name: Predškolska ustanova „Radost”
+    preschool: true
     address:
       town: Novi Banovci
       street: Kablarska

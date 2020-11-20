@@ -1,24 +1,52 @@
-<div class="row">
-  {% for garden in page.gardens %}
-    <div class="garden-card card">
-      <a href="/baste/{{ garden.id }}/" class="picture">
-        <picture>
-          <source
-            type="image/webp"
-            srcset="/images/gardens/{{ garden.id }}.256.webp, /images/gardens/{{ garden.id }}.512.webp 2x">
-          <img 
-            src="/images/gardens/{{ garden.id }}.256.jpg" 
-            srcset="/images/gardens/{{ garden.id }}.256.jpg, /images/gardens/{{ garden.id }}.512.jpg 2x"
-            alt="{{ garden.name }}">
-        </picture>
-      </a>
-      <div class="text">
-        <a href="/baste/{{ garden.id }}/" class="project-name">{{ garden.name }}</a>
-        <div class="grey-text text-darken-2">
-          <span>{{ garden.school }}</span>
-          <span>{{ garden.location }}</span>
+{% assign prefix = page.url | remove: "/" %}
+
+{% assign urls = "" | split: "/" %}
+{% for page in site.pages %}
+  {% assign segments = page.url | remove_first: "/" | split: "/" %}
+  {% if segments.first == prefix and segments.size > 1 and page.redirect == nil %}
+    {% assign urls = urls | push: page.url %}
+  {% endif %}
+{% endfor %}
+{% assign urls = urls | sort %}
+
+
+<div class="row cards">
+{% for url in urls %}{% for page in site.pages %}{% if page.url == url %}
+  {% assign garden = page.school_garden %}
+  {% if garden.school.preschool %}
+    {% assign colour = "orange" %}
+  {% else %}
+    {% assign colour = "purple" %}
+  {% endif %}
+
+  {% comment %}
+  Eventually, cover photos should be migrated to the garden directory:
+  {% assign cover_photo = url | append: "cover" %}
+  {% endcomment %}
+  {% assign cover_photo = "/images/gardens/mini-bio-basta" %}
+
+  <div class="garden-card {{ colour }} lighten-4">
+    <a href="{{ url }}" class="picture">
+      <picture>
+        <source
+          type="image/webp"
+          srcset="{{ cover_photo }}.256.webp, {{ cover_photo }}.512.webp 2x">
+        <img
+          src="{{ cover_photo }}.256.jpg"
+          srcset="{{ cover_photo }}.256.jpg, {{ cover_photo }}.512.jpg 2x"
+          alt="{{ garden.name }}">
+      </picture>
+      <div class="organiser">
+        <div class="{{ colour }} white-text">
+          <span class="prefix">{{ garden.school.prefix }}</span>
+          <strong class="name">{{ garden.school.short_name }}</strong>
         </div>
       </div>
+    </a>
+    <div class="text">
+      <a href="{{ url }}" class="project-name">{{ garden.name }}</a>
+      <span class="town grey-text text-darken-2">{{ garden.school.address.town }}</span>
     </div>
-{% endfor %}
+  </div>
+{% endif %}{% endfor %}{% endfor %}
 </div>

@@ -18,8 +18,10 @@ school_garden:
   school:
     prefix: OSŠ
     category: Osnovna i srednja škola
-    short_name: „9. maj” — „Naša priča”
+    short_name: 9. maj / Naša priča
     full_name: Osnovna i srednja škola „9. maj” — „Naša priča”
+    address:
+      town: Zrenjanin
 ---
 
 {% include sr/baste/rezultat.html %}

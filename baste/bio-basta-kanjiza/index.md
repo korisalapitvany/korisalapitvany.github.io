@@ -20,6 +20,8 @@ school_garden:
     category: Poljoprivredno-tehnički srednjoškolski centar
     short_name: Besedeš Jožef
     full_name: Poljoprivredno-tehnički srednjoškolski centar „Besedeš Jožef”
+    address:
+      town: Kanjiža
 ---
 
 {% include sr/baste/rezultat.html %}

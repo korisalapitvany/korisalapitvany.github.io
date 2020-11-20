@@ -20,6 +20,7 @@ school_garden:
     category: Predškolska ustanova
     short_name: Radost / Bubamara
     full_name: Ustanova za predškolsko vaspitanje i obrazovanje „Radost” objekat „Bubamara”
+    preschool: true
     address:
       town: Nadalj
       street: Dr. Lazara Rakića

@@ -167,10 +167,6 @@ koja su predala prijavu su dobila novčanu podršku.
   </div>
 </div>
 
-#### Naše bašte
-
-{% include sr/baste/nase-baste.html %}
-
 #### Raspodela sredstava
 
 Većinu sredstava (oko 90%) dobile su škole, dok smo vrtićima podelili oko 10% budžeta.
@@ -329,4 +325,6 @@ Kompletna lista škola i predškolskih ustanova:
   </table>
 </div>
 
+#### Naše bašte
 
+{% include sr/baste/nase-baste.html %}

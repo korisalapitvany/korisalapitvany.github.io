@@ -20,6 +20,8 @@ school_garden:
     category: Osnovna škola
     short_name: Dositej Obradović
     full_name: Osnovna škola „Dositej Obradović”
+    address:
+      town: Sombor
 ---
 
 {% include sr/baste/rezultat.html %}

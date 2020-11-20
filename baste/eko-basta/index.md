@@ -20,6 +20,7 @@ school_garden:
     category: Predškolska ustanova
     short_name: Boško Buha
     full_name: Predškolska ustanova „Boško Buha”
+    preschool: true
     address:
       town: Inđija
       street: Dušana Jerkovića

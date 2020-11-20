@@ -20,6 +20,7 @@ school_garden:
     category: Predškolska ustanova
     short_name: Naša radost / Zeka
     full_name: Predškolska ustanova „Naša radost” — objekat „Zeka”
+    preschool: true
     address:
       town: Subotica
       street: Gundulićeva

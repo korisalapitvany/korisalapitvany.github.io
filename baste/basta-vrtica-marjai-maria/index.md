@@ -20,6 +20,7 @@ school_garden:
     category: Predškolska ustanova
     short_name: Naša radost / Marjai Maria
     full_name: Predškolska ustanova „Naša radost” objekat „Marjai Maria”
+    preschool: true
     address:
       town: Subotica
       street: Karla Bitermana

@@ -20,6 +20,7 @@ school_garden:
     category: Predškolska ustanova
     short_name: Kolibri
     full_name: Predškolska ustanova „Kolibri”
+    preschool: true
     address:
       town: Bač
       street: Školska

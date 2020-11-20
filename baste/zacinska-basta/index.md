@@ -20,6 +20,8 @@ school_garden:
     category: Osnovna škola
     short_name: Dušan Jeković
     full_name: Osnovna škola „Dušan Jeković”
+    address:
+      town: Ruma
 ---
 
 {% include sr/baste/rezultat.html %}

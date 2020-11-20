@@ -20,6 +20,9 @@ school_garden:
     category: Predškolska ustanova
     short_name: Stonogica
     full_name: Predškolska ustanova „Stonogica”
+    preschool: true
+    address:
+      town: Sremska Mitrovica
 ---
 
 {% include sr/baste/rezultat.html %}

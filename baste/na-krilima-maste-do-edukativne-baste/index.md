@@ -18,8 +18,10 @@ school_garden:
   school:
     prefix: VŠSS
     category: Visoka škola strukovnih studija
-    short_name: Visoka škola strukovnih studija za obrazovanje vaspitača
+    short_name: za obrazovanje vaspitača
     full_name: Visoka škola strukovnih studija za obrazovanje vaspitača
+    address:
+      town: Kikinda
 ---
 
 {% include sr/baste/rezultat.html %}
