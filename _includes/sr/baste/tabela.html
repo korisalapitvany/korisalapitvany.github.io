@@ -1,6 +1,6 @@
 Kompletna lista škola i predškolskih ustanova:
 
-<div class="table">
+<div id="grants" class="table">
   <table>
     <thead>
       <tr>
@@ -20,7 +20,7 @@ Kompletna lista škola i predškolskih ustanova:
             <td>{{ garden.school.full_name }}</td>
             <td>{{ garden.school.address.town }}</td>
             {% assign grant = garden.grants.first %}
-            <td class="right-align">{{ grant.amount }}</td>
+            <td class="amount right-align">{{ grant.amount }}</td>
             {% if grant.year != year %}
               {% assign year = grant.year %}
 

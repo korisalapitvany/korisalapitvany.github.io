@@ -100,10 +100,10 @@ Većinu sredstava (oko 90%) dobile su škole, dok smo vrtićima podelili oko 10%
   <script defer src="/baste/schools-vs-preschools.js"></script>
   <ul class="legend">
     <li class="school">
-      <strong>Škole:</strong> 1.246.212,50 din.
+      <strong>Škole:</strong> <span class="amount">…</span> din.
     </li>
     <li class="preschool">
-      <strong>Vrtići:</strong> 136.857,00 din.
+      <strong>Vrtići:</strong> <span class="amount">…</span> din.
     </li>
   </ul>
 </div>
