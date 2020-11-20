@@ -11,108 +11,31 @@ cover_position: 60%;
 google_charts:
 - corechart
 
-gardens:
-# 2018 schools:
-- id: staklenik-u-tehnickoj-skoli-9-maj
-  name: Staklenik
-  school: TŠ „9. maj”
-  location: Bačka Palanka
-- id: lolina-botanicka-basta
-  name: Lolina botanička bašta
-  school: OŠ „Ivo Lola Ribar”
-  location: Sombor
-- id: jovina-organska-basta
-  name: Jovina organska bašta
-  school: OŠ „Jovan Popović”
-  location: Kikinda
-- id: pametna-skolska-basta
-  name: Pametna školska bašta
-  school: OSŠ „Petro Kuzmjak”
-  location: Ruski Krstur
-# 2019 schools:
-- id: mini-bio-basta
-  name: Mini bio-bašta
-  school: OŠ „Dr Đorđe Joanović”
-  location: Novo Miloševo
-- id: skolska-basta-pavle
-  name: Školska bašta „Pavle”
-  school: OŠ „Petar Kočić”
-  location: Inđija
-- id: organska-basta-cenejci
-  name: Organska bašta „Čenejci”
-  school: OŠ „Ivan Gundulić”
-  location: Novi Sad
-- id: mala-skolska-basta
-  name: Mala školska bašta
-  school: OŠ „Aleksa Šantić”
-  location: Stepanovićevo
-- id: banatska-oaza-mirisa-i-zdravlja
-  name: Banatska oaza mirisa i zdravlja
-  school: OŠ „Dr Jovan Cvijić”
-  location: Zrenjanin
-- id: nasa-basta-hrtkovci
-  name: Naša bašta
-  school: OŠ „Miloš Crnjanski”
-  location: Hrtkovci
-# 2019 preschools:
-- id: basta-vrtica-radost
-  name: Bašta vrtića „Radost”
-  school: PU „Radost”
-  location: Novi Banovci
-- id: basta-vrtica-zeka
-  name: Bašta vrtića „Zeka”
-  school: PU „Naša radost”
-  location: Subotica
-- id: bubamarina-oaza
-  name: Bubamarina oaza
-  school: UPVO „Radost”
-  locaton: Nadalj
-- id: za-zeleniji-vrtic-kolibri
-  name: Za zeleniji vrtić „Kolibri”
-  school: PU „Kolibri”
-  location: Bač
-- id: basta-vrtica-marjai-maria
-  name: Bašta vrtića „Marjai Maria”
-  school: PU „Naša radost”
-  location: Subotica
-# 2020 schools:
-- id: na-krilima-maste-do-edukativne-baste
-  name: Na krilima mašte do edukativne bašte
-  school: VŠSS za obrazovanje vaspitača
-  location: Kikinda
-- id: zacinska-basta
-  name: Začinska bašta
-  school: OŠ „Dušan Jeković”
-  location: Ruma
-- id: nasa-basta-bocar
-  name: Naša bašta
-  school: OŠ „Dositej Obradović”
-  location: Bočar
-- id: bio-basta-kanjiza
-  name: Bio bašta „Kanjiža”
-  school: PTSC „Besedeš Jožef”
-  location: Kanjiža
-- id: nasa-prica
-  name: Terapeutska bašta „Naša priča”
-  school: OSŠ „9. maj”
-  location: Zrenjanin
-- id: dositejac
-  name: Lekovita školska bašta „Dositejac”
-  school: OŠ „Dositej Obradović”
-  location: Sombor
-# 2020 preschools:
-- id: basta-vrtica-palcica
-  name: Bašta vrtića „Palčica”
-  school: PU „Radosno detinjstvo”
-  location: Novi Sad
-- id: eko-basta
-  name: Eko bašta
-  school: PU „Boško Buha”
-  location: Inđija
-- id: stonogicina-bio-basta
-  name: Stonogicina bio-bašta
-  school: PU „Stonogica”
-  location: Sremska Mitrovica
+garden_ids:
+- staklenik-u-tehnickoj-skoli-9-maj
+- lolina-botanicka-basta
+- jovina-organska-basta
+- pametna-skolska-basta
+- mini-bio-basta
+- skolska-basta-pavle
+- organska-basta-cenejci
+- mala-skolska-basta
+- banatska-oaza-mirisa-i-zdravlja
+- nasa-basta-hrtkovci
+- basta-vrtica-radost
+- basta-vrtica-zeka
+- bubamarina-oaza
+- za-zeleniji-vrtic-kolibri
+- basta-vrtica-marjai-maria
+- na-krilima-maste-do-edukativne-baste
+- zacinska-basta
+- nasa-basta-bocar
+- bio-basta-kanjiza
+- nasa-prica
+- dositejac
+- basta-vrtica-palcica
+- eko-basta
+- stonogicina-bio-basta
 
 ---
 #### Inicijativa
@@ -185,145 +108,7 @@ Većinu sredstava (oko 90%) dobile su škole, dok smo vrtićima podelili oko 10%
   </ul>
 </div>
 
-Kompletna lista škola i predškolskih ustanova:
-
-<div class="table">
-  <table>
-    <thead>
-      <tr>
-        <th>Škola/vrtić</th>
-        <th>Mesto</th>
-        <th>Iznos (din)</th>
-        <th class="year">God.</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="school">
-        <td>Tehnička škola „9. maj”</td>
-        <td>Bačka Palanka</td>
-        <td class="right-align">149.940,00</td>
-        <td class="year" rowspan="4"><span>2018</span></td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Ivo Lola Ribar”</td>
-        <td>Sombor</td>
-        <td class="right-align">144.923,00</td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Jovan Popović”</td>
-        <td>Kikinda</td>
-        <td class="right-align">128.127,50</td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna i srednja škola sa domom učenika „Petro Kuzmjak”</td>
-        <td>Ruski Krstur</td>
-        <td class="right-align">51.800,00</td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Dr Đorđe Joanović”</td>
-        <td>Novo Miloševo</td>
-        <td class="right-align">46.754,00</td>
-        <td class="year" rowspan="11"><span>2019</span></td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Petar Kočić”</td>
-        <td>Inđija</td>
-        <td class="right-align">99.460,00</td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Ivan Gundulić”</td>
-        <td>Novi Sad</td>
-        <td class="right-align">45.000,00</td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Aleksa Šantić”</td>
-        <td>Stepanovićevo</td>
-        <td class="right-align">45.553,00</td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Dr Jovan Cvijić”</td>
-        <td>Zrenjanin</td>
-        <td class="right-align">95.178,00</td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Miloš Crnjanski”</td>
-        <td>Hrtkovci</td>
-        <td class="right-align">55.550,00</td>
-      </tr>
-      <tr class="preschool">
-        <td>Predškolska ustanova „Radost”</td>
-        <td>Novi Banovci</td>
-        <td class="right-align">19.945,00</td>
-      </tr>
-      <tr class="preschool">
-        <td>Predškolska ustanova „Naša radost” objekat „Zeka”</td>
-        <td>Subotica</td>
-        <td class="right-align">11.192,00</td>
-      </tr>
-      <tr class="preschool">
-        <td>Ustanova za predškolsko vaspitanje i obrazovanje „Radost” objekat „Bubamara”</td>
-        <td>Nadalj</td>
-        <td class="right-align">19.800,00</td>
-      </tr>
-      <tr class="preschool">
-        <td>Predškolska ustanova „Kolibri”</td>
-        <td>Bač</td>
-        <td class="right-align">20.000,00</td>
-      </tr>
-      <tr class="preschool">
-        <td>Predškolska ustanova „Naša radost” objekat „Marjai Maria”</td>
-        <td>Subotica</td>
-        <td class="right-align">13.000,00</td>
-      </tr>
-      <tr class="school">
-        <td>Visoka škola strukovnih studija za obrazovanje vaspitača</td>
-        <td>Kikinda</td>
-        <td class="right-align">69.608,00</td>
-        <td class="year" rowspan="9"><span>2020</span></td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Dušan Jeković”</td>
-        <td>Ruma</td>
-        <td class="right-align">68.896,00</td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Dositej Obradović”</td>
-        <td>Bočar</td>
-        <td class="right-align">28.938,00</td>
-      </tr>
-      <tr class="school">
-        <td>Poljoprivredno-tehnički srednjoškolski centar „Besedeš Jožef”</td>
-        <td>Kanjiža</td>
-        <td class="right-align">56.990,00</td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna i srednja škola „9. maj” — „Naša priča”</td>
-        <td>Zrenjanin</td>
-        <td class="right-align">80.000,00</td>
-      </tr>
-      <tr class="school">
-        <td>Osnovna škola „Dositej Obradović”</td>
-        <td>Sombor</td>
-        <td class="right-align">79.495,00</td>
-      </tr>
-      <tr class="preschool">
-        <td>Predškolska ustanova „Radosno detinjstvo” vrtić „Palčica”</td>
-        <td>Novi Sad</td>
-        <td class="right-align">14.817,00</td>
-      </tr>
-      <tr class="preschool">
-        <td>Predškolska ustanova „Boško Buha”</td>
-        <td>Inđija</td>
-        <td class="right-align">19.843,00</td>
-      </tr>
-      <tr class="preschool">
-        <td>Predškolska ustanova „Stonogica”</td>
-        <td>Sremska Mitrovica</td>
-        <td class="right-align">18.260,00</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+{% include sr/baste/tabela.html %}
 
 #### Naše bašte
 

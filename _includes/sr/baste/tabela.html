@@ -1,0 +1,48 @@
+Kompletna lista škola i predškolskih ustanova:
+
+<div class="table">
+  <table>
+    <thead>
+      <tr>
+        <th>Škola/vrtić</th>
+        <th>Mesto</th>
+        <th>Iznos (din)</th>
+        <th class="year">God.</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign year = nil %}
+      {% for id in page.garden_ids %}
+        {% assign url = page.url | append: id | append: "/" %}
+        {% for page in site.pages %}{% if page.url == url %}
+          {% assign garden = page.school_garden %}
+          <tr class="{% if garden.school.preschool %}preschool{% else %}school{% endif %}">
+            <td>{{ garden.school.full_name }}</td>
+            <td>{{ garden.school.address.town }}</td>
+            {% assign grant = garden.grants.first %}
+            <td class="right-align">{{ grant.amount }}</td>
+            {% if grant.year != year %}
+              {% assign year = grant.year %}
+
+              {% comment %}
+              Here we need to count the number for the "colspan" value.
+              Iterate through each garden page *again*, counting the number of grants per year.
+              The counter is a string where we append a "#" and then check the size.
+              {% endcomment %}
+
+              {% assign rowspan = "" %}
+              {% for page in site.pages %}
+                {% for grant in page.school_garden.grants %}
+                  {% if grant.year == year %}
+                    {% assign rowspan = rowspan | append: "#" %}
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+              <td class="year" rowspan="{{ rowspan.size }}"><span>{{ year }}</span></td>
+            {% endif %}
+          </tr>
+        {% endif %}{% endfor %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

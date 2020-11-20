@@ -19,7 +19,7 @@ school_garden:
     prefix: PU
     category: Predškolska ustanova
     short_name: Naša radost / Zeka
-    full_name: Predškolska ustanova „Naša radost” — objekat „Zeka”
+    full_name: Predškolska ustanova „Naša radost” objekat „Zeka”
     preschool: true
     address:
       town: Subotica
