@@ -4,9 +4,9 @@
     {% for page in site.pages %}{% if page.url == url %}
       {% assign garden = page.school_garden %}
       {% if garden.school.preschool %}
-        {% assign colour = "orange" %}
+        {% assign colour = "deep-orange" %}
       {% else %}
-        {% assign colour = "purple" %}
+        {% assign colour = "deep-purple" %}
       {% endif %}
 
       {% comment %}
