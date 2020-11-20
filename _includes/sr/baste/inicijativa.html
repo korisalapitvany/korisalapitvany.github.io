@@ -1,8 +1,26 @@
+{% assign schools = "" %}
+{% assign preschools = "" %}
+
+{% for id in page.garden_ids %}
+  {% assign url = page.url | append: id | append: "/" %}
+  {% for page in site.pages %}{% if page.url == url %}
+    {% assign garden = page.school_garden %}
+    {% if garden.school.preschool %}
+      {% assign preschools = preschools | append: "#" %}
+    {% else %}
+      {% assign schools = schools | append: "#" %}
+    {% endif %}
+  {% endif %}{% endfor %}
+{% endfor %}
+
+{% assign schools = schools.size %}
+{% assign preschools = preschools.size %}
+
 <div class="stats card row orange">
   <div class="fact col s6 l3">
     <i class="material-icons">school</i>
     <div class="vertical">
-      <strong>15</strong>
+      <strong>{{ schools }}</strong>
       <div>škola</div>
     </div>
   </div>
@@ -10,7 +28,7 @@
   <div class="fact col s6 l3">
     <i class="material-icons">child_care</i>
     <div class="vertical">
-      <strong>9</strong>
+      <strong>{{ preschools }}</strong>
       <div>vrtića</div>
     </div>
   </div>
