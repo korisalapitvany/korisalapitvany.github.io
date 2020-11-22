@@ -13,7 +13,7 @@ school_garden:
   grants:
   - year: 2020
     place: 1
-    amount: 69.608,00
+    amount: 69608
     link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
   school:
     prefix: VŠSS

@@ -13,7 +13,7 @@ school_garden:
   grants:
   - year: 2020
     place: 5
-    amount: 79.495,00
+    amount: 79495
     link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
   school:
     prefix: OŠ

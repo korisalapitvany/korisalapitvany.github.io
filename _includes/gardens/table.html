@@ -1,26 +1,26 @@
-Kompletna lista škola i predškolskih ustanova:
-
 <div id="grants" class="table">
   <table>
     <thead>
       <tr>
-        <th>Škola/vrtić</th>
-        <th>Mesto</th>
-        <th>Iznos (din)</th>
-        <th class="year">God.</th>
+        <th>{{ include.school | default: "School/kindergarten" }}</th>
+        <th>{{ include.place | default: "Place" }}</th>
+        <th>{{ include.amount | default: "Amount (din)" }}</th>
+        <th class="year">{{ include.year | default: "Year" }}</th>
       </tr>
     </thead>
     <tbody>
       {% assign year = nil %}
-      {% for id in page.garden_ids %}
-        {% assign url = page.url | append: id | append: "/" %}
+      {% for id in garden_ids %}
+        {% assign url = gardens_page.url | append: id | append: "/" %}
         {% for page in site.pages %}{% if page.url == url %}
           {% assign garden = page.school_garden %}
           <tr class="{% if garden.school.preschool %}preschool{% else %}school{% endif %}">
             <td>{{ garden.school.full_name }}</td>
             <td>{{ garden.school.address.town }}</td>
             {% assign grant = garden.grants.first %}
-            <td class="amount right-align">{{ grant.amount }}</td>
+            <td class="amount right-align">
+              <script>"use strict";document.write(({{ grant.amount }}).toLocaleString(document.head.parentElement.lang || "sr-RS", {minimumFractionDigits: 2}));</script>
+            </td>
             {% if grant.year != year %}
               {% assign year = grant.year %}
 

@@ -13,7 +13,7 @@ school_garden:
   grants:
   - year: 2020
     place: 2
-    amount: 18.260,00
+    amount: 18260
     link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
   school:
     prefix: PU

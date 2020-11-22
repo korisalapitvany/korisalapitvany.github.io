@@ -1,16 +1,9 @@
-<p>
-  U okviru inicijative „Školske bašte” Fondacija „Jasen” već od 2018. godine
-  uspešno sarađuje sa školama i vrtićima u Vojvodini. Tokom postojanja programa
-  sponzorisali smo <strong>{{ page.garden_ids.size }} projekata</strong> sa
-  ukupnim budžetom od {{ total_budget }} dinara.
-</p>
-
 <div class="stats card row orange">
   <div class="fact col s6 l3">
     <i class="material-icons">school</i>
     <div class="vertical">
       <strong>{{ school_garden_ids.size }}</strong>
-      <div>škola</div>
+      <div>{{ include.schools | default: "schools" }}</div>
     </div>
   </div>
 
@@ -18,7 +11,7 @@
     <i class="material-icons">child_care</i>
     <div class="vertical">
       <strong>{{ preschool_garden_ids.size }}</strong>
-      <div>vrtića</div>
+      <div>{{ include.preschools | default: "kindergartens" }}</div>
     </div>
   </div>
 
@@ -26,7 +19,7 @@
     <i class="material-icons">account_balance</i>
     <div class="vertical">
       <strong>{{ total_budget }} din</strong>
-      <div>ukupan budžet</div>
+      <div>{{ include.total_budget | default: "total budget" }}</div>
     </div>
   </div>
 </div>

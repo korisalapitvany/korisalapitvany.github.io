@@ -1,0 +1,27 @@
+<div class="pie-chart schools-vs-preschools">
+  <div id="schools-vs-preschools" class="chart-placeholder"></div>
+  <script>
+"use strict";
+
+const BUDGET = {
+  schools: {{ total_budget_schools_js }},
+  preschools: {{ total_budget_preschools_js }},
+};
+  </script>
+  <script defer src="/js/charts.js"></script>
+  <script defer src="/js/gardens/charts.js"></script>
+  <ul class="legend">
+    <li class="school">
+      <strong data-i18n="schools">{{ include.schools | default: "Schools" }}</strong>:
+      <span class="amount">
+        {{- total_budget_schools -}}
+      </span> din.
+    </li>
+    <li class="preschool">
+      <strong data-i18n="preschools">{{ include.preschools | default: "Kindergartens" }}</strong>:
+      <span class="amount">
+      {{- total_budget_preschools -}}
+      </span> din.
+    </li>
+  </ul>
+</div>

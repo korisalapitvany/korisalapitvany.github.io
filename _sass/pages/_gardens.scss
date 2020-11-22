@@ -135,6 +135,10 @@
       max-width: calc(100% - 2px);
     }
 
+    th {
+      white-space: nowrap;
+    }
+
     tr {
       &.school {
         &:nth-child(odd) td {

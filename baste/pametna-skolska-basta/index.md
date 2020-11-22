@@ -16,7 +16,7 @@ school_garden:
   grants:
   - year: 2018
     place: special
-    amount: 51.800,00
+    amount: 51800
     link: rezultati-konkursa-za-finansiranje-skolske-baste
   school:
     prefix: OSŠ

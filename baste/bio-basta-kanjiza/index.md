@@ -13,7 +13,7 @@ school_garden:
   grants:
   - year: 2020
     place: 3
-    amount: 56.990,00
+    amount: 56990
     link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
   school:
     prefix: PTSC

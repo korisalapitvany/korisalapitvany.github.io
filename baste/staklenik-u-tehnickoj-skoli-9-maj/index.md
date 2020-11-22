@@ -13,7 +13,7 @@ school_garden:
   grants:
   - year: 2018
     place: 1
-    amount: 149.940,00
+    amount: 149940
     link: rezultati-konkursa-za-finansiranje-skolske-baste
   school:
     prefix: TŠ

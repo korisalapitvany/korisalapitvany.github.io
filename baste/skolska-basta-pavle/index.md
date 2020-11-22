@@ -13,7 +13,7 @@ school_garden:
   grants:
   - year: 2019
     place: 2
-    amount: 99.460,00
+    amount: 99460
     link: rezultati-konkursa-za-finansiranje-skolske-baste
   school:
     prefix: OŠ

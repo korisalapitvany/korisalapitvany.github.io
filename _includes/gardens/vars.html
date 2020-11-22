@@ -1,38 +1,167 @@
-{% assign garden_ids = page.garden_ids %}
+{%- include vars.html -%}
 
-{% assign school_garden_ids = "" %}
-{% assign preschool_garden_ids = "" %}
+{%- for page in site.pages -%}
+  {%- if page.garden_ids -%}
+    {%- assign gardens_page = page -%}
+  {%- endif -%}
+{%- endfor -%}
 
-{% assign total_budget = "0" %}
+{%- assign garden_ids = gardens_page.garden_ids -%}
+{%- assign applications = gardens_page.applications -%}
 
-{% for id in page.garden_ids %}
-  {% assign url = page.url | append: id | append: "/" %}
-  {% for page in site.pages %}{% if page.url == url %}
-    {% assign garden = page.school_garden %}
-    {% if garden.school.preschool %}
-      {% assign preschool_garden_ids = preschool_garden_ids | append: " " | append: id %}
-    {% else %}
-      {% assign school_garden_ids = school_garden_ids | append: " " | append: id %}
-    {% endif %}
-    {% for grant in garden.grants %}
-      {% assign amount = grant.amount | replace: ".", "" | replace: ",", "." %}
-      {% assign total_budget = total_budget | append: "+" | append: amount %}
-    {% endfor %}
-  {% endif %}{% endfor %}
-{% endfor %}
+{%- assign school_garden_ids = "" -%}
+{%- assign school_garden_ids_2018 = "" -%}
+{%- assign school_garden_ids_2019 = "" -%}
+{%- assign school_garden_ids_2020 = "" -%}
+{%- assign preschool_garden_ids = "" -%}
+{%- assign preschool_garden_ids_2019 = "" -%}
+{%- assign preschool_garden_ids_2020 = "" -%}
 
-{% assign school_garden_ids = school_garden_ids | trim | split: " " %}
-{% assign preschool_garden_ids = preschool_garden_ids | trim | split: " " %}
-{% capture total_budget -%}
+{%- assign total_budget = "0" -%}
+{%- assign total_budget_schools = "0" -%}
+{%- assign total_budget_preschools = "0" -%}
+{%- assign total_budget_2018 = "0" -%}
+{%- assign total_budget_2019 = "0" -%}
+{%- assign total_budget_2020 = "0" -%}
+
+{%- for id in garden_ids -%}
+  {%- assign url = gardens_page.url | append: id | append: "/" -%}
+  {%- for page in site.pages -%}
+    {%- if page.url == url -%}
+      {%- assign garden = page.school_garden -%}
+      {%- if garden.school.preschool -%}
+        {%- assign preschool_garden_ids = preschool_garden_ids | append: " " | append: id -%}
+        {%- if garden.grants.first.year == 2019 -%}
+          {%- assign preschool_garden_ids_2019 = preschool_garden_ids_2019 | append: " " | append: id -%}
+        {%- elsif garden.grants.first.year == 2020 -%}
+          {%- assign preschool_garden_ids_2020 = preschool_garden_ids_2020 | append: " " | append: id -%}
+        {%- endif -%}
+      {%- else -%}
+        {%- assign school_garden_ids = school_garden_ids | append: " " | append: id -%}
+        {%- if garden.grants.first.year == 2018 -%}
+          {%- assign school_garden_ids_2018 = school_garden_ids_2018 | append: " " | append: id -%}
+        {%- elsif garden.grants.first.year == 2019 -%}
+          {%- assign school_garden_ids_2019 = school_garden_ids_2019 | append: " " | append: id -%}
+        {%- elsif garden.grants.first.year == 2020 -%}
+          {%- assign school_garden_ids_2020 = school_garden_ids_2020 | append: " " | append: id -%}
+        {%- endif -%}
+      {%- endif -%}
+      {%- for grant in garden.grants -%}
+        {%- assign total_budget = total_budget | append: "+" | append: grant.amount -%}
+        {%- if garden.school.preschool -%}
+          {%- assign total_budget_preschools = total_budget_preschools | append: "+" | append: grant.amount -%}
+        {%- else -%}
+          {%- assign total_budget_schools = total_budget_schools | append: "+" | append: grant.amount -%}
+        {%- endif -%}
+        {%- if grant.year == 2018 -%}
+          {%- assign total_budget_2018 = total_budget_2018 | append: "+" | append: grant.amount -%}
+        {%- elsif grant.year == 2019 -%}
+          {%- assign total_budget_2019 = total_budget_2019 | append: "+" | append: grant.amount -%}
+        {%- elsif grant.year == 2020 -%}
+          {%- assign total_budget_2020 = total_budget_2020 | append: "+" | append: grant.amount -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- assign school_garden_ids = school_garden_ids | trim | split: " " -%}
+{%- assign school_garden_ids_2018 = school_garden_ids_2018 | trim | split: " " -%}
+{%- assign school_garden_ids_2019 = school_garden_ids_2019 | trim | split: " " -%}
+{%- assign school_garden_ids_2020 = school_garden_ids_2020 | trim | split: " " -%}
+{%- assign preschool_garden_ids = preschool_garden_ids | trim | split: " " -%}
+{%- assign preschool_garden_ids_2019 = preschool_garden_ids_2019 | trim | split: " " -%}
+{%- assign preschool_garden_ids_2020 = preschool_garden_ids_2020 | trim | split: " " -%}
+
+{%- assign total_budget_js = "(" | append: total_budget | append: ")" -%}
+{%- capture total_budget -%}
 <script>
   "use strict";
 
   try {
-    document.write(({{ total_budget }}).toLocaleString("sr-RS", {
+    document.write({{ total_budget_js }}.toLocaleString(
+      document.head.parentElement.lang || "sr-RS", {
       minimumFractionDigits: 2,
     }));
   } catch (error) {
     document.write("?");
   }
 </script>
-{%- endcapture %}
+{%- endcapture -%}
+
+{%- assign total_budget_schools_js = "(" | append: total_budget_schools | append: ")" -%}
+{%- capture total_budget_schools -%}
+<script>
+  "use strict";
+
+  try {
+    document.write({{ total_budget_schools_js }}.toLocaleString(
+      document.head.parentElement.lang || "sr-RS", {
+      minimumFractionDigits: 2,
+    }));
+  } catch (error) {
+    document.write("?");
+  }
+</script>
+{%- endcapture -%}
+
+{%- assign total_budget_preschools_js = "(" | append: total_budget_preschools | append: ")" -%}
+{%- capture total_budget_preschools -%}
+<script>
+  "use strict";
+
+  try {
+    document.write({{ total_budget_preschools_js }}.toLocaleString(
+      document.head.parentElement.lang || "sr-RS", {
+      minimumFractionDigits: 2,
+    }));
+  } catch (error) {
+    document.write("?");
+  }
+</script>
+{%- endcapture -%}
+
+{%- capture total_budget_2018 -%}
+<script>
+  "use strict";
+
+  try {
+    document.write(({{ total_budget_2018 }}).toLocaleString(
+      document.head.parentElement.lang || "sr-RS", {
+      minimumFractionDigits: 2,
+    }));
+  } catch (error) {
+    document.write("?");
+  }
+</script>
+{%- endcapture -%}
+
+{%- capture total_budget_2019 -%}
+<script>
+  "use strict";
+
+  try {
+    document.write(({{ total_budget_2019 }}).toLocaleString(
+      document.head.parentElement.lang || "sr-RS", {
+      minimumFractionDigits: 2,
+    }));
+  } catch (error) {
+    document.write("?");
+  }
+</script>
+{%- endcapture -%}
+
+{%- capture total_budget_2020 -%}
+<script>
+  "use strict";
+
+  try {
+    document.write(({{ total_budget_2020 }}).toLocaleString(
+      document.head.parentElement.lang || "sr-RS", {
+      minimumFractionDigits: 2,
+    }));
+  } catch (error) {
+    document.write("?");
+  }
+</script>
+{%- endcapture -%}

@@ -13,7 +13,7 @@ school_garden:
   grants:
   - year: 2019
     place: 4
-    amount: 20.000,00
+    amount: 20000
     link: rezultati-konkursa-za-finansiranje-baste-u-vrticima
   school:
     prefix: PU
