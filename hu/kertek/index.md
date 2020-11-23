@@ -2,7 +2,7 @@
 layout: page
 class: gardens
 
-title: School Gardens
+title: Iskolakertek
 last_modified_at: 2019-11-20T00:00:00-02:00
 
 cover_image: 2019/lewis-clarke-vegetable-garden
