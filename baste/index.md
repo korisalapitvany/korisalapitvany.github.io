@@ -49,6 +49,7 @@ applications:
 
 translations:
   en: /gardens
+  hu: /kertek
 ---
 
 {% include gardens/vars.html %}
@@ -115,7 +116,7 @@ vanrednog stanja zbog COVID-19 pandemije dobili smo manji broj prijava, od samo
 :schools škola i :preschools vrtića. Odabrali smo
 [:winner\_schools najboljih škola](/projekti/rezultati-konkursa-za-finansiranje-skolske-baste/),
 a
-[sva :winner\_preschools vrtića](/projekti/rezultati-konkursa-za-finansiranje-baste-u-vrticima/)
+[sva tri vrtića](/projekti/rezultati-konkursa-za-finansiranje-baste-u-vrticima/)
 koja su predala prijavu su dobila novčanu podršku. Podelili smo :budget dinara.
 {% endcapture %}
 
@@ -123,7 +124,6 @@ koja su predala prijavu su dobila novčanu podršku. Podelili smo :budget dinara
     | replace: ":schools", applications.in_2020.schools
     | replace: ":preschools", applications.in_2020.preschools
     | replace: ":winner_schools", school_garden_ids_2020.size
-    | replace: ":winner_preschools", preschool_garden_ids_2020.size
     | replace: ":budget", total_budget_2020 }}
 
 {% capture text %}

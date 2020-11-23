@@ -3,7 +3,7 @@ layout: page
 class: gardens
 
 title: School Gardens
-last_modified_at: 2019-10-05T00:00:00-02:00
+last_modified_at: 2019-11-20T00:00:00-02:00
 
 cover_image: 2019/lewis-clarke-vegetable-garden
 cover_position: 60%;
@@ -12,6 +12,7 @@ google_charts:
 - corechart
 
 translations:
+  hu: /kertek
   sr: /baste
 ---
 
@@ -78,7 +79,7 @@ received a smaller number of applications. Only :schools schools and :preshools 
 sent in their plans. We selected
 [the :winner\_schools best schools](/projekti/rezultati-konkursa-za-finansiranje-skolske-baste/),
 and
-[all :winner\_preschools kindergartens](/projekti/rezultati-konkursa-za-finansiranje-baste-u-vrticima/)
+[all three kindergartens](/projekti/rezultati-konkursa-za-finansiranje-baste-u-vrticima/)
 that submitted applications received financial support. We distributed :budget
 dinars.
 {% endcapture %}
@@ -87,7 +88,6 @@ dinars.
     | replace: ":schools", applications.in_2020.schools
     | replace: ":preschools", applications.in_2020.preschools
     | replace: ":winner_schools", school_garden_ids_2020.size
-    | replace: ":winner_preschools", preschool_garden_ids_2020.size
     | replace: ":budget", total_budget_2020 }}
 
 {% capture text %}
