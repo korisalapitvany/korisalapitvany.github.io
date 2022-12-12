@@ -80,13 +80,11 @@ sufinansiranje sledećih prioriteta:
    raznih nacionalnih manjina putem praktičnog rada
 4. Rad u prirodi, razvijanje ekološke svesti dece
 
-Svaka ustanova koja bude odabrana za učešće u programu dobija do 20.000,00
-dinara od ukupne vrednosti. Izabrane predškolske ustanove su dužne napraviti
-predračune u prodajnim objektima i dostaviti Fondaciji kako bi mogla da isplati
-iznos direktno prodajnim objektima. Donacija važi za jednu školsku godinu. Ako
-je realizacija programa uspešna, ustanova ima mogućnost na donaciju i za
-sledeću školsku godinu. Ukoliko ne dođe do realizacije programa Fondacija ima
-pravo na oduzimanje dodeljenih sredstava.
+Svaka ustanova koja bude odabrana za učešće u programu dobija do 25.000,00
+dinara od ukupne vrednosti. Dodeljenja sredstva važe za planirani period
+projekta. Ako je realizacija programa uspešna, ustanova ima mogućnost na dodelu
+sredstava i za sledeći projekat. Ukoliko ne dođe do realizacije programa
+Fondacija ima pravo na oduzimanje dodeljenih sredstava.
 
 Ako su u pitanju gradski vrtići bez zelenih površina, mogućnost za konkurisanje
 takođe postoji. Konkurs se dodeljuje i za finansiranje bašta na betonskim
