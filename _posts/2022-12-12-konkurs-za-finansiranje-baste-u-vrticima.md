@@ -24,7 +24,7 @@ excerpt: |
   podeljeno ukupno **100.000,00 dinara** odabranim vrtićima, do **25.000,00
   dinara po vrtiću** ([raspored sredstava]).
 
-  Konkurs je otvoren do 31. januara 2022. godine ([podnošenje prijave]).
+  Konkurs je otvoren do 31. januara 2023. godine ([podnošenje prijave]).
 
   [raspored sredstava]: /projekti/konkurs-za-finansiranje-baste-u-vrticima/#raspored-sredstava
   [podnošenje prijave]: /projekti/konkurs-za-finansiranje-baste-u-vrticima/#podnošenje-prijave-na-konkurs

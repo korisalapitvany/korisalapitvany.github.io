@@ -24,7 +24,7 @@ excerpt: |
   podeljeno ukupno **300.000,00 dinara** odabranim školama, do **60.000,00
   dinara po školi** ([raspored sredstava]).
 
-  Konkurs je otvoren do 31. januara 2022. godine ([podnošenje prijave]).
+  Konkurs je otvoren do 31. januara 2023. godine ([podnošenje prijave]).
 
   [raspored sredstava]: /projekti/konkurs-za-finansiranje-skolske-baste/#raspored-sredstava
   [podnošenje prijave]: /projekti/konkurs-za-finansiranje-skolske-baste/#podnošenje-prijave-na-konkurs
