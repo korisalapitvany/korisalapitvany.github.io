@@ -11,10 +11,15 @@ authors:
 
 category:
 - projekti
+- 2020
 permalink: /:categories/:title/
 
 cover_image: 2020/pixabay-1666632
 cover_position: 60%
+
+redirect_from:
+- /projekti/vodic-za-prijavu-na-konkurs
+- /projekti/vodic-za-prijavu-na-konkurs/
 
 translations:
   hu: /projektek/utmutato-a-palyazashoz

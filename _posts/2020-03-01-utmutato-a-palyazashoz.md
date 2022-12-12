@@ -11,6 +11,7 @@ authors:
 
 category:
 - projektek
+- 2020
 permalink: /hu/:categories/:title/
 
 front_page: true

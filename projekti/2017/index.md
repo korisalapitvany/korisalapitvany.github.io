@@ -15,7 +15,8 @@ translations:
 
 <ul class="pagination center">
   <li class="waves-effect"><a href="/projekti/2018"><i class="material-icons">chevron_left</i></a></li>
-  <li class="waves-effect"><a href="/projekti">2020</a></li>
+  <li class="waves-effect"><a href="/projekti">2022</a></li>
+  <li class="waves-effect"><a href="/projekti/2020">2020</a></li>
   <li class="waves-effect"><a href="/projekti/2019">2019</a></li>
   <li class="waves-effect"><a href="/projekti/2018">2018</a></li>
   <li class="active orange accent-2"><a href="#!">2017</a></li>

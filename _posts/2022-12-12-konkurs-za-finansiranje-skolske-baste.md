@@ -3,57 +3,31 @@ layout: page
 class: project
 
 lang: sr
-title: &title Konkurs za finansiranje školske bašte
-last_modified_at: 2020-03-03T00:00:00-02:00
+title: Konkurs za finansiranje školske bašte
+last_modified_at: 2022-12-12T00:00:00-02:00
 authors:
 - aleksandra
-- attila
+- gabor
 
 category:
 - projekti
-- 2020
 permalink: /:categories/:title/
 
-event_date: 2020/2021
+front_page: true
+event_date: 2022/2023
 cover_image: 2020/pixabay-1737320
 cover_position: 45%
 
 excerpt: |
   Fondacija „Jasen” raspisuje konkurs za finansiranje pokretanja školske bašte
   u osnovnim i srednjim školama na teritoriji AP Vojvodine. I ove godine biće
-  podeljeno ukupno **360.000,00 dinara** odabranim školama, do **80.000,00
+  podeljeno ukupno **300.000,00 dinara** odabranim školama, do **60.000,00
   dinara po školi** ([raspored sredstava]).
 
-  Konkurs je otvoren do 15. juna 2020. godine ([podnošenje prijave]).
+  Konkurs je otvoren do 31. januara 2022. godine ([podnošenje prijave]).
 
   [raspored sredstava]: /projekti/konkurs-za-finansiranje-skolske-baste/#raspored-sredstava
   [podnošenje prijave]: /projekti/konkurs-za-finansiranje-skolske-baste/#podnošenje-prijave-na-konkurs
-
-json_ld:
-  "@context": http://schema.org
-  "@type": Event
-  name: *title
-  startDate: 2019-03-03
-  endDate: 2019-06-15
-  organizer:
-    "@context": http://schema.org
-    "@type": NGO
-    name: Fondacija „Jasen”
-    url: https://jasen.org.rs
-    logo: https://jasen.org.rs/logo/png/circle-576x576.min.png
-  location:
-    "@context": http://schema.org
-    "@type": Place
-    name: Sedište Fondacije „Jasen”
-    address:
-      "@context": http://schema.org
-      "@type": PostalAddress
-      streetAddress: Senćanska 51
-      addressLocality: Čantavir
-      postalCode: 24220
-      addressRegion: Vojvodina
-      addressCountry: RS
-  image: https://jasen.org.rs/images/cover/2020/pixabay-1737320.jpg
 
 css: |
   #konkurs,
@@ -79,7 +53,7 @@ _**za finansiranje pokretanja školske bašte u osnovnim i srednjim školama na
 teritoriji AP Vojvodine**_
 
 Fondacija „Jasen“ (u daljem tekstu: Fondacija) u skladu sa finansijskim planom
-i mogućnostima u budžetskoj 2020 godini, finansira i sufinansira najmanje pet
+i mogućnostima u budžetskoj 2023. godini, finansira i sufinansira najmanje pet
 škola na teritoriji AP Vojvodine, za projekat izgradnje ili pokretanje školske
 bašte, kao mesto i mogućnost obrazovno-vaspitnog prostora za školsku decu.
 
@@ -97,7 +71,7 @@ cilj unapređivanje i uvođenje novih metoda u nastavi i dugotrajnu brigu i
 čuvanje same školske bašte kao jedan od načina probuđivanja ekološke svesti
 učenika.
 
-Sredstva u vrednosti od 360.000,00 dinara namenjena su za finansiranje i
+Sredstva u vrednosti od 300.000,00 dinara namenjena su za finansiranje i
 sufinansiranje sledećih prioriteta:
 
 1. Modernizacija obrazovno-vaspitnog rada
@@ -108,7 +82,7 @@ sufinansiranje sledećih prioriteta:
 5. Podsticanje vannastavnih aktivnosti
 6. Rad u prirodi, razvijanje ekološke svesti učenika
 
-Svaka škola koja bude odabrana za učešće u programu dobija do 80.000,00 dinara
+Svaka škola koja bude odabrana za učešće u programu dobija do 60.000,00 dinara
 od ukupne vrednosti. Izabrane škole su dužne napraviti predračune u prodajnim
 objektima i dostaviti Fondaciji kako bi mogla da isplati iznos direktno
 prodajnim objektima. Donacija važi za jednu školsku godinu. Ako je realizacija
@@ -175,14 +149,14 @@ uključujući i ocenu komisije kao i utiske najmanje tri učenika.
 Prijava na konkurs se podnosi isključivo u elektronskoj formi na adresi
 [jasen.org.rs/form/konkurs-za-finansiranje-skolske-baste].
 
-Konkurs je otvoren od 03.03.2020. godine do 15.06.2020. godine.
+Konkurs je otvoren od 12.12.2022. godine do 31.01.2023. godine.
 
 ##### Rok za realizaciju projekta
 
-01.09.2020.–01.09.2021.
+Od dana zaključenja ugovora do 31.05.2024. godine.
 
 Rok za slanje dnevnika aktivnosti, ocene komisije i utisaka učenika najkasnije
-do 31.09.2021. godine.
+do 30.06.2024. godine.
 
 ##### Dokumentacija koja se ne uzima u razmatranje:
 
@@ -204,9 +178,9 @@ Odluka o dodeli sredstava se objavljuje na internet stranici Fondacije.
 Obaveštenje o rezultatima konkursa dostavlja se svim prijavljenim školama.
 
 <p class="buttons">
-  <a class="btn waves-effect waves-light" href="/docs/2020/konkurs-za-finansiranje-skolske-baste.pdf"><i class="material-icons left">print</i>Štampana verzija</a>
-  <a class="btn waves-effect waves-light" href="/docs/2020/konkurs-za-finansiranje-skolske-baste-prijava.pdf"><i class="material-icons left">list_alt</i>Materijal za prijavu</a>
-  <button class="btn disabled"><i class="material-icons left">edit</i>Online prijava</button>
+  <a class="btn waves-effect waves-light" href="/docs/2022/konkurs-za-finansiranje-skolske-baste.pdf"><i class="material-icons left">print</i>Štampana verzija</a>
+  <a class="btn waves-effect waves-light" href="/docs/2022/konkurs-za-finansiranje-baste-u-vrticima-prijava.pdf"><i class="material-icons left">list_alt</i>Materijal za prijavu</a>
+  <a class="btn waves-effect waves-light" href="/form/konkurs-za-finansiranje-skolske-baste"><i class="material-icons left">edit</i>Online prijava</a>
 </p>
 
 _Više informacija o konkursu mogu se dobiti preko e-mail adrese [info@jasen.org.rs]._

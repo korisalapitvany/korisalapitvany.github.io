@@ -12,9 +12,9 @@ authors:
 
 category:
 - projekti
+- 2020
 permalink: /:categories/:title/
 
-front_page: true
 event_date: 2020/2021
 cover_image: 2020/pixabay-1737320
 cover_position: 45%
