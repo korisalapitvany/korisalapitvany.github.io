@@ -24,7 +24,7 @@ excerpt: |
   podeljeno ukupno **300.000,00 dinara** odabranim školama, do **60.000,00
   dinara po školi** ([raspored sredstava]).
 
-  Konkurs je otvoren do 31. januara 2023. godine ([podnošenje prijave]).
+  Konkurs je otvoren do 14. februara 2023. godine ([podnošenje prijave]).
 
   [raspored sredstava]: /projekti/konkurs-za-finansiranje-skolske-baste/#raspored-sredstava
   [podnošenje prijave]: /projekti/konkurs-za-finansiranje-skolske-baste/#podnošenje-prijave-na-konkurs
@@ -147,7 +147,7 @@ uključujući i ocenu komisije kao i utiske najmanje tri učenika.
 Prijava na konkurs se podnosi isključivo u elektronskoj formi na adresi
 [jasen.org.rs/form/konkurs-za-finansiranje-skolske-baste].
 
-Konkurs je otvoren od 12.12.2022. godine do 31.01.2023. godine.
+Konkurs je otvoren od 12.12.2022. godine do 14.02.2023. godine.
 
 ##### Rok za realizaciju projekta
 

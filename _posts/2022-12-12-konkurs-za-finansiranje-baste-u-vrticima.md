@@ -24,7 +24,7 @@ excerpt: |
   podeljeno ukupno **100.000,00 dinara** odabranim vrtićima, do **25.000,00
   dinara po vrtiću** ([raspored sredstava]).
 
-  Konkurs je otvoren do 31. januara 2023. godine ([podnošenje prijave]).
+  Konkurs je otvoren do 14. februara 2023. godine ([podnošenje prijave]).
 
   [raspored sredstava]: /projekti/konkurs-za-finansiranje-baste-u-vrticima/#raspored-sredstava
   [podnošenje prijave]: /projekti/konkurs-za-finansiranje-baste-u-vrticima/#podnošenje-prijave-na-konkurs
@@ -138,7 +138,7 @@ vodi dnevnik aktivnosti koji sadrži slike i dokumentaciju o radu.
 Prijava na konkurs se podnosi isključivo u elektronskoj formi na adresi
 [jasen.org.rs/form/konkurs-za-finansiranje-baste-u-vrticima].
 
-Konkurs je otvoren od 12.12.2022. godine do 31.01.2023. godine.
+Konkurs je otvoren od 12.12.2022. godine do 14.02.2023. godine.
 
 ##### Rok za realizaciju projekta
 
