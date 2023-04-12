@@ -15,7 +15,7 @@ category:
 permalink: /:categories/:title/
 
 front_page: true
-event_date: 2020/2021
+event_date: 2023
 cover_image: 2020/pixabay-1737325
 cover_position: 55%
 
