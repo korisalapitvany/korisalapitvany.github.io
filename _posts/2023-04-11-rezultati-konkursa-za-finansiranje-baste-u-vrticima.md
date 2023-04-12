@@ -11,7 +11,7 @@ authors:
 
 category:
 - projekti
-- 2020
+- 2023
 permalink: /:categories/:title/
 
 front_page: true
