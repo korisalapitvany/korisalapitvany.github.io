@@ -39,8 +39,8 @@ json_ld:
     "@context": http://schema.org
     "@type": NGO
     name: Fondacija „Jasen”
-    url: https://jasen.org.rs
-    logo: https://jasen.org.rs/logo/png/circle-576x576.min.png
+    url: https://korisalapitvany.github.io
+    logo: https://korisalapitvany.github.io/logo/png/circle-576x576.min.png
   location:
     "@context": http://schema.org
     "@type": Place
@@ -53,7 +53,7 @@ json_ld:
       postalCode: 24220
       addressRegion: Vojvodina
       addressCountry: RS
-  image: https://jasen.org.rs/images/cover/2019/boys-wellington-boots.jpg 
+  image: https://korisalapitvany.github.io/images/cover/2019/boys-wellington-boots.jpg 
 
 css: |
   #konkurs,

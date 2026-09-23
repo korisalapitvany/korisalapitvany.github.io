@@ -28,7 +28,7 @@ translations:
 | Központ:        | JNA 74,<br>24210 Bajmok,<br>Szerbia            |
 | Levelezési cím: | Zentai utca 51,<br>24220 Csantavér,<br>Szerbia |
 
-[jasen.org.rs]: https://jasen.org.rs
+[jasen.org.rs]: https://korisalapitvany.github.io
 [info@jasen.org.rs]: mailto:info@jasen.org.rs
 
 #### Bankszámlák
