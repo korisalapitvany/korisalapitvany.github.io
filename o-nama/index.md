@@ -26,8 +26,8 @@ translations:
 
 | Web sajt:               | [jasen.org.rs]                  |
 | E-mail:                 | [info@jasen.org.rs]             |
-| Sedište:                | JNA 74,<br>24210 Bajmok         |
-| Adresa za prijem pošte: | Senćanska 51,<br>24220 Čantavir |
+| Sedište:                | ### ##,<br>24210 Bajmok         |
+| Adresa za prijem pošte: | ######### ##,<br>24220 Čantavir |
 
 [jasen.org.rs]: https://korisalapitvany.github.io
 [info@jasen.org.rs]: mailto:info@jasen.org.rs

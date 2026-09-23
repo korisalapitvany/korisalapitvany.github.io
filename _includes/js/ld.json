@@ -16,8 +16,7 @@
       ],
       "contactType": "customer support",
       "email": "gabor@jasen.org.rs",
-      "name": "Gábor Szabó",
-      "telephone": "+381-65-221-98-76"
+      "name": "Gábor Szabó"
     },
     {
       "type": "ContactPoint",
@@ -29,8 +28,7 @@
       ],
       "contactType": "customer support",
       "email": "hermina@jasen.org.rs",
-      "name": "Hermina Oláh Vass",
-      "telephone": "+41-79-870-63-50"
+      "name": "Hermina Oláh Vass"
     }
   ],
   "founder": [
@@ -49,7 +47,6 @@
         "https://linkedin.com/in/attilaolah",
         "https://twitter.com/attilaolah"
       ],
-      "telephone": "+41-79-247-25-10",
       "worksFor": {
         "type": "Organization",
         "name": "Google",
@@ -68,8 +65,7 @@
         "https://facebook.com/herminaov",
         "https://github.com/herminaov",
         "https://linkedin.com/in/herminaov"
-      ],
-      "telephone": "+41-79-870-63-50"
+      ]
     }
   ],
   "foundingDate": "2017-07-26",
@@ -83,6 +79,5 @@
     "https://youtube.com/channel/UCVbAEoRLcvft4RnCTm1hxtQ"
   ],
   "taxID": "110200183",
-  "telephone": "+381-65-221-98-76",
   "url": "{{ site.url }}"
 }

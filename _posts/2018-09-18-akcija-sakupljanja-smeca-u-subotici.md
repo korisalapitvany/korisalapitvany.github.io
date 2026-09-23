@@ -46,7 +46,6 @@ Kratak program događaja:
 Molimo sve zainteresovane škole ili grupe sa decom da obezbede i pratioca tj.
 nastavnika uz određenu grupu decu i da nam se jave najkasnije do 04.10.2018.
 godine na web stranici, na [Fejsbuk stranici fondacije] ili telefonom kod
-upravitelja fondacije, Gabor Sabo, [065 221 98 76].
+upravitelja fondacije, Gabor Sabo, 0## ### ## ##.
 
 [Fejsbuk stranici fondacije]: https://www.facebook.com/korisalapitvany
-[065 221 98 76]: tel:+381652219876

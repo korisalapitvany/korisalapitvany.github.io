@@ -48,7 +48,7 @@ json_ld:
     address:
       "@context": http://schema.org
       "@type": PostalAddress
-      streetAddress: Senćanska 51
+      streetAddress: ######### ##
       addressLocality: Čantavir
       postalCode: 24220
       addressRegion: Vojvodina

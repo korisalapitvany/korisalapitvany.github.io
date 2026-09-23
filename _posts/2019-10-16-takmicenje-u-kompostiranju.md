@@ -50,7 +50,7 @@ json_ld:
     address:
       "@context": http://schema.org
       "@type": PostalAddress
-      streetAddress: Senćanska 51
+      streetAddress: ######### ##
       addressLocality: Čantavir
       postalCode: 24220
       addressRegion: Vojvodina
@@ -103,8 +103,7 @@ predstavnici Fondacije održali kratku prezentaciju o procesu i značaju
 kompostiranja.
 
 _Za više informacija pošaljite mail na adresu [gabor@jasen.org.rs] ili pozovite
-[065 221 98 76] (Gabor Sabo)._
+0## ### ## ## (Gabor Sabo)._
 
 [gabor@jasen.org.rs]: mailto:gabor@jasen.org.rs
-[065 221 98 76]: tel:+381652219876
 [jasen.org.rs/form/takmicenje-u-kompostiranju]: /form/takmicenje-u-kompostiranju
